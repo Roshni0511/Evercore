@@ -40,6 +40,7 @@ function App() {
            <Route path="/Signup" element={<Signup/>}/>
            <Route path="/Forgotpass" element={<Forgotpass/>}/>
            <Route path="/Otp" element={<Otp/>}/>
+            <Route path='/UserAccount' element={<Useracc/>}/>
          </Routes>
           <div class="theme-option">
       
