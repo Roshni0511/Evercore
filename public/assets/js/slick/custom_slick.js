@@ -43,7 +43,7 @@ $('.category-slider').slick({
     },
     ]
 });
-
+$(document).ready(function () {
 $('.category-slider-2').slick({
     arrows: true,
     infinite: true,
@@ -95,6 +95,7 @@ $('.category-slider-2').slick({
         }
     },
     ]
+});
 });
 
 $('.product-category-1').slick({
