@@ -47172,27 +47172,29 @@ display: none;
 
 
 .pro-acc-logout-btn {
-  padding: 14px 28px;
+  padding: 10px 20px; /* smaller padding */
   background: linear-gradient(90deg, #ff4d4f, #ff7875);
   color: white;
   font-weight: 700;
   border: none;
-  border-radius: 12px;
+  border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
   text-align: center;
+  display: inline-block; /* makes width adjust to text */
 }
 
 .pro-acc-logout-btn:hover {
   transform: translateY(-2px);
 }
 
-/* Responsive adjustments */
+/* Remove full-width on mobile */
 @media screen and (max-width: 768px) {
   .pro-acc-logout-btn {
-    width: 100%;
-    padding: 16px 22px;
-    border-radius: 14px;
+    width: auto; /* just enough for text */
+    padding: 8px 16px; /* adjust padding for smaller screens */
+    border-radius: 8px;
+    font-size: 14px;
   }
 }
 
