@@ -18880,7 +18880,7 @@ span {
 }
 
 .theme-color {
-    color: var(--theme-color) !important
+    color: #000 !important
 }
 
 .theme-bg-color {
@@ -47069,3 +47069,6 @@ header .navbar.navbar-expand-xl .navbar-nav .nav-link1::before {
 display: none;
 }
 /*# sourceMappingURL=style.css.map */
+.stickyCart {
+    padding-bottom: 0px;
+}
