@@ -3,48 +3,48 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-  <footer class="section-t-space">
-        <div class="container-fluid-lg">
-            <div class="service-section">
-                <div class="row g-3">
-                    <div class="col-12">
-                        <div class="service-contain">
-                            <div class="service-box">
-                                <div class="service-image">
-                                    <img src="../assets/svg/product.svg" class="blur-up lazyload" alt="" />
+  <footer className="section-t-space">
+        <div className="container-fluid-lg">
+            <div className="service-section">
+                <div className="row g-3">
+                    <div className="col-12">
+                        <div className="service-contain">
+                            <div className="service-box">
+                                <div className="service-image">
+                                    <img src="../assets/svg/product.svg" className="blur-up lazyload" alt="" />
                                 </div>
 
-                                <div class="service-detail">
+                                <div className="service-detail">
                                     <h5>Every Fresh Products</h5>
                                 </div>
                             </div>
 
-                            <div class="service-box">
-                                <div class="service-image">
-                                    <img src="../assets/svg/delivery.svg" class="blur-up lazyload" alt="" />
+                            <div className="service-box">
+                                <div className="service-image">
+                                    <img src="../assets/svg/delivery.svg" className="blur-up lazyload" alt="" />
                                 </div>
 
-                                <div class="service-detail">
-                                    <h5>Free Delivery For Order Over $50</h5>
+                                <div className="service-detail">
+                                    <h5>Free Delivery For Order Over ₹50</h5>
                                 </div>
                             </div>
 
-                            <div class="service-box">
-                                <div class="service-image">
-                                    <img src="../assets/svg/discount.svg" class="blur-up lazyload" alt="" />
+                            <div className="service-box">
+                                <div className="service-image">
+                                    <img src="../assets/svg/discount.svg" className="blur-up lazyload" alt="" />
                                 </div>
 
-                                <div class="service-detail">
+                                <div className="service-detail">
                                     <h5>Daily Mega Discounts</h5>
                                 </div>
                             </div>
 
-                            <div class="service-box">
-                                <div class="service-image">
-                                    <img src="../assets/svg/market.svg" class="blur-up lazyload" alt="" />
+                            <div className="service-box">
+                                <div className="service-image">
+                                    <img src="../assets/svg/market.svg" className="blur-up lazyload" alt="" />
                                 </div>
 
-                                <div class="service-detail">
+                                <div className="service-detail">
                                     <h5>Best Price On The Market</h5>
                                 </div>
                             </div>
@@ -53,21 +53,21 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div class="main-footer section-b-space section-t-space">
-                <div class="row g-md-4 g-3">
-                    <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="footer-logo">
-                            <div class="theme-logo">
-                                <a href="index.html">
-                                    <img src="../assets/images/logo/1.png" class="blur-up lazyload" alt="" />
+            <div className="main-footer section-b-space section-t-space">
+                <div className="row g-md-4 g-3">
+                    <div className="col-xl-3 col-lg-4 col-sm-6">
+                        <div className="footer-logo">
+                            <div className="theme-logo">
+                                <a href="/">
+                                    <img src="../assets/images/logo/1.png" className="blur-up lazyload" alt="" />
                                 </a>
                             </div>
 
-                            <div class="footer-logo-contain">
+                            <div className="footer-logo-contain">
                                 <p>We are a friendly bar serving a variety of cocktails, wines and beers. Our bar is a
                                     perfect place for a couple.</p>
 
-                                <ul class="address">
+                                <ul className="address">
                                     <li>
                                         <i data-feather="home"></i>
                                         <a href="javascript:void(0)">1418 Riverwood Drive, CA 96052, US</a>
@@ -81,125 +81,125 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                        <div class="footer-title">
+                    <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                        <div className="footer-title">
                             <h4>Categories</h4>
                         </div>
 
-                        <div class="footer-contain">
+                        <div className="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Vegetables & Fruit</a>
+                                    <a href="/Shop" className="text-content">Vegetables & Fruit</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Beverages</a>
+                                    <a href="/Shop" className="text-content">Beverages</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Meats & Seafood</a>
+                                    <a href="/Shop" className="text-content">Meats & Seafood</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Frozen Foods</a>
+                                    <a href="/Shop" className="text-content">Frozen Foods</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Biscuits & Snacks</a>
+                                    <a href="/Shop" className="text-content">Biscuits & Snacks</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Grocery & Staples</a>
+                                    <a href="/Shop" className="text-content">Grocery & Staples</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-xl col-lg-2 col-sm-3">
-                        <div class="footer-title">
+                    <div className="col-xl col-lg-2 col-sm-3">
+                        <div className="footer-title">
                             <h4>Useful Links</h4>
                         </div>
 
-                        <div class="footer-contain">
+                        <div className="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="/" class="text-content">Home</a>
+                                    <a href="/" className="text-content">Home</a>
                                 </li>
                                 <li>
-                                    <a href="/Shop" class="text-content">Shop</a>
+                                    <a href="/Shop" className="text-content">Shop</a>
                                 </li>
                                 <li>
-                                    <a href="about-us.html" class="text-content">About Us</a>
+                                    <a href="/" className="text-content">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="blog-list.html" class="text-content">Blog</a>
+                                    <a href="/" className="text-content">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="/Contact" class="text-content">Contact Us</a>
+                                    <a href="/Contact" className="text-content">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-sm-3">
-                        <div class="footer-title">
+                    <div className="col-xl-2 col-sm-3">
+                        <div className="footer-title">
                             <h4>Help Center</h4>
                         </div>
 
-                        <div class="footer-contain">
+                        <div className="footer-contain">
                             <ul>
                      
                                 <li>
-                                    <a href="/Useraccount" class="text-content">Your Account</a>
+                                    <a href="/Useraccount" className="text-content">Your Account</a>
                                 </li>
                                 <li>
-                                    <a href="/Trackorder" class="text-content">Track Order</a>
+                                    <a href="/Trackorder" className="text-content">Track Order</a>
                                 </li>
                                 <li>
-                                    <a href="/Wishlist" class="text-content">Your Wishlist</a>
+                                    <a href="/Wishlist" className="text-content">Your Wishlist</a>
                                 </li>
                            
                                 <li>
-                                    <a href="/Faq" class="text-content">FAQ</a>
+                                    <a href="/Faq" className="text-content">FAQ</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="footer-title">
+                    <div className="col-xl-3 col-lg-4 col-sm-6">
+                        <div className="footer-title">
                             <h4>Contact Us</h4>
                         </div>
 
-                        <div class="footer-contact">
+                        <div className="footer-contact">
                             <ul>
                                 <li>
-                                    <div class="footer-number">
+                                    <div className="footer-number">
                                         <i data-feather="phone"></i>
-                                        <div class="contact-number">
-                                            <h6 class="text-content">Hotline 24/7 :</h6>
+                                        <div className="contact-number">
+                                            <h6 className="text-content">Hotline 24/7 :</h6>
                                             <h5>+91 888 104 2340</h5>
                                         </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <div class="footer-number">
+                                    <div className="footer-number">
                                         <i data-feather="mail"></i>
-                                        <div class="contact-number">
-                                            <h6 class="text-content">Email Address :</h6>
+                                        <div className="contact-number">
+                                            <h6 className="text-content">Email Address :</h6>
                                             <h5>fastkart@hotmail.com</h5>
                                         </div>
                                     </div>
                                 </li>
 
-                                <li class="social-app">
-                                    <h5 class="mb-2 text-content">Download App :</h5>
+                                <li className="social-app">
+                                    <h5 className="mb-2 text-content">Download App :</h5>
                                     <ul>
-                                        <li class="mb-0">
+                                        <li className="mb-0">
                                             <a href="https://play.google.com/store/apps" target="_blank">
-                                                <img src="../assets/images/playstore.svg" class="blur-up lazyload"
+                                                <img src="../assets/images/playstore.svg" className="blur-up lazyload"
                                                     alt="" />
                                             </a>
                                         </li>
-                                        <li class="mb-0">
+                                        <li className="mb-0">
                                             <a href="https://www.apple.com/in/app-store/" target="_blank">
-                                                <img src="../assets/images/appstore.svg" class="blur-up lazyload"
+                                                <img src="../assets/images/appstore.svg" className="blur-up lazyload"
                                                     alt="" />
                                             </a>
                                         </li>
@@ -211,36 +211,36 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div class="sub-footer section-small-space">
-                <div class="reserve">
-                    <h6 class="text-content">©2025 Fastkart All rights reserved</h6>
+            <div className="sub-footer section-small-space">
+                <div className="reserve">
+                    <h6 className="text-content">©2025 Fastkart All rights reserved</h6>
                 </div>
 
-                <div class="payment">
-                    <img src="../assets/images/payment/1.png" class="blur-up lazyload" alt="" />
+                <div className="payment">
+                    <img src="../assets/images/payment/1.png" className="blur-up lazyload" alt="" />
                 </div>
 
-                <div class="social-link">
-                    <h6 class="text-content">Stay connected :</h6>
+                <div className="social-link">
+                    <h6 className="text-content">Stay connected :</h6>
                     <ul>
                         <li>
                             <a href="https://www.facebook.com/" target="_blank">
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i className="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/" target="_blank">
-                                <i class="fa-brands fa-twitter"></i>
+                                <i className="fa-brands fa-twitter"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
+                                <i className="fa-brands fa-instagram"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://in.pinterest.com/" target="_blank">
-                                <i class="fa-brands fa-pinterest-p"></i>
+                                <i className="fa-brands fa-pinterest-p"></i>
                             </a>
                         </li>
                     </ul>

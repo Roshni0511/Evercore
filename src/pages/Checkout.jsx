@@ -7,20 +7,20 @@ const Checkout = () => {
     <>
       <Navbar />
           {/* <!-- Breadcrumb Section Start --> */}
-    <section class="breadcrumb-section pt-0">
-        <div class="container-fluid-lg">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcrumb-contain">
+    <section className="breadcrumb-section pt-0">
+        <div className="container-fluid-lg">
+            <div className="row">
+                <div className="col-12">
+                    <div className="breadcrumb-contain">
                         <h2>Checkout</h2>
                         <nav>
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item">
-                                    <a href="index.html">
-                                        <i class="fa-solid fa-house"></i>
+                            <ol className="breadcrumb mb-0">
+                                <li className="breadcrumb-item">
+                                    <a href="/">
+                                        <i className="fa-solid fa-house"></i>
                                     </a>
                                 </li>
-                                <li class="breadcrumb-item active">Checkout</li>
+                                <li className="breadcrumb-item active">Checkout</li>
                             </ol>
                         </nav>
                     </div>
@@ -31,61 +31,61 @@ const Checkout = () => {
     {/* <!-- Breadcrumb Section End --> */}
 
     {/* <!-- Checkout section Start --> */}
-    <section class="checkout-section-2 section-b-space">
-        <div class="container-fluid-lg">
-            <div class="row g-sm-4 g-3">
-                <div class="col-lg-8">
-                    <div class="left-sidebar-checkout">
-                        <div class="checkout-detail-box">
+    <section className="checkout-section-2 section-b-space">
+        <div className="container-fluid-lg">
+            <div className="row g-sm-4 g-3">
+                <div className="col-lg-8">
+                    <div className="left-sidebar-checkout">
+                        <div className="checkout-detail-box">
                             <ul>
                                 <li>
-                                    <div class="checkout-icon">
+                                    <div className="checkout-icon">
                                         <lord-icon target=".nav-item" src="https://cdn.lordicon.com/ggihhudh.json"
                                             trigger="loop-on-hover"
                                             colors="primary:#121331,secondary:#646e78,tertiary:#0baf9a"
-                                            class="lord-icon">
+                                            className="lord-icon">
                                         </lord-icon>
                                     </div>
-                                    <div class="checkout-box">
-                                        <div class="checkout-title">
+                                    <div className="checkout-box">
+                                        <div className="checkout-title">
                                             <h4>Delivery Address</h4>
                                         </div>
 
-                                        <div class="checkout-detail">
-                                            <div class="row g-4">
-                                                <div class="col-xxl-6 col-lg-12 col-md-6">
-                                                    <div class="delivery-address-box">
+                                        <div className="checkout-detail">
+                                            <div className="row g-4">
+                                                <div className="col-xxl-6 col-lg-12 col-md-6">
+                                                    <div className="delivery-address-box">
                                                         <div>
-                                                            <div class="form-check">
-                                                                <input class="form-check-input" type="radio" name="jack"
+                                                            <div className="form-check">
+                                                                <input className="form-check-input" type="radio" name="jack"
                                                                     id="flexRadioDefault1" />
                                                             </div>
 
-                                                            <div class="label">
+                                                            <div className="label">
                                                                 <label>Home</label>
                                                             </div>
 
-                                                            <ul class="delivery-address-detail">
+                                                            <ul className="delivery-address-detail">
                                                                 <li>
-                                                                    <h4 class="fw-500">Jack Jennas</h4>
+                                                                    <h4 className="fw-500">Jack Jennas</h4>
                                                                 </li>
 
                                                                 <li>
-                                                                    <p class="text-content"><span
-                                                                            class="text-title">Address
+                                                                    <p className="text-content"><span
+                                                                            className="text-title">Address
                                                                             : </span>8424 James Lane South San
                                                                         Francisco, CA 94080</p>
                                                                 </li>
 
                                                                 <li>
-                                                                    <h6 class="text-content"><span
-                                                                            class="text-title">Pin Code
+                                                                    <h6 className="text-content"><span
+                                                                            className="text-title">Pin Code
                                                                             :</span> +380</h6>
                                                                 </li>
 
                                                                 <li>
-                                                                    <h6 class="text-content mb-0"><span
-                                                                            class="text-title">Phone
+                                                                    <h6 className="text-content mb-0"><span
+                                                                            className="text-title">Phone
                                                                             :</span> + 380 (0564) 53 - 29 - 68</h6>
                                                                 </li>
                                                             </ul>
@@ -93,40 +93,40 @@ const Checkout = () => {
                                                     </div>
                                                 </div>
 
-                                                <div class="col-xxl-6 col-lg-12 col-md-6">
-                                                    <div class="delivery-address-box">
+                                                <div className="col-xxl-6 col-lg-12 col-md-6">
+                                                    <div className="delivery-address-box">
                                                         <div>
-                                                            <div class="form-check">
-                                                                <input class="form-check-input" type="radio" name="jack"
+                                                            <div className="form-check">
+                                                                <input className="form-check-input" type="radio" name="jack"
                                                                     id="flexRadioDefault2" checked="checked" />
                                                             </div>
 
-                                                            <div class="label">
+                                                            <div className="label">
                                                                 <label>Office</label>
                                                             </div>
 
-                                                            <ul class="delivery-address-detail">
+                                                            <ul className="delivery-address-detail">
                                                                 <li>
-                                                                    <h4 class="fw-500">Jack Jennas</h4>
+                                                                    <h4 className="fw-500">Jack Jennas</h4>
                                                                 </li>
 
                                                                 <li>
-                                                                    <p class="text-content"><span
-                                                                            class="text-title">Address
+                                                                    <p className="text-content"><span
+                                                                            className="text-title">Address
                                                                             :</span>Nakhimovskiy R-N / Lastovaya Ul.,
                                                                         bld. 5/A, appt. 12
                                                                     </p>
                                                                 </li>
 
                                                                 <li>
-                                                                    <h6 class="text-content"><span
-                                                                            class="text-title">Pin Code :</span>
+                                                                    <h6 className="text-content"><span
+                                                                            className="text-title">Pin Code :</span>
                                                                         +380</h6>
                                                                 </li>
 
                                                                 <li>
-                                                                    <h6 class="text-content mb-0"><span
-                                                                            class="text-title">Phone
+                                                                    <h6 className="text-content mb-0"><span
+                                                                            className="text-title">Phone
                                                                             :</span> + 380 (0564) 53 - 29 - 68</h6>
                                                                 </li>
                                                             </ul>
@@ -139,27 +139,27 @@ const Checkout = () => {
                                 </li>
 
                                 <li>
-                                    <div class="checkout-icon">
+                                    <div className="checkout-icon">
                                         <lord-icon target=".nav-item" src="https://cdn.lordicon.com/oaflahpk.json"
-                                            trigger="loop-on-hover" colors="primary:#0baf9a" class="lord-icon">
+                                            trigger="loop-on-hover" colors="primary:#0baf9a" className="lord-icon">
                                         </lord-icon>
                                     </div>
-                                    <div class="checkout-box">
-                                        <div class="checkout-title">
+                                    <div className="checkout-box">
+                                        <div className="checkout-title">
                                             <h4>Delivery Option</h4>
                                         </div>
 
-                                        <div class="checkout-detail">
-                                            <div class="row g-4">
-                                                <div class="col-xxl-6">
-                                                    <div class="delivery-option">
-                                                        <div class="delivery-category">
-                                                            <div class="shipment-detail">
+                                        <div className="checkout-detail">
+                                            <div className="row g-4">
+                                                <div className="col-xxl-6">
+                                                    <div className="delivery-option">
+                                                        <div className="delivery-category">
+                                                            <div className="shipment-detail">
                                                                 <div
-                                                                    class="form-check custom-form-check hide-check-box">
-                                                                    <input class="form-check-input" type="radio"
+                                                                    className="form-check custom-form-check hide-check-box">
+                                                                    <input className="form-check-input" type="radio"
                                                                         name="standard" id="standard" checked />
-                                                                    <label class="form-check-label"
+                                                                    <label className="form-check-label"
                                                                         for="standard">Standard
                                                                         Delivery Option</label>
                                                                 </div>
@@ -168,15 +168,15 @@ const Checkout = () => {
                                                     </div>
                                                 </div>
 
-                                                <div class="col-xxl-6">
-                                                    <div class="delivery-option">
-                                                        <div class="delivery-category">
-                                                            <div class="shipment-detail">
+                                                <div className="col-xxl-6">
+                                                    <div className="delivery-option">
+                                                        <div className="delivery-category">
+                                                            <div className="shipment-detail">
                                                                 <div
-                                                                    class="form-check mb-0 custom-form-check show-box-checked">
-                                                                    <input class="form-check-input" type="radio"
+                                                                    className="form-check mb-0 custom-form-check show-box-checked">
+                                                                    <input className="form-check-input" type="radio"
                                                                         name="standard" id="future" />
-                                                                    <label class="form-check-label" for="future">Future
+                                                                    <label className="form-check-label" for="future">Future
                                                                         Delivery Option</label>
                                                                 </div>
                                                             </div>
@@ -184,33 +184,33 @@ const Checkout = () => {
                                                     </div>
                                                 </div>
 
-                                                <div class="col-12 future-box">
-                                                    <div class="future-option">
-                                                        <div class="row g-md-0 gy-4">
-                                                            <div class="col-md-6">
-                                                                <div class="delivery-items">
+                                                <div className="col-12 future-box">
+                                                    <div className="future-option">
+                                                        <div className="row g-md-0 gy-4">
+                                                            <div className="col-md-6">
+                                                                <div className="delivery-items">
                                                                     <div>
-                                                                        <h5 class="items text-content"><span>3
+                                                                        <h5 className="items text-content"><span>3
                                                                                 Items</span>@
-                                                                            $693.48</h5>
-                                                                        <h5 class="charge text-content">Delivery Charge
-                                                                            $34.67
-                                                                            <button type="button" class="btn p-0"
+                                                                            ₹693.48</h5>
+                                                                        <h5 className="charge text-content">Delivery Charge
+                                                                            ₹34.67
+                                                                            <button type="button" className="btn p-0"
                                                                                 data-bs-toggle="tooltip"
                                                                                 data-bs-placement="top"
                                                                                 title="Extra Charge">
                                                                                 <i
-                                                                                    class="fa-solid fa-circle-exclamation"></i>
+                                                                                    className="fa-solid fa-circle-exclamation"></i>
                                                                             </button>
                                                                         </h5>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div class="col-md-6">
+                                                            <div className="col-md-6">
                                                                 <form
-                                                                    class="form-floating theme-form-floating date-box">
-                                                                    <input type="date" class="form-control" />
+                                                                    className="form-floating theme-form-floating date-box">
+                                                                    <input type="date" className="form-control" />
                                                                     <label>Select Date</label>
                                                                 </form>
                                                             </div>
@@ -223,38 +223,38 @@ const Checkout = () => {
                                 </li>
 
                                 <li>
-                                    <div class="checkout-icon">
+                                    <div className="checkout-icon">
                                         <lord-icon target=".nav-item" src="https://cdn.lordicon.com/qmcsqnle.json"
                                             trigger="loop-on-hover" colors="primary:#0baf9a,secondary:#0baf9a"
-                                            class="lord-icon">
+                                            className="lord-icon">
                                         </lord-icon>
                                     </div>
-                                    <div class="checkout-box">
-                                        <div class="checkout-title">
+                                    <div className="checkout-box">
+                                        <div className="checkout-title">
                                             <h4>Payment Option</h4>
                                         </div>
 
-                                        <div class="checkout-detail">
-                                            <div class="accordion accordion-flush custom-accordion"
+                                        <div className="checkout-detail">
+                                            <div className="accordion accordion-flush custom-accordion"
                                                 id="accordionFlushExample">
-                                                <div class="accordion-item">
-                                                    <div class="accordion-header" id="flush-headingFour">
-                                                        <div class="accordion-button collapsed"
+                                                <div className="accordion-item">
+                                                    <div className="accordion-header" id="flush-headingFour">
+                                                        <div className="accordion-button collapsed"
                                                             data-bs-toggle="collapse"
                                                             data-bs-target="#flush-collapseFour">
-                                                            <div class="custom-form-check form-check mb-0">
-                                                                <label class="form-check-label" for="cash"><input
-                                                                        class="form-check-input mt-0" type="radio"
+                                                            <div className="custom-form-check form-check mb-0">
+                                                                <label className="form-check-label" for="cash"><input
+                                                                        className="form-check-input mt-0" type="radio"
                                                                         name="flexRadioDefault" id="cash" checked /> Cash
                                                                     On Delivery</label>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div id="flush-collapseFour"
-                                                        class="accordion-collapse collapse show"
+                                                        className="accordion-collapse collapse show"
                                                         data-bs-parent="#accordionFlushExample">
-                                                        <div class="accordion-body">
-                                                            <p class="cod-review">Pay digitally with SMS Pay
+                                                        <div className="accordion-body">
+                                                            <p className="cod-review">Pay digitally with SMS Pay
                                                                 Link. Cash may not be accepted in COVID restricted
                                                                 areas. <a href="javascript:void(0)">Know more.</a>
                                                             </p>
@@ -262,28 +262,28 @@ const Checkout = () => {
                                                     </div>
                                                 </div>
 
-                                                <div class="accordion-item">
-                                                    <div class="accordion-header" id="flush-headingOne">
-                                                        <div class="accordion-button collapsed"
+                                                <div className="accordion-item">
+                                                    <div className="accordion-header" id="flush-headingOne">
+                                                        <div className="accordion-button collapsed"
                                                             data-bs-toggle="collapse"
                                                             data-bs-target="#flush-collapseOne">
-                                                            <div class="custom-form-check form-check mb-0">
-                                                                <label class="form-check-label" for="credit"><input
-                                                                        class="form-check-input mt-0" type="radio"
+                                                            <div className="custom-form-check form-check mb-0">
+                                                                <label className="form-check-label" for="credit"><input
+                                                                        className="form-check-input mt-0" type="radio"
                                                                         name="flexRadioDefault" id="credit" />
                                                                     Credit or Debit Card</label>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    <div id="flush-collapseOne" className="accordion-collapse collapse"
                                                         data-bs-parent="#accordionFlushExample">
-                                                        <div class="accordion-body">
-                                                            <div class="row g-2">
-                                                                <div class="col-12">
-                                                                    <div class="payment-method">
+                                                        <div className="accordion-body">
+                                                            <div className="row g-2">
+                                                                <div className="col-12">
+                                                                    <div className="payment-method">
                                                                         <div
-                                                                            class="form-floating mb-lg-3 mb-2 theme-form-floating">
-                                                                            <input type="text" class="form-control"
+                                                                            className="form-floating mb-lg-3 mb-2 theme-form-floating">
+                                                                            <input type="text" className="form-control"
                                                                                 id="credit2"
                                                                                 placeholder="Enter Credit & Debit Card Number" />
                                                                             <label for="credit2">Enter Credit & Debit
@@ -292,42 +292,42 @@ const Checkout = () => {
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-xxl-4">
+                                                                <div className="col-xxl-4">
                                                                     <div
-                                                                        class="form-floating mb-lg-3 mb-2 theme-form-floating">
-                                                                        <input type="text" class="form-control"
+                                                                        className="form-floating mb-lg-3 mb-2 theme-form-floating">
+                                                                        <input type="text" className="form-control"
                                                                             id="expiry" placeholder="Enter Expiry Date" />
                                                                         <label for="expiry">Expiry Date</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-xxl-4">
+                                                                <div className="col-xxl-4">
                                                                     <div
-                                                                        class="form-floating mb-lg-3 mb-2 theme-form-floating">
-                                                                        <input type="text" class="form-control" id="cvv"
+                                                                        className="form-floating mb-lg-3 mb-2 theme-form-floating">
+                                                                        <input type="text" className="form-control" id="cvv"
                                                                             placeholder="Enter CVV Number" />
                                                                         <label for="cvv">CVV Number</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-xxl-4">
+                                                                <div className="col-xxl-4">
                                                                     <div
-                                                                        class="form-floating mb-lg-3 mb-2 theme-form-floating">
-                                                                        <input type="password" class="form-control"
+                                                                        className="form-floating mb-lg-3 mb-2 theme-form-floating">
+                                                                        <input type="password" className="form-control"
                                                                             id="password" placeholder="Enter Password" />
                                                                         <label for="password">Password</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="button-group mt-0">
+                                                                <div className="button-group mt-0">
                                                                     <ul>
                                                                         <li>
                                                                             <button
-                                                                                class="btn btn-light shopping-button">Cancel</button>
+                                                                                className="btn btn-light shopping-button">Cancel</button>
                                                                         </li>
 
                                                                         <li>
-                                                                            <button class="btn btn-animation">Use This
+                                                                            <button className="btn btn-animation">Use This
                                                                                 Card</button>
                                                                         </li>
                                                                     </ul>
@@ -337,91 +337,91 @@ const Checkout = () => {
                                                     </div>
                                                 </div>
 
-                                                <div class="accordion-item">
-                                                    <div class="accordion-header" id="flush-headingTwo">
-                                                        <div class="accordion-button collapsed"
+                                                <div className="accordion-item">
+                                                    <div className="accordion-header" id="flush-headingTwo">
+                                                        <div className="accordion-button collapsed"
                                                             data-bs-toggle="collapse"
                                                             data-bs-target="#flush-collapseTwo">
-                                                            <div class="custom-form-check form-check mb-0">
-                                                                <label class="form-check-label" for="banking"><input
-                                                                        class="form-check-input mt-0" type="radio"
+                                                            <div className="custom-form-check form-check mb-0">
+                                                                <label className="form-check-label" for="banking"><input
+                                                                        className="form-check-input mt-0" type="radio"
                                                                         name="flexRadioDefault" id="banking" />Net
                                                                     Banking</label>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                    <div id="flush-collapseTwo" className="accordion-collapse collapse"
                                                         data-bs-parent="#accordionFlushExample">
-                                                        <div class="accordion-body">
-                                                            <h5 class="text-uppercase mb-4">Select Your Bank
+                                                        <div className="accordion-body">
+                                                            <h5 className="text-uppercase mb-4">Select Your Bank
                                                             </h5>
-                                                            <div class="row g-2">
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                            <div className="row g-2">
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="bank1" /> 
-                                                                        <label class="form-check-label"
+                                                                        <label className="form-check-label"
                                                                             for="bank1">Industrial & Commercial
                                                                             Bank</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="bank2" />
-                                                                        <label class="form-check-label"
+                                                                        <label className="form-check-label"
                                                                             for="bank2">Agricultural Bank</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="bank3" />
-                                                                        <label class="form-check-label" for="bank3">Bank
+                                                                        <label className="form-check-label" for="bank3">Bank
                                                                             of America</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="bank4" />
-                                                                        <label class="form-check-label"
+                                                                        <label className="form-check-label"
                                                                             for="bank4">Construction Bank Corp.</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="bank5" />
-                                                                        <label class="form-check-label" for="bank5">HSBC
+                                                                        <label className="form-check-label" for="bank5">HSBC
                                                                             Holdings</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="bank6" />
-                                                                        <label class="form-check-label"
+                                                                        <label className="form-check-label"
                                                                             for="bank6">JPMorgan Chase & Co.</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-12">
-                                                                    <div class="select-option">
-                                                                        <div class="form-floating theme-form-floating">
+                                                                <div className="col-12">
+                                                                    <div className="select-option">
+                                                                        <div className="form-floating theme-form-floating">
                                                                             <select
-                                                                                class="form-select theme-form-select">
+                                                                                className="form-select theme-form-select">
                                                                                 <option value="hsbc">HSBC Holdings
                                                                                 </option>
                                                                                 <option value="loyds">Lloyds Banking
@@ -442,81 +442,81 @@ const Checkout = () => {
                                                     </div>
                                                 </div>
 
-                                                <div class="accordion-item">
-                                                    <div class="accordion-header" id="flush-headingThree">
-                                                        <div class="accordion-button collapsed"
+                                                <div className="accordion-item">
+                                                    <div className="accordion-header" id="flush-headingThree">
+                                                        <div className="accordion-button collapsed"
                                                             data-bs-toggle="collapse"
                                                             data-bs-target="#flush-collapseThree">
-                                                            <div class="custom-form-check form-check mb-0">
-                                                                <label class="form-check-label" for="wallet"><input
-                                                                        class="form-check-input mt-0" type="radio"
+                                                            <div className="custom-form-check form-check mb-0">
+                                                                <label className="form-check-label" for="wallet"><input
+                                                                        className="form-check-input mt-0" type="radio"
                                                                         name="flexRadioDefault" id="wallet" />My
                                                                     Wallet</label>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                    <div id="flush-collapseThree" className="accordion-collapse collapse"
                                                         data-bs-parent="#accordionFlushExample">
-                                                        <div class="accordion-body">
-                                                            <h5 class="text-uppercase mb-4">Select Your Wallet
+                                                        <div className="accordion-body">
+                                                            <h5 className="text-uppercase mb-4">Select Your Wallet
                                                             </h5>
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <label class="form-check-label"
+                                                            <div className="row">
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <label className="form-check-label"
                                                                             for="amazon"><input
-                                                                                class="form-check-input mt-0"
+                                                                                className="form-check-input mt-0"
                                                                                 type="radio" name="flexRadioDefault"
                                                                                 id="amazon" />Amazon Pay</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="gpay" />
-                                                                        <label class="form-check-label"
+                                                                        <label className="form-check-label"
                                                                             for="gpay">Google Pay</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="airtel" />
-                                                                        <label class="form-check-label"
+                                                                        <label className="form-check-label"
                                                                             for="airtel">Airtel Money</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="paytm" />
-                                                                        <label class="form-check-label"
+                                                                        <label className="form-check-label"
                                                                             for="paytm">Paytm Pay</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="jio" />
-                                                                        <label class="form-check-label" for="jio">JIO
+                                                                        <label className="form-check-label" for="jio">JIO
                                                                             Money</label>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-md-6">
-                                                                    <div class="custom-form-check form-check">
-                                                                        <input class="form-check-input mt-0"
+                                                                <div className="col-md-6">
+                                                                    <div className="custom-form-check form-check">
+                                                                        <input className="form-check-input mt-0"
                                                                             type="radio" name="flexRadioDefault"
                                                                             id="free" />
-                                                                        <label class="form-check-label"
+                                                                        <label className="form-check-label"
                                                                             for="free">Freecharge</label>
                                                                     </div>
                                                                 </div>
@@ -533,96 +533,96 @@ const Checkout = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-4">
-                    <div class="right-side-summery-box">
-                        <div class="summery-box-2">
-                            <div class="summery-header">
+                <div className="col-lg-4">
+                    <div className="right-side-summery-box">
+                        <div className="summery-box-2">
+                            <div className="summery-header">
                                 <h3>Order Summery</h3>
                             </div>
 
-                            <ul class="summery-contain">
+                            <ul className="summery-contain">
                                 <li>
                                     <img src="../assets/images/vegetable/product/1.png"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        className="img-fluid blur-up lazyloaded checkout-image" alt="" />
                                     <h4>Bell pepper <span>X 1</span></h4>
-                                    <h4 class="price">$32.34</h4>
+                                    <h4 className="price">₹32.34</h4>
                                 </li>
 
                                 <li>
                                     <img src="../assets/images/vegetable/product/2.png"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        className="img-fluid blur-up lazyloaded checkout-image" alt="" />
                                     <h4>Eggplant <span>X 3</span></h4>
-                                    <h4 class="price">$12.23</h4>
+                                    <h4 className="price">₹12.23</h4>
                                 </li>
 
                                 <li>
                                     <img src="../assets/images/vegetable/product/3.png"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        className="img-fluid blur-up lazyloaded checkout-image" alt="" />
                                     <h4>Onion <span>X 2</span></h4>
-                                    <h4 class="price">$18.27</h4>
+                                    <h4 className="price">₹18.27</h4>
                                 </li>
 
                                 <li>
                                     <img src="../assets/images/vegetable/product/4.png"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        className="img-fluid blur-up lazyloaded checkout-image" alt="" />
                                     <h4>Potato <span>X 1</span></h4>
-                                    <h4 class="price">$26.90</h4>
+                                    <h4 className="price">₹26.90</h4>
                                 </li>
 
                                 <li>
                                     <img src="../assets/images/vegetable/product/5.png"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        className="img-fluid blur-up lazyloaded checkout-image" alt="" />
                                     <h4>Baby Chili <span>X 1</span></h4>
-                                    <h4 class="price">$19.28</h4>
+                                    <h4 className="price">₹19.28</h4>
                                 </li>
 
                                 <li>
                                     <img src="../assets/images/vegetable/product/6.png"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        className="img-fluid blur-up lazyloaded checkout-image" alt="" />
                                     <h4>Broccoli <span>X 2</span></h4>
-                                    <h4 class="price">$29.69</h4>
+                                    <h4 className="price">₹29.69</h4>
                                 </li>
                             </ul>
 
-                            <ul class="summery-total">
+                            <ul className="summery-total">
                                 <li>
                                     <h4>Subtotal</h4>
-                                    <h4 class="price">$111.81</h4>
+                                    <h4 className="price">₹111.81</h4>
                                 </li>
 
                                 <li>
                                     <h4>Shipping</h4>
-                                    <h4 class="price">$8.90</h4>
+                                    <h4 className="price">₹8.90</h4>
                                 </li>
 
                                 <li>
                                     <h4>Tax</h4>
-                                    <h4 class="price">$29.498</h4>
+                                    <h4 className="price">₹29.498</h4>
                                 </li>
 
                                 <li>
                                     <h4>Coupon/Code</h4>
-                                    <h4 class="price">$-23.10</h4>
+                                    <h4 className="price">₹-23.10</h4>
                                 </li>
 
-                                <li class="list-total">
+                                <li className="list-total">
                                     <h4>Total (USD)</h4>
-                                    <h4 class="price">$19.28</h4>
+                                    <h4 className="price">₹19.28</h4>
                                 </li>
                             </ul>
                         </div>
 
-                        <div class="checkout-offer">
-                            <div class="offer-title">
-                                <div class="offer-icon">
-                                    <img src="../assets/images/inner-page/offer.svg" class="img-fluid" alt="" />
+                        <div className="checkout-offer">
+                            <div className="offer-title">
+                                <div className="offer-icon">
+                                    <img src="../assets/images/inner-page/offer.svg" className="img-fluid" alt="" />
                                 </div>
-                                <div class="offer-name">
+                                <div className="offer-name">
                                     <h6>Available Offers</h6>
                                 </div>
                             </div>
 
-                            <ul class="offer-detail">
+                            <ul className="offer-detail">
                                 <li>
                                     <p>Combo: BB Royal Almond/Badam Californian, Extra Bold 100 gm...</p>
                                 </li>
@@ -632,7 +632,7 @@ const Checkout = () => {
                             </ul>
                         </div>
 
-                        <button class="btn theme-bg-color text-white btn-md w-100 mt-4 fw-bold">Place Order</button>
+                        <button className="btn theme-bg-color text-white btn-md w-100 mt-4 fw-bold">Place Order</button>
                     </div>
                 </div>
             </div>

@@ -42,12 +42,12 @@ function App() {
            <Route path="/Otp" element={<Otp/>}/>
             <Route path='/UserAccount' element={<Useracc/>}/>
          </Routes>
-          <div class="theme-option">
+          <div className="theme-option">
       
 
-        <div class="back-to-top">
+        <div className="back-to-top">
             <a id="back-to-top" href="#">
-                <i class="fas fa-chevron-up"></i>
+                <i className="fas fa-chevron-up"></i>
             </a>
         </div>
     </div>

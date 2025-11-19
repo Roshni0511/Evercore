@@ -159,7 +159,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -213,7 +213,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -267,7 +267,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -322,7 +322,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -377,7 +377,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -431,7 +431,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -486,7 +486,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -542,7 +542,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -597,7 +597,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -652,7 +652,7 @@ const Home = () => {
 
                                         <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                        <h6 className="price theme-color">$ 80.00</h6>
+                                        <h6 className="price theme-color">₹ 80.00</h6>
 
                                         <div className="add-to-cart-btn-2 addtocart_btn">
                                             <button className="btn addcart-button btn buy-button"><i
@@ -836,7 +836,7 @@ const Home = () => {
 
                                     <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                    <h6 className="price theme-color">$ 80.00</h6>
+                                    <h6 className="price theme-color">₹ 80.00</h6>
 
                                     <div className="add-to-cart-btn-2 addtocart_btn">
                                         <button className="btn addcart-button btn buy-button"><i
@@ -889,7 +889,7 @@ const Home = () => {
 
                                     <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                    <h6 className="price theme-color">$ 80.00</h6>
+                                    <h6 className="price theme-color">₹ 80.00</h6>
 
                                     <div className="add-to-cart-btn-2 addtocart_btn">
                                         <button className="btn addcart-button btn buy-button"><i
@@ -943,7 +943,7 @@ const Home = () => {
 
                                     <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                    <h6 className="price theme-color">$ 80.00</h6>
+                                    <h6 className="price theme-color">₹ 80.00</h6>
 
                                     <div className="add-to-cart-btn-2 addtocart_btn">
                                         <button className="btn addcart-button btn buy-button"><i
@@ -996,7 +996,7 @@ const Home = () => {
 
                                     <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                    <h6 className="price theme-color">$ 80.00</h6>
+                                    <h6 className="price theme-color">₹ 80.00</h6>
 
                                     <div className="add-to-cart-btn-2 addtocart_btn">
                                         <button className="btn addcart-button btn buy-button"><i
@@ -1050,7 +1050,7 @@ const Home = () => {
 
                                     <h6 className="sold weight text-content fw-normal">1 KG</h6>
 
-                                    <h6 className="price theme-color">$ 80.00</h6>
+                                    <h6 className="price theme-color">₹ 80.00</h6>
 
                                     <div className="add-to-cart-btn-2 addtocart_btn">
                                         <button className="btn addcart-button btn buy-button"><i
@@ -1140,7 +1140,7 @@ const Home = () => {
                                             <h6 className="name">Home Decor Lucky Deer Family Matte Finish</h6>
                                         </a>
                                         <span>500 G</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1158,7 +1158,7 @@ const Home = () => {
                                             <h6 className="name">Potato</h6>
                                         </a>
                                         <span>500 G</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1176,7 +1176,7 @@ const Home = () => {
                                             <h6 className="name">Coral Bean Bag Chair</h6>
                                         </a>
                                         <span>200 G</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1194,7 +1194,7 @@ const Home = () => {
                                             <h6 className="name">ELSTONE HOME White Colour Bath Towel</h6>
                                         </a>
                                         <span>150 G</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1216,7 +1216,7 @@ const Home = () => {
                                             <h6 className="name">Benefits of using natural stone tile flooring</h6>
                                         </a>
                                         <span>500 G</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1234,7 +1234,7 @@ const Home = () => {
                                             <h6 className="name">Nature Baby Merino Knit Bassinet Blanket</h6>
                                         </a>
                                         <span>1 L</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1252,7 +1252,7 @@ const Home = () => {
                                             <h6 className="name">Wooden Tea Cup Coaster</h6>
                                         </a>
                                         <span>1 KG</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1270,7 +1270,7 @@ const Home = () => {
                                             <h6 className="name">Goddess Marble Hexagon</h6>
                                         </a>
                                         <span>150 G</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1292,7 +1292,7 @@ const Home = () => {
                                             <h6 className="name">Handmade Brown Mango Wooden Tray Square</h6>
                                         </a>
                                         <span>1 L</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1310,7 +1310,7 @@ const Home = () => {
                                             <h6 className="name">heavy duty cane round basket</h6>
                                         </a>
                                         <span>500 G</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1328,7 +1328,7 @@ const Home = () => {
                                             <h6 className="name">WaahKart Antique Fiber Flower Vase</h6>
                                         </a>
                                         <span>1 KG</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1346,7 +1346,7 @@ const Home = () => {
                                             <h6 className="name">Towels Cotton Soft</h6>
                                         </a>
                                         <span>160 ML</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1368,7 +1368,7 @@ const Home = () => {
                                             <h6 className="name">Gloss Dinnerware Dish</h6>
                                         </a>
                                         <span>500 G</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1386,7 +1386,7 @@ const Home = () => {
                                             <h6 className="name">Marble Small Amenity Tray</h6>
                                         </a>
                                         <span>1 L</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1404,7 +1404,7 @@ const Home = () => {
                                             <h6 className="name">Benefits of using natural stone tile flooring</h6>
                                         </a>
                                         <span>1 KG</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1422,7 +1422,7 @@ const Home = () => {
                                             <h6 className="name">Handmade Brown Mango Wooden Tray Square</h6>
                                         </a>
                                         <span>150 G</span>
-                                        <h6 className="price theme-color">$ 10.00</h6>
+                                        <h6 className="price theme-color">₹ 10.00</h6>
                                     </div>
                                 </div>
                             </div>

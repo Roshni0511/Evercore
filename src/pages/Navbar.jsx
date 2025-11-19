@@ -378,7 +378,7 @@ export default function Navbar() {
                                                                 <a href="/">
                                                                     <h5>Fantasy Crunchy Choco Chip Cookies</h5>
                                                                 </a>
-                                                                <h6><span>1 x</span> $80.58</h6>
+                                                                <h6><span>1 x</span> ₹80.58</h6>
                                                                 <button className="close-button close_button">
                                                                     <i className="fa-solid fa-xmark"></i>
                                                                 </button>
@@ -398,7 +398,7 @@ export default function Navbar() {
                                                                     <h5>Peanut Butter Bite Premium Butter Cookies 600 g
                                                                     </h5>
                                                                 </a>
-                                                                <h6><span>1 x</span> $25.68</h6>
+                                                                <h6><span>1 x</span> ₹25.68</h6>
                                                                 <button className="close-button close_button">
                                                                     <i className="fa-solid fa-xmark"></i>
                                                                 </button>
@@ -409,7 +409,7 @@ export default function Navbar() {
 
                                                 <div className="price-box">
                                                     <h5>Total :</h5>
-                                                    <h4 className="theme-color fw-bold">$106.58</h4>
+                                                    <h4 className="theme-color fw-bold">₹106.58</h4>
                                                 </div>
 
                                                 <div className="button-group">

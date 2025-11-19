@@ -7,20 +7,20 @@ const Contact = () => {
     <>
         <Navbar/>
             {/* <!-- Breadcrumb Section Start --> */}
-    <section class="breadcrumb-section pt-0">
-        <div class="container-fluid-lg">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcrumb-contain">
+    <section className="breadcrumb-section pt-0">
+        <div className="container-fluid-lg">
+            <div className="row">
+                <div className="col-12">
+                    <div className="breadcrumb-contain">
                         <h2>Contact Us</h2>
                         <nav>
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item">
-                                    <a href="index.html">
-                                        <i class="fa-solid fa-house"></i>
+                            <ol className="breadcrumb mb-0">
+                                <li className="breadcrumb-item">
+                                    <a href="/">
+                                        <i className="fa-solid fa-house"></i>
                                     </a>
                                 </li>
-                                <li class="breadcrumb-item active">Contact Us</li>
+                                <li className="breadcrumb-item active">Contact Us</li>
                             </ol>
                         </nav>
                     </div>
@@ -31,80 +31,80 @@ const Contact = () => {
     {/* <!-- Breadcrumb Section End -->/ */}
 
     {/* <!-- Contact Box Section Start --> */}
-    <section class="contact-box-section">
-        <div class="container-fluid-lg">
-            <div class="row g-lg-5 g-3">
-                <div class="col-lg-6">
-                    <div class="left-sidebar-box">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="contact-image">
+    <section className="contact-box-section">
+        <div className="container-fluid-lg">
+            <div className="row g-lg-5 g-3">
+                <div className="col-lg-6">
+                    <div className="left-sidebar-box">
+                        <div className="row">
+                            <div className="col-xl-12">
+                                <div className="contact-image">
                                     <img src="../assets/images/inner-page/contact-us.png"
-                                        class="img-fluid blur-up lazyloaded" alt="" />
+                                        className="img-fluid blur-up lazyloaded" alt="" />
                                 </div>
                             </div>
-                            <div class="col-xl-12">
-                                <div class="contact-title">
+                            <div className="col-xl-12">
+                                <div className="contact-title">
                                     <h3>Get In Touch</h3>
                                 </div>
 
-                                <div class="contact-detail">
-                                    <div class="row g-4">
-                                        <div class="col-xxl-6 col-lg-12 col-sm-6">
-                                            <div class="contact-detail-box">
-                                                <div class="contact-icon">
-                                                    <i class="fa-solid fa-phone"></i>
+                                <div className="contact-detail">
+                                    <div className="row g-4">
+                                        <div className="col-xxl-6 col-lg-12 col-sm-6">
+                                            <div className="contact-detail-box">
+                                                <div className="contact-icon">
+                                                    <i className="fa-solid fa-phone"></i>
                                                 </div>
-                                                <div class="contact-detail-title">
+                                                <div className="contact-detail-title">
                                                     <h4>Phone</h4>
                                                 </div>
 
-                                                <div class="contact-detail-contain">
+                                                <div className="contact-detail-contain">
                                                     <p>(+1) 618 190 496</p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-xxl-6 col-lg-12 col-sm-6">
-                                            <div class="contact-detail-box">
-                                                <div class="contact-icon">
-                                                    <i class="fa-solid fa-envelope"></i>
+                                        <div className="col-xxl-6 col-lg-12 col-sm-6">
+                                            <div className="contact-detail-box">
+                                                <div className="contact-icon">
+                                                    <i className="fa-solid fa-envelope"></i>
                                                 </div>
-                                                <div class="contact-detail-title">
+                                                <div className="contact-detail-title">
                                                     <h4>Email</h4>
                                                 </div>
 
-                                                <div class="contact-detail-contain">
+                                                <div className="contact-detail-contain">
                                                     <p>geweto9420@chokxus.com</p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-xxl-6 col-lg-12 col-sm-6">
-                                            <div class="contact-detail-box">
-                                                <div class="contact-icon">
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                        <div className="col-xxl-6 col-lg-12 col-sm-6">
+                                            <div className="contact-detail-box">
+                                                <div className="contact-icon">
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                 </div>
-                                                <div class="contact-detail-title">
+                                                <div className="contact-detail-title">
                                                     <h4>London Office</h4>
                                                 </div>
 
-                                                <div class="contact-detail-contain">
+                                                <div className="contact-detail-contain">
                                                     <p>Cruce Casa de Postas 29</p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-xxl-6 col-lg-12 col-sm-6">
-                                            <div class="contact-detail-box">
-                                                <div class="contact-icon">
-                                                    <i class="fa-solid fa-building"></i>
+                                        <div className="col-xxl-6 col-lg-12 col-sm-6">
+                                            <div className="contact-detail-box">
+                                                <div className="contact-icon">
+                                                    <i className="fa-solid fa-building"></i>
                                                 </div>
-                                                <div class="contact-detail-title">
+                                                <div className="contact-detail-title">
                                                     <h4>Bournemouth Office</h4>
                                                 </div>
 
-                                                <div class="contact-detail-contain">
+                                                <div className="contact-detail-contain">
                                                     <p>Visitación de la Encina 22</p>
                                                 </div>
                                             </div>
@@ -116,69 +116,69 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="title d-xxl-none d-block">
+                <div className="col-lg-6">
+                    <div className="title d-xxl-none d-block">
                         <h2>Contact Us</h2>
                     </div>
-                    <div class="right-sidebar-box">
-                        <div class="row">
-                            <div class="col-xxl-6 col-lg-12 col-sm-6">
-                                <div class="mb-md-4 mb-3 custom-form">
-                                    <label for="exampleFormControlInput" class="form-label">First Name</label>
-                                    <div class="custom-input">
-                                        <input type="text" class="form-control" id="exampleFormControlInput"
+                    <div className="right-sidebar-box">
+                        <div className="row">
+                            <div className="col-xxl-6 col-lg-12 col-sm-6">
+                                <div className="mb-md-4 mb-3 custom-form">
+                                    <label for="exampleFormControlInput" className="form-label">First Name</label>
+                                    <div className="custom-input">
+                                        <input type="text" className="form-control" id="exampleFormControlInput"
                                             placeholder="Enter First Name" />
-                                        <i class="fa-solid fa-user"></i>
+                                        <i className="fa-solid fa-user"></i>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-xxl-6 col-lg-12 col-sm-6">
-                                <div class="mb-md-4 mb-3 custom-form">
-                                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                                    <div class="custom-input">
-                                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            <div className="col-xxl-6 col-lg-12 col-sm-6">
+                                <div className="mb-md-4 mb-3 custom-form">
+                                    <label for="exampleFormControlInput1" className="form-label">Last Name</label>
+                                    <div className="custom-input">
+                                        <input type="text" className="form-control" id="exampleFormControlInput1"
                                             placeholder="Enter Last Name" />
-                                        <i class="fa-solid fa-user"></i>
+                                        <i className="fa-solid fa-user"></i>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-xxl-6 col-lg-12 col-sm-6">
-                                <div class="mb-md-4 mb-3 custom-form">
-                                    <label for="exampleFormControlInput2" class="form-label">Email Address</label>
-                                    <div class="custom-input">
-                                        <input type="email" class="form-control" id="exampleFormControlInput2"
+                            <div className="col-xxl-6 col-lg-12 col-sm-6">
+                                <div className="mb-md-4 mb-3 custom-form">
+                                    <label for="exampleFormControlInput2" className="form-label">Email Address</label>
+                                    <div className="custom-input">
+                                        <input type="email" className="form-control" id="exampleFormControlInput2"
                                             placeholder="Enter Email Address" />
-                                        <i class="fa-solid fa-envelope"></i>
+                                        <i className="fa-solid fa-envelope"></i>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-xxl-6 col-lg-12 col-sm-6">
-                                <div class="mb-md-4 mb-3 custom-form">
-                                    <label for="exampleFormControlInput3" class="form-label">Phone Number</label>
-                                    <div class="custom-input">
-                                        <input type="tel" class="form-control" id="exampleFormControlInput3"
+                            <div className="col-xxl-6 col-lg-12 col-sm-6">
+                                <div className="mb-md-4 mb-3 custom-form">
+                                    <label for="exampleFormControlInput3" className="form-label">Phone Number</label>
+                                    <div className="custom-input">
+                                        <input type="tel" className="form-control" id="exampleFormControlInput3"
                                             placeholder="Enter Your Phone Number" maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value =
                                             this.value.slice(0, this.maxLength);" />
-                                        <i class="fa-solid fa-mobile-screen-button"></i>
+                                        <i className="fa-solid fa-mobile-screen-button"></i>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-12">
-                                <div class="mb-md-4 mb-3 custom-form">
-                                    <label for="exampleFormControlTextarea" class="form-label">Message</label>
-                                    <div class="custom-textarea">
-                                        <textarea class="form-control" id="exampleFormControlTextarea"
+                            <div className="col-12">
+                                <div className="mb-md-4 mb-3 custom-form">
+                                    <label for="exampleFormControlTextarea" className="form-label">Message</label>
+                                    <div className="custom-textarea">
+                                        <textarea className="form-control" id="exampleFormControlTextarea"
                                             placeholder="Enter Your Message" rows="6"></textarea>
-                                        <i class="fa-solid fa-message"></i>
+                                        <i className="fa-solid fa-message"></i>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-animation btn-md fw-bold ms-auto">Send Message</button>
+                        <button className="btn btn-animation btn-md fw-bold ms-auto">Send Message</button>
                     </div>
                 </div>
             </div>
@@ -187,9 +187,9 @@ const Contact = () => {
     {/* <!-- Contact Box Section End --> */}
 
     {/* <!-- Map Section Start --> */}
-    <section class="map-section">
-        <div class="container-fluid p-0">
-            <div class="map-box">
+    <section className="map-section">
+        <div className="container-fluid p-0">
+            <div className="map-box">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2994.3803116994895!2d55.29773782339708!3d25.222534631321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!3m2!1d25.2048493!2d55.2707828!4m0!5e1!3m2!1sen!2sin!4v1652217109535!5m2!1sen!2sin"
                     style={{border:'0px'}} allowfullscreen="" loading="lazy"
