@@ -118,10 +118,10 @@ const Footer = () => {
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="index.html" class="text-content">Home</a>
+                                    <a href="/" class="text-content">Home</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Shop</a>
+                                    <a href="/Shop" class="text-content">Shop</a>
                                 </li>
                                 <li>
                                     <a href="about-us.html" class="text-content">About Us</a>
@@ -130,7 +130,7 @@ const Footer = () => {
                                     <a href="blog-list.html" class="text-content">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="contact-us.html" class="text-content">Contact Us</a>
+                                    <a href="/Contact" class="text-content">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -143,23 +143,19 @@ const Footer = () => {
 
                         <div class="footer-contain">
                             <ul>
+                     
                                 <li>
-                                    <a href="order-success.html" class="text-content">Your Order</a>
+                                    <a href="/Useraccount" class="text-content">Your Account</a>
                                 </li>
                                 <li>
-                                    <a href="user-dashboard.html" class="text-content">Your Account</a>
+                                    <a href="/Trackorder" class="text-content">Track Order</a>
                                 </li>
                                 <li>
-                                    <a href="order-tracking.html" class="text-content">Track Order</a>
+                                    <a href="/Wishlist" class="text-content">Your Wishlist</a>
                                 </li>
+                           
                                 <li>
-                                    <a href="wishlist.html" class="text-content">Your Wishlist</a>
-                                </li>
-                                <li>
-                                    <a href="search.html" class="text-content">Search</a>
-                                </li>
-                                <li>
-                                    <a href="faq.html" class="text-content">FAQ</a>
+                                    <a href="/Faq" class="text-content">FAQ</a>
                                 </li>
                             </ul>
                         </div>
