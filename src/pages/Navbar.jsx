@@ -44,317 +44,93 @@ export default function Navbar() {
                                                         data-bs-toggle="dropdown">Crazy Deals</a>
 
                                                     <div class="dropdown-menu dropdown-menu-3 dropdown-menu-2">
-                                                        <div class="row">
-                                                            <div class="col-xl-3">
-                                                                <div class="dropdown-column m-0">
-                                                                    
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-xl-3">
-                                                                <div class="dropdown-column m-0">
-                                                                  
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-xl-3">
-                                                                <div class="dropdown-column m-0">
-                                                                   
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-xl-3 d-xl-block d-none">
-                                                                <div class="dropdown-column m-0">
-                                                                    
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+    <div class="row">
+        <div class="col-xl-3 col-lg-6 col-md-6 col-12">
+            <div class="dropdown-column m-0">
+                <img src="/assets/images/nav1.webp" alt="Offer 1" class="img-fluid w-100 rounded" />
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 col-md-6 col-12">
+            <div class="dropdown-column m-0">
+                <img src="/assets/images/nav2.webp" alt="Offer 2" class="img-fluid w-100 rounded" />
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 col-md-6 col-12">
+            <div class="dropdown-column m-0">
+                <img src="/assets/images/nav3.webp" alt="Offer 3" class="img-fluid w-100 rounded" />
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 col-md-6 col-12">
+            <div class="dropdown-column m-0">
+                <img src="/assets/images/nav1.webp" alt="Offer 4" class="img-fluid w-100 rounded" />
+            </div>
+        </div>
+    </div>
+</div>
+
                                                 </li>
                                                  <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="javascript:void(0)"
                                                         data-bs-toggle="dropdown">Authenticity</a>
 
                                                     <div class="dropdown-menu dropdown-menu-3 dropdown-menu-2">
-                                                        <div class="row">
-                                                            <div class="col-xl-3">
-                                                                <div class="dropdown-column m-0">
-                                                                    <h5 class="dropdown-header">
-                                                                        Product Pages </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Product
-                                                                        Thumbnail</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-4-image.html">Product Images</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-slider.html">Product Slider</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-sticky.html">Product Sticky</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-accordion.html">Product
-                                                                        Accordion</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-circle.html">Product Tab</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-digital.html">Product Digital</a>
+    <div class="row justify-content-center">
 
-                                                                    <h5 class="custom-mt dropdown-header">Product
-                                                                        Features
-                                                                    </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-circle.html">Bundle (Cross
-                                                                        Sale)</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Hot Stock
-                                                                        Progress <label class="menu-label">New</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-sold-out.html">SOLD OUT</a>
-                                                                    <a class="dropdown-item" href="product-circle.html">
-                                                                        Sale Countdown</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-xl-3">
-                                                                <div class="dropdown-column m-0">
-                                                                    <h5 class="dropdown-header">
-                                                                        Product Variants Style </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-rectangle.html">Variant
-                                                                        Rectangle</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-circle.html">Variant Circle <label
-                                                                            class="menu-label">New</label></a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-color-image.html">Variant Image
-                                                                        Swatch</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-color.html">Variant Color</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-radio.html">Variant Radio
-                                                                        Button</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-dropdown.html">Variant
-                                                                        Dropdown</a>
-                                                                    <h5 class="custom-mt dropdown-header">Product
-                                                                        Features
-                                                                    </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Sticky
-                                                                        Checkout</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-dynamic.html">Dynamic Checkout</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-sticky.html">Secure Checkout</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-bundle.html">Active Product
-                                                                        view</a>
-                                                                    <a class="dropdown-item" href="product-bundle.html">
-                                                                        Active
-                                                                        Last Orders
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-xl-3">
-                                                                <div class="dropdown-column m-0">
-                                                                    <h5 class="dropdown-header">
-                                                                        Product Features </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-image.html">Product Simple</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-rectangle.html">
-                                                                        Product Classified <label
-                                                                            class="menu-label">New</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-size-chart.html">Size Chart <label
-                                                                            class="menu-label">New</label></a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-size-chart.html">Delivery &
-                                                                        Return</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-size-chart.html">Product
-                                                                        Review</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-expert.html">Ask
-                                                                        an Expert</a>
-                                                                    <h5 class="custom-mt dropdown-header">Product
-                                                                        Features
-                                                                    </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-bottom-thumbnail.html">Product
-                                                                        Tags</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-image.html">Store
-                                                                        Information</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-image.html">Social Share <label
-                                                                            class="menu-label warning-label">Hot</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Related
-                                                                        Products
-                                                                        <label
-                                                                            class="menu-label warning-label">Hot</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-right-thumbnail.html">Wishlist &
-                                                                        Compare</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-xl-3 d-xl-block d-none">
-                                                                <div class="dropdown-column m-0">
-                                                                    <div class="menu-img-banner">
-                                                                        <a class="text-title"
-                                                                            href="product-circle.html">
-                                                                            <img src="../assets/images/mega-menu.png"
-                                                                                alt="banner" />
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#ff7272',margin:'10px',borderRadius:'7px'}}> 
+            <div class="dropdown-column text-center ">
+                <img src="/assets/images/authencity.svg" class="img-fluid mb-2" width="60" />
+            </div>
+                <p class="mb-2 text-center">Check Authenticity</p>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#ff7272',margin:'10px',borderRadius:'7px'}}>
+            <div class="dropdown-column text-center ">
+                <img src="/assets/images/lab_certificate_icon.svg" class="img-fluid mb-2" width="60" />
+            </div>
+                <p class="mb-2 text-center">Protein Lab Certificate</p>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#ff7272',margin:'10px',borderRadius:'7px'}}>
+            <div class="dropdown-column text-center " >
+                <img src="/assets/images/labdoor.svg" class="img-fluid mb-2" width="60" />
+            </div>
+                <p class="mb-2 text-center">Labdoor</p>
+        </div>
+
+    </div>
+</div>
+
                                                 </li>
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="javascript:void(0)"
                                                         data-bs-toggle="dropdown">Shop By Goal</a>
 
-                                                    <div class="dropdown-menu dropdown-menu-3 dropdown-menu-2">
-                                                        <div class="row">
-                                                            <div class="col-xl-3">
-                                                                <div class="dropdown-column m-0">
-                                                                    <h5 class="dropdown-header">
-                                                                        Product Pages </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Product
-                                                                        Thumbnail</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-4-image.html">Product Images</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-slider.html">Product Slider</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-sticky.html">Product Sticky</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-accordion.html">Product
-                                                                        Accordion</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-circle.html">Product Tab</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-digital.html">Product Digital</a>
-
-                                                                    <h5 class="custom-mt dropdown-header">Product
-                                                                        Features
-                                                                    </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-circle.html">Bundle (Cross
-                                                                        Sale)</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Hot Stock
-                                                                        Progress <label class="menu-label">New</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-sold-out.html">SOLD OUT</a>
-                                                                    <a class="dropdown-item" href="product-circle.html">
-                                                                        Sale Countdown</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-xl-3">
-                                                                <div class="dropdown-column m-0">
-                                                                    <h5 class="dropdown-header">
-                                                                        Product Variants Style </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-rectangle.html">Variant
-                                                                        Rectangle</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-circle.html">Variant Circle <label
-                                                                            class="menu-label">New</label></a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-color-image.html">Variant Image
-                                                                        Swatch</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-color.html">Variant Color</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-radio.html">Variant Radio
-                                                                        Button</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-dropdown.html">Variant
-                                                                        Dropdown</a>
-                                                                    <h5 class="custom-mt dropdown-header">Product
-                                                                        Features
-                                                                    </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Sticky
-                                                                        Checkout</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-dynamic.html">Dynamic Checkout</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-sticky.html">Secure Checkout</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-bundle.html">Active Product
-                                                                        view</a>
-                                                                    <a class="dropdown-item" href="product-bundle.html">
-                                                                        Active
-                                                                        Last Orders
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-xl-3">
-                                                                <div class="dropdown-column m-0">
-                                                                    <h5 class="dropdown-header">
-                                                                        Product Features </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-image.html">Product Simple</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-rectangle.html">
-                                                                        Product Classified <label
-                                                                            class="menu-label">New</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-size-chart.html">Size Chart <label
-                                                                            class="menu-label">New</label></a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-size-chart.html">Delivery &
-                                                                        Return</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-size-chart.html">Product
-                                                                        Review</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-expert.html">Ask
-                                                                        an Expert</a>
-                                                                    <h5 class="custom-mt dropdown-header">Product
-                                                                        Features
-                                                                    </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-bottom-thumbnail.html">Product
-                                                                        Tags</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-image.html">Store
-                                                                        Information</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-image.html">Social Share <label
-                                                                            class="menu-label warning-label">Hot</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Related
-                                                                        Products
-                                                                        <label
-                                                                            class="menu-label warning-label">Hot</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-right-thumbnail.html">Wishlist &
-                                                                        Compare</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-xl-3 d-xl-block d-none">
-                                                                <div class="dropdown-column m-0">
-                                                                    <div class="menu-img-banner">
-                                                                        <a class="text-title"
-                                                                            href="product-circle.html">
-                                                                            <img src="../assets/images/mega-menu.png"
-                                                                                alt="banner" />
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                   <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="/">Faster Muscle Gains</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="/">Faster Recovery</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="/">Gain Weight</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="/">Get Shredded</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="/">Hydration & Endurance</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="/">Prepare Before Training</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="/">Vegan Supplements</a>
+                                                </li>
+                                            </ul>
                                                 </li>
                                                 <li className="nav-item ">
                                                       <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/">Bulk Order</a>
@@ -368,132 +144,93 @@ export default function Navbar() {
                                                             <div class="col-xl-3">
                                                                 <div class="dropdown-column m-0">
                                                                     <h5 class="dropdown-header">
-                                                                        Product Pages </h5>
+                                                                        Whey Protein Unflavored </h5>
                                                                     <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Product
-                                                                        Thumbnail</a>
+                                                                        href="/">Whey Protein Unflavored</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-4-image.html">Product Images</a>
+                                                                        href="/">Banana Oats Protein Shake</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-slider.html">Product Slider</a>
+                                                                        href="/">Banana Almond Cream Shake</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-sticky.html">Product Sticky</a>
+                                                                        href="/">Coffee Banana Protein Shake</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-accordion.html">Product
-                                                                        Accordion</a>
+                                                                        href="/">Fruity Fusion Protein Shake</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-circle.html">Product Tab</a>
+                                                                        href="/">Oat Meal Shake</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-digital.html">Product Digital</a>
+                                                                        href="/">Oreo Chocolate Protein Shake</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="/">Pineapple Power Shake</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="/">Strawberry Vanilla Shake</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="/">Wild Berry Shake</a>
 
-                                                                    <h5 class="custom-mt dropdown-header">Product
-                                                                        Features
-                                                                    </h5>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-circle.html">Bundle (Cross
-                                                                        Sale)</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Hot Stock
-                                                                        Progress <label class="menu-label">New</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-sold-out.html">SOLD OUT</a>
-                                                                    <a class="dropdown-item" href="product-circle.html">
-                                                                        Sale Countdown</a>
+                                                                   
                                                                 </div>
                                                             </div>
                                                             <div class="col-xl-3">
                                                                 <div class="dropdown-column m-0">
                                                                     <h5 class="dropdown-header">
-                                                                        Product Variants Style </h5>
+                                                                        Peanut Butter Recipes </h5>
                                                                     <a class="dropdown-item"
-                                                                        href="product-rectangle.html">Variant
-                                                                        Rectangle</a>
+                                                                        href="/">Peanut Butter Balls</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-circle.html">Variant Circle <label
-                                                                            class="menu-label">New</label></a>
+                                                                        href="/">Peanut Butter Chocolate Shake</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-color-image.html">Variant Image
-                                                                        Swatch</a>
+                                                                        href="/">Peanut Butter Coconut Burfi</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-color.html">Variant Color</a>
+                                                                        href="/">Peanut Butter Fruit Smoothie</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-radio.html">Variant Radio
-                                                                        Button</a>
+                                                                        href="/">Peanut Butter Icecream</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-dropdown.html">Variant
-                                                                        Dropdown</a>
-                                                                    <h5 class="custom-mt dropdown-header">Product
-                                                                        Features
-                                                                    </h5>
+                                                                        href="/">Peanut Butter Moong Dal Kheer</a>
+                                                                    
                                                                     <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Sticky
-                                                                        Checkout</a>
+                                                                        href="/">Peanut Butter Protein Bars</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-dynamic.html">Dynamic Checkout</a>
+                                                                        href="/">Peanut Butter Puffed Rice Balls</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-sticky.html">Secure Checkout</a>
+                                                                        href="/">Peanut Butter Rice Kheer</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-bundle.html">Active Product
-                                                                        view</a>
-                                                                    <a class="dropdown-item" href="product-bundle.html">
-                                                                        Active
-                                                                        Last Orders
-                                                                    </a>
+                                                                        href="/">Peanut Butter Tilgud Laddu</a>
+                                                                  
                                                                 </div>
                                                             </div>
                                                             <div class="col-xl-3">
                                                                 <div class="dropdown-column m-0">
                                                                     <h5 class="dropdown-header">
-                                                                        Product Features </h5>
+                                                                        Plant Protein Recipes </h5>
                                                                     <a class="dropdown-item"
-                                                                        href="product-image.html">Product Simple</a>
+                                                                        href="/">Plant Protein Brownies</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-rectangle.html">
-                                                                        Product Classified <label
-                                                                            class="menu-label">New</label>
+                                                                        href="/">
+                                                                        Plant Protein Pizza
                                                                     </a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-size-chart.html">Size Chart <label
-                                                                            class="menu-label">New</label></a>
+                                                                        href="/">Vegan Veggie Soup</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-size-chart.html">Delivery &
-                                                                        Return</a>
+                                                                        href="/">Protein Rich Wheat Roti</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-size-chart.html">Product
-                                                                        Review</a>
+                                                                        href="/">Instant Protein Oats Dosa</a>
                                                                     <a class="dropdown-item"
-                                                                        href="product-expert.html">Ask
-                                                                        an Expert</a>
-                                                                    <h5 class="custom-mt dropdown-header">Product
-                                                                        Features
-                                                                    </h5>
+                                                                        href="/">Protein Rich Ragi Dosa</a>
+                                                                    
                                                                     <a class="dropdown-item"
-                                                                        href="product-bottom-thumbnail.html">Product
-                                                                        Tags</a>
+                                                                        href="/">Vegan Protein Doritos</a>
+                                                                   
                                                                     <a class="dropdown-item"
-                                                                        href="product-image.html">Store
-                                                                        Information</a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-image.html">Social Share <label
-                                                                            class="menu-label warning-label">Hot</label>
+                                                                        href="/">Spicy Protein Potato Wedges 
                                                                     </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-left-thumbnail.html">Related
-                                                                        Products
-                                                                        <label
-                                                                            class="menu-label warning-label">Hot</label>
-                                                                    </a>
-                                                                    <a class="dropdown-item"
-                                                                        href="product-right-thumbnail.html">Wishlist &
-                                                                        Compare</a>
+                                                                   
+                                                                       
                                                                 </div>
                                                             </div>
                                                             <div class="col-xl-3 d-xl-block d-none">
                                                                 <div class="dropdown-column m-0">
                                                                     <div class="menu-img-banner">
                                                                         <a class="text-title"
-                                                                            href="product-circle.html">
+                                                                            href="/">
                                                                             <img src="../assets/images/mega-menu.png"
                                                                                 alt="banner" />
                                                                         </a>
@@ -514,77 +251,69 @@ export default function Navbar() {
                                                     <div class="dropdown-menu dropdown-menu-2">
                                                         <div class="row">
                                                             <div class="dropdown-column col-xl-3">
-                                                                <h5 class="dropdown-header">Daily Vegetables</h5>
+                                                                <h5 class="dropdown-header">AS-IT-IS Protein</h5>
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Beans & Brinjals</a>
-
-                                                                <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Broccoli &
-                                                                    Cauliflower</a>
-
-                                                                <a href="shop-left-sidebar.html"
-                                                                    class="dropdown-item">Chilies, Garlic</a>
+                                                                    href="/">Whey Protein Concentrate</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Vegetables &
-                                                                    Salads</a>
+                                                                    href="/">Whey Protein Sachet 30g</a>
+
+                                                                <a href="/"
+                                                                    class="dropdown-item">Whey Protein Isolate</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Gourd, Cucumber</a>
+                                                                    href="/">Pea Protein Isolate</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Herbs & Sprouts</a>
+                                                                    href="/">Soy Protein Isolate</a>
 
-                                                                <a href="demo-personal-portfolio.html"
-                                                                    class="dropdown-item">Lettuce & Leafy</a>
+                                                                <a class="dropdown-item"
+                                                                    href="/">Brown Rice Protein</a>
+
+                                                                <a href="/"
+                                                                    class="dropdown-item">Peanut Butter</a>
                                                             </div>
 
                                                             <div class="dropdown-column col-xl-3">
-                                                                <h5 class="dropdown-header">Baby Tender</h5>
+                                                                <h5 class="dropdown-header">ATOM Protein</h5>
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Beans & Brinjals</a>
+                                                                    href="/">Whey Protein</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Broccoli &
-                                                                    Cauliflower</a>
+                                                                    href="/">PWR Whey</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Chilies, Garlic</a>
+                                                                    href="/">Pea Protein</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Vegetables &
-                                                                    Salads</a>
+                                                                    href="/">Nitro Whey Protein</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Gourd, Cucumber</a>
+                                                                    href="/">ISO Whey Gold</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Potatoes &
-                                                                    Tomatoes</a>
+                                                                    href="/">Whey Protein Isolate</a>
 
-                                                                <a href="shop-left-sidebar.html"
-                                                                    class="dropdown-item">Peas & Corn</a>
+                                                                <a href="/"
+                                                                    class="dropdown-item">Beginners Whey Protein</a>
                                                             </div>
 
                                                             <div class="dropdown-column col-xl-3">
-                                                                <h5 class="dropdown-header">Exotic Vegetables</h5>
+                                                                <h5 class="dropdown-header">ATOM Amino Acid </h5>
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Asparagus &
-                                                                    Artichokes</a>
+                                                                    href="/">BCAA</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Avocados & Peppers</a>
+                                                                    href="/">Creatine Monohydrate</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Broccoli &
-                                                                    Zucchini</a>
+                                                                    href="/">L-Citrulline Malate</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Celery, Fennel &
-                                                                    Leeks</a>
+                                                                    href="/">Multivitamin</a>
 
                                                                 <a class="dropdown-item"
-                                                                    href="shop-left-sidebar.html">Chilies & Lime</a>
+                                                                    href="/">L-Carnitine Liquid</a>
                                                             </div>
 
                                                             <div class="dropdown-column dropdown-column-img col-3">
@@ -623,8 +352,8 @@ export default function Navbar() {
                                         </div>
                                     </li>
                                     <li class="right-side">
-                                        <a href="/Wishlist" class="btn p-0 position-relative header-wishlist">
-                                            <i data-feather="bookmark"></i>
+                                        <a href="/" class="btn p-0 position-relative header-wishlist">
+                                            <i data-feather="search"></i>
                                         </a>
                                     </li>
                                     <li class="right-side">
@@ -640,13 +369,13 @@ export default function Navbar() {
                                                 <ul class="cart-list">
                                                     <li class="product-box-contain">
                                                         <div class="drop-cart">
-                                                            <a href="product-left-thumbnail.html" class="drop-image">
+                                                            <a href="/" class="drop-image">
                                                                 <img src="../assets/images/vegetable/product/1.png"
                                                                     class="blur-up lazyload" alt="" />
                                                             </a>
 
                                                             <div class="drop-contain">
-                                                                <a href="product-left-thumbnail.html">
+                                                                <a href="/">
                                                                     <h5>Fantasy Crunchy Choco Chip Cookies</h5>
                                                                 </a>
                                                                 <h6><span>1 x</span> $80.58</h6>
@@ -659,13 +388,13 @@ export default function Navbar() {
 
                                                     <li class="product-box-contain">
                                                         <div class="drop-cart">
-                                                            <a href="product-left-thumbnail.html" class="drop-image">
+                                                            <a href="/" class="drop-image">
                                                                 <img src="../assets/images/vegetable/product/2.png"
                                                                     class="blur-up lazyload" alt="" />
                                                             </a>
 
                                                             <div class="drop-contain">
-                                                                <a href="product-left-thumbnail.html">
+                                                                <a href="/">
                                                                     <h5>Peanut Butter Bite Premium Butter Cookies 600 g
                                                                     </h5>
                                                                 </a>
@@ -685,14 +414,14 @@ export default function Navbar() {
 
                                                 <div class="button-group">
                                                     <a href="/Cart" class="btn btn-sm cart-button">View Cart</a>
-                                                    <a href="checkout.html" class="btn btn-sm cart-button theme-bg-color
+                                                    <a href="/Checkout" class="btn btn-sm cart-button theme-bg-color
                                                     text-white">Checkout</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="right-side">
-                                        <a href="/Wishlist" class="btn p-0 position-relative header-wishlist">
+                                        <a href="/UserAccount" class="btn p-0 position-relative header-wishlist">
                                              <i data-feather="user"></i>
                                         </a>
                                     </li>
@@ -720,7 +449,7 @@ export default function Navbar() {
           
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
