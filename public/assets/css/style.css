@@ -13782,147 +13782,7 @@ template {
     line-height: 1.4
 }
 
-.faq-breadcrumb {
-    background-color: #f8f8f8;
-    position: relative;
-    overflow: hidden
-}
 
-.faq-breadcrumb .breadcrumb-contain {
-    padding: calc(26px + 34*(100vw - 320px)/1600) 0;
-    text-align: center;
-    color: #222;
-    display: block
-}
-
-.faq-breadcrumb .breadcrumb-contain h2 {
-    font-size: calc(22px + 26*(100vw - 320px)/1600);
-    font-weight: 700;
-    margin-top: -6px
-}
-
-.faq-breadcrumb .breadcrumb-contain p {
-    margin: calc(11px + 5*(100vw - 320px)/1600) auto 0;
-    color: #4a5568;
-    width: 50%;
-    line-height: 1.7;
-    font-size: calc(14px + 2*(100vw - 320px)/1600)
-}
-
-@media(max-width: 1660px) {
-    .faq-breadcrumb .breadcrumb-contain p {
-        width: 60%
-    }
-}
-
-@media(max-width: 1366px) {
-    .faq-breadcrumb .breadcrumb-contain p {
-        width: 70%
-    }
-}
-
-@media(max-width: 991px) {
-    .faq-breadcrumb .breadcrumb-contain p {
-        width: 90%
-    }
-}
-
-@media(max-width: 767px) {
-    .faq-breadcrumb .breadcrumb-contain p {
-        width: 100%
-    }
-}
-
-.faq-breadcrumb .breadcrumb-contain p span {
-    display: inline
-}
-
-.faq-breadcrumb .breadcrumb-contain .faq-form-tag {
-    position: relative;
-    margin: calc(18px + 17*(100vw - 320px)/1600) auto 0;
-    width: 50%
-}
-
-@media(max-width: 1660px) {
-    .faq-breadcrumb .breadcrumb-contain .faq-form-tag {
-        width: 60%
-    }
-}
-
-@media(max-width: 1366px) {
-    .faq-breadcrumb .breadcrumb-contain .faq-form-tag {
-        width: 70%
-    }
-}
-
-@media(max-width: 991px) {
-    .faq-breadcrumb .breadcrumb-contain .faq-form-tag {
-        width: 90%
-    }
-}
-
-@media(max-width: 767px) {
-    .faq-breadcrumb .breadcrumb-contain .faq-form-tag {
-        width: 100%
-    }
-}
-
-.faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group {
-    background-color: #fff
-}
-
-.faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group i {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 0 calc(12px + 8*(100vw - 320px)/1600);
-    color: var(--theme-color);
-    font-size: calc(14px + 2*(100vw - 320px)/1600)
-}
-
-.faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group .form-control {
-    padding-left: 0;
-    border: none
-}
-
-[dir=rtl] .faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group .form-control {
-    padding-left: unset;
-    padding-right: 0
-}
-
-.faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group .form-control:focus {
-    background-color: rgba(0, 0, 0, 0)
-}
-
-.faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group .faq-dropdown-menu li {
-    display: block
-}
-
-.faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group .faq-dropdown-button {
-    font-size: calc(14px + 2*(100vw - 320px)/1600);
-    font-weight: 600;
-    color: var(--theme-color);
-    z-index: 0
-}
-
-.faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group .faq-dropdown-button::after {
-    content: unset
-}
-
-.faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group .faq-dropdown-button i {
-    position: relative;
-    padding: 0;
-    margin-left: 5px;
-    font-size: calc(13px + 1*(100vw - 320px)/1600)
-}
-
-[dir=rtl] .faq-breadcrumb .breadcrumb-contain .faq-form-tag .input-group .faq-dropdown-button i {
-    margin-left: unset;
-    margin-right: 5px
-}
 
 .vendor-breadcrumb-section {
     background-image: url("../images/vendor-page/breadcrumb.png");
@@ -47067,3 +46927,54 @@ body.rtl .theme-product-section .right-box-contain .license-list .accordion-item
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+.Protein-faq {
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: calc(30px + 20*(100vw - 320px)/1600); /* matches faq spacing */
+}
+
+.Protein-faq img {
+   width: 100%;
+    max-width: 350px; /* default size on desktop/tablet */
+    height: auto;
+    display: block;
+    border-radius: 10px; /* optional rounded corners */
+    object-fit: contain;
+}
+/* Mobile (0 - 480px) */
+@media (max-width: 480px) {
+    .Protein-faq img {
+        max-width: 250px; /* smaller on mobile */
+    }
+}
+
+/* Tablets (481px - 768px) */
+@media (max-width: 768px) {
+    .Protein-faq img {
+        max-width: 300px;
+    }
+}
+
+/* Large Tablets & Small Laptops (769px - 1024px) */
+@media (max-width: 1024px) {
+    .Protein-faq img {
+        max-width: 320px;
+    }
+}
+
+/* Desktop (Above 1024px) */
+@media (min-width: 1025px) {
+    .Protein-faq img {
+        max-width: 350px; /* consistent with default */
+    }
+}
