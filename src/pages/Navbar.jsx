@@ -5,100 +5,7 @@ export default function Navbar() {
     <div>
         {/* <!-- Header Start --> */}
     <header class="">
-        <div class="header-top">
-            <div class="container-fluid-lg">
-                <div class="row">
-                    <div class="col-xxl-3 d-xxl-block d-none">
-                        <div class="top-left-header">
-                            <i class="iconly-Location icli text-white"></i>
-                            <span class="text-white">1418 Riverwood Drive, CA 96052, US</span>
-                        </div>
-                    </div>
-
-                    <div class="col-xxl-6 col-lg-9 d-lg-block d-none">
-                        <div class="header-offer">
-                            <div class="notification-slider">
-                                <div>
-                                    <div class="timer-notification">
-                                        <h6><strong class="me-1">Welcome to Fastkart!</strong>Wrap new offers/gift
-                                            every single day on Weekends.<strong class="ms-1">New Coupon Code: Fast024
-                                            </strong>
-
-                                        </h6>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="timer-notification">
-                                        <h6>Something you love is now on sale!
-                                            <a href="shop-left-sidebar.html" class="text-white">Buy Now
-                                                !</a>
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <ul class="about-list right-nav-about">
-                            <li class="right-nav-list">
-                                <div class="dropdown theme-form-select">
-                                    <button class="btn dropdown-toggle" type="button" id="select-language"
-                                        data-bs-toggle="dropdown">
-                                        <img src="../assets/images/country/united-states.png"
-                                            class="img-fluid blur-up lazyload" alt="" />
-                                        <span>English</span>
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)" id="english">
-                                                <img src="../assets/images/country/united-kingdom.png"
-                                                    class="img-fluid blur-up lazyload" alt="" />
-                                                <span>English</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)" id="france">
-                                                <img src="../assets/images/country/germany.png"
-                                                    class="img-fluid blur-up lazyload" alt="" />
-                                                <span>Germany</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)" id="chinese">
-                                                <img src="../assets/images/country/turkish.png"
-                                                    class="img-fluid blur-up lazyload" alt="" />
-                                                <span>Turki</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="right-nav-list">
-                                <div class="dropdown theme-form-select">
-                                    <button class="btn dropdown-toggle" type="button" id="select-dollar"
-                                        data-bs-toggle="dropdown">
-                                        <span>USD</span>
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu-end sm-dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" id="aud" href="javascript:void(0)">AUD</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" id="eur" href="javascript:void(0)">EUR</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" id="cny" href="javascript:void(0)">CNY</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+     
 
         <div class="top-nav top-header sticky-header">
             <div class="container-fluid-lg">
@@ -111,7 +18,7 @@ export default function Navbar() {
                                     <i class="fa-solid fa-bars"></i>
                                 </span>
                             </button>
-                            <a href="index.html" class="web-logo nav-logo">
+                            <a href="/" class="web-logo nav-logo">
                                 <img src="../assets/images/logo/6.png" class="img-fluid blur-up lazyload" alt="" />
                             </a>
 
@@ -125,91 +32,45 @@ export default function Navbar() {
                                         </div>
                                         <div class="offcanvas-body">
                                             <ul class="navbar-nav">
-                                                <li class="nav-item dropdown dropdown-mega">
-                                                    <a class="nav-link dropdown-toggle ps-xl-2 ps-0"
-                                                        href="javascript:void(0)" data-bs-toggle="dropdown">Home</a>
+                                               
+                                                 <li className="nav-item ">
+                                                      <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/">Home</a>
+                                                 </li>
 
-                                                    <ul class="dropdown-menu">
-                                                        <li>
-                                                            <a class="dropdown-item" href="index.html">Kartshop</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-2.html">Sweetshop</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-3.html">Organic</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-4.html">Supershop</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-5.html">Classic
-                                                                shop</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-6.html">Furniture</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-7.html">Search
-                                                                Oriented</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-8.html">Category
-                                                                Focus</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-9.html">Fashion</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-10.html">Book</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="index-11.html">Digital</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
+                                              
 
                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                        data-bs-toggle="dropdown">Shop</a>
+                                                        data-bs-toggle="dropdown">Crazy Deals</a>
 
-                                                    <ul class="dropdown-menu">
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="shop-category-slider.html">Shop
-                                                                Category Slider</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="shop-category.html">Shop
-                                                                Category Sidebar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="shop-banner.html">Shop
-                                                                Banner</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Shop
-                                                                Left
-                                                                Sidebar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="shop-list.html">Shop List</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="shop-right-sidebar.html">Shop
-                                                                Right Sidebar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="shop-top-filter.html">Shop
-                                                                Top
-                                                                Filter</a>
-                                                        </li>
-                                                    </ul>
+                                                    <div class="dropdown-menu dropdown-menu-3 dropdown-menu-2">
+                                                        <div class="row">
+                                                            <div class="col-xl-3">
+                                                                <div class="dropdown-column m-0">
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3">
+                                                                <div class="dropdown-column m-0">
+                                                                  
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3">
+                                                                <div class="dropdown-column m-0">
+                                                                   
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 d-xl-block d-none">
+                                                                <div class="dropdown-column m-0">
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </li>
-
-                                                <li class="nav-item dropdown">
+                                                 <li class="nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                        data-bs-toggle="dropdown">Product</a>
+                                                        data-bs-toggle="dropdown">Authenticity</a>
 
                                                     <div class="dropdown-menu dropdown-menu-3 dropdown-menu-2">
                                                         <div class="row">
@@ -351,11 +212,304 @@ export default function Navbar() {
                                                         </div>
                                                     </div>
                                                 </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                                        data-bs-toggle="dropdown">Shop By Goal</a>
 
+                                                    <div class="dropdown-menu dropdown-menu-3 dropdown-menu-2">
+                                                        <div class="row">
+                                                            <div class="col-xl-3">
+                                                                <div class="dropdown-column m-0">
+                                                                    <h5 class="dropdown-header">
+                                                                        Product Pages </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-left-thumbnail.html">Product
+                                                                        Thumbnail</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-4-image.html">Product Images</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-slider.html">Product Slider</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-sticky.html">Product Sticky</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-accordion.html">Product
+                                                                        Accordion</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-circle.html">Product Tab</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-digital.html">Product Digital</a>
+
+                                                                    <h5 class="custom-mt dropdown-header">Product
+                                                                        Features
+                                                                    </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-circle.html">Bundle (Cross
+                                                                        Sale)</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-left-thumbnail.html">Hot Stock
+                                                                        Progress <label class="menu-label">New</label>
+                                                                    </a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-sold-out.html">SOLD OUT</a>
+                                                                    <a class="dropdown-item" href="product-circle.html">
+                                                                        Sale Countdown</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3">
+                                                                <div class="dropdown-column m-0">
+                                                                    <h5 class="dropdown-header">
+                                                                        Product Variants Style </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-rectangle.html">Variant
+                                                                        Rectangle</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-circle.html">Variant Circle <label
+                                                                            class="menu-label">New</label></a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-color-image.html">Variant Image
+                                                                        Swatch</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-color.html">Variant Color</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-radio.html">Variant Radio
+                                                                        Button</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-dropdown.html">Variant
+                                                                        Dropdown</a>
+                                                                    <h5 class="custom-mt dropdown-header">Product
+                                                                        Features
+                                                                    </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-left-thumbnail.html">Sticky
+                                                                        Checkout</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-dynamic.html">Dynamic Checkout</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-sticky.html">Secure Checkout</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-bundle.html">Active Product
+                                                                        view</a>
+                                                                    <a class="dropdown-item" href="product-bundle.html">
+                                                                        Active
+                                                                        Last Orders
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3">
+                                                                <div class="dropdown-column m-0">
+                                                                    <h5 class="dropdown-header">
+                                                                        Product Features </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-image.html">Product Simple</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-rectangle.html">
+                                                                        Product Classified <label
+                                                                            class="menu-label">New</label>
+                                                                    </a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-size-chart.html">Size Chart <label
+                                                                            class="menu-label">New</label></a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-size-chart.html">Delivery &
+                                                                        Return</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-size-chart.html">Product
+                                                                        Review</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-expert.html">Ask
+                                                                        an Expert</a>
+                                                                    <h5 class="custom-mt dropdown-header">Product
+                                                                        Features
+                                                                    </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-bottom-thumbnail.html">Product
+                                                                        Tags</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-image.html">Store
+                                                                        Information</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-image.html">Social Share <label
+                                                                            class="menu-label warning-label">Hot</label>
+                                                                    </a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-left-thumbnail.html">Related
+                                                                        Products
+                                                                        <label
+                                                                            class="menu-label warning-label">Hot</label>
+                                                                    </a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-right-thumbnail.html">Wishlist &
+                                                                        Compare</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 d-xl-block d-none">
+                                                                <div class="dropdown-column m-0">
+                                                                    <div class="menu-img-banner">
+                                                                        <a class="text-title"
+                                                                            href="product-circle.html">
+                                                                            <img src="../assets/images/mega-menu.png"
+                                                                                alt="banner" />
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li className="nav-item ">
+                                                      <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/">Bulk Order</a>
+                                                 </li>
+                                                 <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                                        data-bs-toggle="dropdown">Recipe</a>
+
+                                                    <div class="dropdown-menu dropdown-menu-3 dropdown-menu-2">
+                                                        <div class="row">
+                                                            <div class="col-xl-3">
+                                                                <div class="dropdown-column m-0">
+                                                                    <h5 class="dropdown-header">
+                                                                        Product Pages </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-left-thumbnail.html">Product
+                                                                        Thumbnail</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-4-image.html">Product Images</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-slider.html">Product Slider</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-sticky.html">Product Sticky</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-accordion.html">Product
+                                                                        Accordion</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-circle.html">Product Tab</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-digital.html">Product Digital</a>
+
+                                                                    <h5 class="custom-mt dropdown-header">Product
+                                                                        Features
+                                                                    </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-circle.html">Bundle (Cross
+                                                                        Sale)</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-left-thumbnail.html">Hot Stock
+                                                                        Progress <label class="menu-label">New</label>
+                                                                    </a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-sold-out.html">SOLD OUT</a>
+                                                                    <a class="dropdown-item" href="product-circle.html">
+                                                                        Sale Countdown</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3">
+                                                                <div class="dropdown-column m-0">
+                                                                    <h5 class="dropdown-header">
+                                                                        Product Variants Style </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-rectangle.html">Variant
+                                                                        Rectangle</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-circle.html">Variant Circle <label
+                                                                            class="menu-label">New</label></a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-color-image.html">Variant Image
+                                                                        Swatch</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-color.html">Variant Color</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-radio.html">Variant Radio
+                                                                        Button</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-dropdown.html">Variant
+                                                                        Dropdown</a>
+                                                                    <h5 class="custom-mt dropdown-header">Product
+                                                                        Features
+                                                                    </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-left-thumbnail.html">Sticky
+                                                                        Checkout</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-dynamic.html">Dynamic Checkout</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-sticky.html">Secure Checkout</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-bundle.html">Active Product
+                                                                        view</a>
+                                                                    <a class="dropdown-item" href="product-bundle.html">
+                                                                        Active
+                                                                        Last Orders
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3">
+                                                                <div class="dropdown-column m-0">
+                                                                    <h5 class="dropdown-header">
+                                                                        Product Features </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-image.html">Product Simple</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-rectangle.html">
+                                                                        Product Classified <label
+                                                                            class="menu-label">New</label>
+                                                                    </a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-size-chart.html">Size Chart <label
+                                                                            class="menu-label">New</label></a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-size-chart.html">Delivery &
+                                                                        Return</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-size-chart.html">Product
+                                                                        Review</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-expert.html">Ask
+                                                                        an Expert</a>
+                                                                    <h5 class="custom-mt dropdown-header">Product
+                                                                        Features
+                                                                    </h5>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-bottom-thumbnail.html">Product
+                                                                        Tags</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-image.html">Store
+                                                                        Information</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-image.html">Social Share <label
+                                                                            class="menu-label warning-label">Hot</label>
+                                                                    </a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-left-thumbnail.html">Related
+                                                                        Products
+                                                                        <label
+                                                                            class="menu-label warning-label">Hot</label>
+                                                                    </a>
+                                                                    <a class="dropdown-item"
+                                                                        href="product-right-thumbnail.html">Wishlist &
+                                                                        Compare</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 d-xl-block d-none">
+                                                                <div class="dropdown-column m-0">
+                                                                    <div class="menu-img-banner">
+                                                                        <a class="text-title"
+                                                                            href="product-circle.html">
+                                                                            <img src="../assets/images/mega-menu.png"
+                                                                                alt="banner" />
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li className="nav-item ">
+                                                      <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/Faq">FAQ's</a>
+                                                 </li>
                                                 <li class="nav-item dropdown dropdown-mega">
                                                     <a class="nav-link dropdown-toggle ps-xl-2 ps-0"
-                                                        href="javascript:void(0)" data-bs-toggle="dropdown">Mega
-                                                        Menu</a>
+                                                        href="javascript:void(0)" data-bs-toggle="dropdown">Shop
+                                                    </a>
 
                                                     <div class="dropdown-menu dropdown-menu-2">
                                                         <div class="row">
@@ -439,152 +593,7 @@ export default function Navbar() {
                                                     </div>
                                                 </li>
 
-                                                <li class="nav-item dropdown">
-                                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                        data-bs-toggle="dropdown">Blog</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li>
-                                                            <a class="dropdown-item" href="blog-detail.html">Blog
-                                                                Detail</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="blog-list.html">Blog List</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-
-                                                <li class="nav-item dropdown new-nav-item">
-                                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                        data-bs-toggle="dropdown">Pages <label
-                                                            class="new-dropdown">New</label></a>
-                                                    <ul class="dropdown-menu">
-                                                        <li class="sub-dropdown-hover">
-                                                            <a class="dropdown-item" href="javascript:void(0)">Email
-                                                                Template <span class="new-text"><i
-                                                                        class="fa-solid fa-bolt-lightning"></i></span></a>
-                                                            <ul class="sub-menu">
-                                                                <li>
-                                                                    <a
-                                                                        href="../email-templete/abandonment-email.html">Abandonment</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="../email-templete/offer-template.html">Offer
-                                                                        Template</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="../email-templete/order-success.html">Order
-                                                                        Success</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="../email-templete/reset-password.html">Reset
-                                                                        Password</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="../email-templete/welcome.html">Welcome
-                                                                        template</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li class="sub-dropdown-hover">
-                                                            <a class="dropdown-item" href="javascript:void(0)">Invoice
-                                                                Template <span class="new-text"><i
-                                                                        class="fa-solid fa-bolt-lightning"></i></span></a>
-                                                            <ul class="sub-menu">
-                                                                <li>
-                                                                    <a href="../invoice/invoice-1.html">Invoice 1</a>
-                                                                </li>
-
-                                                                <li>
-                                                                    <a href="../invoice/invoice-2.html">Invoice 2</a>
-                                                                </li>
-
-                                                                <li>
-                                                                    <a href="../invoice/invoice-3.html">Invoice 3</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="404.html">404</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="about-us.html">About Us</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="cart.html">Cart</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="contact-us.html">Contact</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="checkout.html">Checkout</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="coming-soon.html">Coming
-                                                                Soon</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="compare.html">Compare</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="faq.html">Faq</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="order-success.html">Order
-                                                                Success</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="order-tracking.html">Order
-                                                                Tracking</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="otp.html">OTP</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="search.html">Search</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="user-dashboard.html">User
-                                                                Dashboard</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="wishlist.html">Wishlist</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-
-                                                <li class="nav-item dropdown">
-                                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                        data-bs-toggle="dropdown">Seller</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li>
-                                                            <a class="dropdown-item" href="seller-become.html">Become a
-                                                                Seller</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="seller-dashboard.html">Seller
-                                                                Dashboard</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="seller-detail.html">Seller
-                                                                Detail</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="seller-detail-2.html">Seller
-                                                                Detail 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="seller-grid.html">Seller
-                                                                Grid</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="seller-grid-2.html">Seller
-                                                                Grid 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
+                                              
                                             </ul>
                                         </div>
                                     </div>
@@ -614,7 +623,7 @@ export default function Navbar() {
                                         </div>
                                     </li>
                                     <li class="right-side">
-                                        <a href="wishlist.html" class="btn p-0 position-relative header-wishlist">
+                                        <a href="/Wishlist" class="btn p-0 position-relative header-wishlist">
                                             <i data-feather="bookmark"></i>
                                         </a>
                                     </li>
@@ -675,41 +684,19 @@ export default function Navbar() {
                                                 </div>
 
                                                 <div class="button-group">
-                                                    <a href="cart.html" class="btn btn-sm cart-button">View Cart</a>
+                                                    <a href="/Cart" class="btn btn-sm cart-button">View Cart</a>
                                                     <a href="checkout.html" class="btn btn-sm cart-button theme-bg-color
                                                     text-white">Checkout</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="right-side onhover-dropdown">
-                                        <div class="delivery-login-box">
-                                            <div class="delivery-icon">
-                                                <i data-feather="user"></i>
-                                            </div>
-                                            <div class="delivery-detail">
-                                                <h6>Hello,</h6>
-                                                <h5>My Account</h5>
-                                            </div>
-                                        </div>
-
-                                        <div class="onhover-div onhover-div-login">
-                                            <ul class="user-box-name">
-                                                <li class="product-box-contain">
-                                                    <i></i>
-                                                    <a href="login.html">Log In</a>
-                                                </li>
-
-                                                <li class="product-box-contain">
-                                                    <a href="sign-up.html">Register</a>
-                                                </li>
-
-                                                <li class="product-box-contain">
-                                                    <a href="forgot.html">Forgot Password</a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                    <li class="right-side">
+                                        <a href="/Wishlist" class="btn p-0 position-relative header-wishlist">
+                                             <i data-feather="user"></i>
+                                        </a>
                                     </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -724,18 +711,13 @@ export default function Navbar() {
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="/">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
             </li>
 
-            <li class="mobile-category">
-                <a href="javascript:void(0)">
-                    <i class="iconly-Category icli js-link"></i>
-                    <span>Category</span>
-                </a>
-            </li>
+          
 
             <li>
                 <a href="search.html" class="search-box">
@@ -745,14 +727,14 @@ export default function Navbar() {
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="/Wishlist" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="/Cart">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>

@@ -34657,7 +34657,7 @@ body.rtl .menu-label {
     font-weight: 700
 }
 
->>.table:not(:last-child):last-child>* {
+.table:not(:last-child):last-child>* {
     border-bottom: none
 }
 
@@ -47065,5 +47065,7 @@ body.rtl .theme-product-section .right-box-contain .license-list .accordion-item
 [dir=rtl] ul {
     padding-right: 0
 }
-
+header .navbar.navbar-expand-xl .navbar-nav .nav-link1::before {
+display: none;
+}
 /*# sourceMappingURL=style.css.map */
