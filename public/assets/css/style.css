@@ -46983,3 +46983,217 @@ display: none;
 .stickyCart {
     padding-bottom: 0px;
 }
+
+
+
+
+
+/* Dashboard Container */
+.pro-acc-dashboard {
+  padding: 30px 40px; /* Top, Right, Bottom, Left spacing */
+  max-width: 1000px;
+  margin: 0 auto; /* Center the dashboard */
+  box-sizing: border-box;
+}
+
+/* Tabs */
+.pro-acc-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  margin-bottom: 25px;
+}
+
+.pro-acc-tab {
+  background: #ffffff;
+  border: 1px solid #e1e4ea;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #3a3f51;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.pro-acc-tab:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  border-color: #d1d5db;
+}
+
+.pro-acc-tab.active {
+  background: linear-gradient(90deg, #4f8ef7, #1c6ef2);
+  color: #fff;
+  border: none;
+  box-shadow: 0 6px 15px rgba(31, 95, 255, 0.3);
+}
+
+.pro-acc-tab.pro-acc-logout {
+  margin-left: auto;
+  background: linear-gradient(90deg, #ff4d4f, #ff7875);
+  color: white;
+}
+
+.pro-acc-tab.pro-acc-logout:hover {
+  background: linear-gradient(90deg, #ff6163, #ff8a8d);
+}
+
+.pro-acc-tab-icon {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* Content Card */
+.pro-acc-content {
+  background: #ffffff;
+  padding: 35px; /* extra padding for breathing space */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+/* Section Titles */
+.pro-acc-section h2 {
+  margin-bottom: 18px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1f2937;
+  border-bottom: 2px solid #e1e4ea;
+  padding-bottom: 8px;
+}
+
+/* Section Content */
+.pro-acc-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+/* Back Button */
+.pro-acc-back-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 14px 22px;
+  background: linear-gradient(90deg, #4f8ef7, #1c6ef2);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.pro-acc-back-btn:hover {
+  background: linear-gradient(90deg, #3a6ed3, #1552b5);
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  /* Tabs stacked vertically */
+  .pro-acc-tabs {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Full-width mobile tabs */
+  .pro-acc-tab {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 18px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    justify-content: flex-start;
+  }
+
+  .pro-acc-tab:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  }
+
+  .pro-acc-tab-icon {
+    font-size: 22px;
+  }
+
+  .pro-acc-tab.pro-acc-logout {
+    margin-left: 0;
+    font-weight: 700;
+  }
+
+  /* Content card padding */
+  .pro-acc-content {
+    padding: 25px 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+
+  /* Section titles and text */
+  .pro-acc-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .pro-acc-section p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  /* Back button full-width */
+  .pro-acc-back-btn {
+    width: 100%;
+    padding: 16px 22px;
+    font-size: 16px;
+    border-radius: 14px;
+  }
+}
+
+/* Animation */
+.pro-acc-section {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.pro-acc-logout-btn {
+  padding: 14px 28px;
+  background: linear-gradient(90deg, #ff4d4f, #ff7875);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.pro-acc-logout-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .pro-acc-logout-btn {
+    width: 100%;
+    padding: 16px 22px;
+    border-radius: 14px;
+  }
+}
+
+

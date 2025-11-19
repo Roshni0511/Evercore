@@ -692,7 +692,7 @@ export default function Navbar() {
                                         </div>
                                     </li>
                                     <li class="right-side">
-                                        <a href="/Wishlist" class="btn p-0 position-relative header-wishlist">
+                                        <a href="/UserAccount" class="btn p-0 position-relative header-wishlist">
                                              <i data-feather="user"></i>
                                         </a>
                                     </li>
