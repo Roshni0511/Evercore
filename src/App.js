@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Faq from './pages/Faq';
 import Navbar from './pages/Navbar';
-
+import Useracc from "./pages/Useraccount";
 import Shop from './pages/Shop';
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
@@ -38,6 +38,7 @@ function App() {
            <Route path="/Signup" element={<Signup/>}/>
            <Route path="/Forgotpass" element={<Forgotpass/>}/>
            <Route path="/Otp" element={<Otp/>}/>
+            <Route path='/UserAccount' element={<Useracc/>}/>
          </Routes>
     </>
   );
