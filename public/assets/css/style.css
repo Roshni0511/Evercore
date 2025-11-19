@@ -28492,7 +28492,7 @@ header .navbar-brand:focus {
 }
 
 header .navbar.navbar-expand-xl .navbar-nav .nav-item+.nav-item {
-    margin-left: calc(30px + 10*(100vw - 1200px)/720)
+    margin-left: calc(15px + 10*(100vw - 1200px)/720)
 }
 
 [dir=rtl] header .navbar.navbar-expand-xl .navbar-nav .nav-item+.nav-item {
@@ -29181,7 +29181,7 @@ header .hot-deal-box span {
     header .navbar-expand-xl .dropdown-menu .dropdown-item {
         padding: 0;
         margin: 12px 0 0 0;
-        font-size: 15px;
+        font-size: 14px;
         position: relative;
         -webkit-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
