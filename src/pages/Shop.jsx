@@ -463,11 +463,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -552,11 +552,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -642,11 +642,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -733,12 +733,12 @@ const Shop = () => {
                                                     <i data-feather="eye"></i>
                                                 </a>
                                             </li>
-
+{/* 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -824,11 +824,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -917,11 +917,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -1008,12 +1008,12 @@ const Shop = () => {
                                                     <i data-feather="eye"></i>
                                                 </a>
                                             </li>
-
+{/* 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -1098,11 +1098,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -1189,11 +1189,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -1280,11 +1280,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -1371,11 +1371,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -1462,12 +1462,12 @@ const Shop = () => {
                                                     <i data-feather="eye"></i>
                                                 </a>
                                             </li>
-
+{/* 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -1555,11 +1555,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
@@ -1644,11 +1644,11 @@ const Shop = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
-                                            </li>
+                                            </li> */}
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="wishlist.html" class="notifi-wishlist">
