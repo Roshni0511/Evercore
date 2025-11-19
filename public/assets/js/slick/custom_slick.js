@@ -1384,7 +1384,7 @@ $('.notification-slider').slick({
     autoplaySpeed: 2500,
     arrows: false,
 });
-
+   $(document).ready(function () {
 $('.banner-slider').slick({
     arrows: false,
     infinite: true,
@@ -1419,6 +1419,7 @@ $('.banner-slider').slick({
         }
     },
     ]
+});
 });
 
 $('.category-panel-slider').slick({

@@ -762,9 +762,9 @@ const Home = () => {
                     <div class="section-t-space section-b-space">
                         <div class="row g-md-4 g-3">
                             <div class="col-md-6">
-                                <div class="banner-contain hover-effect">
-                                    <img src="../assets/images/furniture/banner/4.jpg" class="bg-img blur-up lazyload"
-                                        alt="" />
+                                <div class="banner-contain hover-effect" style={{backgroundImage:'url(../assets/images/furniture/banner/4.jpg)'}}>
+                                    {/* <img src="../assets/images/furniture/banner/4.jpg" class="bg-img blur-up lazyload"
+                                        alt="" /> */}
                                     <div class="banner-details p-center-left p-4">
                                         <div>
                                             <h3 class="text-kaushan text-yellow">50% offer</h3>
@@ -778,9 +778,9 @@ const Home = () => {
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="banner-contain hover-effect">
-                                    <img src="../assets/images/furniture/banner/5.jpg" class="bg-img blur-up lazyload"
-                                        alt="" />
+                                <div class="banner-contain hover-effect" style={{backgroundImage:'url(../assets/images/furniture/banner/5.jpg)'}}>
+                                    {/* <img src="../assets/images/furniture/banner/5.jpg" class="bg-img blur-up lazyload"
+                                        alt="" /> */}
                                     <div class="banner-details p-center-left p-4">
                                         <div>
                                             <h3 class="text-kaushan text-yellow">50% offer</h3>
@@ -1082,8 +1082,387 @@ const Home = () => {
     </section>
     {/* <!-- Product Section End --> */}
 
+    {/* <!-- Banner Section Start --> */}
+    <section class="banner-section">
+        <div class="container-fluid-lg">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner-contain-3 section-b-space section-t-space hover-effect overflow-visible" style={{backgroundImage:'url(https://themes.pixelstrap.com/fastkart/assets/images/furniture/banner/6.jpg)'}}>
+                        {/* <img src="https://themes.pixelstrap.com/fastkart/assets/images/furniture/banner/6.jpg" class="bg-img" alt="" width={"100%"}/> */}
+                        <img src="../assets/images/furniture/banner/1-1.png" class="flower-pot img-fluid" alt="" />
+                        <div
+                            class="banner-detail p-center-left position-relative d-block py-0 banner-furniture mend-auto">
+                            <div class="row">
+                                <div class="col-xl-6 offset-xxl-2 offset-xl-1 col-md-8 col-sm-9">
+                                    <h4 class="text-uppercase text-yellow text-kaushan furniture-title">Best of
+                                        Collections <img src="../assets/images/furniture/arrow.svg" alt="" /></h4>
+                                    <h2 class="mt-sm-3 mt-1 mb-2 text-content">Home Decor <span
+                                            class="theme-color fw-bold">LookBook</span> 2022</h2>
+                                    <p class="text-content">In publishing and graphic design, Lorem ipsum is a
+                                        placeholder text commonly used to demonstrate.</p>
+                                    <button class="btn theme-bg-color mt-sm-4 mt-2 btn-md text-white fw-bold"
+                                        onclick="location.href = 'shop-left-sidebar.html';">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {/* <!-- Banner Section End --> */}
+       {/* <!-- Best Seller Section Start --> */}
+    <section>
+        <div class="container-fluid-lg">
+            <div class="title d-block">
+                <div>
+                    <h2>Our best Seller</h2>
+                    <span class="title-leaf">
+                        <svg class="icon-width">
+                            <use href="../assets/svg/leaf.svg#leaf"></use>
+                        </svg>
+                    </span>
+                    <p>A virtual assistant collects the products from your list</p>
+                </div>
+            </div>
+            <div class="banner-slider product-wrapper wow fadeInUp">
+                <div>
+                    <ul class="product-list">
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/1.png" class="blur-up lazyload" alt="" />
+                                </a>
 
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Home Decor Lucky Deer Family Matte Finish</h6>
+                                        </a>
+                                        <span>500 G</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/2.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Potato</h6>
+                                        </a>
+                                        <span>500 G</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/3.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Coral Bean Bag Chair</h6>
+                                        </a>
+                                        <span>200 G</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/4.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">ELSTONE HOME White Colour Bath Towel</h6>
+                                        </a>
+                                        <span>150 G</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="product-list">
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/5.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Benefits of using natural stone tile flooring</h6>
+                                        </a>
+                                        <span>500 G</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/6.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Nature Baby Merino Knit Bassinet Blanket</h6>
+                                        </a>
+                                        <span>1 L</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/7.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Wooden Tea Cup Coaster</h6>
+                                        </a>
+                                        <span>1 KG</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/8.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Goddess Marble Hexagon</h6>
+                                        </a>
+                                        <span>150 G</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="product-list">
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/9.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Handmade Brown Mango Wooden Tray Square</h6>
+                                        </a>
+                                        <span>1 L</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/10.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">heavy duty cane round basket</h6>
+                                        </a>
+                                        <span>500 G</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/11.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">WaahKart Antique Fiber Flower Vase</h6>
+                                        </a>
+                                        <span>1 KG</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/12.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Towels Cotton Soft</h6>
+                                        </a>
+                                        <span>160 ML</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="product-list">
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/13.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Gloss Dinnerware Dish</h6>
+                                        </a>
+                                        <span>500 G</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/14.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Marble Small Amenity Tray</h6>
+                                        </a>
+                                        <span>1 L</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/5.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Benefits of using natural stone tile flooring</h6>
+                                        </a>
+                                        <span>1 KG</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-product">
+                                <a href="product-left-thumbnail.html" class="offer-image">
+                                    <img src="../assets/images/furniture/9.png" class="blur-up lazyload" alt="" />
+                                </a>
+
+                                <div class="offer-detail">
+                                    <div>
+                                        <a href="product-left-thumbnail.html" class="text-title">
+                                            <h6 class="name">Handmade Brown Mango Wooden Tray Square</h6>
+                                        </a>
+                                        <span>150 G</span>
+                                        <h6 class="price theme-color">$ 10.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    {/* <!-- Best Seller Section End --> */}
+
+    {/* <!-- Newsletter Section Start --> */}
+    <section class="newsletter-section section-b-space">
+        <div class="container-fluid-lg">
+            <div class="newsletter-box newsletter-box-2">
+                <div class="newsletter-contain py-5">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xxl-4 col-lg-5 col-md-7 col-sm-9 offset-xxl-2 offset-md-1">
+                                <div class="newsletter-detail">
+                                    <h2>Join our newsletter and get...</h2>
+                                    <h5>$20 discount for your first order</h5>
+                                    <div class="input-box">
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Enter Your Email" />
+                                        <i class="fa-solid fa-envelope arrow"></i>
+                                        <button class="sub-btn  btn-animation">
+                                            <span class="d-sm-block d-none">Subscribe</span>
+                                            <i class="fa-solid fa-arrow-right icon"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {/* <!-- Newsletter Section End --> */}
 
 <Footer />
         {/* <!-- Quick View Modal Box Start --> */}
