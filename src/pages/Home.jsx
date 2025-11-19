@@ -1,7 +1,8 @@
-import React from 'react'
+
 import Navbar from './Navbar'
 
 const Home = () => {
+ 
   return (
     <>
       <Navbar />
@@ -14,8 +15,8 @@ const Home = () => {
                     <div class="slider-animate">
                         <div>
                             <div class="home-contain rounded-0 p-0">
-                                <img src="https://img6.hkrtcdn.com/41982/bnr_4198105_o.jpg"
-                                    class="img-fluid bg-img blur-up lazyload" alt="" style={{width:'100%'}} />
+                                <img src="../assets/images/grocery/banner/1.jpg"
+                                    class="img-fluid bg-img blur-up lazyload" alt="" />
                                 <div class="home-detail home-big-space p-center-left home-overlay ">
                                     <div class="container-fluid-lg">
                                         <div>
