@@ -18880,7 +18880,7 @@ span {
 }
 
 .theme-color {
-    color: var(--theme-color) !important
+    color: #000 !important
 }
 
 .theme-bg-color {
@@ -47067,3 +47067,6 @@ body.rtl .theme-product-section .right-box-contain .license-list .accordion-item
 }
 
 /*# sourceMappingURL=style.css.map */
+.stickyCart {
+    padding-bottom: 0px;
+}
