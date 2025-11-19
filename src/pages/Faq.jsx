@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 // import Navbar from './Navbar'
 // import Footer from './Footer'
 
@@ -183,7 +184,7 @@ Ensure the container is tightly sealed to maintain freshness.</p>
         </div>
     </section>
     {/* <!-- Faq Section End --> */}
-    {/* <Footer /> */}
+    <Footer/>
     </>
   )
 }
