@@ -58,8 +58,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">250 ml</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$08.02</span>
-                                    <del>$15.15</del>
+                                    <span class="theme-color">₹08.02</span>
+                                    <del>₹15.15</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
@@ -113,8 +113,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">350 G</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$04.33</span>
-                                    <del>$10.36</del>
+                                    <span class="theme-color">₹04.33</span>
+                                    <del>₹10.36</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
@@ -168,10 +168,9 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">570 G</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$12.52</span>
-                                    <del>$13.62</del>
+                                    <span class="theme-color">₹12.52</span>
+                                    <del>₹13.62</del>
                                 </h5>
-
                                 <div class="add-to-cart-box bg-white mt-2">
                                     <button class="btn btn-add-cart addcart-button">Add
                                         <span class="add-icon bg-light-gray">
@@ -223,8 +222,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">100 G</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$10.25</span>
-                                    <del>$12.36</del>
+                                    <span class="theme-color">₹10.25</span>
+                                    <del>₹12.36</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
@@ -278,8 +277,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">550 G</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$14.25</span>
-                                    <del>$16.57</del>
+                                    <span class="theme-color">₹14.25</span>
+                                    <del>₹16.57</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
@@ -333,8 +332,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">1 Kg</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$12.68</span>
-                                    <del>$14.69</del>
+                                    <span class="theme-color">₹12.68</span>
+                                    <del>₹14.69</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
@@ -387,8 +386,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">250 ml</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$08.02</span>
-                                    <del>$15.15</del>
+                                    <span class="theme-color">₹08.02</span>
+                                    <del>₹15.15</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
@@ -442,8 +441,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">350 G</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$04.33</span>
-                                    <del>$10.36</del>
+                                    <span class="theme-color">₹04.33</span>
+                                    <del>₹10.36</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
@@ -497,8 +496,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">570 G</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$12.52</span>
-                                    <del>$13.62</del>
+                                    <span class="theme-color">₹12.52</span>
+                                    <del>₹13.62</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
@@ -552,8 +551,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">100 G</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$10.25</span>
-                                    <del>$12.36</del>
+                                    <span class="theme-color">₹10.25</span>
+                                    <del>₹12.36</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
@@ -607,8 +606,8 @@ const Wishlist = () => {
                                 </a>
                                 <h6 class="unit mt-1">550 G</h6>
                                 <h5 class="price">
-                                    <span class="theme-color">$14.25</span>
-                                    <del>$16.57</del>
+                                    <span class="theme-color">₹14.25</span>
+                                    <del>₹16.57</del>
                                 </h5>
 
                                 <div class="add-to-cart-box bg-white mt-2">
