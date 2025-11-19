@@ -6,6 +6,16 @@ import Faq from './pages/Faq';
 import Navbar from './pages/Navbar';
 
 import Shop from './pages/Shop';
+import Contact from "./pages/Contact";
+import Login from "./pages/Login";
+import Wishlist from "./pages/Wishlist";
+import Checkout from "./pages/Checkout";
+import Placeorder from "./pages/Placeorder";
+import Trackorder from "./pages/Trackorder";
+import Cart from "./pages/Cart";
+import Signup from "./pages/Signup";
+import Forgotpass from "./pages/Forgotpass";
+import Otp from "./pages/Otp";
 
 function App() {
      useEffect(() => {
@@ -17,8 +27,17 @@ function App() {
            <Route path='/' element={<Home/>}/>
            <Route path='/Faq' element={<Faq/>}/>
            <Route path='/Navbar' element={<Navbar/>}/>
-          
+          <Route path="/Contact" element={<Contact/>}/>
            <Route path='/Shop' element={<Shop/>}/>
+           <Route path="/Login" element={<Login/>}/>
+           <Route path="/Wishlist" element={<Wishlist/>}/>
+           <Route path="/Checkout" element={<Checkout/>}/>
+           <Route path="/Placeorder" element={<Placeorder/>}/>
+           <Route path="/Trackorder" element={<Trackorder/>}/>
+           <Route path="/Cart" element={<Cart/>} />
+           <Route path="/Signup" element={<Signup/>}/>
+           <Route path="/Forgotpass" element={<Forgotpass/>}/>
+           <Route path="/Otp" element={<Otp/>}/>
          </Routes>
     </>
   );
