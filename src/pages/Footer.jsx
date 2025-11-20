@@ -124,7 +124,7 @@ const Footer = () => {
                                     <a href="/Shop" className="text-content">Shop</a>
                                 </li>
                                 <li>
-                                    <a href="/" className="text-content">About Us</a>
+                                    <a href="/Aboutus" className="text-content">About Us</a>
                                 </li>
                                 <li>
                                     <a href="/" className="text-content">Blog</a>
