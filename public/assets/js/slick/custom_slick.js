@@ -751,7 +751,7 @@ $('.slider-6').slick({
     },
     ]
 });
-
+$(document).ready(function(){
 $('.slider-6_1').slick({
     arrows: false,
     infinite: true,
@@ -786,7 +786,7 @@ $('.slider-6_1').slick({
     },
     ]
 });
-
+});
 $('.slider-6_2').slick({
     arrows: false,
     infinite: true,

@@ -50,23 +50,12 @@ const Bulkorder = () => {
                     <div className="fresh-contain p-center-left">
                         <div>
                             <div className="review-title">
-                                <h4>About Us</h4>
-                                <h2>Your Trusted Online Shopping Destination</h2>
+                          
+                                <h2>Join Us & Grow Your Business</h2>
                             </div>
 
                             <div className="delivery-list">
-                                <p className="text-content " style={{textAlign:'justify'}} >
-                                    Founded in 2019, our journey began with a simple vision — to make quality products accessible and affordable for everyone.
-                                     What started as a small online store has now grown into a trusted eCommerce brand serving thousands of happy customers across the country.
-                                     <br /><br />
-                                     We believe shopping should be easy, enjoyable, and reliable. That’s why we handpick every product with care,
-                                     ensuring the best quality and unbeatable value. From everyday essentials to the latest trends,
-                                     we constantly update our collection with new arrivals every month, keeping your shopping experience fresh and exciting.
-                                     <br /><br />
-                                     Our dedicated team works 24/7 to bring innovation, style, and convenience to your doorstep.
-                                     With secure payment options, fast delivery, and a responsive support team,
-                                     we’re not just an online store — we’re your trusted shopping partner.
-                                </p>
+                                <h3>Become a trusted partner and enjoy exclusive benefits.</h3>
                                 <ul className="delivery-box">
                                     <li>
                                         <div className="delivery-box">
@@ -75,7 +64,7 @@ const Bulkorder = () => {
                                             </div>
 
                                             <div className="delivery-detail">
-                                                <h5 className="text">Free delivery for all orders</h5>
+                                                <h5 className="text">Buy at Wholesale rates</h5>
                                             </div>
                                         </div>
                                     </li>
@@ -87,7 +76,7 @@ const Bulkorder = () => {
                                             </div>
 
                                             <div className="delivery-detail">
-                                                <h5 className="text">Top Quality Products</h5>
+                                                <h5 className="text">Genuine products directly from Company</h5>
                                             </div>
                                         </div>
                                     </li>
@@ -99,7 +88,7 @@ const Bulkorder = () => {
                                             </div>
 
                                             <div className="delivery-detail">
-                                                <h5 className="text">Genuine & Authentic Items</h5>
+                                                <h5 className="text">Start as low as Rs. 56,000</h5>
                                             </div>
                                         </div>
                                     </li>
@@ -111,11 +100,20 @@ const Bulkorder = () => {
                                             </div>
 
                                             <div className="delivery-detail">
-                                                <h5 className="text">Trusted & Verified</h5>
+                                                <h5 className="text">Huge savings at Checkout</h5>
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
+                                   <h3 style={{marginTop:'20px'}}>Click the buttons below to fill up the form, and our team will reach out to you soon.</h3>
+                                   <div style={{display:'flex',margin:'20px 0px'}}>
+                                    <div style={{marginRight:'10px'}}>
+                                        <button class="btn btn-furniture btn-sm mend-auto">Trainer <i class="fa-solid fa-arrow-right icon"></i></button>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-furniture btn-sm mend-auto">Retailer <i class="fa-solid fa-arrow-right icon"></i></button>
+                                    </div>
+                                   </div>
                             </div>
                         </div>
                     </div>

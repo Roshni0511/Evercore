@@ -65,6 +65,7 @@
     /*=====================
     02. Shop Page Grid Setting Js
     ==========================*/
+    $(document).ready(function () {
     $(".grid-option li").on("click", function () {
         $(this).addClass('active').siblings().removeClass('active');
     });
@@ -83,6 +84,7 @@
     $('.five-grid').on('click', function (e) {
         $(".product-list-section").removeClass("list-style").addClass("row-cols-xxl-5 row-cols-xl-3 row-cols-lg-2 row-cols-md-3 row-cols-2");
     });
+ });
     var contentwidth = $(window).width();
     if (contentwidth < "1199") {
         $(".grid-options ul .grid-btn").addClass("active");
@@ -95,6 +97,7 @@
 /*=====================
     03. Footer function js
 ==========================*/
+$(document).ready(function () {
 var contentwidth = $(window).width();
 if (contentwidth < "576") {
     $(".footer-title h4").append(
@@ -128,7 +131,7 @@ if (contentwidth < "576") {
 } else {
     $(".footer-contact, .footer-contain").show();
 }
-
+});
 /*=====================
   04. mobile menu active class js
    ==========================*/
