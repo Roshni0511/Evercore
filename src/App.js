@@ -28,6 +28,7 @@ import Bulkorder from "./pages/Bulkorder";
 import Recipe from "./pages/Recipe";
 import Authenticity from "./pages/Authenticity";
 import ProteinCerti from "./pages/ProteinCerti";
+import Labdoor from "./pages/Labdoor";
 
 function App() {
      useEffect(() => {
@@ -64,6 +65,7 @@ function App() {
             <Route path="/Bulkorder" element={<Bulkorder/>}/>
             <Route path="/Recipe" element={<Recipe/>}/>
                 <Route path="/ProteinCerti" element={<ProteinCerti/>}/>
+                <Route path="/Labdoor" element={<Labdoor/>}/>
          </Routes>
           <div className="theme-option">
       
