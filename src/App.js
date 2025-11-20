@@ -25,6 +25,7 @@ import Termsandcondition from "./pages/Termsandcondition";
 import Returnpolicy from "./pages/Returnpolicy";
 import Shippingpolicy from "./pages/Shippingpolicy";
 import Bulkorder from "./pages/Bulkorder";
+import Recipe from "./pages/Recipe";
 
 function App() {
      useEffect(() => {
@@ -59,6 +60,7 @@ function App() {
             <Route path="/Returnpolicy" element={<Returnpolicy/>}/>
             <Route path="/Shippingpolicy" element={<Shippingpolicy/>}/>
             <Route path="/Bulkorder" element={<Bulkorder/>}/>
+            <Route path="/Recipe" element={<Recipe/>}/>
          </Routes>
           <div className="theme-option">
       
