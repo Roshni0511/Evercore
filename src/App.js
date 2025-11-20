@@ -26,6 +26,8 @@ import Returnpolicy from "./pages/Returnpolicy";
 import Shippingpolicy from "./pages/Shippingpolicy";
 import Bulkorder from "./pages/Bulkorder";
 import Recipe from "./pages/Recipe";
+import Authenticity from "./pages/Authenticity";
+import ProteinCerti from "./pages/ProteinCerti";
 
 function App() {
      useEffect(() => {
@@ -40,7 +42,7 @@ function App() {
           <Route path="/Contact" element={<Contact/>}/>
            <Route path='/Shop' element={<Shop/>}/>
            <Route path='/UserAccount' element={<Useracc/>}/>
-
+           <Route path='/Authenticity' element={<Authenticity/>}/>
            <Route path="/Login" element={<Login/>}/>
            <Route path="/Wishlist" element={<Wishlist/>}/>
            <Route path="/Checkout" element={<Checkout/>}/>
@@ -61,6 +63,7 @@ function App() {
             <Route path="/Shippingpolicy" element={<Shippingpolicy/>}/>
             <Route path="/Bulkorder" element={<Bulkorder/>}/>
             <Route path="/Recipe" element={<Recipe/>}/>
+                <Route path="/ProteinCerti" element={<ProteinCerti/>}/>
          </Routes>
           <div className="theme-option">
       
