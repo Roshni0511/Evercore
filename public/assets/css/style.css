@@ -47685,6 +47685,72 @@ display: none;
   text-align: center;
   font-weight: 600;
 }
+
+
+
+
+
+.pro-acc-edit-btn {
+  padding: 10px;
+  background: transparent;
+  color: #4386f6;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.pro-acc-edit-btn:hover {
+  transform: translateY(-2px);
+}
+
+
+
+
+
+.pro-acc-add-btn {
+  padding: 10px 20px;
+  background: transparent;
+  color: #10b981;
+  border: 2px solid #10b981;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pro-acc-add-btn:hover {
+  background: #10b981;
+  color: white;
+  transform: translateY(-2px);
+}
+
+
+
+
+
+.pro-acc-remove-btn {
+  padding: 10px;
+  background: transparent;
+  color: red;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.pro-acc-remove-btn:hover {
+  transform: translateY(-2px);
+}
+
 .pp2-header {
   background: linear-gradient(135deg, #6dd5ed, #2193b0);
   padding: 60px 20px;
