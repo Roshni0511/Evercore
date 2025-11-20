@@ -1444,7 +1444,7 @@ const Home = () => {
                             <div className="col-xxl-4 col-lg-5 col-md-7 col-sm-9 offset-xxl-2 offset-md-1">
                                 <div className="newsletter-detail">
                                     <h2>Join our newsletter and get...</h2>
-                                    <h5>$20 discount for your first order</h5>
+                                    <h5>₹20 discount for your first order</h5>
                                     <div className="input-box">
                                         <input type="email" className="form-control" id="exampleFormControlInput1"
                                             placeholder="Enter Your Email" />
@@ -1486,7 +1486,7 @@ const Home = () => {
                         <div className="col-lg-6">
                             <div className="right-sidebar-modal">
                                 <h4 className="title-name">Peanut Butter Bite Premium Butter Cookies 600 g</h4>
-                                <h4 className="price">$36.99</h4>
+                                <h4 className="price">₹36.99</h4>
                                 <div className="product-rating">
                                     <ul className="rating">
                                         <li>

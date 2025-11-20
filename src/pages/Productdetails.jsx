@@ -122,7 +122,7 @@ const Productdetails = () => {
                                 <h6 class="offer-top">30% Off</h6>
                                 <h2 class="name">Deliciously Ripe Peach</h2>
                                 <div class="price-rating">
-                                    <h3 class="theme-color price">$49.50 <del class="text-content">$58.46</del> <span
+                                    <h3 class="theme-color price">₹49.50 <del class="text-content">₹58.46</del> <span
                                             class="offer theme-color">(8% off)</span></h3>
                                     <div class="product-rating custom-rate">
                                         <ul class="rating">
@@ -947,7 +947,7 @@ const Productdetails = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 class="unit">500 G</h6>
-                                        <h5 class="price"><span class="theme-color">$10.25</span> <del>$12.57</del>
+                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.57</del>
                                         </h5>
                                         <div class="add-to-cart-box bg-white">
                                             <button class="btn btn-add-cart addcart-button">Add
@@ -1033,7 +1033,7 @@ const Productdetails = () => {
                                             <span>(4.0)</span>
                                         </div>
                                         <h6 class="unit">250 ml</h6>
-                                        <h5 class="price"><span class="theme-color">$08.02</span> <del>$15.15</del>
+                                        <h5 class="price"><span class="theme-color">₹08.02</span> <del>₹15.15</del>
                                         </h5>
                                         <div class="add-to-cart-box bg-white">
                                             <button class="btn btn-add-cart addcart-button">Add
@@ -1120,7 +1120,7 @@ const Productdetails = () => {
                                             <span>(2.4)</span>
                                         </div>
                                         <h6 class="unit">350 G</h6>
-                                        <h5 class="price"><span class="theme-color">$04.33</span> <del>$10.36</del>
+                                        <h5 class="price"><span class="theme-color">₹04.33</span> <del>₹10.36</del>
                                         </h5>
                                         <div class="add-to-cart-box bg-white">
                                             <button class="btn btn-add-cart addcart-button">Add
@@ -1207,7 +1207,7 @@ const Productdetails = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 class="unit">570 G</h6>
-                                        <h5 class="price"><span class="theme-color">$12.52</span> <del>$13.62</del>
+                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
                                         <div class="add-to-cart-box bg-white">
                                             <button class="btn btn-add-cart addcart-button">Add
@@ -1294,7 +1294,7 @@ const Productdetails = () => {
                                             <span>(3.8)</span>
                                         </div>
                                         <h6 class="unit">100 G</h6>
-                                        <h5 class="price"><span class="theme-color">$10.25</span> <del>$12.36</del>
+                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.36</del>
                                         </h5>
                                         <div class="add-to-cart-box bg-white">
                                             <button class="btn btn-add-cart addcart-button">Add
@@ -1383,7 +1383,7 @@ const Productdetails = () => {
 
                                         <h6 class="unit">550 G</h6>
 
-                                        <h5 class="price"><span class="theme-color">$14.25</span> <del>$16.57</del>
+                                        <h5 class="price"><span class="theme-color">₹14.25</span> <del>₹16.57</del>
                                         </h5>
                                         <div class="add-to-cart-box bg-white">
                                             <button class="btn btn-add-cart addcart-button">Add
@@ -1471,7 +1471,7 @@ const Productdetails = () => {
 
                                         <h6 class="unit">1 Kg</h6>
 
-                                        <h5 class="price"><span class="theme-color">$12.68</span> <del>$14.69</del>
+                                        <h5 class="price"><span class="theme-color">₹12.68</span> <del>₹14.69</del>
                                         </h5>
                                         <div class="add-to-cart-box bg-white">
                                             <button class="btn btn-add-cart addcart-button">Add
