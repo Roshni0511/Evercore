@@ -19,7 +19,7 @@ export default function Navbar() {
                                 </span>
                             </button>
                             <a href="/" className="web-logo nav-logo">
-                                <img src="../assets/images/logo/6.png" className="img-fluid blur-up lazyload" alt="" />
+                                <img src="/assets/images/evercorelogo.jpg" className="img-fluid blur-up lazyload" alt="" style={{width:'70px'}}/>
                             </a>
 
                             <div className="header-nav-middle">
@@ -80,24 +80,30 @@ export default function Navbar() {
     <div className="row justify-content-center">
 
         <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#ff7272',margin:'10px',borderRadius:'7px'}}> 
+            <a href="/Authenticity">
             <div className="dropdown-column text-center ">
                 <img src="/assets/images/authencity.svg" className="img-fluid mb-2" width="60" />
             </div>
-                <p className="mb-2 text-center">Check Authenticity</p>
+                <p className="mb-2 text-center " style={{color:'#000'}}>Check Authenticity</p>
+                </a>
         </div>
 
         <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#ff7272',margin:'10px',borderRadius:'7px'}}>
+            <a href="/ProteinCerti">
             <div className="dropdown-column text-center ">
                 <img src="/assets/images/lab_certificate_icon.svg" className="img-fluid mb-2" width="60" />
             </div>
-                <p className="mb-2 text-center">Protein Lab Certificate</p>
+                <p className="mb-2 text-center" style={{color:'#000'}}>Protein Lab Certificate</p>
+                </a>
         </div>
 
         <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#ff7272',margin:'10px',borderRadius:'7px'}}>
+            <a href="/Labdoor">
             <div className="dropdown-column text-center " >
                 <img src="/assets/images/labdoor.svg" className="img-fluid mb-2" width="60" />
             </div>
-                <p className="mb-2 text-center">Labdoor</p>
+                <p className="mb-2 text-center" style={{color:'#000'}}>Labdoor</p>
+                </a>
         </div>
 
     </div>
@@ -110,25 +116,25 @@ export default function Navbar() {
 
                                                    <ul className="dropdown-menu">
                                                 <li>
-                                                    <a className="dropdown-item" href="/">Faster Muscle Gains</a>
+                                                    <a className="dropdown-item" href="/Shop">Faster Muscle Gains</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="/">Faster Recovery</a>
+                                                    <a className="dropdown-item" href="/Shop">Faster Recovery</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="/">Gain Weight</a>
+                                                    <a className="dropdown-item" href="/Shop">Gain Weight</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="/">Get Shredded</a>
+                                                    <a className="dropdown-item" href="/Shop">Get Shredded</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="/">Hydration & Endurance</a>
+                                                    <a className="dropdown-item" href="/Shop">Hydration & Endurance</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="/">Prepare Before Training</a>
+                                                    <a className="dropdown-item" href="/Shop">Prepare Before Training</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="/">Vegan Supplements</a>
+                                                    <a className="dropdown-item" href="/Shop">Vegan Supplements</a>
                                                 </li>
                                             </ul>
                                                 </li>
@@ -253,67 +259,67 @@ export default function Navbar() {
                                                             <div className="dropdown-column col-xl-3">
                                                                 <h5 className="dropdown-header">AS-IT-IS Protein</h5>
                                                                 <a className="dropdown-item"
-                                                                    href="/">Whey Protein Concentrate</a>
+                                                                    href="/Shop">Whey Protein Concentrate</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">Whey Protein Sachet 30g</a>
+                                                                    href="/Shop">Whey Protein Sachet 30g</a>
 
-                                                                <a href="/"
+                                                                <a href="/Shop"
                                                                     className="dropdown-item">Whey Protein Isolate</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">Pea Protein Isolate</a>
+                                                                    href="/Shop">Pea Protein Isolate</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">Soy Protein Isolate</a>
+                                                                    href="/Shop">Soy Protein Isolate</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">Brown Rice Protein</a>
+                                                                    href="/Shop">Brown Rice Protein</a>
 
-                                                                <a href="/"
+                                                                <a href="/Shop"
                                                                     className="dropdown-item">Peanut Butter</a>
                                                             </div>
 
                                                             <div className="dropdown-column col-xl-3">
                                                                 <h5 className="dropdown-header">ATOM Protein</h5>
                                                                 <a className="dropdown-item"
-                                                                    href="/">Whey Protein</a>
+                                                                    href="/Shop">Whey Protein</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">PWR Whey</a>
+                                                                    href="/Shop">PWR Whey</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">Pea Protein</a>
+                                                                    href="/Shop">Pea Protein</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">Nitro Whey Protein</a>
+                                                                    href="/Shop">Nitro Whey Protein</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">ISO Whey Gold</a>
+                                                                    href="/Shop">ISO Whey Gold</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">Whey Protein Isolate</a>
+                                                                    href="/Shop">Whey Protein Isolate</a>
 
-                                                                <a href="/"
+                                                                <a href="/Shop"
                                                                     className="dropdown-item">Beginners Whey Protein</a>
                                                             </div>
 
                                                             <div className="dropdown-column col-xl-3">
                                                                 <h5 className="dropdown-header">ATOM Amino Acid </h5>
                                                                 <a className="dropdown-item"
-                                                                    href="/">BCAA</a>
+                                                                    href="/Shop">BCAA</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">Creatine Monohydrate</a>
+                                                                    href="/Shop">Creatine Monohydrate</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">L-Citrulline Malate</a>
+                                                                    href="/Shop">L-Citrulline Malate</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">Multivitamin</a>
+                                                                    href="/Shop">Multivitamin</a>
 
                                                                 <a className="dropdown-item"
-                                                                    href="/">L-Carnitine Liquid</a>
+                                                                    href="/Shop">L-Carnitine Liquid</a>
                                                             </div>
 
                                                             <div className="dropdown-column dropdown-column-img col-3">
