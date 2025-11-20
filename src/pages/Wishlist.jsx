@@ -416,7 +416,6 @@ const Wishlist = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="col-xxl-2 col-lg-3 col-md-4 col-6 product-box-contain">
                     <div className="product-box-3 h-100">
                         <div className="product-header">

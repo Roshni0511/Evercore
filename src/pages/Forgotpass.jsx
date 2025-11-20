@@ -16,7 +16,7 @@ const Forgotpass = () => {
                     <div className="d-flex align-items-center justify-content-center h-100">
                         <div className="log-in-box">
                             <div className="log-in-title">
-                                <h3>Welcome To Fastkart</h3>
+                                <h3>Welcome To Evercore</h3>
                                 <h4>Forgot your password</h4>
                             </div>
 

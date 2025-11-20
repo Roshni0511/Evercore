@@ -74,7 +74,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <i data-feather="mail"></i>
-                                        <a href="javascript:void(0)">support@fastkart.com</a>
+                                        <a href="javascript:void(0)">support@evercore.com</a>
                                     </li>
                                 </ul>
                             </div>
@@ -183,7 +183,7 @@ const Footer = () => {
                                         <i data-feather="mail"></i>
                                         <div className="contact-number">
                                             <h6 className="text-content">Email Address :</h6>
-                                            <h5>fastkart@hotmail.com</h5>
+                                            <h5>evercore@hotmail.com</h5>
                                         </div>
                                     </div>
                                 </li>
@@ -213,7 +213,7 @@ const Footer = () => {
 
             <div className="sub-footer section-small-space">
                 <div className="reserve">
-                    <h6 className="text-content">©2025 Fastkart All rights reserved</h6>
+                    <h6 className="text-content">Copyright  © 2025 Evercore All rights reserved. Proudly Powered By<a href='https://successinnovativetechnologiespvtltd.com/' target='_blank' style={{marginLeft:"5px"}}>Success Innovative Technologies Pvt. Ltd.</a></h6>
                 </div>
 
                 <div className="payment">
