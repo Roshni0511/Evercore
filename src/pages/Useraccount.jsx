@@ -25,6 +25,8 @@ function Useracc() {
     name: "John Doe",
     email: "johndoe@example.com",
     phone: "+1 234 567 8901",
+    gender: "Male", 
+    profilePic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf9mB2UcCmsBggzz-srnpyR3A-I2O8EKR8ow&s",
   });
 
   /* Address State */
@@ -57,16 +59,16 @@ function Useracc() {
 
   /* Orders */
   const [orders] = useState([
-    { id: 1, name: "Wireless Headphones", price: "$99.99", image: "https://via.placeholder.com/120", status: "Delivered" },
-    { id: 2, name: "Smart Watch", price: "$149.99", image: "https://via.placeholder.com/120", status: "Shipped" },
-    { id: 3, name: "Gaming Mouse", price: "$49.99", image: "https://via.placeholder.com/120", status: "Processing" },
+    { id: 1, name: "Whey Protein", price: "$49.99", image: "https://via.placeholder.com/120", status: "Delivered" },
+    { id: 2, name: "Casein Protein", price: "$59.99", image: "https://via.placeholder.com/120", status: "Shipped" },
+    { id: 3, name: "Vegan Protein", price: "$39.99", image: "https://via.placeholder.com/120", status: "Processing" },
   ]);
 
   /* Wishlist */
   const [wishlist] = useState([
-    { id: 1, name: "Bluetooth Speaker", price: "$79.99", image: "https://via.placeholder.com/120" },
-    { id: 2, name: "Laptop Stand", price: "$39.99", image: "https://via.placeholder.com/120" },
-    { id: 3, name: "LED Desk Lamp", price: "$29.99", image: "https://via.placeholder.com/120" },
+    { id: 1, name: "Protein Bar Pack", price: "$29.99", image: "https://via.placeholder.com/120" },
+    { id: 2, name: "Creatine Powder", price: "$19.99", image: "https://via.placeholder.com/120" },
+    { id: 3, name: "BCAA Drink", price: "$24.99", image: "https://via.placeholder.com/120" },
   ]);
 
   /* Modal States */
@@ -102,23 +104,38 @@ function Useracc() {
       label: "My Profile",
       icon: <FaUser />,
       content: (
-        <div className="info-grid">
-          <div className="pro-acc-info-card">
-            <h4>Profile</h4>
-            <p><strong>Name:</strong> {profile.name}</p>
-            <p><strong>Email:</strong> {profile.email}</p>
-            <p><strong>Phone:</strong> {profile.phone}</p>
+        <>
+         <div className="info-grid">
+  <div className="profile-card">
+    {/* Profile Picture */}
+    <div className="profile-icon">
+      <img
+        src={profile.profilePic}
+        alt={profile.name}
+      />
+    </div>
 
-            <div className="pro-acc-card-actions">
-              <button
-                className="pro-acc-edit-btn"
-                onClick={() => openModal("edit-profile", profile)}
-              >
-                <FaPencilAlt />
-              </button>
-            </div>
-          </div>
-        </div>
+    {/* Profile Details */}
+    <div className="profile-details">
+      <h4>{profile.name}</h4>
+      <p><strong>Email:</strong> {profile.email}</p>
+      <p><strong>Phone:</strong> {profile.phone}</p>
+      <p><strong>Gender:</strong> {profile.gender}</p>
+    </div>
+
+    {/* Edit Button */}
+    <div className="profile-actions">
+      <button
+        className="pro-acc-edit-btn"
+        onClick={() => openModal("edit-profile", profile)}
+      >
+        <FaPencilAlt /> Edit
+      </button>
+    </div>
+  </div>
+</div>
+
+        </>
       ),
     },
     {
@@ -274,6 +291,25 @@ function Useracc() {
               <label htmlFor="profilePhone">Phone Number</label>
             </div>
           </div>
+          {/* Gender Field */}
+          <div className="col-12">
+            <div className="form-floating">
+              <select
+                className="form-select"
+                defaultValue={currentItem?.gender}
+                id="profileGender"
+                onChange={(e) =>
+                  setProfile({ ...profile, gender: e.target.value })
+                }
+              >
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
+              <label htmlFor="profileGender">Gender</label>
+            </div>
+          </div>
         </div>
       );
     }
@@ -361,7 +397,6 @@ function Useracc() {
       <Navbar />
 
       <div className="pro-acc-dashboard">
-
         {/* Tabs */}
         {(!isMobile || activeSection === null) && (
           <div className="pro-acc-tabs">
