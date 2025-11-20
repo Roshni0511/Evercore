@@ -133,7 +133,7 @@ export default function Navbar() {
                                             </ul>
                                                 </li>
                                                 <li className="nav-item ">
-                                                      <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/">Bulk Order</a>
+                                                      <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/Bulkorder">Bulk Order</a>
                                                  </li>
                                                  <li className="nav-item dropdown">
                                                     <a className="nav-link dropdown-toggle" href="javascript:void(0)"

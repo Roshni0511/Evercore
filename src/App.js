@@ -24,6 +24,7 @@ import Privacypolicy from "./pages/Privacypolicy";
 import Termsandcondition from "./pages/Termsandcondition";
 import Returnpolicy from "./pages/Returnpolicy";
 import Shippingpolicy from "./pages/Shippingpolicy";
+import Bulkorder from "./pages/Bulkorder";
 
 function App() {
      useEffect(() => {
@@ -57,6 +58,7 @@ function App() {
             <Route path="/Termsandcondition" element={<Termsandcondition/>}/>
             <Route path="/Returnpolicy" element={<Returnpolicy/>}/>
             <Route path="/Shippingpolicy" element={<Shippingpolicy/>}/>
+            <Route path="/Bulkorder" element={<Bulkorder/>}/>
          </Routes>
           <div className="theme-option">
       
