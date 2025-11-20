@@ -20,13 +20,20 @@ function Useracc() {
     window.innerWidth <= 768 ? null : "profile"
   );
 
+  /* 3-dot menu state */
+  const [showMenu, setShowMenu] = useState(false);
+
   /* Profile */
+  const defaultProfilePic =
+    "https://cdn-icons-png.flaticon.com/512/149/149071.png";
+
   const [profile, setProfile] = useState({
     name: "John Doe",
     email: "johndoe@example.com",
     phone: "+1 234 567 8901",
-    gender: "Male", 
-    profilePic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf9mB2UcCmsBggzz-srnpyR3A-I2O8EKR8ow&s",
+    gender: "Male",
+    profilePic:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf9mB2UcCmsBggzz-srnpyR3A-I2O8EKR8ow&s",
   });
 
   /* Address State */
@@ -80,7 +87,9 @@ function Useracc() {
     setModalType(type);
     setCurrentItem(item);
     setShowModal(true);
+    setShowMenu(false);
   };
+
   const closeModal = () => {
     setShowModal(false);
     setCurrentItem(null);
@@ -105,39 +114,65 @@ function Useracc() {
       icon: <FaUser />,
       content: (
         <>
-         <div className="info-grid">
-  <div className="profile-card">
-    {/* Profile Picture */}
-    <div className="profile-icon">
-      <img
-        src={profile.profilePic}
-        alt={profile.name}
-      />
-    </div>
+          <div className="info-grid">
+            <div className="profile-card" style={{ position: "relative" }}>
+              
+              {/* 3 Dot Menu */}
+              <div className="profile-menu-wrapper">
+                <div
+                  className="profile-menu-icon"
+                  onClick={() => setShowMenu(!showMenu)}
+                >
+                  ⋮
+                </div>
 
-    {/* Profile Details */}
-    <div className="profile-details">
-      <h4>{profile.name}</h4>
-      <p><strong>Email:</strong> {profile.email}</p>
-      <p><strong>Phone:</strong> {profile.phone}</p>
-      <p><strong>Gender:</strong> {profile.gender}</p>
-    </div>
+                {showMenu && (
+                  <div className="profile-menu-dropdown">
+                    <p onClick={() => openModal("edit-profile", profile)}>
+                      <FaPencilAlt /> Edit Profile
+                    </p>
 
-    {/* Edit Button */}
-    <div className="profile-actions">
-      <button
-        className="pro-acc-edit-btn"
-        onClick={() => openModal("edit-profile", profile)}
-      >
-        <FaPencilAlt /> Edit
-      </button>
-    </div>
-  </div>
-</div>
+                    <p onClick={() => openModal("upload-photo")}>
+                      <FaUser /> Upload Image
+                    </p>
 
+                    <p
+                      onClick={() =>
+                        setProfile({ ...profile, profilePic: defaultProfilePic })
+                      }
+                    >
+                      <FaTrash /> Remove Image
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {/* Profile Picture */}
+              <div className="profile-icon">
+                <img src={profile.profilePic} alt={profile.name} />
+              </div>
+
+              {/* Profile Details */}
+              <div className="profile-details">
+                <h4>{profile.name}</h4>
+                <p><strong>Email:</strong> {profile.email}</p>
+                <p><strong>Phone:</strong> {profile.phone}</p>
+                <p><strong>Gender:</strong> {profile.gender}</p>
+
+                {/* Change Password Text */}
+                <p
+                  className="change-pass-text"
+                  onClick={() => openModal("change-password")}
+                >
+                  Change Password
+                </p>
+              </div>
+            </div>
+          </div>
         </>
       ),
     },
+
     {
       id: "address",
       label: "My Address",
@@ -166,7 +201,9 @@ function Useracc() {
 
                 <button
                   className="pro-acc-remove-btn"
-                  onClick={() => setAddresses(addresses.filter(x => x.id !== a.id))}
+                  onClick={() =>
+                    setAddresses(addresses.filter((x) => x.id !== a.id))
+                  }
                 >
                   <FaTrash />
                 </button>
@@ -176,6 +213,7 @@ function Useracc() {
         </>
       ),
     },
+
     {
       id: "payments",
       label: "Saved Payments",
@@ -198,12 +236,14 @@ function Useracc() {
                   className="pro-acc-edit-btn"
                   onClick={() => openModal("edit-payment", p)}
                 >
-                 <FaPencilAlt />
+                  <FaPencilAlt />
                 </button>
 
                 <button
                   className="pro-acc-remove-btn"
-                  onClick={() => setPayments(payments.filter(x => x.id !== p.id))}
+                  onClick={() =>
+                    setPayments(payments.filter((x) => x.id !== p.id))
+                  }
                 >
                   <FaTrash />
                 </button>
@@ -213,6 +253,7 @@ function Useracc() {
         </>
       ),
     },
+
     {
       id: "orders",
       label: "My Orders",
@@ -236,6 +277,7 @@ function Useracc() {
         </div>
       ),
     },
+
     {
       id: "wishlist",
       label: "Wishlist",
@@ -258,6 +300,7 @@ function Useracc() {
         </div>
       ),
     },
+
     {
       id: "policies",
       label: "Policies",
@@ -291,7 +334,6 @@ function Useracc() {
               <label htmlFor="profilePhone">Phone Number</label>
             </div>
           </div>
-          {/* Gender Field */}
           <div className="col-12">
             <div className="form-floating">
               <select
@@ -308,6 +350,47 @@ function Useracc() {
                 <option value="Other">Other</option>
               </select>
               <label htmlFor="profileGender">Gender</label>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    if (modalType === "upload-photo") {
+      return (
+        <div>
+          <label className="form-label">Select New Profile Picture</label>
+          <input
+            type="file"
+            accept="image/*"
+            className="form-control"
+            id="uploadPhotoInput"
+          />
+        </div>
+      );
+    }
+
+    if (modalType === "change-password") {
+      return (
+        <div className="row g-4">
+          <div className="col-12">
+            <div className="form-floating">
+              <input type="password" className="form-control" id="oldPass" />
+              <label htmlFor="oldPass">Current Password</label>
+            </div>
+          </div>
+
+          <div className="col-12">
+            <div className="form-floating">
+              <input type="password" className="form-control" id="newPass" />
+              <label htmlFor="newPass">New Password</label>
+            </div>
+          </div>
+
+          <div className="col-12">
+            <div className="form-floating">
+              <input type="password" className="form-control" id="confirmPass" />
+              <label htmlFor="confirmPass">Confirm Password</label>
             </div>
           </div>
         </div>
@@ -397,6 +480,7 @@ function Useracc() {
       <Navbar />
 
       <div className="pro-acc-dashboard">
+        
         {/* Tabs */}
         {(!isMobile || activeSection === null) && (
           <div className="pro-acc-tabs">
@@ -448,10 +532,11 @@ function Useracc() {
         <div className="modal fade show d-block theme-modal" style={{ background: "rgba(0,0,0,0.5)" }}>
           <div className="modal-dialog modal-lg modal-dialog-centered modal-fullscreen-sm-down">
             <div className="modal-content">
-
               <div className="modal-header">
                 <h5 className="modal-title">
                   {modalType === "edit-profile" && "Edit Profile"}
+                  {modalType === "upload-photo" && "Upload New Profile Picture"}
+                  {modalType === "change-password" && "Change Password"}
                   {modalType === "add-address" && "Add Address"}
                   {modalType === "edit-address" && "Edit Address"}
                   {modalType === "add-payment" && "Add Payment"}
@@ -465,19 +550,45 @@ function Useracc() {
 
               <div className="modal-body">{getModalForm()}</div>
 
+              {/* SAVE BUTTON */}
               <div className="modal-footer">
                 <button className="btn btn-animation btn-md fw-bold" onClick={closeModal}>
                   Close
                 </button>
+
                 <button
                   type="button"
                   className="btn theme-bg-color btn-md fw-bold text-light"
-                  onClick={closeModal}
+                  onClick={() => {
+                    if (modalType === "upload-photo") {
+                      const fileInput = document.getElementById("uploadPhotoInput");
+                      if (fileInput && fileInput.files[0]) {
+                        const reader = new FileReader();
+                        reader.onload = () => {
+                          setProfile({ ...profile, profilePic: reader.result });
+                        };
+                        reader.readAsDataURL(fileInput.files[0]);
+                      }
+                    }
+
+                    if (modalType === "change-password") {
+                      const oldPass = document.getElementById("oldPass").value;
+                      const newPass = document.getElementById("newPass").value;
+                      const confirmPass = document.getElementById("confirmPass").value;
+
+                      if (newPass !== confirmPass) {
+                        alert("New passwords do not match!");
+                        return;
+                      }
+                      alert("Password changed successfully!");
+                    }
+
+                    closeModal();
+                  }}
                 >
                   Save changes
                 </button>
               </div>
-
             </div>
           </div>
         </div>
