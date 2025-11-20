@@ -48218,11 +48218,8 @@ display: none;
 .profile-card {
   width: 90%;          /* Increased width */
   max-width: 900px;    /* Max width for large screens */
-  margin: 20px 0;      /* Remove centering, just top-bottom spacing */
   background: #fff;
-  padding: 40px 30px;  /* More padding for larger card */
   border-radius: 12px;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
   position: relative;
   display: flex;       /* Side by side layout */
   align-items: flex-start;
@@ -48280,8 +48277,8 @@ display: none;
 /* 3 DOT MENU */
 .profile-menu-wrapper {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: -34px;
+  right: -92px;
 }
 
 .profile-menu-icon {
