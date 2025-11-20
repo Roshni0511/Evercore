@@ -48348,3 +48348,63 @@ display: none;
     right: 15px;
   }
 }
+
+
+.recipe-container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+  color: #2c2c2c;
+}
+
+/* Gradient Title */
+.recipe-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #ff6a88, #ffb86c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Image Style */
+.recipe-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.recipe-image {
+  width: 650px;
+  max-width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.recipe-image:hover {
+  transform: scale(1.02);
+}
+
+/* Content Styling */
+.recipe-text {
+  font-size: 17px;
+  line-height: 1.9;
+  position: relative;
+  padding-left: 18px;
+  border-left: 4px solid #ff6a88;
+}
+
+/* Colorful highlighted headings */
+.recipe-text strong {
+  font-weight: 700;
+  color: #ff6a88;
+  font-size: 18px;
+}
+
+/* Paragraph spacing */
+.recipe-text p {
+  margin-bottom: 28px;
+}

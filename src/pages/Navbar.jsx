@@ -146,25 +146,25 @@ export default function Navbar() {
                                                                     <h5 className="dropdown-header">
                                                                         Whey Protein Unflavored </h5>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Whey Protein Unflavored</a>
+                                                                        href="/Recipe">Whey Protein Unflavored</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Banana Oats Protein Shake</a>
+                                                                        href="/Recipe">Banana Oats Protein Shake</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Banana Almond Cream Shake</a>
+                                                                        href="/Recipe">Banana Almond Cream Shake</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Coffee Banana Protein Shake</a>
+                                                                        href="/Recipe">Coffee Banana Protein Shake</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Fruity Fusion Protein Shake</a>
+                                                                        href="/Recipe">Fruity Fusion Protein Shake</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Oat Meal Shake</a>
+                                                                        href="/Recipe">Oat Meal Shake</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Oreo Chocolate Protein Shake</a>
+                                                                        href="/Recipe">Oreo Chocolate Protein Shake</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Pineapple Power Shake</a>
+                                                                        href="/Recipe">Pineapple Power Shake</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Strawberry Vanilla Shake</a>
+                                                                        href="/Recipe">Strawberry Vanilla Shake</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Wild Berry Shake</a>
+                                                                        href="/Recipe">Wild Berry Shake</a>
 
                                                                    
                                                                 </div>
@@ -174,26 +174,26 @@ export default function Navbar() {
                                                                     <h5 className="dropdown-header">
                                                                         Peanut Butter Recipes </h5>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Balls</a>
+                                                                        href="/Recipe">Peanut Butter Balls</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Chocolate Shake</a>
+                                                                        href="/Recipe">Peanut Butter Chocolate Shake</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Coconut Burfi</a>
+                                                                        href="/Recipe">Peanut Butter Coconut Burfi</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Fruit Smoothie</a>
+                                                                        href="/Recipe">Peanut Butter Fruit Smoothie</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Icecream</a>
+                                                                        href="/Recipe">Peanut Butter Icecream</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Moong Dal Kheer</a>
+                                                                        href="/Recipe">Peanut Butter Moong Dal Kheer</a>
                                                                     
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Protein Bars</a>
+                                                                        href="/Recipe">Peanut Butter Protein Bars</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Puffed Rice Balls</a>
+                                                                        href="/Recipe">Peanut Butter Puffed Rice Balls</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Rice Kheer</a>
+                                                                        href="/Recipe">Peanut Butter Rice Kheer</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Peanut Butter Tilgud Laddu</a>
+                                                                        href="/Recipe">Peanut Butter Tilgud Laddu</a>
                                                                   
                                                                 </div>
                                                             </div>
@@ -202,25 +202,25 @@ export default function Navbar() {
                                                                     <h5 className="dropdown-header">
                                                                         Plant Protein Recipes </h5>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Plant Protein Brownies</a>
+                                                                        href="/Recipe">Plant Protein Brownies</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">
+                                                                        href="/Recipe">
                                                                         Plant Protein Pizza
                                                                     </a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Vegan Veggie Soup</a>
+                                                                        href="/Recipe">Vegan Veggie Soup</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Protein Rich Wheat Roti</a>
+                                                                        href="/Recipe">Protein Rich Wheat Roti</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Instant Protein Oats Dosa</a>
+                                                                        href="/Recipe">Instant Protein Oats Dosa</a>
                                                                     <a className="dropdown-item"
-                                                                        href="/">Protein Rich Ragi Dosa</a>
+                                                                        href="/Recipe">Protein Rich Ragi Dosa</a>
                                                                     
                                                                     <a className="dropdown-item"
-                                                                        href="/">Vegan Protein Doritos</a>
+                                                                        href="/Recipe">Vegan Protein Doritos</a>
                                                                    
                                                                     <a className="dropdown-item"
-                                                                        href="/">Spicy Protein Potato Wedges 
+                                                                        href="/Recipe">Spicy Protein Potato Wedges 
                                                                     </a>
                                                                    
                                                                        
