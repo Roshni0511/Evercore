@@ -1,11 +1,13 @@
  /**=====================
      Quantity 2 js
 ==========================**/
+$(document).ready(function () {
  $(".addcart-button").click(function () {
      $(this).next().addClass("open");
      $(".add-to-cart-box .qty-input").val('1');
  });
-
+ });
+$(document).ready(function () {
  $('.add-to-cart-box').on('click', function () {
      var $qty = $(this).siblings(".qty-input");
      var currentVal = parseInt($qty.val());
@@ -13,7 +15,8 @@
          $qty.val(currentVal + 1);
      }
  });
-
+ });
+$(document).ready(function () {
  $('.qty-left-minus').on('click', function () {
      var $qty = $(this).siblings(".qty-input");
      var _val = $($qty).val();
@@ -26,9 +29,11 @@
          $qty.val(currentVal - 1);
      }
  });
-
+ });
+$(document).ready(function () {
  $('.qty-right-plus').click(function () {
      if ($(this).prev().val() < 9) {
          $(this).prev().val(+$(this).prev().val() + 1);
      }
+ });
  });

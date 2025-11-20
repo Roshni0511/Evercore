@@ -1541,14 +1541,12 @@ const Home = () => {
                                 </ul>
 
                                 <div className="select-size">
-                                    <h4>Cake Size :</h4>
+                                    <h4> Protein size:</h4>
                                     <select className="form-select select-form-size">
                                         <option selected>Select Size</option>
                                         <option value="1.2">1/2 KG</option>
                                         <option value="0">1 KG</option>
                                         <option value="1.5">1/5 KG</option>
-                                        <option value="red">Red Roses</option>
-                                        <option value="pink">With Pink Roses</option>
                                     </select>
                                 </div>
 

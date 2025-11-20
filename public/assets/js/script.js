@@ -164,6 +164,7 @@ $(document).ready(function () {
 /*=====================
   06. quantity js
    ==========================*/
+   $(document).ready(function () {
 $('.qty-box .quantity-right-plus').on('click', function () {
     var $qty = $(this).parents(".qty-box").find(".input-number");
     var currentVal = parseInt($qty.val(), 10);
@@ -171,12 +172,15 @@ $('.qty-box .quantity-right-plus').on('click', function () {
         $qty.val(currentVal + 0);
     }
 });
+});
+$(document).ready(function () {
 $('.qty-box .quantity-left-minus').on('click', function () {
     var $qty = $(this).parents(".qty-box").find(".input-number");
     var currentVal = parseInt($qty.val(), 10);
     if (!isNaN(currentVal) && currentVal > 0) {
         $qty.val(currentVal - 0);
     }
+});
 });
 
 /*=====================
@@ -393,10 +397,12 @@ function readURL(uploader) {
 /*=====================
    21. Wishlist box remove js
    ==========================*/
+      $(document).ready(function () {
 $(".close_button").click(function () {
     $(this).closest(".product-box-contain").fadeOut("slow", function () {
         $(this).closest(".product-box-contain").remove();
     });
+});
 });
 
 /*=====================

@@ -126,8 +126,8 @@ const Cart = () => {
 
                                         <td className="save-remove">
                                             <h4 className="table-title text-content">Action</h4>
-                                            <a className="save notifi-wishlist" href="javascript:void(0)">Save for later</a>
-                                            <a className="remove close_button" href="javascript:void(0)">Remove</a>
+                                            <a className="save notifi-wishlist" href="">Save for later</a>
+                                            <a className="remove close_button" href="#">Remove</a>
                                         </td>
                                     </tr>
 
@@ -222,8 +222,8 @@ const Cart = () => {
 
                                         <td className="save-remove">
                                             <h4 className="table-title text-content">Action</h4>
-                                            <a className="save notifi-wishlist" href="javascript:void(0)">Save for later</a>
-                                            <a className="remove close_button" href="javascript:void(0)">Remove</a>
+                                            <a className="save notifi-wishlist" href="">Save for later</a>
+                                            <a className="remove close_button" href="#">Remove</a>
                                         </td>
                                     </tr>
 
@@ -317,8 +317,8 @@ const Cart = () => {
 
                                         <td className="save-remove">
                                             <h4 className="table-title text-content">Action</h4>
-                                            <a className="save notifi-wishlist" href="javascript:void(0)">Save for later</a>
-                                            <a className="remove close_button" href="javascript:void(0)">Remove</a>
+                                            <a className="save notifi-wishlist" href="">Save for later</a>
+                                            <a className="remove close_button" href="#">Remove</a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -370,14 +370,18 @@ const Cart = () => {
                         <div className="button-group cart-button">
                             <ul>
                                 <li>
-                                    <button href = '/Checkout'
+                                    <a href="/Checkout">
+                                    <button 
                                         className="btn btn-animation proceed-btn fw-bold">Process To Checkout</button>
+                                        </a>
                                 </li>
 
                                 <li>
-                                    <button href = '/'
+                                    <a href="/">
+                                    <button 
                                         className="btn btn-light shopping-button text-dark">
                                         <i className="fa-solid fa-arrow-left-long"></i>Return To Shopping</button>
+                                        </a>
                                 </li>
                             </ul>
                         </div>

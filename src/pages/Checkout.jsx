@@ -631,8 +631,9 @@ const Checkout = () => {
                                 </li>
                             </ul>
                         </div>
-
+                        <a href="/Placeorder">
                         <button className="btn theme-bg-color text-white btn-md w-100 mt-4 fw-bold">Place Order</button>
+                        </a>
                     </div>
                 </div>
             </div>
