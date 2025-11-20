@@ -18,6 +18,12 @@ import Forgotpass from "./pages/Forgotpass";
 import Otp from "./pages/Otp";
 import Productdetails from "./pages/Productdetails";
 import Aboutus from "./pages/Aboutus";
+import Blog from "./pages/Blog";
+import Blogdetails from "./pages/Blogdetails";
+import Privacypolicy from "./pages/Privacypolicy";
+import Termsandcondition from "./pages/Termsandcondition";
+import Returnpolicy from "./pages/Returnpolicy";
+import Shippingpolicy from "./pages/Shippingpolicy";
 import Authenticity from "./pages/Authenticity";
 import ProteinCerti from "./pages/ProteinCerti";
 
@@ -47,6 +53,12 @@ function App() {
             <Route path='/UserAccount' element={<Useracc/>}/>
             <Route path="/Productdetails" element={<Productdetails/>}/>
             <Route path="/Aboutus" element={<Aboutus/>}/>
+            <Route path="/Blog" element={<Blog/>}/>
+            <Route path="/Blogdetails" element={<Blogdetails/>}/>
+            <Route path="/Privacypolicy" element={<Privacypolicy/>}/>
+            <Route path="/Termsandcondition" element={<Termsandcondition/>}/>
+            <Route path="/Returnpolicy" element={<Returnpolicy/>}/>
+            <Route path="/Shippingpolicy" element={<Shippingpolicy/>}/>
             <Route path="/ProteinCerti" element={<ProteinCerti/>}/>
          </Routes>
           <div className="theme-option">

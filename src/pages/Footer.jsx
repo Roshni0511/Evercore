@@ -127,7 +127,7 @@ const Footer = () => {
                                     <a href="/Aboutus" className="text-content">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="/" className="text-content">Blog</a>
+                                    <a href="/Blog" className="text-content">Blog</a>
                                 </li>
                                 <li>
                                     <a href="/Contact" className="text-content">Contact Us</a>
@@ -156,6 +156,19 @@ const Footer = () => {
                            
                                 <li>
                                     <a href="/Faq" className="text-content">FAQ</a>
+                                </li>
+
+                                <li>
+                                    <a href="/Privacypolicy" className="text-content">Privacy policy</a>
+                                </li>
+                                <li>
+                                    <a href="/Termsandcondition" className="text-content">Terms & Condition</a>
+                                </li>
+                                <li>
+                                    <a href="/Returnpolicy" className="text-content">Return Policy</a>
+                                </li>
+                                <li>
+                                    <a href="/Shippingpolicy" className="text-content">Shipping Policy</a>
                                 </li>
                             </ul>
                         </div>
