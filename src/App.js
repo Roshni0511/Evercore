@@ -16,6 +16,7 @@ import Cart from "./pages/Cart";
 import Signup from "./pages/Signup";
 import Forgotpass from "./pages/Forgotpass";
 import Otp from "./pages/Otp";
+import Productdetails from "./pages/Productdetails";
 
 function App() {
      useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
            <Route path="/Forgotpass" element={<Forgotpass/>}/>
            <Route path="/Otp" element={<Otp/>}/>
             <Route path='/UserAccount' element={<Useracc/>}/>
+            <Route path="/Productdetails" element={<Productdetails/>}/>
          </Routes>
           <div className="theme-option">
       
