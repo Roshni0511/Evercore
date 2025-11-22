@@ -141,9 +141,17 @@ const Aboutus = () => {
                     <div class="slider-3_1 product-wrapper">
                         <div>
                             <div class="clint-contain">
-                                <div class="client-icon">
-                                    <img src="../assets/svg/3/work.svg" class="blur-up lazyload" alt="" />
-                                </div>
+                                <div className="client-icon">
+  <img
+    src="../assets/svg/3/work.svg"
+    alt=""
+    style={{
+      filter:
+        "brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(700%) hue-rotate(346deg) brightness(95%) contrast(90%)"
+    }}
+  />
+</div>
+
                                 <h2>10</h2>
                                 <h4>Business Years</h4>
                                 <p>A coffee shop is a small business that sells coffee, pastries, and other morning
@@ -154,7 +162,10 @@ const Aboutus = () => {
                         <div>
                             <div class="clint-contain">
                                 <div class="client-icon">
-                                    <img src="../assets/svg/3/buy.svg" class="blur-up lazyload" alt="" />
+                                    <img src="../assets/svg/3/buy.svg" class="blur-up lazyload" alt=""     style={{
+      filter:
+        "brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(700%) hue-rotate(346deg) brightness(95%) contrast(90%)"
+    }}/>
                                 </div>
                                 <h2>80 K+</h2>
                                 <h4>Products Sales</h4>
@@ -166,7 +177,10 @@ const Aboutus = () => {
                         <div>
                             <div class="clint-contain">
                                 <div class="client-icon">
-                                    <img src="../assets/svg/3/user.svg" class="blur-up lazyload" alt="" />
+                                    <img src="../assets/svg/3/user.svg" class="blur-up lazyload" alt=""     style={{
+      filter:
+        "brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(700%) hue-rotate(346deg) brightness(95%) contrast(90%)"
+    }}/>
                                 </div>
                                 <h2>90%</h2>
                                 <h4>Happy Customers</h4>

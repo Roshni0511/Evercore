@@ -32133,7 +32133,7 @@ body.rtl .menu-label {
 .product-box-3 {
     padding: calc(7px + 7*(100vw - 320px)/1600);
     position: relative;
-    background-color: #f8f8f8;
+    background-color: #f8f7e7;
     border-radius: 5px;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out
@@ -47046,10 +47046,10 @@ display: none;
 }
 
 .pro-acc-tab.active {
-  background: linear-gradient(90deg, #4f8ef7, #1c6ef2);
+  background: #c25f31;
   color: #fff;
   border: none;
-  box-shadow: 0 6px 15px rgba(31, 95, 255, 0.3);
+  box-shadow: 0 6px 15px rgb(203 143 115);
 }
 
 .pro-acc-tab.pro-acc-logout {
@@ -47192,7 +47192,7 @@ display: none;
 .order-card,
 .pro-acc-order-card { border-left: 4px solid #3b82f6; }
 .address-card,
-.pro-acc-address-card { border-left: 4px solid #10b981; }
+.pro-acc-address-card { border-left: 4px solid #c25f31; }
 .policy-card,
 .pro-acc-policy-card { border-left: 4px solid #6b7280; }
 .wishlist-card,
@@ -47208,7 +47208,7 @@ display: none;
   background: #f9fafb;
   font-size: 15px;
   padding: 16px;
-  border-left: 4px solid #6366f1;
+  border-left: 4px solid #c25f31;
   font-weight: 600;
 }
 
@@ -47250,7 +47250,7 @@ display: none;
 /* ==================== LOGOUT BUTTON ==================== */
 .pro-acc-logout-btn {
   padding: 10px 20px;
-  background: linear-gradient(90deg, #ff4d4f, #ff7875);
+  background: linear-gradient(90deg, #c25f31, #e29686);
   color: white;
   font-weight: 700;
   border: none;
@@ -47514,9 +47514,9 @@ display: none;
 
 .pro-order-actions button {
   padding: 6px 12px;
-  border: 1px solid #1e88e5;
+  border: 1px solid #c25f31;
   background: #fff;
-  color: #1e88e5;
+  color: #c25f31;
   border-radius: 4px;
   font-size: 13px;
   cursor: pointer;
@@ -47524,7 +47524,7 @@ display: none;
 }
 
 .pro-order-actions button:hover {
-  background: #1e88e5;
+  background: #c25f31;
   color: #fff;
 }
 
@@ -47617,9 +47617,9 @@ display: none;
 
 .pro-wishlist-actions button {
   padding: 6px 12px;
-  border: 1px solid #1e88e5;
+  border: 1px solid #c25f31;
   background: #fff;
-  color: #1e88e5;
+  color: #c25f31;
   border-radius: 4px;
   font-size: 13px;
   cursor: pointer;
@@ -47627,7 +47627,7 @@ display: none;
 }
 
 .pro-wishlist-actions button:hover {
-  background: #1e88e5;
+  background: #c25f31;
   color: #fff;
 }
 
@@ -48180,8 +48180,8 @@ display: none;
 .pro-acc-add-btn {
   padding: 10px 20px;
   background: transparent;
-  color: #10b981;
-  border: 2px solid #10b981;
+  color: #c25f31;
+  border: 2px solid #c25f31;
   border-radius: 8px;
   font-weight: 700;
   cursor: pointer;
@@ -48189,7 +48189,7 @@ display: none;
 }
 
 .pro-acc-add-btn:hover {
-  background: #10b981;
+  background: #c25f31;
   color: white;
   transform: translateY(-2px);
 }

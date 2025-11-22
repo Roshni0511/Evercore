@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Swal from "sweetalert2";
 
 import {
   FaUser,
@@ -28,8 +29,8 @@ function Useracc() {
     "https://cdn-icons-png.flaticon.com/512/149/149071.png";
 
   const [profile, setProfile] = useState({
-    name: "John Doe",
-    email: "johndoe@example.com",
+    name: "Rahul Patel",
+    email: "rahulpatel@example.com",
     phone: "+1 234 567 8901",
     gender: "Male",
     profilePic:
@@ -60,8 +61,8 @@ function Useracc() {
 
   /* Payments */
   const [payments, setPayments] = useState([
-    { id: 1, type: "Visa", number: "**** 1234", expiry: "08/26", name: "John Doe" },
-    { id: 2, type: "MasterCard", number: "**** 5678", expiry: "12/25", name: "John Doe" },
+    { id: 1, type: "Visa", number: "**** 1234", expiry: "08/26", name: "Rahul Patel" },
+    { id: 2, type: "MasterCard", number: "**** 5678", expiry: "12/25", name: "Rahul Patel" },
   ]);
 
   /* Orders */
@@ -518,11 +519,24 @@ function Useracc() {
         )}
 
         {/* Logout */}
-        <div style={{ textAlign: "center", marginTop: "30px" }}>
-          <button className="pro-acc-logout-btn" onClick={() => alert("Logging out...")}>
-            Logout
-          </button>
-        </div>
+    <div style={{ textAlign: "center", marginTop: "30px" }}>
+  <button
+    className="pro-acc-logout-btn"
+    onClick={() => {
+      Swal.fire({
+        title: "Logged Out!",
+        text: "You have been successfully logged out.",
+        icon: "success",
+        timer: 1500,
+        showConfirmButton: false,
+      }).then(() => {
+        window.location.href = "/Login"; 
+      });
+    }}
+  >
+    Logout
+  </button>
+</div>
       </div>
 
       <Footer />

@@ -19,7 +19,8 @@ export default function Navbar() {
                                 </span>
                             </button>
                             <a href="/" className="web-logo nav-logo">
-                                <img src="/assets/images/evercorelogo.png" className="img-fluid blur-up lazyload" alt="" style={{width:'70px'}}/>
+                           
+                                <h2 style={{fontWeight:'800',fontSize:'35px'}}>Evercore</h2>   
                             </a>
 
                             <div className="header-nav-middle">
