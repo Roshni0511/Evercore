@@ -43,13 +43,13 @@ const Cart = () => {
                                         <td className="product-detail">
                                             <div className="product border-0">
                                                 <a href="/Productdetails" className="product-image">
-                                                    <img src="../assets/images/vegetable/product/1.png"
+                                                    <img src="/assets/images/product1.webp"
                                                         className="img-fluid blur-up lazyload" alt="" />
                                                 </a>
                                                 <div className="product-detail">
                                                     <ul>
                                                         <li className="name">
-                                                            <a href="/Productdetails">Bell pepper</a>
+                                                            <a href="/Productdetails">Double Chocolate</a>
                                                         </li>
 
                                                         <li className="text-content"><span className="text-title">Sold
@@ -135,13 +135,13 @@ const Cart = () => {
                                         <td className="product-detail">
                                             <div className="product border-0">
                                                 <a href="/Productdetails" className="product-image">
-                                                    <img src="../assets/images/vegetable/product/2.png"
+                                                    <img src="/assets/images/product2.webp"
                                                         className="img-fluid blur-up lazyload" alt="" />
                                                 </a>
                                                 <div className="product-detail">
                                                     <ul>
                                                         <li className="name">
-                                                            <a href="/Productdetails">Eggplant</a>
+                                                            <a href="/Productdetails">Vanilla</a>
                                                         </li>
 
                                                         <li className="text-content"><span className="text-title">Sold
@@ -231,13 +231,13 @@ const Cart = () => {
                                         <td className="product-detail">
                                             <div className="product border-0">
                                                 <a href="/Productdetails" className="product-image">
-                                                    <img src="../assets/images/vegetable/product/3.png"
+                                                    <img src="/assets/images/product3.webp"
                                                         className="img-fluid blur-up lazyload" alt="" />
                                                 </a>
                                                 <div className="product-detail">
                                                     <ul>
                                                         <li className="name">
-                                                            <a href="/Productdetails">Onion</a>
+                                                            <a href="/Productdetails">Mixed Berry</a>
                                                         </li>
 
                                                         <li className="text-content"><span className="text-title">Sold

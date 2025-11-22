@@ -19,7 +19,7 @@ export default function Navbar() {
                                 </span>
                             </button>
                             <a href="/" className="web-logo nav-logo">
-                                <img src="/assets/images/evercorelogo.jpg" className="img-fluid blur-up lazyload" alt="" style={{width:'70px'}}/>
+                                <img src="/assets/images/evercorelogo.png" className="img-fluid blur-up lazyload" alt="" style={{width:'70px'}}/>
                             </a>
 
                             <div className="header-nav-middle">
@@ -79,7 +79,7 @@ export default function Navbar() {
                                                     <div className="dropdown-menu dropdown-menu-3 dropdown-menu-2">
     <div className="row justify-content-center">
 
-        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#ff7272',margin:'10px',borderRadius:'7px'}}> 
+        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}> 
             <a href="/Authenticity">
             <div className="dropdown-column text-center ">
                 <img src="/assets/images/authencity.svg" className="img-fluid mb-2" width="60" />
@@ -88,7 +88,7 @@ export default function Navbar() {
                 </a>
         </div>
 
-        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#ff7272',margin:'10px',borderRadius:'7px'}}>
+        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}>
             <a href="/ProteinCerti">
             <div className="dropdown-column text-center ">
                 <img src="/assets/images/lab_certificate_icon.svg" className="img-fluid mb-2" width="60" />
@@ -97,7 +97,7 @@ export default function Navbar() {
                 </a>
         </div>
 
-        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#ff7272',margin:'10px',borderRadius:'7px'}}>
+        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}>
             <a href="/Labdoor">
             <div className="dropdown-column text-center " >
                 <img src="/assets/images/labdoor.svg" className="img-fluid mb-2" width="60" />
@@ -358,10 +358,13 @@ export default function Navbar() {
                                         </div>
                                     </li>
                                     <li className="right-side">
-                                        <a href="/" className="btn p-0 position-relative header-wishlist">
+                                        <a href="/" className="btn p-0 position-relative header-wishlist"      
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#searchModal">
                                             <i data-feather="search"></i>
                                         </a>
                                     </li>
+                                    
                                     <li className="right-side">
                                         <div className="onhover-dropdown header-badge">
                                             <button type="button" className="btn p-0 position-relative header-wishlist">
@@ -455,7 +458,8 @@ export default function Navbar() {
           
 
             <li>
-                <a href="" className="search-box">
+                <a href="" className="search-box"                                         data-bs-toggle="modal"
+                                        data-bs-target="#searchModal">
                     <i className="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
@@ -477,6 +481,39 @@ export default function Navbar() {
         </ul>
     </div>
     {/* <!-- mobile fix menu end --> */}
+    <div
+  className="modal fade"
+  id="searchModal"
+  tabIndex="-1"
+  aria-labelledby="searchModalLabel"
+  aria-hidden="true"
+>
+  <div className="modal-dialog ">
+    <div className="modal-content p-3">
+
+      <div className="modal-header border-0">
+        <h5 className="modal-title" id="searchModalLabel">Search Products</h5>
+        <button 
+          type="button" 
+          className="btn-close" 
+          data-bs-dismiss="modal" 
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <div className="modal-body">
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Search for protein, supplements..."
+          autoFocus
+        />
+      </div>
+
+    </div>
+  </div>
+</div>
+
     </div>
   )
 }

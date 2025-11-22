@@ -358,7 +358,7 @@ const Blog = () => {
                 <div class="col-xxl-3 col-xl-4 col-lg-5 order-lg-1">
                     <div class="left-sidebar-box wow fadeInUp">
                         <div class="left-search-box">
-                            <div class="search-box">
+                            <div class="search-box1 search-box">
                                 <input type="search" class="form-control" id="exampleFormControlInput1"
                                     placeholder="Search...." />
                             </div>

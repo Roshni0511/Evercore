@@ -121,9 +121,10 @@ export default function Authenticity() {
                             <div className="fresh-image-2">
                               <div>
                                 <img
-                                  src="../assets/images/inner-page/contact-us.png"
+                                  src="/assets/images/prd_3977707-MuscleBlaze.webp"
                                   alt="Fresh Image"
                                   className="resimg"
+                                  width={'80%'}
                                 />
                               </div>
                             </div>

@@ -36,7 +36,7 @@ const Trackorder = () => {
             <div className="row g-sm-4 g-3">
                 <div className="col-xxl-3 col-xl-4 col-lg-6">
                     <div className="order-image">
-                        <img src="../assets/images/vegetable/product/6.png" className="img-fluid blur-up lazyload" alt="" />
+                        <img src="/assets/images/prd_3977707-MuscleBlaze.webp" className="img-fluid blur-up lazyload" alt="" />
                     </div>
                 </div>
 

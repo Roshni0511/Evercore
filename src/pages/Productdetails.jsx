@@ -1,8 +1,37 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import $ from "jquery";
 import Navbar from './Navbar'
 import Footer from './Footer'
 
 const Productdetails = () => {
+    useEffect(() => {
+        /**=====================
+            Quantity 2 js
+        ==========================**/
+        $(".addcart-button").click(function () {
+          $(this).next().addClass("open");
+          $(".add-to-cart-box .qty-input").val("1");
+        });
+    
+        $(".qty-left-minus").on("click", function () {
+          var $qty = $(this).siblings(".qty-input");
+          var _val = $($qty).val();
+          if (_val === "1") {
+            var _removeCls = $(this).parents(".cart_qty");
+            $(_removeCls).removeClass("open");
+          }
+          var currentVal = parseInt($qty.val());
+          if (!isNaN(currentVal) && currentVal > 0) {
+            $qty.val(currentVal - 1);
+          }
+        });
+    
+        $(".qty-right-plus").click(function () {
+          if ($(this).prev().val() < 9) {
+            $(this).prev().val(+$(this).prev().val() + 1);
+          }
+        });
+      }, []); 
   return (
     <>
        <Navbar  />
@@ -20,48 +49,48 @@ const Productdetails = () => {
                                         <div class="product-main no-arrow">
                                             <div>
                                                 <div class="slider-image">
-                                                    <img src="../assets/images/fruit/product/1.png" id="img-1"
-                                                        data-zoom-image="../assets/images/fruit/product/1.png" class="
+                                                    <img src="/assets/images/product1.webp" id="img-1"
+                                                        data-zoom-image="/assets/images/product1.webp" class="
                                                         img-fluid image_zoom_cls-0 blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="slider-image">
-                                                    <img src="../assets/images/fruit/product/2.png"
-                                                        data-zoom-image="../assets/images/fruit/product/2.png" class="
+                                                    <img src="/assets/images/product2.webp"
+                                                        data-zoom-image="/assets/images/product2.webp" class="
                                                         img-fluid image_zoom_cls-1 blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="slider-image">
-                                                    <img src="../assets/images/fruit/product/3.png"
-                                                        data-zoom-image="../assets/images/fruit/product/3.png" class="
+                                                    <img src="/assets/images/product3.webp"
+                                                        data-zoom-image="/assets/images/product3.webp" class="
                                                         img-fluid image_zoom_cls-2 blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="slider-image">
-                                                    <img src="../assets/images/fruit/product/4.png"
-                                                        data-zoom-image="../assets/images/fruit/product/4.png" class="
+                                                    <img src="/assets/images/product4.webp"
+                                                        data-zoom-image="/assets/images/product4.webp" class="
                                                         img-fluid image_zoom_cls-3 blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="slider-image">
-                                                    <img src="../assets/images/fruit/product/1.png"
-                                                        data-zoom-image="../assets/images/fruit/product/1.png" class="
+                                                    <img src="/assets/images/product5.webp"
+                                                        data-zoom-image="/assets/images/product5.webp" class="
                                                         img-fluid image_zoom_cls-4 blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="slider-image">
-                                                    <img src="../assets/images/fruit/product/2.png"
-                                                        data-zoom-image="../assets/images/fruit/product/2.png" class="
+                                                    <img src="/assets/images/product3.webp"
+                                                        data-zoom-image="/assets/images/product3.webp" class="
                                                         img-fluid image_zoom_cls-5 blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
@@ -72,42 +101,42 @@ const Productdetails = () => {
                                         <div class="left-slider-image left-slider no-arrow slick-top">
                                             <div>
                                                 <div class="sidebar-image">
-                                                    <img src="../assets/images/fruit/product/1.png"
+                                                    <img src="/assets/images/product1.webp"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
-                                                    <img src="../assets/images/fruit/product/2.png"
+                                                    <img src="/assets/images/product2.webp"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
-                                                    <img src="../assets/images/fruit/product/3.png"
+                                                    <img src="/assets/images/product3.webp"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
-                                                    <img src="../assets/images/fruit/product/4.png"
+                                                    <img src="/assets/images/product4.webp"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
-                                                    <img src="../assets/images/fruit/product/1.png"
+                                                    <img src="/assets/images/product5.webp"
                                                         class="img-fluid blur-up lazyload" alt=""/>
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
-                                                    <img src="../assets/images/fruit/product/2.png"
+                                                    <img src="/assets/images/product3.webp"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </div>
                                             </div>
@@ -120,9 +149,9 @@ const Productdetails = () => {
                         <div class="col-xl-6 wow fadeInUp">
                             <div class="right-box-contain">
                                 <h6 class="offer-top">30% Off</h6>
-                                <h2 class="name">Deliciously Ripe Peach</h2>
+                                <h2 class="name">Evercore Yeast Protein - Double Chocolate</h2>
                                 <div class="price-rating">
-                                    <h3 class="theme-color price">₹49.50 <del class="text-content">₹58.46</del> <span
+                                    <h3 class="theme-color price">₹1200.50 <del class="text-content">₹1300.46</del> <span
                                             class="offer theme-color">(8% off)</span></h3>
                                     <div class="product-rating custom-rate">
                                         <ul class="rating">
@@ -147,10 +176,7 @@ const Productdetails = () => {
                                 </div>
 
                                 <div class="product-contain">
-                                    <p class="w-100">Incorporate our Deliciously Ripe Peaches into your healthy
-                                        lifestyle or relish them as an occasional indulgence. Whichever way you choose
-                                        to enjoy them, be prepared for a symphony of flavors that celebrate the natural
-                                        goodness of this summer fruit.</p>
+                                    <p class="w-100">Evercore Yeast Protein – Double Chocolate delivers a rich, smooth chocolaty taste powered by clean, high-quality yeast protein. Designed for lean muscle support, faster recovery, and easy digestion, it offers a complete amino acid profile with exceptional purity. Whether post-workout or as a daily protein boost, enjoy a delicious chocolate blend that fuels your fitness naturally.</p>
                                 </div>
 
                                 <div class="product-package">
@@ -180,49 +206,7 @@ const Productdetails = () => {
                                     </ul>
                                 </div>
 
-                                <div class="time deal-timer product-deal-timer mx-md-0 mx-auto" id="clockdiv-1"
-                                    data-hours="1" data-minutes="2" data-seconds="3">
-                                    <div class="product-title">
-                                        <h4>Hurry up! Sales Ends In</h4>
-                                    </div>
-                                    <ul>
-                                        <li>
-                                            <div class="counter d-block">
-                                                <div class="days d-block">
-                                                    <h5></h5>
-                                                </div>
-                                                <h6>Days</h6>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="counter d-block">
-                                                <div class="hours d-block">
-                                                    <h5></h5>
-                                                </div>
-                                                <h6>Hours</h6>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="counter d-block">
-                                                <div class="minutes d-block">
-                                                    <h5></h5>
-                                                </div>
-                                                <h6>Min</h6>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="counter d-block">
-                                                <div class="seconds d-block">
-                                                    <h5></h5>
-                                                </div>
-                                                <h6>Sec</h6>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-
-
-
+                            
                                 <div class="note-box product-package">
                                     <div class="cart_qty qty-box product-qty">
                                         <div class="input-group">
@@ -237,153 +221,39 @@ const Productdetails = () => {
                                             </button>
                                         </div>
                                     </div>
-
-                                    <button onclick="location.href = 'cart.html';"
+<a href="/Cart">
+                                    <button
                                         class="btn btn-md bg-dark cart-button text-white w-100">Add To Cart</button>
+                                        </a>
                                 </div>
 
                                 <div class="buy-box">
-                                    <a href="wishlist.html">
+                                    <a href="/Wishlist">
                                         <i data-feather="heart"></i>
                                         <span>Add To Wishlist</span>
                                     </a>
 
-                                    <a href="compare.html">
-                                        <i data-feather="shuffle"></i>
-                                        <span>Add To Compare</span>
-                                    </a>
+                                    
                                 </div>
 
                                 <div class="pickup-box">
-                                    <div class="product-title">
-                                        <h4>Store Information</h4>
-                                    </div>
-
-                                    <div class="pickup-detail">
-                                        <h4 class="text-content w-100">I would like the people that buy my clothes to
-                                            understand that for me it's one small piece of art. I love the 2000s because
-                                            everyone started to love haute couture. The only way to do something in
-                                            depth is to work hard.</h4>
-                                    </div>
+                                   
 
                                     <div class="product-info">
                                         <ul class="product-info-list product-info-list-2">
-                                            <li>Type : <a href="javascript:void(0)">Fruit</a></li>
-                                            <li>MFG : <a href="javascript:void(0)">Jun 4, 2022</a></li>
-                                            <li>Stock : <a href="javascript:void(0)">5 Items Left</a></li>
+                                            <li>Type : <a href="">Protein</a></li>
+                                            <li>MFG : <a href="">Jun 4, 2022</a></li>
+                                            <li>Stock : <a href="">5 Items Left</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <div class="payment-option">
-                                    <div class="product-title">
-                                        <h4>Guaranteed Safe Checkout</h4>
-                                    </div>
-                                    <ul>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <img src="../assets/images/product/payment/1.svg"
-                                                    class="blur-up lazyload" alt="" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <img src="../assets/images/product/payment/2.svg"
-                                                    class="blur-up lazyload" alt="" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <img src="../assets/images/product/payment/3.svg"
-                                                    class="blur-up lazyload" alt="" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <img src="../assets/images/product/payment/4.svg"
-                                                    class="blur-up lazyload" alt="" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <img src="../assets/images/product/payment/5.svg"
-                                                    class="blur-up lazyload" alt="" />
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
                 </div>
 
-                {/* <div class="col-xxl-3 col-xl-4 col-lg-5 d-none d-lg-block wow fadeInUp">
-                    <div class="right-sidebar-box">
-                        <div class="vendor-box">
-                            <div class="vendor-contain">
-                                <div class="vendor-image">
-                                    <img src="../assets/images/product/vendor.png" class="blur-up lazyload" alt="" />
-                                </div>
-
-                                <div class="vendor-name">
-                                    <h5 class="fw-500">Noodles Co.</h5>
-
-                                    <div class="product-rating mt-1">
-                                        <ul class="rating">
-                                            <li>
-                                                <i data-feather="star" class="fill"></i>
-                                            </li>
-                                            <li>
-                                                <i data-feather="star" class="fill"></i>
-                                            </li>
-                                            <li>
-                                                <i data-feather="star" class="fill"></i>
-                                            </li>
-                                            <li>
-                                                <i data-feather="star" class="fill"></i>
-                                            </li>
-                                            <li>
-                                                <i data-feather="star"></i>
-                                            </li>
-                                        </ul>
-                                        <span>(36 Reviews)</span>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <p class="vendor-detail">Welcome to Fruits Market, your gateway to a world of natural
-                                sweetness and vibrant flavors. At Fruit, we celebrate the beauty and goodness of fruits
-                                in their purest form.</p>
-
-                            <div class="vendor-list">
-                                <ul>
-                                    <li>
-                                        <div class="address-contact">
-                                            <i data-feather="map-pin"></i>
-                                            <h5>Address: <span class="text-content">1288 Franklin Avenue</span></h5>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="address-contact">
-                                            <i data-feather="headphones"></i>
-                                            <h5>Contact Seller: <span class="text-content">(+1)-123-456-789</span></h5>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="pt-25">
-                            <div class="hot-line-number">
-                                <h5>Hotline Order:</h5>
-                                <h6>Mon - Fri: 07:00 am - 08:30PM</h6>
-                                <h3>(+1) 123 456 789</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
     </section>
@@ -422,93 +292,109 @@ const Productdetails = () => {
 
                         <div class="tab-content custom-tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="description" role="tabpanel">
-                                <div class="product-description">
-                                    <div class="nav-desh">
-                                        <p>Indulge in the vibrant and tangy goodness of our premium fresh oranges.
-                                            Sourced from the finest orchards, our oranges are a testament to quality and
-                                            flavor. Each orange is meticulously handpicked to ensure that you receive a
-                                            fruit that's at the peak of its juiciness and taste.</p>
+    <div class="product-description">
+        <div class="nav-desh">
 
-                                        <p>Our oranges boast a tantalizing balance of sweet and tangy flavors, making
-                                            them a delightful treat for your taste buds. Bursting with natural vitamins,
-                                            especially vitamin C, these juicy treasures are a great way to boost your
-                                            immune system and maintain overall health.</p>
+            <p>Evercore Yeast Protein – Double Chocolate is crafted for those who demand clean nutrition without compromising on taste. Made from premium yeast-derived protein, it delivers a rich, smooth chocolate flavor that satisfies your cravings while supporting your fitness goals.</p>
 
-                                        <p>Whether enjoyed as a quick and refreshing snack or incorporated into your
-                                            favorite recipes, our fresh oranges add a burst of color and flavor to your
-                                            meals. Their succulent texture and invigorating aroma make them a versatile
-                                            ingredient in both savory and sweet culinary creations.</p>
+            <p>This advanced protein formula offers a complete amino acid profile, helping you build lean muscle, enhance strength, and speed up post-workout recovery. Its naturally light and easy-to-digest composition makes it suitable for daily use, even for those with sensitive stomachs.</p>
 
-                                        <p>By choosing our premium fresh oranges, you're not only indulging in a
-                                            delectable fruit but also supporting sustainable and responsible agriculture
-                                            practices. Join us in savoring the pure essence of nature's bounty with
-                                            every bite of our succulent, premium fresh oranges.</p>
-                                    </div>
-                                </div>
-                            </div>
+            <p>With every scoop, you enjoy a delicious double-chocolate blend packed with high-quality protein, essential nutrients, and exceptional purity. Use it as a post-workout shake, a meal supplement, or a nutritious boost during your busy day.</p>
+
+            <p>Choose Evercore Yeast Protein – Double Chocolate for clean, sustainable, and efficient nutrition that powers your performance from the inside out—one smooth, chocolaty sip at a time.</p>
+
+        </div>
+    </div>
+</div>
+
 
                             <div class="tab-pane fade" id="info" role="tabpanel">
                                 <div class="table-responsive">
-                                    <table class="table info-table">
-                                        <tbody>
-                                            <tr>
-                                                <td>Specialty</td>
-                                                <td>Vegetarian</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Ingredient Type</td>
-                                                <td>Vegetarian</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Brand</td>
-                                                <td>Lavian Exotique</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Form</td>
-                                                <td>Bar Brownie</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Package Information</td>
-                                                <td>Box</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Manufacturer</td>
-                                                <td>Prayagh Nutri Product Pvt Ltd</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Item part number</td>
-                                                <td>LE 014 - 20pcs Crème Bakes (Pack of 2)</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Net Quantity</td>
-                                                <td>40.00 count</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                   <table class="table info-table">
+    <tbody>
+        <tr>
+            <td>Specialty</td>
+            <td>Vegan, Lactose-Free</td>
+        </tr>
+
+        <tr>
+            <td>Protein Source</td>
+            <td>Yeast Protein Isolate</td>
+        </tr>
+
+        <tr>
+            <td>Brand</td>
+            <td>Evercore</td>
+        </tr>
+
+        <tr>
+            <td>Flavor</td>
+            <td>Double Chocolate</td>
+        </tr>
+
+        <tr>
+            <td>Form</td>
+            <td>Powder</td>
+        </tr>
+
+        <tr>
+            <td>Package Type</td>
+            <td>Jar / Pouch</td>
+        </tr>
+
+        <tr>
+            <td>Manufacturer</td>
+            <td>Evercore Nutrition Labs</td>
+        </tr>
+
+        <tr>
+            <td>Net Quantity</td>
+            <td>1 kg</td>
+        </tr>
+
+        <tr>
+            <td>Diet Type</td>
+            <td>Vegetarian</td>
+        </tr>
+
+        <tr>
+            <td>Allergen Info</td>
+            <td>No Dairy, No Soy, No Gluten</td>
+        </tr>
+
+        <tr>
+            <td>Shelf Life</td>
+            <td>18 Months</td>
+        </tr>
+
+        <tr>
+            <td>Recommended Usage</td>
+            <td>1 Scoop (30g) Daily</td>
+        </tr>
+    </tbody>
+</table>
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="care" role="tabpanel">
                                 <div class="information-box">
-                                    <ul>
-                                        <li>Store cream cakes in a refrigerator. Fondant cakes should be
-                                            stored in an air conditioned environment.</li>
+                                   <ul>
+    <li>Store the protein powder in a cool, dry place away from direct sunlight.</li>
 
-                                        <li>Slice and serve the cake at room temperature and make sure
-                                            it is not exposed to heat.</li>
+    <li>Always keep the container tightly sealed to prevent moisture absorption.</li>
 
-                                        <li>Use a serrated knife to cut a fondant cake.</li>
+    <li>Use only a clean, dry scoop to avoid lumps or contamination.</li>
 
-                                        <li>Sculptural elements and figurines may contain wire supports
-                                            or toothpicks or wooden skewers for support.</li>
+    <li>Do not refrigerate or freeze the powder, as it may affect texture and quality.</li>
 
-                                        <li>Please check the placement of these items before serving to
-                                            small children.</li>
+    <li>Mix one scoop with water or milk and consume immediately for best taste and nutrition.</li>
 
-                                        <li>The cake should be consumed within 24 hours.</li>
+    <li>Check the scoop placement before use—sometimes it settles at the bottom.</li>
 
-                                        <li>Enjoy your cake!</li>
-                                    </ul>
+    <li>Keep out of reach of small children.</li>
+
+    <li>Use within 45 days of opening the container for optimal freshness.</li>
+</ul>
                                 </div>
                             </div>
 
@@ -639,13 +525,8 @@ const Productdetails = () => {
                                                                     </div>
                                                                 </div>
                                                                 <div class="reply">
-                                                                    <p>Avoid this product. The quality is
-                                                                        terrible, and
-                                                                        it started falling apart almost
-                                                                        immediately. I
-                                                                        wish I had read more reviews before
-                                                                        buying.
-                                                                        Lesson learned.</p>
+                                                                   <p>Absolutely loved this protein! The Double Chocolate flavor is rich and smooth, and it mixes instantly without lumps. Perfect for my post-workout recovery. Highly recommended!</p>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -694,11 +575,8 @@ const Productdetails = () => {
                                                                     </div>
                                                                 </div>
                                                                 <div class="reply">
-                                                                    <p>Honestly, I regret buying this item. The
-                                                                        quality
-                                                                        is subpar, and it feels like a waste of
-                                                                        money. I
-                                                                        wouldn't recommend it to anyone.</p>
+                                                                    <p>This is one of the cleanest proteins I’ve tried. No bloating, easy to digest, and the taste is amazing. A great choice for daily nutrition.</p>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -744,15 +622,8 @@ const Productdetails = () => {
                                                                     </div>
                                                                 </div>
                                                                 <div class="reply">
-                                                                    <p>I am extremely satisfied with this
-                                                                        purchase. The
-                                                                        item arrived promptly, and the quality
-                                                                        is
-                                                                        exceptional. It's evident that the
-                                                                        makers paid
-                                                                        attention to detail. Overall, a
-                                                                        fantastic buy!
-                                                                    </p>
+                                                                   <p>Fantastic quality! I noticed improved energy and better muscle recovery within a week. The texture and purity feel premium. Totally worth it.</p>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -799,13 +670,8 @@ const Productdetails = () => {
                                                                     </div>
                                                                 </div>
                                                                 <div class="reply">
-                                                                    <p>I am genuinely delighted with this item.
-                                                                        It's a
-                                                                        total winner! The quality is superb, and
-                                                                        it has
-                                                                        added so much convenience to my daily
-                                                                        routine.
-                                                                        Highly satisfied customer!</p>
+                                                                   <p>I was surprised by how natural and smooth the flavor is. It doesn’t feel artificial at all. Great mixability and perfect for shakes or smoothies.</p>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -851,11 +717,8 @@ const Productdetails = () => {
                                                                     </div>
                                                                 </div>
                                                                 <div class="reply">
-                                                                    <p>Very impressed with this purchase. The
-                                                                        item is of
-                                                                        excellent quality, and it has exceeded
-                                                                        my
-                                                                        expectations.</p>
+                                                                   <p>Very impressed with this protein. High-quality ingredients and no unnecessary fillers. Great results and a superb chocolate taste!</p>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -889,7 +752,7 @@ const Productdetails = () => {
                                 <div class="product-header">
                                     <div class="product-image">
                                         <a href="product-left.htm">
-                                            <img src="../assets/images/cake/product/11.png"
+                                            <img src="/assets/images/product1.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -901,14 +764,10 @@ const Productdetails = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -918,9 +777,9 @@ const Productdetails = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Cake</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Chocolate Chip Cookies 250 g</h5>
+                                       
+                                        <a href="">
+                                            <h5 class="name">Evercore Yeast Protein - Double Chocolate</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -975,8 +834,8 @@ const Productdetails = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/2.png"
+                                        <a href="">
+                                            <img src="/assets/images/product2.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -988,14 +847,10 @@ const Productdetails = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1004,9 +859,9 @@ const Productdetails = () => {
                                 </div>
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
+                                       
+                                        <a href="">
+                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -1061,8 +916,8 @@ const Productdetails = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/3.png"
+                                        <a href="">
+                                            <img src="/assets/images/product3.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -1074,14 +929,10 @@ const Productdetails = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1091,9 +942,9 @@ const Productdetails = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
+                                      
+                                        <a href="">
+                                            <h5 class="name">Evercore Yeast Protein - Mixed Berry</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -1148,8 +999,8 @@ const Productdetails = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/4.png"
+                                        <a href="">
+                                            <img src="/assets/images/product4.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -1161,14 +1012,10 @@ const Productdetails = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                          
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1178,9 +1025,9 @@ const Productdetails = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">SnackAmor Combo Pack of Jowar Stick and Jowar Chips</h5>
+                                      
+                                        <a href="">
+                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -1235,8 +1082,8 @@ const Productdetails = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/5.png"
+                                        <a href="">
+                                            <img src="/assets/images/product5.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -1248,14 +1095,9 @@ const Productdetails = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1265,9 +1107,9 @@ const Productdetails = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Yumitos Chilli Sprinkled Potato Chips 100 g</h5>
+                                       
+                                        <a href="">
+                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -1322,8 +1164,8 @@ const Productdetails = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/6.png"
+                                        <a href="">
+                                            <img src="/assets/images/product3.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -1335,14 +1177,9 @@ const Productdetails = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1352,9 +1189,9 @@ const Productdetails = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Fantasy Crunchy Choco Chip Cookies</h5>
+                                     
+                                        <a href="">
+                                            <h5 class="name">Post-Workout BCAA Powder - Green Apple</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -1411,7 +1248,7 @@ const Productdetails = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="">
                                             <img src="../assets/images/cake/product/7.png" class="img-fluid" alt="" />
                                         </a>
 
@@ -1423,14 +1260,10 @@ const Productdetails = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1440,8 +1273,8 @@ const Productdetails = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                      
+                                        <a href="">
                                             <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
                                         </a>
                                         <div class="product-rating mt-2">
@@ -1494,6 +1327,7 @@ const Productdetails = () => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -1507,23 +1341,14 @@ const Productdetails = () => {
                 <div class="col-12">
                     <div class="cart-content">
                         <div class="product-image">
-                            <img src="/assets/images/choco.png" class="img-fluid blur-up lazyload"
+                            <img src="/assets/images/product1.webp" class="img-fluid blur-up lazyload"
                                 alt="" />
                             <div class="content">
-                                <h5>Creamy Chocolate Cake</h5>
+                                <h5>Evercore Yeast Protein - Double Chocolate</h5>
                                 <div style={{ display: "flex",marginTop:'10px' }}>
         <h5
           className="price theme-color"
-          style={{
-            background: "#f7fdff",
-            borderStyle: "solid",
-            borderColor: "#2baedd",
-            borderWidth: "1px 3px 3px 1px",
-            color: "#2baedd",
-            padding: "5px",
-            borderRadius: "10px",
-            marginRight: "10px",
-          }}
+           
         >
           ₹70.21
         </h5>
@@ -1569,6 +1394,172 @@ const Productdetails = () => {
         </div>
     </div>
     {/* <!-- Sticky Cart Box End --> */}
+        {/* <!-- Review Modal Start --> */}
+    <div class="modal fade theme-modal question-modal" id="writereview" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Write a review</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="modal-body pt-0">
+                    <form class="product-review-form">
+                        <div class="product-wrapper">
+                            <div class="product-image">
+                                <img class="img-fluid" alt="Fantasy Crunchy Choco Chip Cookies0"
+                                    src="/assets/images/product1.webp" />
+                            </div>
+                            <div class="product-content">
+                                <h5 class="name">Evercore Yeast Protein - Double Chocolate</h5>
+                                <div class="product-review-rating">
+                                    <div class="product-rating">
+                                        <h6 class="price-number">₹16.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-box">
+                            <div class="product-review-rating">
+                                <label>Rating</label>
+                                <div class="product-rating">
+                                    <ul class="rating">
+                                        <li>
+                                             <i className="fa-solid fa-star text-xl fill" style={{ color: '#ffb321' }}></i>
+                                        </li>
+                                        <li>
+                                             <i className="fa-solid fa-star text-xl fill" style={{ color: '#ffb321' }}></i>
+                                        </li>
+                                        <li>
+                                             <i className="fa-solid fa-star text-xl fill" style={{ color: '#ffb321' }}></i>
+                                        </li>
+                                        <li>
+                                             <i className="fa-solid fa-star text-xl fill" style={{ color: '#ffb321' }}></i>
+                                        </li>
+                                        <li>
+                                             <i className="fa-solid fa-star text-xl fill" style={{ color: '#ffb321' }}></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-box">
+                            <label for="content" class="form-label">Your Question *</label>
+                            <textarea id="content" rows="3" class="form-control" placeholder="Your Question"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-md btn-theme-outline fw-bold"
+                        data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-md fw-bold text-light theme-bg-color">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Review Modal End --> */}
+     {/* <!-- Quick View Modal Box Start --> */}
+    <div className="modal fade theme-modal view-modal" id="view" tabindex="-1">
+        <div className="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down">
+            <div className="modal-content">
+                <div className="modal-header p-0">
+                    <button type="button" className="btn-close" data-bs-dismiss="modal">
+                        <i className="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div className="modal-body">
+                    <div className="row g-sm-4 g-2">
+                        <div className="col-lg-6">
+                            <div className="slider-image">
+                                <img src="/assets/images/product1.webp" className="img-fluid blur-up lazyload"
+                                    alt="" />
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6">
+                            <div className="right-sidebar-modal">
+                                <h4 className="title-name">Evercore Yeast Protein - Double Chocolate </h4>
+                                <h4 className="price">₹ 1250.00</h4>
+                                <div className="product-rating">
+                                    <ul className="rating">
+                                        <li>
+                                            <i data-feather="star" className="fill"></i>
+                                        </li>
+                                        <li>
+                                            <i data-feather="star" className="fill"></i>
+                                        </li>
+                                        <li>
+                                            <i data-feather="star" className="fill"></i>
+                                        </li>
+                                        <li>
+                                            <i data-feather="star" className="fill"></i>
+                                        </li>
+                                        <li>
+                                            <i data-feather="star"></i>
+                                        </li>
+                                    </ul>
+                                    <span className="ms-2">8 Reviews</span>
+                                    <span className="ms-2 text-danger">6 sold in last 16 hours</span>
+                                </div>
+
+                                <div className="product-detail">
+                                    <h4>Product Details :</h4>
+                                    <p>Candy canes sugar plum tart cotton candy chupa chups sugar plum chocolate I love.
+                                        Caramels marshmallow icing dessert candy canes I love soufflé I love toffee.
+                                        Marshmallow pie sweet sweet roll sesame snaps tiramisu jelly bear claw. Bonbon
+                                        muffin I love carrot cake sugar plum dessert bonbon.</p>
+                                </div>
+
+                                <ul className="brand-list">
+                                    <li>
+                                        <div className="brand-box">
+                                            <h5>Brand Name:</h5>
+                                            <h6>Black Forest</h6>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div className="brand-box">
+                                            <h5>Product Code:</h5>
+                                            <h6>W0690034</h6>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div className="brand-box">
+                                            <h5>Product Type:</h5>
+                                            <h6>White Cream Cake</h6>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div className="select-size">
+                                    <h4> Protein size:</h4>
+                                    <select className="form-select select-form-size">
+                                        <option selected>Select Size</option>
+                                        <option value="1.2">1/2 KG</option>
+                                        <option value="0">1 KG</option>
+                                        <option value="1.5">1/5 KG</option>
+                                    </select>
+                                </div>
+
+                                <div className="modal-button">
+                                    <a href = '/cart'
+                                        className="btn btn-md add-cart-button icon">Add
+                                        To Cart</a>
+                                    <a href = ''
+                                        className="btn theme-bg-color view-button icon text-white fw-bold btn-md">
+                                        View More Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Quick View Modal Box End --> */}
        <Footer />
     </>
   )

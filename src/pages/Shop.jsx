@@ -63,7 +63,7 @@ const Shop = () => {
                                         <div className="form-check ps-0 m-0 category-list-box">
                                             <input className="checkbox_animated" type="checkbox" id="fruit" />
                                             <label className="form-check-label" for="fruit">
-                                                <span className="name">Fruits & Vegetables</span>
+                                                <span className="name">Biozyme Performance Whey</span>
                                                 <span className="number">(15)</span>
                                             </label>
                                         </div>
@@ -72,7 +72,7 @@ const Shop = () => {
                                         <div className="form-check ps-0 m-0 category-list-box">
                                             <input className="checkbox_animated" type="checkbox" id="cake" />
                                             <label className="form-check-label" for="cake">
-                                                <span className="name">Bakery, Cake & Dairy</span>
+                                                <span className="name">Biozyme Whey PR</span>
                                                 <span className="number">(15)</span>
                                             </label>
                                         </div>
@@ -81,7 +81,7 @@ const Shop = () => {
                                         <div className="form-check ps-0 m-0 category-list-box">
                                             <input className="checkbox_animated" type="checkbox" id="behe" />
                                             <label className="form-check-label" for="behe">
-                                                <span className="name">Beverages</span>
+                                                <span className="name">Raw Whey Protein</span>
                                                 <span className="number">(15)</span>
                                             </label>
                                         </div>
@@ -90,7 +90,7 @@ const Shop = () => {
                                         <div className="form-check ps-0 m-0 category-list-box">
                                             <input className="checkbox_animated" type="checkbox" id="snacks" />
                                             <label className="form-check-label" for="snacks">
-                                                <span className="name">Snacks & Branded Foods</span>
+                                                <span className="name">Double Chocolate</span>
                                                 <span className="number">(15)</span>
                                             </label>
                                         </div>
@@ -99,101 +99,12 @@ const Shop = () => {
                                         <div className="form-check ps-0 m-0 category-list-box">
                                             <input className="checkbox_animated" type="checkbox" id="beauty" />
                                             <label className="form-check-label" for="beauty">
-                                                <span className="name">Beauty & Household</span>
+                                                <span className="name">Yeast Protein - Mixed Berry</span>
                                                 <span className="number">(15)</span>
                                             </label>
                                         </div>
                                     </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="pets" />
-                                            <label className="form-check-label" for="pets">
-                                                <span className="name">Kitchen, Garden & Pets</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="egg" />
-                                            <label className="form-check-label" for="egg">
-                                                <span className="name">Eggs, Meat & Fish</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="food" />
-                                            <label className="form-check-label" for="food">
-                                                <span className="name">Gourment & World Food</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="care" />
-                                            <label className="form-check-label" for="care">
-                                                <span className="name">Baby Care</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="fish" />
-                                            <label className="form-check-label" for="fish">
-                                                <span className="name">Fish & Seafood</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="marinades" />
-                                            <label className="form-check-label" for="marinades">
-                                                <span className="name">Marinades</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="lamb" />
-                                            <label className="form-check-label" for="lamb">
-                                                <span className="name">Mutton & Lamb</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="other" />
-                                            <label className="form-check-label" for="other">
-                                                <span className="name">Port & other Meats</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="pour" />
-                                            <label className="form-check-label" for="pour">
-                                                <span className="name">Pourltry</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="form-check ps-0 m-0 category-list-box">
-                                            <input className="checkbox_animated" type="checkbox" id="salami" />
-                                            <label className="form-check-label" for="salami">
-                                                <span className="name">Sausages, bacon & Salami</span>
-                                                <span className="number">(15)</span>
-                                            </label>
-                                        </div>
-                                    </li>
+                                   
                                 </ul>
                             </div>
 
@@ -481,7 +392,7 @@ const Shop = () => {
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/2.png"
+                                            <img src="/assets/images/product1.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -511,11 +422,9 @@ const Shop = () => {
                                     <div className="product-detail">
                                         {/* <span className="span-name">Vegetable</span> */}
                                         <a href="/Productdetails">
-                                            <h5 className="name">Fresh Bread and Pastry Flour 200 g</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Double Chocolate</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Cheesy feet cheesy grin brie.
-                                            Mascarpone cheese and wine hard cheese the big cheese everyone loves smelly
-                                            cheese macaroni cheese croque monsieur.</p>
+                                        
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -570,7 +479,7 @@ const Shop = () => {
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/3.png"
+                                            <img src="/assets/images/product2.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -601,11 +510,10 @@ const Shop = () => {
                                     <div className="product-detail">
                                         {/* <span className="span-name">Vegetable</span> */}
                                         <a href="/Productdetails">
-                                            <h5 className="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla
+</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Feta taleggio croque monsieur
-                                            swiss manchego cheesecake dolcelatte jarlsberg. Hard cheese danish fontina
-                                            boursin melted cheese fondue.</p>
+                                       
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -660,7 +568,7 @@ const Shop = () => {
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/4.png"
+                                            <img src="/assets/images/product3.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -689,15 +597,11 @@ const Shop = () => {
 
                                 <div className="product-footer">
                                     <div className="product-detail">
-                                        <span className="span-name">Snacks</span>
+                                        
                                         <a href="/Productdetails">
-                                            <h5 className="name">SnackAmor Combo Pack of Jowar Stick and Jowar Chips</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Mixed Berry</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Lancashire hard cheese
-                                            parmesan. Danish fontina mozzarella cream cheese smelly cheese cheese and
-                                            wine cheesecake dolcelatte stilton. Cream cheese parmesan who moved my
-                                            cheese when the cheese comes out everybody's happy cream cheese red
-                                            leicester ricotta edam.</p>
+                                        
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -752,7 +656,7 @@ const Shop = () => {
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/5.png"
+                                            <img src="/assets/images/product4.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -781,13 +685,11 @@ const Shop = () => {
 
                                 <div className="product-footer">
                                     <div className="product-detail">
-                                        <span className="span-name">Snacks</span>
+                                       
                                         <a href="/Productdetails">
-                                            <h5 className="name">Yumitos Chilli Sprinkled Potato Chips 100 g</h5>
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Cheddar cheddar pecorino hard
-                                            cheese hard cheese cheese and biscuits bocconcini babybel. Cow goat paneer
-                                            cream cheese fromage cottage cheese cauliflower cheese jarlsberg.</p>
+                                       
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -842,7 +744,7 @@ const Shop = () => {
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/6.png"
+                                            <img src="/assets/images/product5.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -873,12 +775,9 @@ const Shop = () => {
                                     <div className="product-detail">
                                         {/* <span className="span-name">Vegetable</span> */}
                                         <a href="/Productdetails">
-                                            <h5 className="name">Fantasy Crunchy Choco Chip Cookies</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Bavarian bergkase smelly
-                                            cheese swiss cut the cheese lancashire who moved my cheese manchego melted
-                                            cheese. Red leicester paneer cow when the cheese comes out everybody's happy
-                                            croque monsieur goat melted cheese port-salut.</p>
+                                      
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -929,13 +828,12 @@ const Shop = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div>
-                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.25s">
+                            <div className="product-box-3 h-100 wow fadeInUp">
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/7.png"
+                                            <img src="/assets/images/product1.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -961,107 +859,13 @@ const Shop = () => {
                                         </ul>
                                     </div>
                                 </div>
-
                                 <div className="product-footer">
                                     <div className="product-detail">
                                         {/* <span className="span-name">Vegetable</span> */}
                                         <a href="/Productdetails">
-                                            <h5 className="name">Fresh Bread and Pastry Flour 200 g</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Double Chocolate</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Melted cheese babybel chalk
-                                            and cheese. Port-salut port-salut cream cheese when the cheese comes out
-                                            everybody's happy cream cheese hard cheese cream cheese red leicester.</p>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(3.8)</span>
-                                        </div>
-
-                                        <h6 className="unit">1 Kg</h6>
-
-                                        <h5 className="price"><span className="theme-color">₹12.68</span> <del>₹14.69</del>
-                                        </h5>
-                                        <div className="add-to-cart-box bg-white">
-                                            <button className="btn btn-add-cart addcart-button">Add
-                                                <span className="add-icon bg-light-gray">
-                                                    <i className="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div className="cart_qty qty-box">
-                                                <div className="input-group bg-white">
-                                                    <button type="button" className="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i className="fa fa-minus"></i>
-                                                    </button>
-                                                    <input className="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" className="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i className="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.3s">
-                                <div className="product-header">
-                                    <div className="product-image">
-                                        <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/2.png"
-                                                className="img-fluid blur-up lazyload" alt="" />
-                                        </a>
-
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-{/* 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li> */}
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                        {/* <span className="span-name">Vegetable</span> */}
-                                        <a href="/Productdetails">
-                                            <h5 className="name">Fresh Bread and Pastry Flour 200 g</h5>
-                                        </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Squirty cheese cottage cheese
-                                            cheese strings. Red leicester paneer danish fontina queso lancashire when
-                                            the cheese comes out everybody's happy cottage cheese paneer.</p>
+                                        
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -1112,11 +916,11 @@ const Shop = () => {
                         </div>
 
                         <div>
-                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.35s">
+                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.05s">
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/3.png"
+                                            <img src="/assets/images/product2.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -1147,12 +951,10 @@ const Shop = () => {
                                     <div className="product-detail">
                                         {/* <span className="span-name">Vegetable</span> */}
                                         <a href="/Productdetails">
-                                            <h5 className="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla
+</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Swiss ricotta cauliflower
-                                            cheese squirty cheese cheesy grin camembert de normandie airedale edam.
-                                            Squirty cheese babybel cheesecake the big cheese cauliflower cheese hard
-                                            cheese cheese and biscuits cheese and wine.</p>
+                                       
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -1203,11 +1005,11 @@ const Shop = () => {
                         </div>
 
                         <div>
-                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.4s">
+                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.1s">
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/4.png"
+                                            <img src="/assets/images/product3.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -1236,14 +1038,11 @@ const Shop = () => {
 
                                 <div className="product-footer">
                                     <div className="product-detail">
-                                        <span className="span-name">Snacks</span>
+                                        
                                         <a href="/Productdetails">
-                                            <h5 className="name">SnackAmor Combo Pack of Jowar Stick and Jowar Chips</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Mixed Berry</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Boursin the big cheese
-                                            cheeseburger. Jarlsberg smelly cheese chalk and cheese gouda blue castello
-                                            monterey jack swiss boursin. Halloumi cheesy feet mozzarella red leicester
-                                            paneer boursin who moved my cheese croque monsieur.</p>
+                                        
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -1294,11 +1093,11 @@ const Shop = () => {
                         </div>
 
                         <div>
-                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.45s">
+                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.15s">
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/5.png"
+                                            <img src="/assets/images/product4.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -1309,8 +1108,8 @@ const Shop = () => {
                                                     <i data-feather="eye"></i>
                                                 </a>
                                             </li>
-
-                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
+{/* 
+                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
                                                 <a href="compare.html">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
@@ -1327,14 +1126,11 @@ const Shop = () => {
 
                                 <div className="product-footer">
                                     <div className="product-detail">
-                                        <span className="span-name">Snacks</span>
+                                       
                                         <a href="/Productdetails">
-                                            <h5 className="name">Yumitos Chilli Sprinkled Potato Chips 100 g</h5>
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Halloumi mozzarella monterey
-                                            jack smelly cheese emmental bocconcini when the cheese comes out everybody's
-                                            happy pecorino. Cut the cheese stilton danish fontina cheesy grin rubber
-                                            cheese smelly cheese roquefort paneer.</p>
+                                       
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -1385,11 +1181,11 @@ const Shop = () => {
                         </div>
 
                         <div>
-                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.5s">
+                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.2s">
                                 <div className="product-header">
                                     <div className="product-image">
                                         <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/6.png"
+                                            <img src="/assets/images/product5.webp"
                                                 className="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -1420,11 +1216,9 @@ const Shop = () => {
                                     <div className="product-detail">
                                         {/* <span className="span-name">Vegetable</span> */}
                                         <a href="/Productdetails">
-                                            <h5 className="name">Fantasy Crunchy Choco Chip Cookies</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Manchego cow cheddar.
-                                            Port-salut roquefort hard cheese babybel when the cheese comes out
-                                            everybody's happy brie dolcelatte croque monsieur.</p>
+                                      
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
                                                 <li>
@@ -1476,277 +1270,7 @@ const Shop = () => {
                             </div>
                         </div>
 
-                        <div>
-                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.55s">
-                                <div className="product-header">
-                                    <div className="product-image">
-                                        <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/7.png"
-                                                className="img-fluid blur-up lazyload" alt="" />
-                                        </a>
-
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-{/* 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li> */}
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                        {/* <span className="span-name">Vegetable</span> */}
-                                        <a href="/Productdetails">
-                                            <h5 className="name">Fresh Bread and Pastry Flour 200 g</h5>
-                                        </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Roquefort say cheese the big
-                                            cheese ricotta chalk and cheese when the cheese comes out everybody's happy
-                                            brie lancashire.</p>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(3.8)</span>
-                                        </div>
-
-                                        <h6 className="unit">1 Kg</h6>
-
-                                        <h5 className="price"><span className="theme-color">₹12.68</span> <del>₹14.69</del>
-                                        </h5>
-                                        <div className="add-to-cart-box bg-white">
-                                            <button className="btn btn-add-cart addcart-button">Add
-                                                <span className="add-icon bg-light-gray">
-                                                    <i className="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div className="cart_qty qty-box">
-                                                <div className="input-group bg-white">
-                                                    <button type="button" className="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i className="fa fa-minus"></i>
-                                                    </button>
-                                                    <input className="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" className="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i className="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.6s">
-                                <div className="product-header">
-                                    <div className="product-image">
-                                        <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/2.png"
-                                                className="img-fluid blur-up lazyload" alt="" />
-                                        </a>
-
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li> */}
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                        {/* <span className="span-name">Vegetable</span> */}
-                                        <a href="/Productdetails">
-                                            <h5 className="name">Fresh Bread and Pastry Flour 200 g</h5>
-                                        </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Lancashire when the cheese
-                                            comes out everybody's happy blue castello halloumi boursin stinking bishop
-                                            pecorino fromage frais.</p>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(4.0)</span>
-                                        </div>
-                                        <h6 className="unit">250 ml</h6>
-                                        <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
-                                        </h5>
-                                        <div className="add-to-cart-box bg-white">
-                                            <button className="btn btn-add-cart addcart-button">Add
-                                                <span className="add-icon bg-light-gray">
-                                                    <i className="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div className="cart_qty qty-box">
-                                                <div className="input-group bg-white">
-                                                    <button type="button" className="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i className="fa fa-minus"></i>
-                                                    </button>
-                                                    <input className="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" className="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i className="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div className="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.65s">
-                                <div className="product-header">
-                                    <div className="product-image">
-                                        <a href="/Productdetails">
-                                            <img src="../assets/images/cake/product/3.png"
-                                                className="img-fluid blur-up lazyload" alt="" />
-                                        </a>
-
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-                                            {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li> */}
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                        {/* <span className="span-name">Vegetable</span> */}
-                                        <a href="/Productdetails">
-                                            <h5 className="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
-                                        </a>
-                                        <p className="text-content mt-1 mb-2 product-content">Say cheese cheese and biscuits
-                                            feta. Queso bocconcini danish fontina camembert de normandie brie airedale
-                                            ricotta feta. Pecorino edam gouda caerphilly croque monsieur red leicester
-                                            cheese triangles caerphilly.</p>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(2.4)</span>
-                                        </div>
-                                        <h6 className="unit">350 G</h6>
-                                        <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
-                                        </h5>
-                                        <div className="add-to-cart-box bg-white">
-                                            <button className="btn btn-add-cart addcart-button">Add
-                                                <span className="add-icon bg-light-gray">
-                                                    <i className="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div className="cart_qty qty-box">
-                                                <div className="input-group bg-white">
-                                                    <button type="button" className="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i className="fa fa-minus"></i>
-                                                    </button>
-                                                    <input className="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" className="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i className="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <nav className="custom-pagination">
@@ -1779,6 +1303,107 @@ const Shop = () => {
     {/* <!-- Shop Section End --> */}
 
     <Footer />
+            {/* <!-- Quick View Modal Box Start --> */}
+    <div className="modal fade theme-modal view-modal" id="view" tabindex="-1">
+        <div className="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down">
+            <div className="modal-content">
+                <div className="modal-header p-0">
+                    <button type="button" className="btn-close" data-bs-dismiss="modal">
+                        <i className="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div className="modal-body">
+                    <div className="row g-sm-4 g-2">
+                        <div className="col-lg-6">
+                            <div className="slider-image">
+                                <img src="/assets/images/product1.webp" className="img-fluid blur-up lazyload"
+                                    alt="" />
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6">
+                            <div className="right-sidebar-modal">
+                                <h4 className="title-name">Evercore Yeast Protein - Double Chocolate </h4>
+                                <h4 className="price">₹ 1250.00</h4>
+                                <div className="product-rating">
+                                    <ul className="rating">
+                                        <li>
+                                            <i data-feather="star" className="fill"></i>
+                                        </li>
+                                        <li>
+                                            <i data-feather="star" className="fill"></i>
+                                        </li>
+                                        <li>
+                                            <i data-feather="star" className="fill"></i>
+                                        </li>
+                                        <li>
+                                            <i data-feather="star" className="fill"></i>
+                                        </li>
+                                        <li>
+                                            <i data-feather="star"></i>
+                                        </li>
+                                    </ul>
+                                    <span className="ms-2">8 Reviews</span>
+                                    <span className="ms-2 text-danger">6 sold in last 16 hours</span>
+                                </div>
+
+                                <div className="product-detail">
+                                    <h4>Product Details :</h4>
+                                    <p>Candy canes sugar plum tart cotton candy chupa chups sugar plum chocolate I love.
+                                        Caramels marshmallow icing dessert candy canes I love soufflé I love toffee.
+                                        Marshmallow pie sweet sweet roll sesame snaps tiramisu jelly bear claw. Bonbon
+                                        muffin I love carrot cake sugar plum dessert bonbon.</p>
+                                </div>
+
+                                <ul className="brand-list">
+                                    <li>
+                                        <div className="brand-box">
+                                            <h5>Brand Name:</h5>
+                                            <h6>Black Forest</h6>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div className="brand-box">
+                                            <h5>Product Code:</h5>
+                                            <h6>W0690034</h6>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div className="brand-box">
+                                            <h5>Product Type:</h5>
+                                            <h6>White Cream Cake</h6>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div className="select-size">
+                                    <h4> Protein size:</h4>
+                                    <select className="form-select select-form-size">
+                                        <option selected>Select Size</option>
+                                        <option value="1.2">1/2 KG</option>
+                                        <option value="0">1 KG</option>
+                                        <option value="1.5">1/5 KG</option>
+                                    </select>
+                                </div>
+
+                                <div className="modal-button">
+                                    <a href = '/cart'
+                                        className="btn btn-md add-cart-button icon">Add
+                                        To Cart</a>
+                                    <a href = ''
+                                        className="btn theme-bg-color view-button icon text-white fw-bold btn-md">
+                                        View More Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Quick View Modal Box End --> */}
     </>
   )
 }

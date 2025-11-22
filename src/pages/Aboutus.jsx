@@ -39,9 +39,10 @@ const Aboutus = () => {
                             <div className="fresh-image-2">
                               <div>
                                 <img
-                                  src="../assets/images/Img1.jpg"
+                                  src="/assets/images/prd_3977707-MuscleBlaze.webp"
                                   alt="Fresh Image"
                                   className="resimg"
+                                  width={"80%"}
                                 />
                               </div>
                             </div>
@@ -191,7 +192,7 @@ const Aboutus = () => {
                         <div>
                             <div class="team-box">
                                 <div class="team-image">
-                                    <img src="../assets/images/inner-page/user/1.jpg" class="img-fluid blur-up lazyload"
+                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
                                         alt="" />
                                 </div>
 
@@ -231,7 +232,7 @@ const Aboutus = () => {
                         <div>
                             <div class="team-box">
                                 <div class="team-image">
-                                    <img src="../assets/images/inner-page/user/2.jpg" class="img-fluid blur-up lazyload"
+                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
                                         alt="" />
                                 </div>
 
@@ -271,7 +272,7 @@ const Aboutus = () => {
                         <div>
                             <div class="team-box">
                                 <div class="team-image">
-                                    <img src="../assets/images/inner-page/user/3.jpg" class="img-fluid blur-up lazyload"
+                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
                                         alt="" />
                                 </div>
 
@@ -311,7 +312,7 @@ const Aboutus = () => {
                         <div>
                             <div class="team-box">
                                 <div class="team-image">
-                                    <img src="../assets/images/inner-page/user/4.jpg" class="img-fluid blur-up lazyload"
+                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
                                         alt="" />
                                 </div>
 
@@ -351,7 +352,7 @@ const Aboutus = () => {
                         <div>
                             <div class="team-box">
                                 <div class="team-image">
-                                    <img src="../assets/images/inner-page/user/1.jpg" class="img-fluid blur-up lazyload"
+                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
                                         alt="" />
                                 </div>
 
@@ -434,7 +435,7 @@ const Aboutus = () => {
 
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
-                                        <img src="../assets/images/inner-page/user/1.jpg" class="blur-up lazyload"
+                                        <img src="/assets/images/user.png" class="blur-up lazyload"
                                             alt="" />
                                     </div>
 
@@ -476,7 +477,7 @@ const Aboutus = () => {
                                     organic search and content marketing."</p>
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
-                                        <img src="../assets/images/inner-page/user/2.jpg" class="blur-up lazyload"
+                                        <img src="/assets/images/user.png" class="blur-up lazyload"
                                             alt="" />
                                     </div>
 
@@ -518,7 +519,7 @@ const Aboutus = () => {
                                     Company. When it comes to content marketing."</p>
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
-                                        <img src="../assets/images/inner-page/user/3.jpg" class="blur-up lazyload"
+                                        <img src="/assets/images/user.png" class="blur-up lazyload"
                                             alt="" />
                                     </div>
 
@@ -560,7 +561,7 @@ const Aboutus = () => {
                                     brand."</p>
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
-                                        <img src="../assets/images/inner-page/user/4.jpg" class="blur-up lazyload"
+                                        <img src="/assets/images/user.png" class="blur-up lazyload"
                                             alt=" " />
                                     </div>
 
@@ -602,7 +603,7 @@ const Aboutus = () => {
                                     customers is incredible."</p>
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
-                                        <img src="../assets/images/inner-page/user/1.jpg" class="blur-up lazyload"
+                                        <img src="/assets/images/user.png" class="blur-up lazyload"
                                             alt="" />
                                     </div>
 
@@ -645,7 +646,7 @@ const Aboutus = () => {
 
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
-                                        <img src="../assets/images/inner-page/user/2.jpg" class="blur-up lazyload"
+                                        <img src="/assets/images/user.png" class="blur-up lazyload"
                                             alt="" />
                                     </div>
 
@@ -687,7 +688,7 @@ const Aboutus = () => {
                                     the Olympics!"</p>
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
-                                        <img src="../assets/images/inner-page/user/3.jpg" class="blur-up lazyload"
+                                        <img src="/assets/images/user.png" class="blur-up lazyload"
                                             alt="" />
                                     </div>
 
@@ -729,7 +730,7 @@ const Aboutus = () => {
                                     them Knicks? What kind of a father would I be if I said no?."</p>
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
-                                        <img src="../assets/images/inner-page/user/4.jpg" class="blur-up lazyload"
+                                        <img src="/assets/images/user.png" class="blur-up lazyload"
                                             alt="" />
                                     </div>
 
@@ -747,109 +748,7 @@ const Aboutus = () => {
     </section>
     {/* <!-- Review Section End --> */}
 
-    {/* <!-- Blog Section Start --> */}
-    <section class="section-lg-space">
-        <div class="container-fluid-lg">
-            <div class="about-us-title text-center">
-                <h4 class="text-content">Our Blog</h4>
-                <h2 class="center">Our Latest Blog</h2>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="slider-5 ratio_87">
-                        <div>
-                            <div class="blog-box">
-                                <div class="blog-box-image">
-                                    <div class="blog-image">
-                                        <a href="blog-detail.html" class="rounded-3">
-                                            <img src="../assets/images/veg-2/blog/1.jpg" class="bg-img blur-up lazyload"
-                                                alt="" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <a href="blog-detail.html" class="blog-detail d-block">
-                                    <h6>Farmart</h6>
-                                    <h5>Fresh Meat Saugage</h5>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="blog-box">
-                                <div class="blog-box-image">
-                                    <div class="blog-image">
-                                        <a href="blog-detail.html" class="rounded-3">
-                                            <img src="../assets/images/veg-2/blog/2.jpg" class="bg-img blur-up lazyload"
-                                                alt="" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <a href="blog-detail.html" class="blog-detail d-block">
-                                    <h6>Soda Brand</h6>
-                                    <h5>Soda 500ml - 20% OFF</h5>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="blog-box">
-                                <div class="blog-box-image">
-                                    <div class="blog-image">
-                                        <a href="blog-detail.html" class="rounded-3">
-                                            <img src="../assets/images/veg-2/blog/3.jpg" class="bg-img blur-up lazyload"
-                                                alt="" /> 
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <a href="blog-detail.html" class="blog-detail d-block">
-                                    <h6>Beer Brand</h6>
-                                    <h5>Soda 500ml - 20% OFF</h5>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="blog-box">
-                                <div class="blog-box-image">
-                                    <div class="blog-image">
-                                        <a href="blog-detail.html" class="rounded-3">
-                                            <img src="../assets/images/veg-2/blog/4.jpg" class="bg-img blur-up lazyload"
-                                                alt="" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <a href="blog-detail.html" class="blog-detail d-block">
-                                    <h6>Beer Brand</h6>
-                                    <h5>Fresh Beer -30% OFF</h5>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="blog-box">
-                                <div class="blog-image">
-                                    <a href="blog-detail.html" class="rounded-3">
-                                        <img src="../assets/images/veg-2/blog/5.jpg" class="bg-img blur-up lazyload"
-                                            alt="" />
-                                    </a>
-                                </div>
-
-                                <a href="blog-detail.html" class="blog-detail d-block">
-                                    <h6>Milk Brand</h6>
-                                    <h5>Fresh Milk</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    {/* <!-- Blog Section End --> */}
+  
        <Footer />
     </>
   )

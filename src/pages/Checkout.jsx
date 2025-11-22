@@ -542,44 +542,44 @@ const Checkout = () => {
 
                             <ul className="summery-contain">
                                 <li>
-                                    <img src="../assets/images/vegetable/product/1.png"
+                                    <img src="/assets/images/product1.webp"
                                         className="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Bell pepper <span>X 1</span></h4>
+                                    <h4>Double Chocolate <span>X 1</span></h4>
                                     <h4 className="price">₹32.34</h4>
                                 </li>
 
                                 <li>
-                                    <img src="../assets/images/vegetable/product/2.png"
+                                    <img src="/assets/images/product2.webp"
                                         className="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Eggplant <span>X 3</span></h4>
+                                    <h4>Vanilla <span>X 3</span></h4>
                                     <h4 className="price">₹12.23</h4>
                                 </li>
 
                                 <li>
-                                    <img src="../assets/images/vegetable/product/3.png"
+                                    <img src="/assets/images/product3.webp"
                                         className="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Onion <span>X 2</span></h4>
+                                    <h4>Mixed Berry <span>X 2</span></h4>
                                     <h4 className="price">₹18.27</h4>
                                 </li>
 
                                 <li>
-                                    <img src="../assets/images/vegetable/product/4.png"
+                                    <img src="/assets/images/product4.webp"
                                         className="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Potato <span>X 1</span></h4>
+                                    <h4>Order Summery <span>X 1</span></h4>
                                     <h4 className="price">₹26.90</h4>
                                 </li>
 
                                 <li>
-                                    <img src="../assets/images/vegetable/product/5.png"
+                                    <img src="/assets/images/product5.webp"
                                         className="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Baby Chili <span>X 1</span></h4>
+                                    <h4>Vanilla <span>X 1</span></h4>
                                     <h4 className="price">₹19.28</h4>
                                 </li>
 
                                 <li>
-                                    <img src="../assets/images/vegetable/product/6.png"
+                                    <img src="/assets/images/product3.webp"
                                         className="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Broccoli <span>X 2</span></h4>
+                                    <h4>Order Summery <span>X 2</span></h4>
                                     <h4 className="price">₹29.69</h4>
                                 </li>
                             </ul>
