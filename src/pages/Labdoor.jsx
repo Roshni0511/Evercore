@@ -17,7 +17,7 @@ const Labdoor = () => {
       <Navbar />
 
       {/* HERO BANNER */}
-      <section data-aos="zoom-in">
+      <section data-aos="zoom-in" style={{paddingTop:'0px'}}>
         <img
           src="/assets/images/bulk2.jpg"
           alt=""
@@ -68,7 +68,7 @@ const Labdoor = () => {
         <div className="container">
           <div className="row align-items-center">
 
-            <div className="col-6 fresh-image-2" data-aos="fade-right">
+            <div className="col-12 col-md-6 mb-4 mb-md-0 fresh-image-2" data-aos="fade-right">
               <img
                 src="/assets/images/prd_3977707-MuscleBlaze.webp"
               alt="Fresh Image"
@@ -77,7 +77,7 @@ const Labdoor = () => {
               />
             </div>
 
-            <div className="col-6" data-aos="fade-left">
+            <div className="col-12 col-md-6" data-aos="fade-left">
               <h2 style={{ fontSize: "32px", fontWeight: 700 }}>
                 Why Project Protein is the Right Choice for You
               </h2>
@@ -178,7 +178,7 @@ const Labdoor = () => {
         <div className="container" style={{  display: "flex" }}>
           <div className="col-12">
             <div className="row">
-              <div className="col-6" data-aos="fade-right">
+              <div className="col-12 col-md-6 mb-4 mb-md-0" data-aos="fade-right">
  <div
             style={{
               backgroundColor: "#fff",
@@ -240,7 +240,7 @@ const Labdoor = () => {
             </button>
           </div>
               </div>
-              <div className="col-6" data-aos="fade-left">
+              <div className="col-12 col-md-6" data-aos="fade-left">
 <div>
     
   <h4 style={{ color: "#c25f31", fontWeight: 700 }}>Who is NutriCheck™?</h4>
@@ -281,48 +281,7 @@ const Labdoor = () => {
       </section>
 
       {/* ABOUT NUTRICHECK */}
-      {/* <section
-        data-aos="fade-up"
-        style={{
-          padding: "80px 20px",
-          backgroundColor: "#ffffff",
-          color: "#333"
-        }}
-      >
-  <div className="container">
-  
-  <h4 style={{ color: "#c25f31", fontWeight: 700 }}>Who is NutriCheck™?</h4>
-  <p style={{ color: "#666", marginTop: "6px" }}>
-    NutriCheck™ is a trusted third-party lab that verifies supplement safety, purity, and nutritional accuracy.
-  </p>
 
-  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>How does NutriCheck™ evaluate supplements?</h4>
-  <p style={{ color: "#666", marginTop: "6px" }}>
-    Each product is tested for chemical composition, microbes, and nutritional content to ensure authenticity and accuracy.
-  </p>
-
-  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>Why is third-party testing important?</h4>
-  <p style={{ color: "#666", marginTop: "6px" }}>
-    It prevents misleading labels, detects contaminants, and ensures the product is safe and effective.
-  </p>
-
-  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>What does NutriCheck™ look for during testing?</h4>
-  <p style={{ color: "#666", marginTop: "6px" }}>
-    NutriCheck™ checks protein content, amino acids, banned substances, heavy metals, and overall ingredient authenticity.
-  </p>
-
-  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>Why does Project Protein choose NutriCheck™?</h4>
-  <p style={{ color: "#666", marginTop: "6px" }}>
-    Because it delivers unbiased testing and transparent results that consumers can trust.
-  </p>
-
-  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>Do all batches get tested?</h4>
-  <p style={{ color: "#666", marginTop: "6px" }}>
-    Yes. Every batch is tested to ensure consistent purity, potency, and nutritional value.
-  </p>
-</div>
-
-      </section> */}
 
       {/* PRODUCT SECTION */}
       <section
@@ -336,7 +295,7 @@ const Labdoor = () => {
         <div className="container">
           <div className="row">
 
-            <div className="col-6" data-aos="fade-right">
+            <div className="col-12 col-md-6 mb-4 mb-md-0" data-aos="fade-right">
               <div style={{ width: "60px", height: "4px", backgroundColor: "#c25f31" }}></div>
 
               <h1
@@ -350,27 +309,34 @@ const Labdoor = () => {
               >
                 PROJECT PROTEIN <br /> PERFORMANCE <br /> WHEY
               </h1>
-
-              <ul style={{ marginTop: "20px", fontSize: "18px", color: "#666", lineHeight: "30px" }}>
-                <li>✔ Clean & Verified Whey Protein</li>
-                <li>✔ Enhanced Absorption Formula</li>
-                <li>✔ Superior digestion & bioavailability</li>
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-6">
+      <ul style={{ marginTop: "20px", fontSize: "18px", color: "#666", lineHeight: "30px" }}>
+                <li>✔ Clean & Verified Whey Protein</li><br />
+                <li>✔ Enhanced Absorption Formula</li><br />
+                <li>✔ Superior digestion & bioavailability</li><br />
                 <li>✔ Available in 10+ delicious flavors</li>
               </ul>
-
-              <div style={{ marginTop: "30px", display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "15px" }}>
+                  </div>
+                  <div className="col-6">
+                    <div style={{ marginTop: "30px", display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "15px" }}>
                 <div style={{ color: "#444", fontSize: "16px" }}>
-                  <p>Energy: <b>140.94 kcal</b></p>
-                  <p>Protein: <b>25g</b></p>
-                  <p>Carbs: <b>5.58g</b></p>
-                  <p>Fat: <b>1.98g</b></p>
+                  <p>Energy: <b style={{color:"#c25f31"}}>140.94 kcal</b></p>
+                  <p>Protein: <b style={{color:"#c25f31"}}>25g</b></p>
+                  <p>Carbs: <b style={{color:"#c25f31"}}>5.58g</b></p>
+                  <p>Fat: <b style={{color:"#c25f31"}}>1.98g</b></p>
                 </div>
-                <div style={{ color: "#444", fontSize: "16px" }}>
-                  <p>EAA: <b>11.75g</b></p>
-                  <p>Semi-EAA: <b>3.80g</b></p>
-                  <p>NEAA: <b>9.45g</b></p>
+           
+                  </div>
+               
+                  </div>
                 </div>
               </div>
+
+        
+
+              
 
               <div style={{ marginTop: "30px", display: "flex", gap: "15px" }}>
                 <a href="/Shop">
@@ -393,7 +359,7 @@ const Labdoor = () => {
               </div>
             </div>
 
-            <div className="col-6" data-aos="fade-left" style={{ textAlign: "center" }}>
+            <div className="col-12 col-md-6" data-aos="fade-left" style={{ textAlign: "center" }}>
               <img
                 src="	https://mynutramart.com/cdn/shop/files/AS-IT-ISL-GlutaminePowder250gSlide1_500x.jpg?v=1706529144"
                   alt="Fresh Image"
