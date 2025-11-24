@@ -215,12 +215,12 @@ const Placeorder = () => {
 
                                 <ul className="summery-contain">
                                     <li>
-                                        <h4>Vegetables Total</h4>
+                                        <h4>Protein Total</h4>
                                         <h4 className="price">₹32.34</h4>
                                     </li>
 
                                     <li>
-                                        <h4>Vegetables Saving</h4>
+                                        <h4>Protein Saving</h4>
                                         <h4 className="price theme-color">₹12.23</h4>
                                     </li>
 

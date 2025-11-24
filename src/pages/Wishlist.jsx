@@ -81,7 +81,7 @@ const Wishlist = () => {
                         </div>
                         <div className="product-footer">
                             <div className="product-detail">
-                                <span className="span-name">Vegetable</span>
+                                {/* <span className="span-name">Vegetable</span> */}
                                 <a href="/Productdetails">
                                     <h5 className="name">Fresh Bread and Pastry Flour 200 g</h5>
                                 </a>
@@ -136,7 +136,7 @@ const Wishlist = () => {
 
                         <div className="product-footer">
                             <div className="product-detail">
-                                <span className="span-name">Vegetable</span>
+                                {/* <span className="span-name">Vegetable</span> */}
                                 <a href="/Productdetails">
                                     <h5 className="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
                                 </a>
@@ -301,7 +301,7 @@ const Wishlist = () => {
 
                         <div className="product-footer">
                             <div className="product-detail">
-                                <span className="span-name">Vegetable</span>
+                                {/* <span className="span-name">Vegetable</span> */}
                                 <a href="/Productdetails">
                                     <h5 className="name">Fantasy Crunchy Choco Chip Cookies</h5>
                                 </a>
@@ -356,7 +356,7 @@ const Wishlist = () => {
 
                         <div className="product-footer">
                             <div className="product-detail">
-                                <span className="span-name">Vegetable</span>
+                                {/* <span className="span-name">Vegetable</span> */}
                                 <a href="/Productdetails">
                                     <h5 className="name">Fresh Bread and Pastry Flour 200 g</h5>
                                 </a>
@@ -410,7 +410,7 @@ const Wishlist = () => {
                         </div>
                         <div className="product-footer">
                             <div className="product-detail">
-                                <span className="span-name">Vegetable</span>
+                                {/* <span className="span-name">Vegetable</span> */}
                                 <a href="/Productdetails">
                                     <h5 className="name">Fresh Bread and Pastry Flour 200 g</h5>
                                 </a>
@@ -464,7 +464,7 @@ const Wishlist = () => {
 
                         <div className="product-footer">
                             <div className="product-detail">
-                                <span className="span-name">Vegetable</span>
+                                {/* <span className="span-name">Vegetable</span> */}
                                 <a href="/Productdetails">
                                     <h5 className="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
                                 </a>
@@ -629,7 +629,7 @@ const Wishlist = () => {
 
                         <div className="product-footer">
                             <div className="product-detail">
-                                <span className="span-name">Vegetable</span>
+                                {/* <span className="span-name">Vegetable</span> */}
                                 <a href="/Productdetails">
                                     <h5 className="name">Fantasy Crunchy Choco Chip Cookies</h5>
                                 </a>
