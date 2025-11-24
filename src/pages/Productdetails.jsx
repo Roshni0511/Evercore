@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import $ from "jquery";
 import Navbar from './Navbar'
 import Footer from './Footer'
 
 const Productdetails = () => {
+    const [selectedSize, setSelectedSize] = useState("small");
     useEffect(() => {
         /**=====================
             Quantity 2 js
@@ -184,26 +185,56 @@ const Productdetails = () => {
                                         <h4>Weight </h4>
                                     </div>
 
-                                    <ul class="rectangle select-package">
-                                        <li class="form-check">
-                                            <input class="form-check-input" checked type="radio" name="size" id="small" />
-                                            <label class="form-check-label" for="small">
-                                                <span>1 KG</span>
-                                            </label>
-                                        </li>
-                                        <li class="form-check">
-                                            <input class="form-check-input" type="radio" name="size" id="medium"/>
-                                            <label class="form-check-label" for="medium">
-                                                <span>2 KG</span>
-                                            </label>
-                                        </li>
-                                        <li class="form-check">
-                                            <input class="form-check-input" type="radio" name="size" id="large" />
-                                            <label class="form-check-label" for="large">
-                                                <span>3 KG</span>
-                                            </label>
-                                        </li>
-                                    </ul>
+                     <ul className="rectangle select-package">
+      <li className="form-check">
+        <input
+          className="form-check-input"
+          checked={selectedSize === "small"}
+          type="radio"
+          name="size"
+          id="small"
+          onChange={() => setSelectedSize("small")}
+        />
+        <label
+          className={`form-check-label ${selectedSize === "small" ? "active" : ""}`}
+          htmlFor="small"
+        >
+          <span>1 KG</span>
+        </label>
+      </li>
+      <li className="form-check">
+        <input
+          className="form-check-input"
+          checked={selectedSize === "medium"}
+          type="radio"
+          name="size"
+          id="medium"
+          onChange={() => setSelectedSize("medium")}
+        />
+        <label
+          className={`form-check-label ${selectedSize === "medium" ? "active" : ""}`}
+          htmlFor="medium"
+        >
+          <span>2 KG</span>
+        </label>
+      </li>
+      <li className="form-check">
+        <input
+          className="form-check-input"
+          checked={selectedSize === "large"}
+          type="radio"
+          name="size"
+          id="large"
+          onChange={() => setSelectedSize("large")}
+        />
+        <label
+          className={`form-check-label ${selectedSize === "large" ? "active" : ""}`}
+          htmlFor="large"
+        >
+          <span>3 KG</span>
+        </label>
+      </li>
+    </ul>
                                 </div>
 
                             

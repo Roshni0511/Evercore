@@ -6,7 +6,7 @@ export default function ProteinCerti() {
   return (
     <>
       <Navbar />
-      <section class="lab-hero">
+      <section class="lab-hero" style={{paddingTop:'0px'}}> 
     <div class="overlay"></div>
     <div class="hero-content">
         {/* <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/cae63ca0-3469-411f-b299-62c245625702.__CR0,0,970,300_PT0_SX970_V1___.jpg" class="hero-icon" /> */}
