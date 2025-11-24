@@ -39,8 +39,8 @@ const Blog = () => {
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/1.jpg"
+                                    <a href="/Blogdetails">
+                                        <img src="/assets/images/blog1.jpg"
                                             class="bg-img blur-up lazyload" alt="" />
                                     </a>
                                 </div>
@@ -54,8 +54,11 @@ const Blog = () => {
                                     <a href="blog-detail.html">
                                         <h3>one pot creamy mediterranean chicken pasta cream.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <a href='/Blogdetails'>
+
+                                    <button  class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +66,8 @@ const Blog = () => {
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.05s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/2.jpg" class="bg-img" alt="" />
+                                    <a href="/Blogdetails">
+                                        <img src="/assets/images/blog2.webp" class="bg-img" alt="" />
                                     </a>
                                 </div>
 
@@ -77,8 +80,11 @@ const Blog = () => {
                                     <a href="blog-detail.html">
                                         <h3>Crispy Frozen Vegetable is the on the Tempura.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <a href='/Blogdetails'>
+
+                                    <button class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -86,8 +92,8 @@ const Blog = () => {
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/3.jpg"
+                                    <a href="/Blogdetails">
+                                        <img src="/assets/images/blog3.jpg"
                                             class="bg-img blur-up lazyload" alt="" />
                                     </a>
                                     <label><i class="fa-solid fa-bolt-lightning"></i> popular</label>
@@ -102,8 +108,11 @@ const Blog = () => {
                                     <a href="blog-detail.html">
                                         <h3>How to start regrowing green onions and other vegetables.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <a href='/Blogdetails'>
+
+                                    <button  class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -111,8 +120,8 @@ const Blog = () => {
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.15s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/4.jpg"
+                                    <a href="/Blogdetails">
+                                        <img src="/assets/images/blog4.jpg"
                                             class="bg-img blur-up lazyload" alt="" />
                                     </a>
                                 </div>
@@ -126,208 +135,18 @@ const Blog = () => {
                                     <a href="blog-detail.html">
                                         <h3>Starting a vegetable garden: the basics.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
-                                </div>
-                            </div>
-                        </div>
+                                    <a href='/Blogdetails'>
 
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/5.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>Cecil M.
-                                                Levis</span></span>
-                                    </div>
-                                    <a href="blog-detail.html">
-                                        <h3>Adapt this simple pasta salad to whatever vegetable.</h3>
-                                    </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.25s">
-                                <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/1.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>Mary R.
-                                                Hernandez</span></span>
-                                    </div>
-                                    <a href="blog-detail.html">
-                                        <h3>With chefs idle and vegetables rotting, China's virus-hit.</h3>
-                                    </a>
-                                    <a href="/Blogdetails">
-
-                                    <button  class="blog-button">Read More
+                                    <button class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/2.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
-                                    </a>
-                                </div>
+                     
 
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>Cheryl D.
-                                                Moser</span></span>
-                                    </div>
-                                    <a href="blog-detail.html">
-                                        <h3>Turn that bowl of pasta into a supercharged veggie vehicle.</h3>
-                                    </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.35s">
-                                <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/3.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg,
-                                                2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>Mina M.
-                                                Short</span></span>
-                                    </div>
-                                    <a href="blog-detail.html">
-                                        <h3>Health, care and skin on the for your organic.</h3>
-                                    </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/4.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>Marie S.
-                                                Santiago</span></span>
-                                    </div>
-                                    <a href="blog-detail.html">
-                                        <h3>Fresh organicsm, brand, fresh and picnic place awesome.</h3>
-                                    </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.45s">
-                                <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/3.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
-                                    </a>
-                                    <label><i class="fa-solid fa-bolt-lightning"></i> popular</label>
-                                </div>
-
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>Mark J.
-                                                Speight</span></span>
-                                    </div>
-                                    <a href="blog-detail.html">
-                                        <h3>With chefs idle and vegetables rotting, China's virus-hit.</h3>
-                                    </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/4.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>Chris C.
-                                                Hall</span></span>
-                                    </div>
-                                    <a href="blog-detail.html">
-                                        <h3>Vegina good quality special liquide fesh vegetables.</h3>
-                                    </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.55s">
-                                <div class="blog-image">
-                                    <a href="blog-detail.html">
-                                        <img src="../assets/images/inner-page/blog/5.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>James M.
-                                                Martin</span></span>
-                                    </div>
-                                    <a href="blog-detail.html">
-                                        <h3>How to freeze fresh vegetables while preserving their best qualities.</h3>
-                                    </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
-                                </div>
-                            </div>
-                        </div>
+                     
                     </div>
 
                     <nav class="custom-pagination">
@@ -377,8 +196,8 @@ const Blog = () => {
                                         <div class="recent-post-box">
                                             <div class="recent-box">
                                                 <a href="blog-detail.html" class="recent-image">
-                                                    <img src="../assets/images/inner-page/blog/1.jpg"
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                    <img src="/assets/images/product1.webp"
+                                                        class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -391,7 +210,7 @@ const Blog = () => {
 
                                             <div class="recent-box">
                                                 <a href="blog-detail.html" class="recent-image">
-                                                    <img src="../assets/images/inner-page/blog/2.jpg"
+                                                    <img src="/assets/images/product2.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
 
@@ -405,7 +224,7 @@ const Blog = () => {
 
                                             <div class="recent-box">
                                                 <a href="blog-detail.html" class="recent-image">
-                                                    <img src="../assets/images/inner-page/blog/3.jpg"
+                                                    <img src="/assets/images/product3.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
 
@@ -419,7 +238,7 @@ const Blog = () => {
 
                                             <div class="recent-box">
                                                 <a href="blog-detail.html" class="recent-image">
-                                                    <img src="../assets/images/inner-page/blog/4.jpg"
+                                                    <img src="/assets/images/product5.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
 
@@ -562,8 +381,8 @@ const Blog = () => {
                                             <li>
                                                 <div class="offer-product">
                                                     <a href="shop-left-sidebar.html" class="offer-image">
-                                                        <img src="../assets/images/vegetable/product/23.png"
-                                                            class="blur-up lazyload" alt="" />
+                                                         <img src="/assets/images/product1.webp"
+                                                        class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
                                                     </a>
 
                                                     <div class="offer-detail">
@@ -581,8 +400,8 @@ const Blog = () => {
                                             <li>
                                                 <div class="offer-product">
                                                     <a href="shop-left-sidebar.html" class="offer-image">
-                                                        <img src="../assets/images/vegetable/product/24.png"
-                                                            class="blur-up lazyload" alt="" />
+                                                             <img src="/assets/images/product2.webp" style={{width:'90px'}}
+                                                        class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
 
                                                     <div class="offer-detail">
@@ -600,8 +419,8 @@ const Blog = () => {
                                             <li class="mb-0">
                                                 <div class="offer-product">
                                                     <a href="shop-left-sidebar.html" class="offer-image">
-                                                        <img src="../assets/images/vegetable/product/26.png"
-                                                            class="blur-up lazyload" alt="" />
+                                                        <img src="/assets/images/product5.webp" style={{width:'90px'}}
+                                                        class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
 
                                                     <div class="offer-detail">

@@ -38427,7 +38427,7 @@ body.rtl .menu-label {
 }
 
 .blog-section .blog-box .blog-contain .blog-button:hover {
-    background-color: rgba(var(--theme-color-rgb), 1);
+    background-color:rgb(194 95 49);
     color: #fff
 }
 
@@ -48643,7 +48643,7 @@ display: none;
 
 .search-box1 {
     background: #fff;
-    padding: 12px;
+    padding: 0px;
     border-radius: 10px;
     display: flex;
     gap: 10px;

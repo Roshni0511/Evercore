@@ -80,23 +80,6 @@ const Blogdetails = () => {
                             please use "solutionise" instead of solution ideas! i am dead inside. Quick sync
                             4-blocker. Driving the initiative forward flesh that out.</p>
 
-                        <p>Let's unpack that later everyone thinks the soup tastes better after they pissed in it
-                            pivot, re-inventing the wheel, and it's not hard guys. Market-facing pushback back of the
-                            net, for pro-sumer software let's see if we can dovetail these two projects but turn the
-                            crank for they have downloaded gmail and seems to be working for now. This is not the hill i
-                            want to die on you better eat a reality sandwich before you walk back in that boardroom land
-                            the plane yet exposing new ways to evolve our design language design thinking nor poop, so
-                            can you put it into a banner that is not alarming, but eye catching and not too giant. That
-                            is a good problem to have dog and pony show we're ahead of the curve on that one.</p>
-
-                        <p> Waste of resources can you run this by clearance? hot johnny coming through driving the
-                            initiative forward our competitors are jumping the shark. Unlock meaningful moments of
-                            relaxation. Copy and paste from stack overflow a tentative event rundown is attached for
-                            your reference, including other happenings on the day you are most welcome to join us
-                            beforehand for a light lunch we would also like to invite you to other activities on the
-                            day, including the interim and closing panel discussions on the intersection of businesses
-                            and social innovation, and on building a stronger social innovation eco-system respectively
-                            what are the expectations,on-brand but completely fresh we can't hear you.</p>
 
                         <div class="blog-details-quote">
                             <h3>Adipisicing elit Qui ipsam natus aspernatur quaerat impedit eveniet ipsum dolor</h3>
@@ -279,8 +262,8 @@ const Blogdetails = () => {
                                         <div class="recent-post-box">
                                             <div class="recent-box">
                                                 <a href="blog-detail.html" class="recent-image">
-                                                    <img src="../assets/images/inner-page/blog/1.jpg"
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                                <img src="/assets/images/product1.webp"
+                                                        class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -293,7 +276,7 @@ const Blogdetails = () => {
 
                                             <div class="recent-box">
                                                 <a href="blog-detail.html" class="recent-image">
-                                                    <img src="../assets/images/inner-page/blog/2.jpg"
+                                                 <img src="/assets/images/product2.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
 
@@ -307,7 +290,7 @@ const Blogdetails = () => {
 
                                             <div class="recent-box">
                                                 <a href="blog-detail.html" class="recent-image">
-                                                    <img src="../assets/images/inner-page/blog/3.jpg"
+                                            <img src="/assets/images/product3.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
 
@@ -321,7 +304,7 @@ const Blogdetails = () => {
 
                                             <div class="recent-box">
                                                 <a href="blog-detail.html" class="recent-image">
-                                                    <img src="../assets/images/inner-page/blog/4.jpg"
+                                               <img src="/assets/images/product5.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
 
@@ -468,8 +451,8 @@ const Blogdetails = () => {
                                             <li>
                                                 <div class="offer-product">
                                                     <a href="shop-left-sidebar.html" class="offer-image">
-                                                        <img src="../assets/images/vegetable/product/23.png"
-                                                            class="blur-up lazyload" alt="" />
+                                                         <img src="/assets/images/product1.webp"
+                                                        class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
                                                     </a>
 
                                                     <div class="offer-detail">
@@ -487,8 +470,8 @@ const Blogdetails = () => {
                                             <li>
                                                 <div class="offer-product">
                                                     <a href="shop-left-sidebar.html" class="offer-image">
-                                                        <img src="../assets/images/vegetable/product/24.png"
-                                                            class="blur-up lazyload" alt="" />
+                                       <img src="/assets/images/product2.webp" style={{width:'90px'}}
+                                                        class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
 
                                                     <div class="offer-detail">
@@ -506,8 +489,8 @@ const Blogdetails = () => {
                                             <li class="mb-0">
                                                 <div class="offer-product">
                                                     <a href="shop-left-sidebar.html" class="offer-image">
-                                                        <img src="../assets/images/vegetable/product/26.png"
-                                                            class="blur-up lazyload" alt="" />
+                                                          <img src="/assets/images/product5.webp" style={{width:'90px'}}
+                                                        class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
 
                                                     <div class="offer-detail">
