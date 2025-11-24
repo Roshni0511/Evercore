@@ -15,8 +15,8 @@ const Bulkorder = () => {
                     <div className="slider-animate">
                         <div>
                             <div className="home-contain rounded-0 p-0">
-                                <img src="../assets/images/grocery/banner/1.jpg"
-                                    className="img-fluid bg-img blur-up lazyload" alt="" />
+                                <img src="/assets/images/bulk2.jpg"
+                                    className="img-fluid bg-img blur-up lazyload" alt=""  style={{width:'100%'}} />
                               
                             </div>
                         </div>
@@ -35,7 +35,7 @@ const Bulkorder = () => {
                             <div className="fresh-image-2">
                               <div>
                                 <img
-                                  src="../assets/images/Img1.jpg"
+                                  src="	https://mynutramart.com/cdn/shop/files/AS-IT-ISL-GlutaminePowder250gSlide1_500x.jpg?v=1706529144"
                                   alt="Fresh Image"
                                   className="resimg"
                                 />
@@ -124,7 +124,7 @@ const Bulkorder = () => {
 
 
 
-       {/* <!-- Related Product Section Start --> */}
+{/* <!-- Related Product Section Start --> */}
     <section class="product-list-section section-b-space">
         <div class="container-fluid-lg">
             <div class="title">
@@ -139,7 +139,7 @@ const Bulkorder = () => {
                                 <div class="product-header">
                                     <div class="product-image">
                                         <a href="product-left.htm">
-                                            <img src="../assets/images/cake/product/11.png"
+                                            <img src="/assets/images/product1.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -151,14 +151,10 @@ const Bulkorder = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -168,9 +164,9 @@ const Bulkorder = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Cake</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Chocolate Chip Cookies 250 g</h5>
+                                       
+                                        <a href="">
+                                            <h5 class="name">Evercore Yeast Protein - Double Chocolate</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -225,8 +221,8 @@ const Bulkorder = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/2.png"
+                                        <a href="">
+                                            <img src="/assets/images/product2.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -238,14 +234,10 @@ const Bulkorder = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -254,9 +246,9 @@ const Bulkorder = () => {
                                 </div>
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
+                                       
+                                        <a href="">
+                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -311,8 +303,8 @@ const Bulkorder = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/3.png"
+                                        <a href="">
+                                            <img src="/assets/images/product3.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -324,14 +316,10 @@ const Bulkorder = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -341,9 +329,9 @@ const Bulkorder = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
+                                      
+                                        <a href="">
+                                            <h5 class="name">Evercore Yeast Protein - Mixed Berry</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -398,8 +386,8 @@ const Bulkorder = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/4.png"
+                                        <a href="">
+                                            <img src="/assets/images/product4.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -411,14 +399,10 @@ const Bulkorder = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                          
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -428,9 +412,9 @@ const Bulkorder = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">SnackAmor Combo Pack of Jowar Stick and Jowar Chips</h5>
+                                      
+                                        <a href="">
+                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -485,8 +469,8 @@ const Bulkorder = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/5.png"
+                                        <a href="">
+                                            <img src="/assets/images/product5.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -498,14 +482,9 @@ const Bulkorder = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -515,9 +494,9 @@ const Bulkorder = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Yumitos Chilli Sprinkled Potato Chips 100 g</h5>
+                                       
+                                        <a href="">
+                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -572,8 +551,8 @@ const Bulkorder = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
-                                            <img src="../assets/images/cake/product/6.png"
+                                        <a href="">
+                                            <img src="/assets/images/product3.webp"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
@@ -585,14 +564,9 @@ const Bulkorder = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -602,9 +576,9 @@ const Bulkorder = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
-                                            <h5 class="name">Fantasy Crunchy Choco Chip Cookies</h5>
+                                     
+                                        <a href="">
+                                            <h5 class="name">Post-Workout BCAA Powder - Green Apple</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -661,7 +635,7 @@ const Bulkorder = () => {
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="">
                                             <img src="../assets/images/cake/product/7.png" class="img-fluid" alt="" />
                                         </a>
 
@@ -673,14 +647,10 @@ const Bulkorder = () => {
                                                 </a>
                                             </li>
 
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
-                                                    <i data-feather="refresh-cw"></i>
-                                                </a>
-                                            </li>
+                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="/Wishlist" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -690,8 +660,8 @@ const Bulkorder = () => {
 
                                 <div class="product-footer">
                                     <div class="product-detail">
-                                        <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                      
+                                        <a href="">
                                             <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
                                         </a>
                                         <div class="product-rating mt-2">
@@ -744,6 +714,7 @@ const Bulkorder = () => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
