@@ -1,16 +1,25 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import React, { useEffect } from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Labdoor = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration
+      once: true, // animate only once
+    });
+  }, []);
+
   return (
     <>
       <Navbar />
 
       {/* HERO BANNER */}
-      <section>
+      <section data-aos="zoom-in">
         <img
-          src="../assets/images/grocery/banner/1.jpg"
+          src="/assets/images/bulk2.jpg"
           alt=""
           style={{
             width: "100%",
@@ -22,6 +31,7 @@ const Labdoor = () => {
 
       {/* TOP BANNER */}
       <section
+        data-aos="fade-up"
         style={{
           backgroundColor: "#ffffff",
           padding: "70px 20px",
@@ -31,7 +41,7 @@ const Labdoor = () => {
       >
         <div className="container">
           <h1 style={{ fontWeight: 700, fontSize: "40px", color: "#c25f31" }}>
-            Trusted Protein Quality You Can Count On
+           Project Protein – Premium Quality, Guaranteed Purity
           </h1>
           <p
             style={{
@@ -50,7 +60,7 @@ const Labdoor = () => {
       {/* WHY QUALITY MATTERS */}
       <section
         style={{
-          padding: "80px 20px",
+          padding: "0px 20px",
           backgroundColor: "#ffffff",
           color: "#333"
         }}
@@ -58,17 +68,18 @@ const Labdoor = () => {
         <div className="container">
           <div className="row align-items-center">
 
-            <div className="col-6">
+            <div className="col-6 fresh-image-2" data-aos="fade-right">
               <img
-                src="protein-bottle.png"
-                alt="Protein Supplement"
-                style={{ width: "100%", maxWidth: "420px" }}
+                src="/assets/images/prd_3977707-MuscleBlaze.webp"
+              alt="Fresh Image"
+              class="resimg"
+                style={{ width: "100%", maxWidth: "500px" }}
               />
             </div>
 
-            <div className="col-6">
+            <div className="col-6" data-aos="fade-left">
               <h2 style={{ fontSize: "32px", fontWeight: 700 }}>
-                Why choosing the right supplement matters
+                Why Project Protein is the Right Choice for You
               </h2>
 
               <div
@@ -80,30 +91,43 @@ const Labdoor = () => {
                 }}
               ></div>
 
-              <ul style={{ listStyle: "none", padding: 0, fontSize: "18px", color: "#666" }}>
-                <li>✔ Guaranteed purity & accurate nutrition</li>
-                <li>✔ No duplicate or low-quality ingredients</li>
-                <li>✔ Helps you meet fitness goals safely</li>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  fontSize: "18px",
+                  color: "#666",
+                  lineHeight: "30px"
+                }}
+              >
+                <li style={{ fontSize: '17px' }}>✔ 100% purity & accurate protein profile</li><br />
+                <li style={{ fontSize: '17px' }}>✔ Lab-tested for safety & genuine ingredients</li><br />
+                <li style={{ fontSize: '17px' }}>✔ No duplicate, no fillers — only real nutrition</li><br />
+                <li style={{ fontSize: '17px' }}>✔ Supports faster muscle recovery & strength</li><br />
+                <li style={{ fontSize: '17px' }}>✔ Trusted quality you can rely on for fitness results</li>
               </ul>
             </div>
+
           </div>
         </div>
       </section>
 
       {/* DANGER SECTION */}
       <section
+        data-aos="fade-up"
         style={{
-          padding: "80px 20px",
+          padding: "100px 20px",
           backgroundColor: "#ffffff",
           color: "#333",
           textAlign: "center"
         }}
       >
         <h2 style={{ fontSize: "34px", fontWeight: 700, color: "#c25f31" }}>
-          Common Issues with Unverified Supplements
+          The Risks of Using Non-Verified Supplements
         </h2>
+
         <p style={{ color: "#666", marginTop: "10px" }}>
-          These dangers can affect your results & health.
+          Project Protein warns you against these common dangers.
         </p>
 
         <div
@@ -117,14 +141,15 @@ const Labdoor = () => {
           }}
         >
           {[
-            "Inaccurate protein or ingredient values",
-            "Harmful or banned substances mixed inside",
-            "Protein spiking to fake higher content",
-            "Low-quality or contaminated raw material",
-            "Risk of duplicate or fake products"
+            "Inaccurate nutrition labels that mislead your progress",
+            "Presence of harmful, banned, or unknown substances",
+            "Protein spiking that fakes higher protein content",
+            "Low-grade or contaminated raw materials",
+            "High chances of duplicate or fake market products"
           ].map((text, i) => (
             <div
               key={i}
+              data-aos="fade-up"
               style={{
                 backgroundColor: "#fff",
                 padding: "18px",
@@ -143,21 +168,25 @@ const Labdoor = () => {
 
       {/* QUESTION BOX */}
       <section
+           data-aos="fade-up"
         style={{
           padding: "80px 20px",
-          backgroundColor: "#ffffff",
+          backgroundColor: "rgb(248 241 229)",
           color: "#333"
         }}
       >
-        <div className="container" style={{justifyContent:'center',display:'flex'}}>
-          <div
+        <div className="container" style={{  display: "flex" }}>
+          <div className="col-12">
+            <div className="row">
+              <div className="col-6" data-aos="fade-right">
+ <div
             style={{
               backgroundColor: "#fff",
               padding: "40px",
               borderRadius: "12px",
               border: "1px solid #e2e2e2",
               boxShadow: "0 6px 20px rgba(0,0,0,0.08)",
-              width:'500px'
+              width: "500px"
             }}
           >
             <h3
@@ -167,9 +196,14 @@ const Labdoor = () => {
                 fontWeight: 700,
                 color: "#c25f31"
               }}
+              data-aos="fade-down"
             >
-              What are your biggest concerns<br />when choosing a Protein supplement?
+              What Concerns Do You Have<br />Before Buying a Protein Supplement?
             </h3>
+
+            <p style={{ textAlign: "center", color: "#666", marginTop: "8px" }} data-aos="fade-up">
+              Tell us what matters most so Project Protein can guide you better.
+            </p>
 
             <div
               style={{
@@ -180,11 +214,12 @@ const Labdoor = () => {
                 fontSize: "18px",
                 color: "#555"
               }}
+              data-aos="fade-up"
             >
-              <label><input type="checkbox" /> Protein quality & purity</label>
-              <label><input type="checkbox" /> No harmful or banned substances</label>
-              <label><input type="checkbox" /> Authentic & certified product</label>
-              <label><input type="checkbox" /> Transparent label values</label>
+              <label><input type="checkbox" /> Pure & lab-tested protein quality</label>
+              <label><input type="checkbox" /> Zero harmful or banned substances</label>
+              <label><input type="checkbox" /> Genuine, certified & non-duplicate</label>
+              <label><input type="checkbox" /> Transparent and accurate label values</label>
             </div>
 
             <button
@@ -196,38 +231,102 @@ const Labdoor = () => {
                 border: "none",
                 fontWeight: "700",
                 width: "100%",
-                color: "white"
+                color: "white",
+                cursor: "pointer"
               }}
+              data-aos="zoom-in"
             >
               SUBMIT
             </button>
           </div>
+              </div>
+              <div className="col-6" data-aos="fade-left">
+<div>
+    
+  <h4 style={{ color: "#c25f31", fontWeight: 700 }}>Who is NutriCheck™?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    NutriCheck™ is a trusted third-party lab that verifies supplement safety, purity, and nutritional accuracy.
+  </p>
+
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>How does NutriCheck™ evaluate supplements?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    Each product is tested for chemical composition, microbes, and nutritional content to ensure authenticity and accuracy.
+  </p>
+
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>Why is third-party testing important?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    It prevents misleading labels, detects contaminants, and ensures the product is safe and effective.
+  </p>
+
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>What does NutriCheck™ look for during testing?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    NutriCheck™ checks protein content, amino acids, banned substances, heavy metals, and overall ingredient authenticity.
+  </p>
+
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>Why does Project Protein choose NutriCheck™?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    Because it delivers unbiased testing and transparent results that consumers can trust.
+  </p>
+
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>Do all batches get tested?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    Yes. Every batch is tested to ensure consistent purity, potency, and nutritional value.
+  </p>
+</div>
+              </div>
+            </div>
+          </div>
+         
         </div>
       </section>
 
       {/* ABOUT NUTRICHECK */}
-      <section
+      {/* <section
+        data-aos="fade-up"
         style={{
           padding: "80px 20px",
           backgroundColor: "#ffffff",
           color: "#333"
         }}
       >
-        <div className="container">
-          <h4 style={{ color: "#c25f31" }}>Who is NutriCheck™?</h4>
-          <p style={{ color: "#666" }}>
-            NutriCheck™ is a trusted independent testing body…
-          </p>
+  <div className="container">
+  
+  <h4 style={{ color: "#c25f31", fontWeight: 700 }}>Who is NutriCheck™?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    NutriCheck™ is a trusted third-party lab that verifies supplement safety, purity, and nutritional accuracy.
+  </p>
 
-          <h4 style={{ color: "#c25f31" }}>How does NutriCheck™ evaluate supplements?</h4>
-          <p style={{ color: "#666" }}>
-            We conduct chemical, microbiological & nutritional tests…
-          </p>
-        </div>
-      </section>
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>How does NutriCheck™ evaluate supplements?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    Each product is tested for chemical composition, microbes, and nutritional content to ensure authenticity and accuracy.
+  </p>
+
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>Why is third-party testing important?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    It prevents misleading labels, detects contaminants, and ensures the product is safe and effective.
+  </p>
+
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>What does NutriCheck™ look for during testing?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    NutriCheck™ checks protein content, amino acids, banned substances, heavy metals, and overall ingredient authenticity.
+  </p>
+
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>Why does Project Protein choose NutriCheck™?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    Because it delivers unbiased testing and transparent results that consumers can trust.
+  </p>
+
+  <h4 style={{ color: "#c25f31", marginTop: "30px", fontWeight: 700 }}>Do all batches get tested?</h4>
+  <p style={{ color: "#666", marginTop: "6px" }}>
+    Yes. Every batch is tested to ensure consistent purity, potency, and nutritional value.
+  </p>
+</div>
+
+      </section> */}
 
       {/* PRODUCT SECTION */}
       <section
+        data-aos="fade-up"
         style={{
           backgroundColor: "#ffffff",
           color: "#333",
@@ -237,57 +336,44 @@ const Labdoor = () => {
         <div className="container">
           <div className="row">
 
-            <div className="col-6">
-              <div
-                style={{
-                  width: "60px",
-                  height: "4px",
-                  backgroundColor: "#c25f31"
-                }}
-              ></div>
+            <div className="col-6" data-aos="fade-right">
+              <div style={{ width: "60px", height: "4px", backgroundColor: "#c25f31" }}></div>
 
               <h1
                 style={{
                   fontSize: "52px",
                   fontWeight: 800,
                   marginTop: "20px",
-                  color: "#c25f31"
+                  color: "#c25f31",
+                  lineHeight: "62px"
                 }}
               >
-                BIOZYME <br /> PERFORMANCE <br /> WHEY
+                PROJECT PROTEIN <br /> PERFORMANCE <br /> WHEY
               </h1>
 
-              <ul style={{ marginTop: "20px", fontSize: "18px", color: "#666" }}>
-                <li>✔ 100% Whey Concentrate</li>
-                <li>✔ Patented EAF Formula</li>
-                <li>✔ Better digestion & absorption</li>
-                <li>✔ Available in 10+ flavors</li>
+              <ul style={{ marginTop: "20px", fontSize: "18px", color: "#666", lineHeight: "30px" }}>
+                <li>✔ Clean & Verified Whey Protein</li>
+                <li>✔ Enhanced Absorption Formula</li>
+                <li>✔ Superior digestion & bioavailability</li>
+                <li>✔ Available in 10+ delicious flavors</li>
               </ul>
 
-              {/* Nutrition */}
-              <div
-                style={{
-                  marginTop: "30px",
-                  display: "grid",
-                  gridTemplateColumns: "repeat(2, 1fr)",
-                  gap: "15px"
-                }}
-              >
-                <div>
+              <div style={{ marginTop: "30px", display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "15px" }}>
+                <div style={{ color: "#444", fontSize: "16px" }}>
                   <p>Energy: <b>140.94 kcal</b></p>
                   <p>Protein: <b>25g</b></p>
                   <p>Carbs: <b>5.58g</b></p>
                   <p>Fat: <b>1.98g</b></p>
                 </div>
-                <div>
+                <div style={{ color: "#444", fontSize: "16px" }}>
                   <p>EAA: <b>11.75g</b></p>
                   <p>Semi-EAA: <b>3.80g</b></p>
                   <p>NEAA: <b>9.45g</b></p>
                 </div>
               </div>
 
-              {/* Buttons */}
               <div style={{ marginTop: "30px", display: "flex", gap: "15px" }}>
+                <a href="/Shop">
                 <button
                   style={{
                     backgroundColor: "#c25f31",
@@ -295,44 +381,37 @@ const Labdoor = () => {
                     borderRadius: "6px",
                     fontWeight: 600,
                     border: "none",
-                    color: "white"
+                    color: "white",
+                    cursor: "pointer"
                   }}
                 >
                   SHOP NOW
                 </button>
+                </a>
 
-                <button
-                  style={{
-                    border: "2px solid #c25f31",
-                    padding: "12px 24px",
-                    borderRadius: "6px",
-                    fontWeight: 600,
-                    background: "transparent",
-                    color: "#c25f31"
-                  }}
-                >
-                  VISIT ON LABDOOR
-                </button>
+          
               </div>
             </div>
 
-            <div className="col-6" style={{ textAlign: "center" }}>
+            <div className="col-6" data-aos="fade-left" style={{ textAlign: "center" }}>
               <img
-                src="/protein.png"
-                alt="Product"
+                src="	https://mynutramart.com/cdn/shop/files/AS-IT-ISL-GlutaminePowder250gSlide1_500x.jpg?v=1706529144"
+                  alt="Fresh Image"
+                                  className="resimg"
                 style={{
                   width: "460px",
-                  filter: "drop-shadow(0px 4px 25px rgba(0,0,0,0.15))"
+                
                 }}
               />
             </div>
+
           </div>
         </div>
       </section>
 
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Labdoor
+export default Labdoor;

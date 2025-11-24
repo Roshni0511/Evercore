@@ -59,8 +59,7 @@ const Footer = () => {
                         <div className="footer-logo">
                             <div className="theme-logo">
                                 <a href="/">
-                                    <img src="/assets/images/evercorelogo.png" className="blur-up lazyload" alt="" style={{width:'100px'}}/>
-                                </a>
+         <h2 style={{fontWeight:'800',fontSize:'35px'}}>Evercore</h2>                                   </a>
                             </div>
 
                             <div className="footer-logo-contain">
