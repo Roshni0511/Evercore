@@ -38,19 +38,19 @@ const Blogdetails = () => {
             <div class="row g-sm-4 g-3">
                    <div class="col-xxl-9 col-xl-8 col-lg-7 ratio_50">
                     <div class="blog-detail-image rounded-3 mb-4">
-                        <img src="../assets/images/inner-page/blog/1.jpg" class="bg-img blur-up lazyload" alt="" />
+                        <img src="/assets/images/unnamed.jpg" class="bg-img blur-up lazyload" alt="" />
                         <div class="blog-image-contain">
                             <ul class="contain-list">
-                                <li>backpack</li>
-                                <li>life style</li>
-                                <li>organic</li>
-                            </ul>
-                            <h2>Agriculture Conference Harvest 2022 in Paris</h2>
+                                           <li>whey protein</li>
+                            <li>fitness</li>
+                            <li>supplements</li>
+                        </ul>
+                        <h2>Premium Whey Protein – Science Behind Faster Muscle Growth</h2>
                             <ul class="contain-comment-list">
                                 <li>
                                     <div class="user-list">
                                         <i data-feather="user"></i>
-                                        <span>Caroline</span>
+                                     <span>Shubham</span>
                                     </div>
                                 </li>
 
@@ -72,40 +72,33 @@ const Blogdetails = () => {
                     </div>
 
                     <div class="blog-detail-contain">
-                        <p><span class="first">S</span> hotgun approach message the initiative so can I just chime in
-                            on that one. Make sure to include in your wheelhouse bells and whistles, and touch base
-                            slow-walk our commitment nor what's the status on the deliverables for eow?. Create spaces
-                            to explore what next commitment to the cause , or UI, for get buy-in but draw a line in
-                            the sand, and pig in a python we've got kpis for that. Message the initiative value prop,
-                            please use "solutionise" instead of solution ideas! i am dead inside. Quick sync
-                            4-blocker. Driving the initiative forward flesh that out.</p>
+                        <p>
+                        <span class="first">P</span> rotein is the key nutrient your body needs for muscle repair,
+                        strength improvement, and faster recovery. Whether you are an athlete, bodybuilder, or a beginner,
+                        adding whey protein to your diet ensures your muscles get complete amino acids required for growth.
+                        High-quality whey protein absorbs quickly and speeds up post-workout recovery.
+                    </p>
 
 
-                        <div class="blog-details-quote">
-                            <h3>Adipisicing elit Qui ipsam natus aspernatur quaerat impedit eveniet ipsum dolor</h3>
-                            <h5>- Denny Dose</h5>
-                        </div>
+                             <div class="blog-details-quote">
+                        <h3>“Right nutrition + right workout = Guaranteed results. Protein is the fuel your muscles can’t grow without.”</h3>
+                        <h5>- Fitness Expert</h5>
+                    </div>
 
-                        <p>Agile currying favour pulling teeth collaboration through advanced technology. Everyone
-                            thinks
-                            the soup tastes better after they pissed in it can you put it on my calendar?.
-                            Low-hanging fruit. Data-point blue sky yet first-order optimal strategies shotgun approach.
-                            Land it in region. Idea shower prairie dogging a set of certitudes based on deductions
-                            founded on false premise nor three-martini lunch. Baseline. Run it up the flag pole big boy
-                            pants so game-plan, and it just needs more cowbell pixel pushing, but we need to make the
-                            new version clean and sexy. Back of the net we need a recap by eod, cob or whatever comes
-                            first for we need evergreen content.</p>
+                       <p>
+                        Whey protein helps reduce muscle soreness, boosts stamina, and enhances metabolism.
+                        Many fitness enthusiasts fail to progress because their daily protein intake is low.
+                        With a clean protein supplement, you can improve strength levels and support lean muscle
+                        building more effectively.
+                    </p>
 
-                        <p class="mb-0">We need to harvest synergy effects land it in region nor time to open the
-                            kimono, but we need to touch base off-line before we fire the new ux experience. Moving the
-                            goalposts. Lean into that problem we need to get all stakeholders up to speed and in the
-                            right place. Get all your ducks in a row this proposal is a win-win situation which will
-                            cause a stellar paradigm shift, and produce a multi-fold increase in deliverables or dunder
-                            muffin for high-level nor gain alignment into the weeds. Open door policy. Goalposts
-                            player-coach but quick win, so effort made was a lot for game-plan in an ideal world
-                            commitment to the cause . Service as core &innovations as power makes our brand meeting
-                            assassin core competencies run it up the flagpole, ping the boss and circle back but zoom
-                            meeting at 2:30 today.</p>
+
+                          <p class="mb-0">
+                        Always choose a protein powder that is low in sugar, easy to digest, and made with pure ingredients.
+                        Our premium whey protein is lab-tested and provides essential amino acids for maximum results.
+                        Consistent use improves muscle mass, energy levels, and overall performance. If you want faster,
+                        visible transformation — protein and consistency are the two most important pillars.
+                    </p>
                     </div>
 
                     <div class="comment-box overflow-hidden">
@@ -122,18 +115,17 @@ const Blogdetails = () => {
                                             <span class="theme-color">Reply</span>
                                         </div>
                                         <div class="user-image">
-                                            <img src="../assets/images/inner-page/user/1.jpg"
+                                            <img src="/assets/images/user.png"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                             <div class="user-name">
                                                 <h6>30 Jan, 2022</h6>
-                                                <h5 class="text-content">Glenn Greer</h5>
-                                            </div>
+                                              <h5 class="text-content">Rahul Sharma</h5>
+                                               </div>
                                         </div>
 
                                         <div class="user-contain">
-                                            <p>"This proposal is a win-win situation which will cause a stellar paradigm
-                                                shift, and produce a multi-fold increase in deliverables a better
-                                                understanding"</p>
+                                             <p>"Amazing information! Whey protein has improved my recovery drastically."</p>
+
                                         </div>
                                     </div>
                                 </li>
@@ -145,7 +137,7 @@ const Blogdetails = () => {
                                             <span class="theme-color">Reply</span>
                                         </div>
                                         <div class="user-image">
-                                            <img src="../assets/images/inner-page/user/2.jpg"
+                                            <img src="/assets/images/user.png"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                             <div class="user-name">
                                                 <h6>30 Jan, 2022</h6>
@@ -169,7 +161,7 @@ const Blogdetails = () => {
                                             <span class="theme-color">Reply</span>
                                         </div>
                                         <div class="user-image">
-                                            <img src="../assets/images/inner-page/user/3.jpg"
+                                            <img src="/assets/images/user.png"
                                                 class="img-fluid blur-up lazyload" alt="" />
                                             <div class="user-name">
                                                 <h6>30 Jan, 2022</h6>
