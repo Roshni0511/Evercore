@@ -17,7 +17,7 @@ const Blogdetails = () => {
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">
+                                    <a href="/">
                                         <i class="fa-solid fa-house"></i>
                                     </a>
                                 </li>
@@ -253,13 +253,13 @@ const Blogdetails = () => {
                                     <div class="accordion-body pt-0">
                                         <div class="recent-post-box">
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="/Blogdetails" class="recent-image">
                                                                 <img src="/assets/images/product1.webp"
                                                         class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="/Blogdetails">
                                                         <h5 class="recent-name">Green onion knife and salad placed</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -267,13 +267,13 @@ const Blogdetails = () => {
                                             </div>
 
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="/Blogdetails" class="recent-image">
                                                  <img src="/assets/images/product2.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="/Blogdetails">
                                                         <h5 class="recent-name">Health and skin for your organic</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -281,13 +281,13 @@ const Blogdetails = () => {
                                             </div>
 
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="/Blogdetails" class="recent-image">
                                             <img src="/assets/images/product3.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="/Blogdetails">
                                                         <h5 class="recent-name">Organics mix masala fresh & soft</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -295,13 +295,13 @@ const Blogdetails = () => {
                                             </div>
 
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="/Blogdetails" class="recent-image">
                                                <img src="/assets/images/product5.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="/Blogdetails">
                                                         <h5 class="recent-name">Fresh organics brand and picnic</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -324,7 +324,7 @@ const Blogdetails = () => {
                                         <div class="category-list-box">
                                             <ul>
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="/Blog">
                                                         <div class="category-name">
                                                             <h5>Latest Recipes</h5>
                                                             <span>10</span>
@@ -333,7 +333,7 @@ const Blogdetails = () => {
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="/Blog">
                                                         <div class="category-name">
                                                             <h5>Diet Food</h5>
                                                             <span>6</span>
@@ -342,7 +342,7 @@ const Blogdetails = () => {
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="/Blog">
                                                         <div class="category-name">
                                                             <h5>Low calorie Items</h5>
                                                             <span>8</span>
@@ -351,7 +351,7 @@ const Blogdetails = () => {
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="/Blog">
                                                         <div class="category-name">
                                                             <h5>Cooking Method</h5>
                                                             <span>9</span>
@@ -360,7 +360,7 @@ const Blogdetails = () => {
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="/Blog">
                                                         <div class="category-name">
                                                             <h5>Dairy Free</h5>
                                                             <span>12</span>
@@ -369,7 +369,7 @@ const Blogdetails = () => {
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="/Blog">
                                                         <div class="category-name">
                                                             <h5>Vegetarian Food</h5>
                                                             <span>10</span>
@@ -442,18 +442,18 @@ const Blogdetails = () => {
                                         <ul class="product-list product-list-2 border-0 p-0">
                                             <li>
                                                 <div class="offer-product">
-                                                    <a href="shop-left-sidebar.html" class="offer-image">
+                                                    <a href="/Shop" class="offer-image">
                                                          <img src="/assets/images/product1.webp"
                                                         class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
                                                     </a>
 
                                                     <div class="offer-detail">
                                                         <div>
-                                                            <a href="shop-left-sidebar.html">
+                                                            <a href="/Shop">
                                                                 <h6 class="name">Meatigo Premium Goat Curry</h6>
                                                             </a>
                                                             <span>450 G</span>
-                                                            <h6 class="price theme-color">$ 70.00</h6>
+                                                            <h6 class="price theme-color">₹ 70.00</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -461,18 +461,18 @@ const Blogdetails = () => {
 
                                             <li>
                                                 <div class="offer-product">
-                                                    <a href="shop-left-sidebar.html" class="offer-image">
+                                                    <a href="/Shop" class="offer-image">
                                        <img src="/assets/images/product2.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
 
                                                     <div class="offer-detail">
                                                         <div>
-                                                            <a href="shop-left-sidebar.html">
+                                                            <a href="/Shop">
                                                                 <h6 class="name">Dates Medjoul Premium Imported</h6>
                                                             </a>
                                                             <span>450 G</span>
-                                                            <h6 class="price theme-color">$ 40.00</h6>
+                                                            <h6 class="price theme-color">₹ 40.00</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -480,18 +480,18 @@ const Blogdetails = () => {
 
                                             <li class="mb-0">
                                                 <div class="offer-product">
-                                                    <a href="shop-left-sidebar.html" class="offer-image">
+                                                    <a href="/Shop" class="offer-image">
                                                           <img src="/assets/images/product5.webp" style={{width:'90px'}}
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
 
                                                     <div class="offer-detail">
                                                         <div>
-                                                            <a href="shop-left-sidebar.html">
+                                                            <a href="/Shop">
                                                                 <h6 class="name">Apple Red Premium Imported</h6>
                                                             </a>
                                                             <span>1 KG</span>
-                                                            <h6 class="price theme-color">$ 80.00</h6>
+                                                            <h6 class="price theme-color">₹ 80.00</h6>
                                                         </div>
                                                     </div>
                                                 </div>

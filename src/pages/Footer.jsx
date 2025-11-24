@@ -59,7 +59,8 @@ const Footer = () => {
                         <div className="footer-logo">
                             <div className="theme-logo">
                                 <a href="/">
-                                    <img src="/assets/images/evercorelogo.png" className="blur-up lazyload" alt="" style={{width:'100px'}}/>
+                                    {/* <img src="/assets/images/evercorelogo.png" className="blur-up lazyload" alt="" style={{width:'100px'}}/> */}
+                                     <h2 style={{fontWeight:'800',fontSize:'35px',color:'#c25f31'}}>Evercore</h2>   
                                 </a>
                             </div>
 
@@ -69,11 +70,11 @@ const Footer = () => {
                                 <ul className="address">
                                     <li>
                                         <i data-feather="home"></i>
-                                        <a href="javascript:void(0)">1418 Riverwood Drive, CA 96052, US</a>
+                                        <a href="">1418 Riverwood Drive, CA 96052, US</a>
                                     </li>
                                     <li>
                                         <i data-feather="mail"></i>
-                                        <a href="javascript:void(0)">support@evercore.com</a>
+                                        <a href="">support@evercore.com</a>
                                     </li>
                                 </ul>
                             </div>

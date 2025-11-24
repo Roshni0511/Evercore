@@ -67,16 +67,16 @@ function Useracc() {
 
   /* Orders */
   const [orders] = useState([
-    { id: 1, name: "Whey Protein", price: "$49.99", image: "https://via.placeholder.com/120", status: "Delivered" },
-    { id: 2, name: "Casein Protein", price: "$59.99", image: "https://via.placeholder.com/120", status: "Shipped" },
-    { id: 3, name: "Vegan Protein", price: "$39.99", image: "https://via.placeholder.com/120", status: "Processing" },
+    { id: 1, name: "Whey Protein", price: "₹49.99", image: "/assets/images/nav1.png", status: "Delivered" },
+    { id: 2, name: "Casein Protein", price: "₹59.99", image: "/assets/images/nav45.png", status: "Shipped" },
+    { id: 3, name: "Vegan Protein", price: "₹39.99", image: "/assets/images/nav12.png", status: "Processing" },
   ]);
 
   /* Wishlist */
   const [wishlist] = useState([
-    { id: 1, name: "Protein Bar Pack", price: "$29.99", image: "https://via.placeholder.com/120" },
-    { id: 2, name: "Creatine Powder", price: "$19.99", image: "https://via.placeholder.com/120" },
-    { id: 3, name: "BCAA Drink", price: "$24.99", image: "https://via.placeholder.com/120" },
+    { id: 1, name: "Protein Bar Pack", price: "₹29.99", image: "/assets/images/nav1.png" },
+    { id: 2, name: "Creatine Powder", price: "₹19.99", image: "/assets/images/nav45.png" },
+    { id: 3, name: "BCAA Drink", price: "₹24.99", image: "/assets/images/nav12.png" },
   ]);
 
   /* Modal States */
@@ -161,12 +161,12 @@ function Useracc() {
                 <p><strong>Gender:</strong> {profile.gender}</p>
 
                 {/* Change Password Text */}
-                <p
-                  className="change-pass-text"
+                <button
+                  className=" pro-acc-add-btn"
                   onClick={() => openModal("change-password")}
                 >
                   Change Password
-                </p>
+                </button>
               </div>
             </div>
           </div>
@@ -194,7 +194,7 @@ function Useracc() {
                 <p>Pincode: {a.zip}</p>
 
                 <button
-                  className="pro-acc-edit-btn"
+                  className="pro-acc-edit-btn "
                   onClick={() => openModal("edit-address", a)}
                 >
                   <FaPencilAlt />
@@ -269,8 +269,8 @@ function Useracc() {
                 <p className="price">{order.price}</p>
                 <p className={`status pro-status ${order.status.toLowerCase()}`}>{order.status}</p>
                 <div className="pro-order-actions">
-                  <button>Track</button>
-                  <button>Details</button>
+                 <a href="/Trackorder"> <button>Track</button></a>
+                  <a href="/Productdetails"><button>Details</button></a>
                 </div>
               </div>
             </div>
@@ -292,8 +292,8 @@ function Useracc() {
                 <h4>{item.name}</h4>
                 <p className="price">{item.price}</p>
                 <div className="pro-wishlist-actions">
-                  <button onClick={() => alert(`Added ${item.name} to cart`)}>Add to Cart</button>
-                  <button onClick={() => alert(`Removed ${item.name} from wishlist`)}>Remove</button>
+                  <a href="/Cart"><button>Add to Cart</button></a>
+                  <button>Remove</button>
                 </div>
               </div>
             </div>

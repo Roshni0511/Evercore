@@ -48,7 +48,7 @@ const Signup = () => {
                                             <input className="checkbox_animated check-box" type="checkbox"
                                                 id="flexCheckDefault" />
                                             <label className="form-check-label" for="flexCheckDefault">I agree with
-                                                <span>Terms</span> and <span>Privacy</span></label>
+                                                <a href="/Termsandcondition">Terms</a> and <a href='/Privacypolicy'>Privacy</a></label>
                                         </div>
                                     </div>
                                 </div>
@@ -59,33 +59,7 @@ const Signup = () => {
                             </form>
                         </div>
 
-                        <div className="other-log-in">
-                            <h6>or</h6>
-                        </div>
-
-                        <div className="log-in-button">
-                            <ul>
-                                <li>
-                                    <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"
-                                        className="btn google-button w-100">
-                                        <img src="../assets/images/inner-page/google.png" className="blur-up lazyload"
-                                            alt="" />
-                                        Sign up with Google
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.facebook.com/" className="btn google-button w-100">
-                                        <img src="../assets/images/inner-page/facebook.png" className="blur-up lazyload"
-                                            alt="" /> Sign up with Facebook
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div className="other-log-in">
-                            <h6></h6>
-                        </div>
-
+                       
                         <div className="sign-up-box">
                             <h4>Already have an account?</h4>
                             <a href="/Login">Log In</a>

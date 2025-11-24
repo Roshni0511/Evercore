@@ -198,7 +198,7 @@ const Aboutus = () => {
         <div class="container-fluid-lg">
             <div class="about-us-title text-center">
                 <h4 class="text-content">Our Creative Team</h4>
-                <h2 class="center">fastkart team member</h2>
+                <h2 class="center">Evercore team member</h2>
             </div>
             <div class="row">
                 <div class="col-12">
@@ -211,8 +211,8 @@ const Aboutus = () => {
                                 </div>
 
                                 <div class="team-name">
-                                    <h3>Anna Baranov</h3>
-                                    <h5>Marketing</h5>
+                                    <h3>Rahul Patel</h3>
+                                    
                                     <p>cheeseburger airedale mozzarella the big cheese fondue.</p>
                                     <ul class="team-media">
                                         <li>
@@ -221,11 +221,7 @@ const Aboutus = () => {
                                             </a>
                                         </li>
 
-                                        <li>
-                                            <a href="https://in.pinterest.com/" class="pint-bg">
-                                                <i class="fa-brands fa-pinterest-p"></i>
-                                            </a>
-                                        </li>
+                                        
 
                                         <li>
                                             <a href="https://twitter.com/" class="twitter-bg">
@@ -251,8 +247,8 @@ const Aboutus = () => {
                                 </div>
 
                                 <div class="team-name">
-                                    <h3>Anna Baranov</h3>
-                                    <h5>Marketing</h5>
+                                    <h3>Mahek Shah</h3>
+                                    
                                     <p>cheese on toast mozzarella bavarian bergkase smelly cheese cheesy feet.</p>
                                     <ul class="team-media">
                                         <li>
@@ -261,11 +257,7 @@ const Aboutus = () => {
                                             </a>
                                         </li>
 
-                                        <li>
-                                            <a href="https://in.pinterest.com/" class="pint-bg">
-                                                <i class="fa-brands fa-pinterest-p"></i>
-                                            </a>
-                                        </li>
+                                        
 
                                         <li>
                                             <a href="https://twitter.com/" class="twitter-bg">
@@ -291,8 +283,8 @@ const Aboutus = () => {
                                 </div>
 
                                 <div class="team-name">
-                                    <h3>Anna Baranov</h3>
-                                    <h5>Marketing</h5>
+                                    <h3>Mahesh Patel</h3>
+                                   
                                     <p>camembert de normandie. Bocconcini rubber cheese fromage frais port-salut.</p>
                                     <ul class="team-media">
                                         <li>
@@ -301,11 +293,7 @@ const Aboutus = () => {
                                             </a>
                                         </li>
 
-                                        <li>
-                                            <a href="https://in.pinterest.com/" class="pint-bg">
-                                                <i class="fa-brands fa-pinterest-p"></i>
-                                            </a>
-                                        </li>
+                                        
 
                                         <li>
                                             <a href="https://twitter.com/" class="twitter-bg">
@@ -331,8 +319,8 @@ const Aboutus = () => {
                                 </div>
 
                                 <div class="team-name">
-                                    <h3>Anna Baranov</h3>
-                                    <h5>Marketing</h5>
+                                    <h3>Laksh Agraval</h3>
+                                   
                                     <p>Fondue stinking bishop goat. Macaroni cheese croque monsieur cottage cheese.</p>
                                     <ul class="team-media">
                                         <li>
@@ -341,11 +329,7 @@ const Aboutus = () => {
                                             </a>
                                         </li>
 
-                                        <li>
-                                            <a href="https://in.pinterest.com/" class="pint-bg">
-                                                <i class="fa-brands fa-pinterest-p"></i>
-                                            </a>
-                                        </li>
+                                       
 
                                         <li>
                                             <a href="https://twitter.com/" class="twitter-bg">
@@ -371,8 +355,8 @@ const Aboutus = () => {
                                 </div>
 
                                 <div class="team-name">
-                                    <h3>Anna Baranov</h3>
-                                    <h5>Marketing</h5>
+                                    <h3>Kishan Varma</h3>
+                                   
                                     <p>squirty cheese cheddar macaroni cheese airedale cheese triangles.</p>
                                     <ul class="team-media">
                                         <li>
@@ -381,11 +365,6 @@ const Aboutus = () => {
                                             </a>
                                         </li>
 
-                                        <li>
-                                            <a href="https://in.pinterest.com/" class="pint-bg">
-                                                <i class="fa-brands fa-pinterest-p"></i>
-                                            </a>
-                                        </li>
 
                                         <li>
                                             <a href="https://twitter.com/" class="twitter-bg">
