@@ -1,6 +1,17 @@
 import React from 'react'
 
 export default function Navbar() {
+      const categories = [
+    { name: "Whey Protein", icon: "/assets/images/nav1.png" },
+    { name: "Raw Whey", icon: "/assets/images/nav12.png" },
+    { name: "Peanut Butter", icon: "/assets/images/nav13.png" },
+    { name: "Creatine", icon: "/assets/images/Creatine.png" },
+    { name: "BCAA", icon: "/assets/images/nav23.png" },
+    { name: "Gainers", icon: "/assets/images/Mass_Gainer.png" },
+    { name: "Supplements", icon: "/assets/images/MDMultivitamin.png" },
+    { name: "Pre Workout ", icon: "/assets/images/nav45.png" },
+   
+  ];
   return (
     <div>
         {/* <!-- Header Start --> */}
@@ -10,8 +21,8 @@ export default function Navbar() {
         <div className="top-nav top-header sticky-header">
             <div className="container-fluid-lg">
                 <div className="row">
-                    <div className="col-12">
-                        <div className="navbar-top">
+                    <div className="col-12 center-nav ">
+                        <div className="navbar-top ">
                             <button className="navbar-toggler d-xl-none d-inline navbar-menu-button me-2" type="button"
                                 data-bs-toggle="offcanvas" data-bs-target="#primaryMenu">
                                 <span className="navbar-toggler-icon">
@@ -37,9 +48,6 @@ export default function Navbar() {
                                                  <li className="nav-item ">
                                                       <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/">Home</a>
                                                  </li>
-
-                                              
-
                                                 <li className="nav-item dropdown">
                                                     <a className="nav-link dropdown-toggle" href="javascript:void(0)"
                                                         data-bs-toggle="dropdown">Crazy Deals</a>
@@ -48,25 +56,25 @@ export default function Navbar() {
     <div className="row">
         <div className="col-xl-3 col-lg-6 col-md-6 col-12">
             <div className="dropdown-column m-0">
-                <img src="/assets/images/nav1.webp" alt="Offer 1" className="img-fluid w-100 rounded" />
+               <a href="/Shop"> <img src="/assets/images/nav1.webp" alt="Offer 1" className="img-fluid w-100 rounded" /></a>
             </div>
         </div>
 
         <div className="col-xl-3 col-lg-6 col-md-6 col-12">
             <div className="dropdown-column m-0">
-                <img src="/assets/images/nav2.webp" alt="Offer 2" className="img-fluid w-100 rounded" />
+                 <a href="/Shop"><img src="/assets/images/nav2.webp" alt="Offer 2" className="img-fluid w-100 rounded" /></a>
             </div>
         </div>
 
         <div className="col-xl-3 col-lg-6 col-md-6 col-12">
             <div className="dropdown-column m-0">
-                <img src="/assets/images/nav3.webp" alt="Offer 3" className="img-fluid w-100 rounded" />
+              <a href="/Shop">  <img src="/assets/images/nav3.webp" alt="Offer 3" className="img-fluid w-100 rounded" /></a>
             </div>
         </div>
 
         <div className="col-xl-3 col-lg-6 col-md-6 col-12">
             <div className="dropdown-column m-0">
-                <img src="/assets/images/nav1.webp" alt="Offer 4" className="img-fluid w-100 rounded" />
+                <a href="/Shop"><img src="/assets/images/nav1.webp" alt="Offer 4" className="img-fluid w-100 rounded" /></a>
             </div>
         </div>
     </div>
@@ -353,7 +361,7 @@ export default function Navbar() {
                                         <div className="delivery-login-box">
                                             <div className="delivery-icon">
                                                 <div className="search-box">
-                                                    <i data-feather="search"></i>
+                                                    {/* <i data-feather="search"></i> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -440,27 +448,56 @@ export default function Navbar() {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
+             {/*  */}
+              <div className="mobile-category-slider ">
+      <div className="category-container">
+        {categories.map((item, index) => (
+          <a className="cat-btn" key={index} href="/Shop">
+            <img src={item.icon} alt={item.name} className="cat-icon" />
+            <span className="cat-label">{item.name}</span>
+          </a>
+        ))}
+      </div>
+    </div> 
+
+
+                  {/*  */}
     </header>
     {/* <!-- Header End --> */}
 
     {/* <!-- mobile fix menu start --> */}
     <div className="mobile-menu d-md-none d-block mobile-cart">
         <ul>
-            <li className="active">
+               {/* <button className="navbar-toggler d-xl-none d-inline navbar-menu-button me-2" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#primaryMenu">
+                                <span className="navbar-toggler-icon">
+                                    <i className="fa-solid fa-bars"></i>
+                                </span>
+                            </button> */}
+        
+ <li>
+            <a className="" type="button"
+              data-bs-toggle="offcanvas" data-bs-target="#primaryMenu">
+              <i className="iconly-Category icli "></i>
+              <span>Menu </span>
+            </a>
+          </li>
+            {/* <li className="active" >
                 <a href="/">
                     <i className="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
-            </li>
+            </li> */}
 
           
 
             <li>
-                <a href="" className="search-box"                                         data-bs-toggle="modal"
-                                        data-bs-target="#searchModal">
+                <a href="" className="search-box" data-bs-toggle="modal"
+                    data-bs-target="#searchModal">
                     <i className="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
@@ -479,6 +516,13 @@ export default function Navbar() {
                     <span>Cart</span>
                 </a>
             </li>
+            <li>
+                <a href="/UserAccount">
+                  <i class="iconly-Profile icli"></i>
+                    <span>Account</span>
+                </a>
+            </li>
+          
         </ul>
     </div>
     {/* <!-- mobile fix menu end --> */}

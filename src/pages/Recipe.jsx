@@ -12,7 +12,7 @@ const Recipe = () => {
   </h1>
 
   <div className="recipe-image-wrapper">
-    <img src="/Recipe.jpg" alt="Recipe" className="recipe-image" />
+    <img src="/assets/images/recipe.webp" alt="Recipe" className="recipe-image" />
   </div>
 
   <div className="recipe-text">
