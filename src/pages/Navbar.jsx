@@ -246,7 +246,7 @@ export default function Navbar() {
                                                                     <div className="menu-img-banner">
                                                                         <a className="text-title"
                                                                             href="/">
-                                                                            <img src="../assets/images/mega-menu.png"
+                                                                            <img src="/assets/images/Natural_Protein_PB.png"
                                                                                 alt="banner" />
                                                                         </a>
                                                                     </div>
@@ -388,13 +388,13 @@ export default function Navbar() {
                                                     <li className="product-box-contain">
                                                         <div className="drop-cart">
                                                             <a href="/" className="drop-image">
-                                                                <img src="../assets/images/vegetable/product/1.png"
+                                                                <img src="/assets/images/product1.webp"
                                                                     className="blur-up lazyload" alt="" />
                                                             </a>
 
                                                             <div className="drop-contain">
                                                                 <a href="/">
-                                                                    <h5>Fantasy Crunchy Choco Chip Cookies</h5>
+                                                                    <h5>Evercore Yeast Protein - Double Chocolate</h5>
                                                                 </a>
                                                                 <h6><span>1 x</span> ₹80.58</h6>
                                                                 <button className="close-button close_button">
@@ -407,13 +407,13 @@ export default function Navbar() {
                                                     <li className="product-box-contain">
                                                         <div className="drop-cart">
                                                             <a href="/" className="drop-image">
-                                                                <img src="../assets/images/vegetable/product/2.png"
+                                                                <img src="/assets/images/product2.webp"
                                                                     className="blur-up lazyload" alt="" />
                                                             </a>
 
                                                             <div className="drop-contain">
                                                                 <a href="/">
-                                                                    <h5>Peanut Butter Bite Premium Butter Cookies 600 g
+                                                                    <h5>Evercore Yeast Protein - Vanilla
                                                                     </h5>
                                                                 </a>
                                                                 <h6><span>1 x</span> ₹25.68</h6>

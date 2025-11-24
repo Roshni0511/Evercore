@@ -544,44 +544,44 @@ const Checkout = () => {
 
                             <ul class="summery-contain">
                                 <li>
-                                    <img src="/assets/images/choco.png"
+                                    <img src="/assets/images/product1.webp"
                                         class="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Bell pepper <span>X 1</span></h4>
+                                    <h4>Double Chocolate <span>X 1</span></h4>
                                     <h4 class="price">₹32.34</h4>
                                 </li>
 
                                 <li>
-                                    <img src="/assets/images/soda.jpg"
+                                    <img src="/assets/images/product2.webp"
                                         class="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Eggplant <span>X 3</span></h4>
+                                    <h4>Vanilla Essential <span>X 3</span></h4>
                                     <h4 class="price">₹12.23</h4>
                                 </li>
 
                                 <li>
-                                    <img src="/assets/images/buttor.png"
+                                    <img src="/assets/images/product3.webp"
                                         class="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Onion <span>X 2</span></h4>
+                                    <h4>Mixed Berry <span>X 2</span></h4>
                                     <h4 class="price">₹18.27</h4>
                                 </li>
 
                                 <li>
-                                    <img src="/assets/images/snack.png"
+                                    <img src="/assets/images/product4.webp"
                                         class="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Potato <span>X 1</span></h4>
+                                    <h4>Chocolate Peanut Butter <span>X 1</span></h4>
                                     <h4 class="price">₹26.90</h4>
                                 </li>
 
                                 <li>
-                                    <img src="/assets/images/oils.png"
+                                    <img src="/assets/images/product5.webp"
                                         class="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Baby Chili <span>X 1</span></h4>
+                                    <h4>Vanilla Essential <span>X 1</span></h4>
                                     <h4 class="price">₹19.28</h4>
                                 </li>
 
                                 <li>
-                                    <img src="../assets/images/vegetable/product/6.png"
+                                    <img src="/assets/images/product3.webp"
                                         class="img-fluid blur-up lazyloaded checkout-image" alt="" />
-                                    <h4>Broccoli <span>X 2</span></h4>
+                                    <h4>Mixed Berry <span>X 2</span></h4>
                                     <h4 class="price">₹29.69</h4>
                                 </li>
                             </ul>
