@@ -90,7 +90,7 @@ const Trackorder = () => {
 
                                 <div className="order-details-name">
                                     <h5 className="text-content">From</h5>
-                                    <h4>STR. Smardan 9, Bucuresti, romania.</h4>
+                                    <h4>Adajan,surat</h4>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ const Trackorder = () => {
 
                                 <div className="order-details-name">
                                     <h5 className="text-content">Destination</h5>
-                                    <h4>Flokagata 24, 105 Reykjavik, Iceland</h4>
+                                    <h4>Laxmi Narayan 24</h4>
                                 </div>
                             </div>
                         </div>
@@ -172,28 +172,28 @@ const Trackorder = () => {
                                     <td>Order Placed</td>
                                     <td>26 Sep 2021</td>
                                     <td>12:00 AM</td>
-                                    <td>California</td>
+                                    <td>Surat, India</td>
                                 </tr>
 
                                 <tr>
                                     <td>Preparing to Ship</td>
                                     <td>03 Oct 2021</td>
                                     <td>12:00 AM</td>
-                                    <td>Canada</td>
+                                    <td>Surat, India</td>
                                 </tr>
 
                                 <tr>
                                     <td>Shipped</td>
                                     <td>04 Oct 2021</td>
                                     <td>12:00 AM</td>
-                                    <td>America</td>
+                                    <td>Surat, India</td>
                                 </tr>
 
                                 <tr>
                                     <td>Delivered</td>
                                     <td>10 Nav 2021</td>
                                     <td>12:00 AM</td>
-                                    <td>Germany</td>
+                                    <td>Surat, India</td>
                                 </tr>
                             </tbody>
                         </table>

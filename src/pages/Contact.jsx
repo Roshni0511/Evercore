@@ -60,7 +60,7 @@ const Contact = () => {
                                                 </div>
 
                                                 <div className="contact-detail-contain">
-                                                    <p>(+1) 618 190 496</p>
+                                                    <p>(+91) 997 877 7693</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -75,40 +75,27 @@ const Contact = () => {
                                                 </div>
 
                                                 <div className="contact-detail-contain">
-                                                    <p>geweto9420@chokxus.com</p>
+                                                    <p>hr@successinfotech.co.in</p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div className="col-xxl-6 col-lg-12 col-sm-6">
+                                        <div className="col-12">
                                             <div className="contact-detail-box">
                                                 <div className="contact-icon">
                                                     <i className="fa-solid fa-location-dot"></i>
                                                 </div>
                                                 <div className="contact-detail-title">
-                                                    <h4>London Office</h4>
+                                                    <h4>Office</h4>
                                                 </div>
 
                                                 <div className="contact-detail-contain">
-                                                    <p>Cruce Casa de Postas 29</p>
+                                                    <p>Rajhans Platinum Plaza, Adajan,410-412, Palanpur Canal Rd, newar New LP Savani School,Surat,Gujarat 395009</p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div className="col-xxl-6 col-lg-12 col-sm-6">
-                                            <div className="contact-detail-box">
-                                                <div className="contact-icon">
-                                                    <i className="fa-solid fa-building"></i>
-                                                </div>
-                                                <div className="contact-detail-title">
-                                                    <h4>Bournemouth Office</h4>
-                                                </div>
-
-                                                <div className="contact-detail-contain">
-                                                    <p>Visitación de la Encina 22</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -191,7 +178,7 @@ const Contact = () => {
         <div className="container-fluid p-0">
             <div className="map-box">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2994.3803116994895!2d55.29773782339708!3d25.222534631321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!3m2!1d25.2048493!2d55.2707828!4m0!5e1!3m2!1sen!2sin!4v1652217109535!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d17881.57658509464!2d72.76882229659682!3d21.204946275636903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRajhans%20Platinum%20Plaza%2C%20Adajan%2C410-412%2C%20Palanpur%20Canal%20Road%2C%20near%20New%20LP%20Savani%20School%2CSurat%2CGujarat%20395009!5e1!3m2!1sen!2sin!4v1764061129262!5m2!1sen!2sin"
                     style={{border:'0px'}} allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>

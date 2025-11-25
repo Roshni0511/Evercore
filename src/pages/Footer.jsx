@@ -70,11 +70,7 @@ const Footer = () => {
                                 <ul className="address">
                                     <li>
                                         <i data-feather="home"></i>
-                                        <a href="">1418 Riverwood Drive, CA 96052, US</a>
-                                    </li>
-                                    <li>
-                                        <i data-feather="mail"></i>
-                                        <a href="">support@evercore.com</a>
+                                        <a href="">Rajhans Platinum Plaza, Adajan,410-412, Palanpur Canal Rd, newar New LP Savani School,Surat,Gujarat 395009</a>
                                     </li>
                                 </ul>
                             </div>
@@ -182,7 +178,7 @@ const Footer = () => {
                                         <i data-feather="phone"></i>
                                         <div className="contact-number">
                                             <h6 className="text-content">Hotline 24/7 :</h6>
-                                            <h5>+91 888 104 2340</h5>
+                                            <h5>+91 997 877 7693</h5>
                                         </div>
                                     </div>
                                 </li>
@@ -192,7 +188,7 @@ const Footer = () => {
                                         <i data-feather="mail"></i>
                                         <div className="contact-number">
                                             <h6 className="text-content">Email Address :</h6>
-                                            <h5>evercore@hotmail.com</h5>
+                                            <h5>hr@successinfotech.co.in</h5>
                                         </div>
                                     </div>
                                 </li>

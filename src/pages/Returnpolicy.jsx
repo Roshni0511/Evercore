@@ -42,8 +42,8 @@ const Returnpolicy = ({
               order if:
             </p>
             <ul>
-              <li>The item is defective, damaged, or incorrect.</li>
-              <li>The product is unused, unwashed, and in its original packaging.</li>
+              <li>The item is defective, damaged, or incorrect.</li> <br />
+              <li>The product is unused, unwashed, and in its original packaging.</li> <br />
               <li>Proof of purchase (invoice or order ID) is available.</li>
             </ul>
           </section>
@@ -55,8 +55,8 @@ const Returnpolicy = ({
               including:
             </p>
             <ul>
-              <li>Perishable goods (like groceries, food items, etc.)</li>
-              <li>Personal care and hygiene products</li>
+              <li>Perishable goods (like groceries, food items, etc.)</li> <br />
+              <li>Personal care and hygiene products</li> <br />
               <li>Customized or personalized products</li>
             </ul>
           </section>

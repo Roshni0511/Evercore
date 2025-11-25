@@ -57,7 +57,7 @@ export default function Navbar() {
                                                     <div className="dropdown-menu dropdown-menu-2">
                                                         <div className="row">
                                                             <div className="dropdown-column col-xl-3">
-                                                                <h5 className="dropdown-header">AS-IT-IS Protein</h5>
+                                                                <h5 className="dropdown-header">Evercore Protein</h5>
                                                                 <a className="dropdown-item"
                                                                     href="/Shop">Whey Protein Concentrate</a>
 

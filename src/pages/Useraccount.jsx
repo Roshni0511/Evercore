@@ -491,7 +491,7 @@ const [activeSection, setActiveSection] = useState(
   icon: <FaCreditCard />,
   content: (
     <>
-      <div className="dashboard-card" style={{ padding: "20px" }}>
+      <div className="dashboard-card" >
         {/* Title */}
         <div
           className="title title-flex align-items-center justify-content-between"
@@ -650,7 +650,7 @@ const [activeSection, setActiveSection] = useState(
   icon: <FaCreditCard />,
   content: (
     <>
-      <div className="dashboard-card" style={{ padding: "20px" }}>
+      <div className="dashboard-card">
 
         <div
           className="title title-flex align-items-center justify-content-between"
@@ -939,7 +939,7 @@ const [activeSection, setActiveSection] = useState(
   icon: <FaCreditCard />,
   content: (
     <>
-      <div className="dashboard-card" style={{ padding: "20px" }}>
+      <div className="dashboard-card" >
 
         {/* TITLE */}
         <div
@@ -1111,7 +1111,7 @@ const [activeSection, setActiveSection] = useState(
   label: "Policies",
   icon: <FaFileAlt />,
   content: (
-    <div className="dashboard-card" style={{ padding: "20px" }}>
+    <div className="dashboard-card" >
       
       <div
         className="title title-flex align-items-center justify-content-between"
@@ -1149,7 +1149,7 @@ const [activeSection, setActiveSection] = useState(
               data-bs-parent="#policyAccordion"
             >
               <div className="accordion-body">
-                <ul style={{ marginLeft: "20px" }}>
+                <ul >
                   <li>Personal details such as your name, phone number, email and address.</li>
                   <li>Information automatically collected, including device details and IP address.</li>
                   <li>Data received through third-party integrations such as payment systems.</li>
@@ -1177,7 +1177,7 @@ const [activeSection, setActiveSection] = useState(
               data-bs-parent="#policyAccordion"
             >
               <div className="accordion-body">
-                <ul style={{ marginLeft: "20px" }}>
+                <ul >
                   <li>To process orders and deliver services.</li>
                   <li>To improve website performance and user experience.</li>
                   <li>To detect and prevent fraudulent activity.</li>

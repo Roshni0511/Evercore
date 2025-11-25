@@ -51,8 +51,8 @@ const Shippingpolicy = ({
               checkout:
             </p>
             <ul>
-              <li><strong>Local Delivery:</strong> 2–4 business days</li>
-              <li><strong>Standard Shipping:</strong> 5–7 business days</li>
+              <li><strong>Local Delivery:</strong> 2–4 business days</li> <br />
+              <li><strong>Standard Shipping:</strong> 5–7 business days</li> <br />
               <li><strong>Express Shipping:</strong> 1–3 business days</li>
             </ul>
             <p>
