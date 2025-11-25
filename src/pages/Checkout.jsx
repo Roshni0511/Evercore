@@ -545,42 +545,42 @@ const Checkout = () => {
                             <ul class="summery-contain">
                                 <li>
                                     <img src="/assets/images/product1.webp"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        class="img-fluid blur-up lazyloaded checkout-image" alt="img" />
                                     <h4>Double Chocolate <span>X 1</span></h4>
                                     <h4 class="price">₹32.34</h4>
                                 </li>
 
                                 <li>
                                     <img src="/assets/images/product2.webp"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        class="img-fluid blur-up lazyloaded checkout-image" alt="img" />
                                     <h4>Vanilla Essential <span>X 3</span></h4>
                                     <h4 class="price">₹12.23</h4>
                                 </li>
 
                                 <li>
                                     <img src="/assets/images/product3.webp"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        class="img-fluid blur-up lazyloaded checkout-image" alt="img" />
                                     <h4>Mixed Berry <span>X 2</span></h4>
                                     <h4 class="price">₹18.27</h4>
                                 </li>
 
                                 <li>
                                     <img src="/assets/images/product4.webp"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        class="img-fluid blur-up lazyloaded checkout-image" alt="img" />
                                     <h4>Chocolate Peanut Butter <span>X 1</span></h4>
                                     <h4 class="price">₹26.90</h4>
                                 </li>
 
                                 <li>
                                     <img src="/assets/images/product5.webp"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        class="img-fluid blur-up lazyloaded checkout-image" alt="img" />
                                     <h4>Vanilla Essential <span>X 1</span></h4>
                                     <h4 class="price">₹19.28</h4>
                                 </li>
 
                                 <li>
                                     <img src="/assets/images/product3.webp"
-                                        class="img-fluid blur-up lazyloaded checkout-image" alt="" />
+                                        class="img-fluid blur-up lazyloaded checkout-image" alt="img" />
                                     <h4>Mixed Berry <span>X 2</span></h4>
                                     <h4 class="price">₹29.69</h4>
                                 </li>
@@ -617,7 +617,7 @@ const Checkout = () => {
                         <div class="checkout-offer">
                             <div class="offer-title">
                                 <div class="offer-icon">
-                                    <img src="../assets/images/inner-page/offer.svg" class="img-fluid" alt="" />
+                                    <img src="../assets/images/inner-page/offer.svg" class="img-fluid" alt="img" />
                                 </div>
                                 <div class="offer-name">
                                     <h6>Available Offers</h6>

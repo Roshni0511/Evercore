@@ -41,7 +41,7 @@ const Blog = () => {
                                 <div class="blog-image">
                                     <a href="/Blogdetails">
                                         <img src="/assets/images/blog1.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
+                                            class="bg-img blur-up lazyload" alt="img" />
                                     </a>
                                 </div>
 
@@ -67,7 +67,7 @@ const Blog = () => {
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.05s">
                                 <div class="blog-image">
                                     <a href="/Blogdetails">
-                                        <img src="/assets/images/blog2.webp" class="bg-img" alt="" />
+                                        <img src="/assets/images/blog2.webp" class="bg-img" alt="img" />
                                     </a>
                                 </div>
 
@@ -94,7 +94,7 @@ const Blog = () => {
                                 <div class="blog-image">
                                     <a href="/Blogdetails">
                                         <img src="/assets/images/blog3.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
+                                            class="bg-img blur-up lazyload" alt="img" />
                                     </a>
                                     <label><i class="fa-solid fa-bolt-lightning"></i> popular</label>
                                 </div>
@@ -122,7 +122,7 @@ const Blog = () => {
                                 <div class="blog-image">
                                     <a href="/Blogdetails">
                                         <img src="/assets/images/blog4.jpg"
-                                            class="bg-img blur-up lazyload" alt="" />
+                                            class="bg-img blur-up lazyload" alt="img" />
                                     </a>
                                 </div>
 
@@ -197,7 +197,7 @@ const Blog = () => {
                                             <div class="recent-box">
                                                 <a href="/Blogdetails" class="recent-image">
                                                     <img src="/assets/images/product1.webp"
-                                                        class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
+                                                        class="img-fluid blur-up lazyload" alt="img" style={{width:'90px'}}/>
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -211,7 +211,7 @@ const Blog = () => {
                                             <div class="recent-box">
                                                 <a href="/Blogdetails" class="recent-image">
                                                     <img src="/assets/images/product2.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -225,7 +225,7 @@ const Blog = () => {
                                             <div class="recent-box">
                                                 <a href="/Blogdetails" class="recent-image">
                                                     <img src="/assets/images/product3.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -239,7 +239,7 @@ const Blog = () => {
                                             <div class="recent-box">
                                                 <a href="/Blogdetails" class="recent-image">
                                                     <img src="/assets/images/product5.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -254,73 +254,77 @@ const Blog = () => {
                                 </div>
                             </div>
 
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#panelsStayOpen-collapseTwo">Category</button>
-                                </h2>
-                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse collapse show">
-                                    <div class="accordion-body p-0">
-                                        <div class="category-list-box">
-                                            <ul>
-                                                <li>
-                                                    <a href="/Blog">
-                                                        <div class="category-name">
-                                                            <h5>Latest Recipes</h5>
-                                                            <span>10</span>
-                                                        </div>
-                                                    </a>
-                                                </li>
+                           <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo">Category</button>
+    </h2>
 
-                                                <li>
-                                                    <a href="/Blog">
-                                                        <div class="category-name">
-                                                            <h5>Diet Food</h5>
-                                                            <span>6</span>
-                                                        </div>
-                                                    </a>
-                                                </li>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
+        <div class="accordion-body p-0">
+            <div class="category-list-box">
+                <ul>
 
-                                                <li>
-                                                    <a href="/Blog">
-                                                        <div class="category-name">
-                                                            <h5>Low calorie Items</h5>
-                                                            <span>8</span>
-                                                        </div>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/Blog">
-                                                        <div class="category-name">
-                                                            <h5>Cooking Method</h5>
-                                                            <span>9</span>
-                                                        </div>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/Blog">
-                                                        <div class="category-name">
-                                                            <h5>Dairy Free</h5>
-                                                            <span>12</span>
-                                                        </div>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/Blog">
-                                                        <div class="category-name">
-                                                            <h5>Vegetarian Food</h5>
-                                                            <span>10</span>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                    <li>
+                        <a href="/Blog">
+                            <div class="category-name">
+                                <h5>Whey Protein Guides</h5>
+                                <span>14</span>
                             </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Blog">
+                            <div class="category-name">
+                                <h5>Muscle Building Tips</h5>
+                                <span>9</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Blog">
+                            <div class="category-name">
+                                <h5>Fat Loss & Diet Plans</h5>
+                                <span>11</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Blog">
+                            <div class="category-name">
+                                <h5>Workout Nutrition</h5>
+                                <span>7</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Blog">
+                            <div class="category-name">
+                                <h5>Creatine & Supplements</h5>
+                                <span>13</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Blog">
+                            <div class="category-name">
+                                <h5>Beginner Fitness Tips</h5>
+                                <span>10</span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
@@ -333,38 +337,40 @@ const Blog = () => {
                                         <div class="product-tags-box">
                                             <ul>
 
-                                                <li>
-                                                    <a href="javascript:void(0)">Fruit Cutting</a>
-                                                </li>
+    <li>
+        <a href="">Whey Protein</a>
+    </li>
 
-                                                <li>
-                                                    <a href="javascript:void(0)">Meat</a>
-                                                </li>
+    <li>
+        <a href="">Isolate Protein</a>
+    </li>
 
-                                                <li>
-                                                    <a href="javascript:void(0)">organic</a>
-                                                </li>
+    <li>
+        <a href="">Mass Gainer</a>
+    </li>
 
-                                                <li>
-                                                    <a href="javascript:void(0)">cake</a>
-                                                </li>
+    <li>
+        <a href="">Pre-Workout</a>
+    </li>
 
-                                                <li>
-                                                    <a href="javascript:void(0)">pick fruit</a>
-                                                </li>
+    <li>
+        <a href="">Creatine</a>
+    </li>
 
-                                                <li>
-                                                    <a href="javascript:void(0)">backery</a>
-                                                </li>
+    <li>
+        <a href="">Amino Acids (BCAA/EAA)</a>
+    </li>
 
-                                                <li>
-                                                    <a href="javascript:void(0)">organix food</a>
-                                                </li>
+    <li>
+        <a href="">Fat Burners</a>
+    </li>
 
-                                                <li>
-                                                    <a href="javascript:void(0)">Most Expensive Fruit</a>
-                                                </li>
-                                          ₹  </ul>
+    <li>
+        <a href="">Health & Wellness</a>
+    </li>
+
+</ul>
+
                                         </div>
                                     </div>
                                 </div>
@@ -382,7 +388,7 @@ const Blog = () => {
                                                 <div class="offer-product">
                                                     <a href="/Shop" class="offer-image">
                                                          <img src="/assets/images/product1.webp"
-                                                        class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
+                                                        class="img-fluid blur-up lazyload" alt="img" style={{width:'90px'}}/>
                                                     </a>
 
                                                     <div class="offer-detail">
@@ -401,7 +407,7 @@ const Blog = () => {
                                                 <div class="offer-product">
                                                     <a href="/Shop" class="offer-image">
                                                              <img src="/assets/images/product2.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                     </a>
 
                                                     <div class="offer-detail">
@@ -420,7 +426,7 @@ const Blog = () => {
                                                 <div class="offer-product">
                                                     <a href="/Shop" class="offer-image">
                                                         <img src="/assets/images/product5.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                     </a>
 
                                                     <div class="offer-detail">

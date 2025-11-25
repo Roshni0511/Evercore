@@ -76,7 +76,7 @@ const Aboutus = () => {
                                     <li>
                                         <div className="delivery-box">
                                             <div className="delivery-icon">
-                                                <img src="../assets/svg/3/delivery.svg" className="blur-up lazyload" alt="" />
+                                                <img src="../assets/svg/3/delivery.svg" className="blur-up lazyload" alt="img" />
                                             </div>
 
                                             <div className="delivery-detail">
@@ -88,7 +88,7 @@ const Aboutus = () => {
                                     <li>
                                         <div className="delivery-box">
                                             <div className="delivery-icon">
-                                                <img src="../assets/svg/3/leaf.svg" className="blur-up lazyload" alt="" />
+                                                <img src="../assets/svg/3/leaf.svg" className="blur-up lazyload" alt="img" />
                                             </div>
 
                                             <div className="delivery-detail">
@@ -100,7 +100,7 @@ const Aboutus = () => {
                                     <li>
                                         <div className="delivery-box">
                                             <div className="delivery-icon">
-                                                <img src="../assets/svg/3/delivery.svg" className="blur-up lazyload" alt="" />
+                                                <img src="../assets/svg/3/delivery.svg" className="blur-up lazyload" alt="img" />
                                             </div>
 
                                             <div className="delivery-detail">
@@ -112,7 +112,7 @@ const Aboutus = () => {
                                     <li>
                                         <div className="delivery-box">
                                             <div className="delivery-icon">
-                                                <img src="../assets/svg/3/leaf.svg" className="blur-up lazyload" alt="" />
+                                                <img src="../assets/svg/3/leaf.svg" className="blur-up lazyload" alt="img" />
                                             </div>
 
                                             <div className="delivery-detail">
@@ -144,7 +144,7 @@ const Aboutus = () => {
                                 <div className="client-icon">
   <img
     src="../assets/svg/3/work.svg"
-    alt=""
+    alt="img"
     style={{
       filter:
         "brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(700%) hue-rotate(346deg) brightness(95%) contrast(90%)"
@@ -162,7 +162,7 @@ const Aboutus = () => {
                         <div>
                             <div class="clint-contain">
                                 <div class="client-icon">
-                                    <img src="../assets/svg/3/buy.svg" class="blur-up lazyload" alt=""     style={{
+                                    <img src="../assets/svg/3/buy.svg" class="blur-up lazyload" alt="img"     style={{
       filter:
         "brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(700%) hue-rotate(346deg) brightness(95%) contrast(90%)"
     }}/>
@@ -177,7 +177,7 @@ const Aboutus = () => {
                         <div>
                             <div class="clint-contain">
                                 <div class="client-icon">
-                                    <img src="../assets/svg/3/user.svg" class="blur-up lazyload" alt=""     style={{
+                                    <img src="../assets/svg/3/user.svg" class="blur-up lazyload" alt="img"     style={{
       filter:
         "brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(700%) hue-rotate(346deg) brightness(95%) contrast(90%)"
     }}/>
@@ -207,7 +207,7 @@ const Aboutus = () => {
                             <div class="team-box">
                                 <div class="team-image">
                                     <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </div>
 
                                 <div class="team-name">
@@ -243,7 +243,7 @@ const Aboutus = () => {
                             <div class="team-box">
                                 <div class="team-image">
                                     <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </div>
 
                                 <div class="team-name">
@@ -279,7 +279,7 @@ const Aboutus = () => {
                             <div class="team-box">
                                 <div class="team-image">
                                     <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </div>
 
                                 <div class="team-name">
@@ -315,7 +315,7 @@ const Aboutus = () => {
                             <div class="team-box">
                                 <div class="team-image">
                                     <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </div>
 
                                 <div class="team-name">
@@ -351,7 +351,7 @@ const Aboutus = () => {
                             <div class="team-box">
                                 <div class="team-image">
                                     <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </div>
 
                                 <div class="team-name">
@@ -427,7 +427,7 @@ const Aboutus = () => {
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
                                         <img src="/assets/images/user.png" class="blur-up lazyload"
-                                            alt="" />
+                                            alt="img" />
                                     </div>
 
                                     <div class="reviewer-name">
@@ -467,7 +467,7 @@ const Aboutus = () => {
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
                                         <img src="/assets/images/user.png" class="blur-up lazyload"
-                                            alt="" />
+                                            alt="img" />
                                     </div>
 
                                     <div class="reviewer-name">
@@ -506,7 +506,7 @@ const Aboutus = () => {
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
                                         <img src="/assets/images/user.png" class="blur-up lazyload"
-                                            alt="" />
+                                            alt="img" />
                                     </div>
 
                                     <div class="reviewer-name">
@@ -584,7 +584,7 @@ const Aboutus = () => {
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
                                         <img src="/assets/images/user.png" class="blur-up lazyload"
-                                            alt="" />
+                                            alt="img" />
                                     </div>
 
                                     <div class="reviewer-name">
@@ -623,7 +623,7 @@ const Aboutus = () => {
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
                                         <img src="/assets/images/user.png" class="blur-up lazyload"
-                                            alt="" />
+                                            alt="img" />
                                     </div>
 
                                     <div class="reviewer-name">
@@ -662,7 +662,7 @@ const Aboutus = () => {
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
                                         <img src="/assets/images/user.png" class="blur-up lazyload"
-                                            alt="" />
+                                            alt="img" />
                                     </div>
 
                                     <div class="reviewer-name">
@@ -700,7 +700,7 @@ const Aboutus = () => {
                                 <div class="reviewer-profile">
                                     <div class="reviewer-image">
                                         <img src="/assets/images/user.png" class="blur-up lazyload"
-                                            alt="" />
+                                            alt="img" />
                                     </div>
 
                                     <div class="reviewer-name">

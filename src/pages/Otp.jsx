@@ -36,7 +36,7 @@ const Otp = () => {
             <div className="row">
                 <div className="col-xxl-6 col-xl-5 col-lg-6 d-lg-block d-none ms-auto">
                     <div className="image-contain">
-                        <img src="../assets/images/inner-page/otp.png" className="img-fluid" alt="" />
+                        <img src="../assets/images/inner-page/otp.png" className="img-fluid" alt="img" />
                     </div>
                 </div>
 

@@ -62,7 +62,7 @@ const Login = () => {
                   <img
                     src="../assets/images/inner-page/log-in.png"
                     className="img-fluid"
-                    alt=""
+                    alt="img"
                   />
                 </div>
               </div>
@@ -122,7 +122,7 @@ const Login = () => {
             <div class="row">
                 <div class="col-xxl-6 col-xl-5 col-lg-6 d-lg-block d-none ">
                     <div class="image-contain">
-                        <img src="../assets/images/inner-page/otp.png" class="img-fluid" alt="" />
+                        <img src="../assets/images/inner-page/otp.png" class="img-fluid" alt="img" />
                     </div>
                 </div>
 

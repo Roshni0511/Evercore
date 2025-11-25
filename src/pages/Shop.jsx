@@ -393,7 +393,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product1.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -473,7 +473,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product2.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -555,7 +555,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -636,7 +636,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -716,7 +716,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product5.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -798,7 +798,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product1.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -878,7 +878,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product2.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -960,7 +960,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -1040,7 +1040,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -1120,7 +1120,7 @@ const Shop = () => {
                                     <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product5.webp"
-                                                className="img-fluid blur-up lazyload" alt="" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul className="product-option">
@@ -1244,7 +1244,7 @@ const Shop = () => {
                         <div className="col-lg-6">
                             <div className="slider-image">
                                 <img src="/assets/images/product1.webp" className="img-fluid blur-up lazyload"
-                                    alt="" />
+                                    alt="img" />
                             </div>
                         </div>
 

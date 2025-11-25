@@ -193,7 +193,7 @@ const [activeSection, setActiveSection] = useState(
       <img
         src="../assets/images/svg/order.svg"
         className="img-1"
-        alt=""
+        alt="img"
         style={{ width: "45px" }}
       />
 
@@ -224,7 +224,7 @@ const [activeSection, setActiveSection] = useState(
       <img
         src="../assets/images/svg/pending.svg"
         className="img-1"
-        alt=""
+        alt="img"
         style={{ width: "45px" }}
       />
 
@@ -255,7 +255,7 @@ const [activeSection, setActiveSection] = useState(
       <img
         src="../assets/images/svg/wishlist.svg"
         className="img-1"
-        alt=""
+        alt="img"
         style={{ width: "45px" }}
       />
 

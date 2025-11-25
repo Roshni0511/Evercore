@@ -69,7 +69,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product1.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">
@@ -123,7 +123,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product2.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">
@@ -178,7 +178,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product3.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">
@@ -233,7 +233,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product4.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">
@@ -288,7 +288,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product5.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">
@@ -343,7 +343,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product1.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">
@@ -397,7 +397,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product2.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">
@@ -452,7 +452,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product3.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">
@@ -507,7 +507,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product4.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">
@@ -562,7 +562,7 @@ const Wishlist = () => {
                             <div className="product-image">
                                 <a href="/Productdetails">
                                     <img src="/assets/images/product5.webp" className="img-fluid blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                 </a>
 
                                 <div className="product-header-top">

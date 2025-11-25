@@ -45,7 +45,7 @@ const Home = () => {
                         <div>
                             <div className="home-contain rounded-0 p-0">
                                 <img src="/assets/images/unnamed.jpg"
-                                    className="img-fluid bg-img blur-up lazyload home-img" alt="" sizes='1920*637' style={{width:'100%'}}/>
+                                    className="img-fluid bg-img blur-up lazyload home-img" alt="img" sizes='1920*637' style={{width:'100%'}}/>
                                 <div className="home-detail home-big-space p-center-left home-overlay ">
                                     <div className="container-fluid-lg">
                                         <div>
@@ -157,7 +157,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product1.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -237,7 +237,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product2.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -316,7 +316,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -396,7 +396,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -476,7 +476,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product5.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -555,7 +555,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -636,7 +636,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -729,7 +729,7 @@ const Home = () => {
                             <a href="/Shop" className="category-box category-dark">
                                 <div>
                                     <img src="/assets/images/magnesium (1).png" className="blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                     <h5>Magnesium</h5>
                                 </div>
                             </a>
@@ -739,7 +739,7 @@ const Home = () => {
                             <a href="/Shop" className="category-box category-dark">
                                 <div>
                                     <img src="/assets/images/molecule (1).png" className="blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                     <h5>Collagen</h5>
                                 </div>
                             </a>
@@ -749,7 +749,7 @@ const Home = () => {
                             <a href="/Shop" className="category-box category-dark">
                                 <div>
                                     <img src="/assets/images/health.png" className="blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                     <h5>Protein</h5>
                                 </div>
                             </a>
@@ -759,7 +759,7 @@ const Home = () => {
                             <a href="/Shop" className="category-box category-dark">
                                 <div>
                                     <img src="/assets/images/omega (1).png" className="blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                     <h5>Omega</h5>
                                 </div>
                             </a>
@@ -768,7 +768,7 @@ const Home = () => {
                         <div>
                             <a href="/Shop" className="category-box category-dark">
                                 <div>
-                                    <img src="/assets/images/protein.png" className="blur-up lazyload" alt="" />
+                                    <img src="/assets/images/protein.png" className="blur-up lazyload" alt="img" />
                                     <h5>Sleep</h5>
                                 </div>
                             </a>
@@ -778,7 +778,7 @@ const Home = () => {
                             <a href="/Shop" className="category-box category-dark">
                                 <div>
                                     <img src="/assets/images/multivitamin (1).png" className="blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                     <h5>Multivitamins</h5>
                                 </div>
                             </a>
@@ -788,7 +788,7 @@ const Home = () => {
                             <a href="/Shop" className="category-box category-dark">
                                 <div>
                                     <img src="/assets/images/immune-booster (2).png" className="blur-up lazyload"
-                                        alt="" />
+                                        alt="img" />
                                     <h5>Immunity Boosters</h5>
                                 </div>
                             </a>
@@ -809,7 +809,7 @@ const Home = () => {
                                 <div className="banner-contain hover-effect" style={{backgroundImage:'url(/assets/images/chocolate-1646843503.jpg)'}}>
                                 {/* 583*157  */}
                                     {/* <img src="../assets/images/furniture/banner/4.jpg" className="bg-img blur-up lazyload"
-                                        alt="" /> */}
+                                        alt="img" /> */}
                                     <div className="banner-details p-center-left p-4">
                                         <div>
                                             <h3 className="text-kaushan text-yellow">50% offer</h3>
@@ -827,7 +827,7 @@ const Home = () => {
                             <div className="col-md-6">
                                 <div className="banner-contain hover-effect" style={{backgroundImage:'url(/assets/images/ba11.webp)'}}>
                                     {/* <img src="../assets/images/furniture/banner/5.jpg" className="bg-img blur-up lazyload"
-                                        alt="" /> */}
+                                        alt="img" /> */}
                                     <div className="banner-details p-center-left p-4">
                                         <div>
                                             <h3 className="text-kaushan text-yellow">50% offer</h3>
@@ -844,7 +844,7 @@ const Home = () => {
                     </div>
 
                      <div className="title d-block">
-                        <h2>Shop by Budget</h2>
+                        <h2>Best Selling Proteins</h2>
                         <span className="title-leaf">
                             <svg className="icon-width">
                                 <use href="../assets/svg/leaf.svg#leaf"></use>
@@ -862,7 +862,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product1.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -942,7 +942,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product2.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1021,7 +1021,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1101,7 +1101,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1181,7 +1181,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product5.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1260,7 +1260,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1341,7 +1341,7 @@ const Home = () => {
                                     <div class="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1516,14 +1516,14 @@ const Home = () => {
             <div className="row ">
                 <div className="col-12">
                     <div className="banner-contain-3 section-b-space section-t-space hover-effect overflow-visible" style={{backgroundImage:'url(/assets/images/top.jpg)',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
-                        {/* <img src="https://themes.pixelstrap.com/fastkart/assets/images/furniture/banner/6.jpg" className="bg-img" alt="" width={"100%"}/> */}
-                        <img src="/assets/images/Natural_Protein_PB.png" className="flower-pot img-fluid" alt="" style={{height:'276px'}}/>
+                        {/* <img src="https://themes.pixelstrap.com/fastkart/assets/images/furniture/banner/6.jpg" className="bg-img" alt="img" width={"100%"}/> */}
+                        <img src="/assets/images/Natural_Protein_PB.png" className="flower-pot img-fluid" alt="img" style={{height:'276px'}}/>
                         <div
                             className="banner-detail p-center-left position-relative d-block py-0 banner-furniture mend-auto">
                             <div className="row d-flex justify-content-center">
                                 <div className="col-xl-6 offset-xxl-2 offset-xl-1 col-md-8 col-sm-9">
                                     <h4 className="text-uppercase text-yellow text-kaushan furniture-title">Best of
-                                        Collections <img src="../assets/images/furniture/arrow.svg" alt="" /></h4>
+                                        Collections <img src="../assets/images/furniture/arrow.svg" alt="img" /></h4>
                                     <h2 className="mt-sm-3 mt-1 mb-2 text-content"> Premium Protein <span
                                             className="theme-color fw-bold">LookBook</span> 2025</h2>
                                     <p className="text-content">Explore our latest collection of clean, science-backed protein blends made to 
@@ -1687,7 +1687,7 @@ const Home = () => {
                         <div className="col-lg-6">
                             <div className="slider-image">
                                 <img src="/assets/images/product1.webp" className="img-fluid blur-up lazyload"
-                                    alt="" />
+                                    alt="img" />
                             </div>
                         </div>
 

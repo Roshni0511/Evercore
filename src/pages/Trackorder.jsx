@@ -36,7 +36,7 @@ const Trackorder = () => {
             <div className="row g-sm-4 g-3">
                 <div className="col-xxl-3 col-xl-4 col-lg-6">
                     <div className="order-image">
-                        <img src="/assets/images/prd_3977707-MuscleBlaze.webp" className="img-fluid blur-up lazyload" alt="" />
+                        <img src="/assets/images/prd_3977707-MuscleBlaze.webp" className="img-fluid blur-up lazyload" alt="img" />
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@ const Trackorder = () => {
                                 <div className="order-details-name">
                                     <h5 className="text-content">Service</h5>
                                     <img src="../assets/images/inner-page/brand-name.svg"
-                                        className="img-fluid blur-up lazyload" alt="" />
+                                        className="img-fluid blur-up lazyload" alt="img" />
                                 </div>
                             </div>
                         </div>

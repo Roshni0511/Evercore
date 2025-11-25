@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="service-contain">
                             <div className="service-box">
                                 <div className="service-image">
-                                    <img src="../assets/svg/product.svg" className="blur-up lazyload" alt="" />
+                                    <img src="../assets/svg/product.svg" className="blur-up lazyload" alt="img" />
                                 </div>
 
                                 <div className="service-detail">
@@ -21,7 +21,7 @@ const Footer = () => {
 
                             <div className="service-box">
                                 <div className="service-image">
-                                    <img src="../assets/svg/delivery.svg" className="blur-up lazyload" alt="" />
+                                    <img src="../assets/svg/delivery.svg" className="blur-up lazyload" alt="img" />
                                 </div>
 
                                 <div className="service-detail">
@@ -31,7 +31,7 @@ const Footer = () => {
 
                             <div className="service-box">
                                 <div className="service-image">
-                                    <img src="../assets/svg/discount.svg" className="blur-up lazyload" alt="" />
+                                    <img src="../assets/svg/discount.svg" className="blur-up lazyload" alt="img" />
                                 </div>
 
                                 <div className="service-detail">
@@ -41,7 +41,7 @@ const Footer = () => {
 
                             <div className="service-box">
                                 <div className="service-image">
-                                    <img src="../assets/svg/market.svg" className="blur-up lazyload" alt="" />
+                                    <img src="../assets/svg/market.svg" className="blur-up lazyload" alt="img" />
                                 </div>
 
                                 <div className="service-detail">
@@ -59,7 +59,7 @@ const Footer = () => {
                         <div className="footer-logo">
                             <div className="theme-logo">
                                 <a href="/">
-                                    {/* <img src="/assets/images/evercorelogo.png" className="blur-up lazyload" alt="" style={{width:'100px'}}/> */}
+                                    {/* <img src="/assets/images/evercorelogo.png" className="blur-up lazyload" alt="img" style={{width:'100px'}}/> */}
                                      <h2 style={{fontWeight:'800',fontSize:'35px',color:'#c25f31'}}>Evercore</h2>   
                                 </a>
                             </div>

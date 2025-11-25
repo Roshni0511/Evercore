@@ -16,7 +16,7 @@ const Bulkorder = () => {
                         <div>
                             <div className="home-contain rounded-0 p-0">
                                 <img src="/assets/images/gemini.png"
-                                    className="img-fluid bg-img blur-up lazyload" alt=""  style={{width:'100%'}} />
+                                    className="img-fluid bg-img blur-up lazyload" alt="img"  style={{width:'100%'}} />
                               
                             </div>
                         </div>
@@ -60,7 +60,7 @@ const Bulkorder = () => {
                                     <li>
                                         <div className="delivery-box">
                                             <div className="delivery-icon">
-                                                <img src="../assets/svg/3/delivery.svg" className="blur-up lazyload" alt="" />
+                                                <img src="../assets/svg/3/delivery.svg" className="blur-up lazyload" alt="img" />
                                             </div>
 
                                             <div className="delivery-detail">
@@ -72,7 +72,7 @@ const Bulkorder = () => {
                                     <li>
                                         <div className="delivery-box">
                                             <div className="delivery-icon">
-                                                <img src="../assets/svg/3/leaf.svg" className="blur-up lazyload" alt="" />
+                                                <img src="../assets/svg/3/leaf.svg" className="blur-up lazyload" alt="img" />
                                             </div>
 
                                             <div className="delivery-detail">
@@ -84,7 +84,7 @@ const Bulkorder = () => {
                                     <li>
                                         <div className="delivery-box">
                                             <div className="delivery-icon">
-                                                <img src="../assets/svg/3/delivery.svg" className="blur-up lazyload" alt="" />
+                                                <img src="../assets/svg/3/delivery.svg" className="blur-up lazyload" alt="img" />
                                             </div>
 
                                             <div className="delivery-detail">
@@ -96,7 +96,7 @@ const Bulkorder = () => {
                                     <li>
                                         <div className="delivery-box">
                                             <div className="delivery-icon">
-                                                <img src="../assets/svg/3/leaf.svg" className="blur-up lazyload" alt="" />
+                                                <img src="../assets/svg/3/leaf.svg" className="blur-up lazyload" alt="img" />
                                             </div>
 
                                             <div className="delivery-detail">
@@ -141,7 +141,7 @@ const Bulkorder = () => {
                                     <div class="product-image">
                                         <a href="product-left.htm">
                                             <img src="/assets/images/product1.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -221,7 +221,7 @@ const Bulkorder = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product2.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -300,7 +300,7 @@ const Bulkorder = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -380,7 +380,7 @@ const Bulkorder = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -460,7 +460,7 @@ const Bulkorder = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product5.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -539,7 +539,7 @@ const Bulkorder = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -620,7 +620,7 @@ const Bulkorder = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -715,7 +715,7 @@ const Bulkorder = () => {
                         <div className="col-lg-6">
                             <div className="slider-image">
                                 <img src="/assets/images/product1.webp" className="img-fluid blur-up lazyload"
-                                    alt="" />
+                                    alt="img" />
                             </div>
                         </div>
 

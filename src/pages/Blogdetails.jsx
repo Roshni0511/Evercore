@@ -38,7 +38,7 @@ const Blogdetails = () => {
             <div class="row g-sm-4 g-3">
                    <div class="col-xxl-9 col-xl-8 col-lg-7 ratio_50">
                     <div class="blog-detail-image rounded-3 mb-4">
-                        <img src="/assets/images/unnamed.jpg" class="bg-img blur-up lazyload" alt="" />
+                        <img src="/assets/images/unnamed.jpg" class="bg-img blur-up lazyload" alt="img" />
                         <div class="blog-image-contain">
                             <ul class="contain-list">
                                            <li>whey protein</li>
@@ -116,7 +116,7 @@ const Blogdetails = () => {
                                         </div>
                                         <div class="user-image">
                                             <img src="/assets/images/user.png"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                             <div class="user-name">
                                                 <h6>30 Jan, 2022</h6>
                                               <h5 class="text-content">Rahul Sharma</h5>
@@ -138,7 +138,7 @@ const Blogdetails = () => {
                                         </div>
                                         <div class="user-image">
                                             <img src="/assets/images/user.png"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                             <div class="user-name">
                                                 <h6>30 Jan, 2022</h6>
                                                 <h5 class="text-content">Glenn Greer</h5>
@@ -162,7 +162,7 @@ const Blogdetails = () => {
                                         </div>
                                         <div class="user-image">
                                             <img src="/assets/images/user.png"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                             <div class="user-name">
                                                 <h6>30 Jan, 2022</h6>
                                                 <h5 class="text-content">Glenn Greer</h5>
@@ -255,7 +255,7 @@ const Blogdetails = () => {
                                             <div class="recent-box">
                                                 <a href="/Blogdetails" class="recent-image">
                                                                 <img src="/assets/images/product1.webp"
-                                                        class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
+                                                        class="img-fluid blur-up lazyload" alt="img" style={{width:'90px'}}/>
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -269,7 +269,7 @@ const Blogdetails = () => {
                                             <div class="recent-box">
                                                 <a href="/Blogdetails" class="recent-image">
                                                  <img src="/assets/images/product2.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -283,7 +283,7 @@ const Blogdetails = () => {
                                             <div class="recent-box">
                                                 <a href="/Blogdetails" class="recent-image">
                                             <img src="/assets/images/product3.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -297,7 +297,7 @@ const Blogdetails = () => {
                                             <div class="recent-box">
                                                 <a href="/Blogdetails" class="recent-image">
                                                <img src="/assets/images/product5.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
 
                                                 <div class="recent-detail">
@@ -444,7 +444,7 @@ const Blogdetails = () => {
                                                 <div class="offer-product">
                                                     <a href="/Shop" class="offer-image">
                                                          <img src="/assets/images/product1.webp"
-                                                        class="img-fluid blur-up lazyload" alt="" style={{width:'90px'}}/>
+                                                        class="img-fluid blur-up lazyload" alt="img" style={{width:'90px'}}/>
                                                     </a>
 
                                                     <div class="offer-detail">
@@ -463,7 +463,7 @@ const Blogdetails = () => {
                                                 <div class="offer-product">
                                                     <a href="/Shop" class="offer-image">
                                        <img src="/assets/images/product2.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                     </a>
 
                                                     <div class="offer-detail">
@@ -482,7 +482,7 @@ const Blogdetails = () => {
                                                 <div class="offer-product">
                                                     <a href="/Shop" class="offer-image">
                                                           <img src="/assets/images/product5.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                     </a>
 
                                                     <div class="offer-detail">

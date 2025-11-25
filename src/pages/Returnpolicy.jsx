@@ -65,7 +65,7 @@ const Returnpolicy = ({
             <h3>3. Return Process</h3>
             <p>
               To initiate a return, please contact our support team at{' '}
-              <a href="mailto:mdmart.superstore@gmail.com" className="underline">
+              <a href="mailto:evercore.superstore@gmail.com" className="underline">
                 evercore@gmail.com
               </a>{' '}
               with your order details and reason for return.
@@ -99,7 +99,7 @@ const Returnpolicy = ({
             <p>
               We only replace items if they are defective or damaged. If you need to
               exchange an item, contact us at{' '}
-              <a href="mailto:mdmart.superstore@gmail.com" className="underline">
+              <a href="mailto:evercore.superstore@gmail.com" className="underline">
                 evercore@gmail.com
               </a>{' '}
               with your order number and details.
@@ -123,7 +123,7 @@ const Returnpolicy = ({
               <strong>{companyName}</strong>
               <br />
               Email:{' '}
-              <a href="mailto:mdmart.superstore@gmail.com" className="underline">
+              <a href="mailto:evercore.superstore@gmail.com" className="underline">
                 evercore@gmail.com
               </a>
             </address>

@@ -40,7 +40,7 @@ const Contact = () => {
                             <div className="col-xl-12">
                                 <div className="contact-image">
                                     <img src="../assets/images/inner-page/contact-us.png"
-                                        className="img-fluid blur-up lazyloaded" alt="" />
+                                        className="img-fluid blur-up lazyloaded" alt="img" />
                                 </div>
                             </div>
                             <div className="col-xl-12">

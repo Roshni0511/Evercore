@@ -495,7 +495,7 @@ export default function Navbar() {
                                                         <div className="drop-cart">
                                                             <a href="/" className="drop-image">
                                                                 <img src="/assets/images/product1.webp"
-                                                                    className="blur-up lazyload" alt="" />
+                                                                    className="blur-up lazyload" alt="img" />
                                                             </a>
 
                                                             <div className="drop-contain">
@@ -514,7 +514,7 @@ export default function Navbar() {
                                                         <div className="drop-cart">
                                                             <a href="/" className="drop-image">
                                                                 <img src="/assets/images/product2.webp"
-                                                                    className="blur-up lazyload" alt="" />
+                                                                    className="blur-up lazyload" alt="img" />
                                                             </a>
 
                                                             <div className="drop-contain">

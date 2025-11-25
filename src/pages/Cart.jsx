@@ -44,7 +44,7 @@ const Cart = () => {
                                             <div className="product border-0">
                                                 <a href="/Productdetails" className="product-image">
                                                     <img src="/assets/images/product1.webp"
-                                                        className="img-fluid blur-up lazyload" alt="" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
                                                 <div className="product-detail">
                                                     <ul>
@@ -136,7 +136,7 @@ const Cart = () => {
                                             <div className="product border-0">
                                                 <a href="/Productdetails" className="product-image">
                                                     <img src="/assets/images/product2.webp"
-                                                        className="img-fluid blur-up lazyload" alt="" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
                                                 <div className="product-detail">
                                                     <ul>
@@ -232,7 +232,7 @@ const Cart = () => {
                                             <div className="product border-0">
                                                 <a href="/Productdetails" className="product-image">
                                                     <img src="/assets/images/product3.webp"
-                                                        className="img-fluid blur-up lazyload" alt="" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
                                                 <div className="product-detail">
                                                     <ul>

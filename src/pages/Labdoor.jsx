@@ -20,7 +20,7 @@ const Labdoor = () => {
       <section data-aos="zoom-in" style={{paddingTop:'0px'}}>
         <img
           src="/assets/images/bulk2.jpg"
-          alt=""
+          alt="img"
           style={{
             width: "100%",
             height: "auto",

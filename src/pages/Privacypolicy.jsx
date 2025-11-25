@@ -100,7 +100,7 @@ const Privacypolicy = ({
           <p>
             <strong>{companyName}</strong> <br />
             Email:{" "}
-            <a href="mailto:mdmart.superstore@gmail.com">
+            <a href="mailto:evercore.superstore@gmail.com">
               evercore@gmail.com
             </a>
           </p>

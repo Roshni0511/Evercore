@@ -52,7 +52,7 @@ const Productdetails = () => {
                                                 <div class="slider-image">
                                                     <img src="/assets/images/product1.webp" id="img-1"
                                                         data-zoom-image="/assets/images/product1.webp" class="
-                                                        img-fluid image_zoom_cls-0 blur-up lazyload" alt="" />
+                                                        img-fluid image_zoom_cls-0 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
@@ -60,7 +60,7 @@ const Productdetails = () => {
                                                 <div class="slider-image">
                                                     <img src="/assets/images/product2.webp"
                                                         data-zoom-image="/assets/images/product2.webp" class="
-                                                        img-fluid image_zoom_cls-1 blur-up lazyload" alt="" />
+                                                        img-fluid image_zoom_cls-1 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
@@ -68,7 +68,7 @@ const Productdetails = () => {
                                                 <div class="slider-image">
                                                     <img src="/assets/images/product3.webp"
                                                         data-zoom-image="/assets/images/product3.webp" class="
-                                                        img-fluid image_zoom_cls-2 blur-up lazyload" alt="" />
+                                                        img-fluid image_zoom_cls-2 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
@@ -76,7 +76,7 @@ const Productdetails = () => {
                                                 <div class="slider-image">
                                                     <img src="/assets/images/product4.webp"
                                                         data-zoom-image="/assets/images/product4.webp" class="
-                                                        img-fluid image_zoom_cls-3 blur-up lazyload" alt="" />
+                                                        img-fluid image_zoom_cls-3 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
@@ -84,7 +84,7 @@ const Productdetails = () => {
                                                 <div class="slider-image">
                                                     <img src="/assets/images/product5.webp"
                                                         data-zoom-image="/assets/images/product5.webp" class="
-                                                        img-fluid image_zoom_cls-4 blur-up lazyload" alt="" />
+                                                        img-fluid image_zoom_cls-4 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
@@ -92,7 +92,7 @@ const Productdetails = () => {
                                                 <div class="slider-image">
                                                     <img src="/assets/images/product3.webp"
                                                         data-zoom-image="/assets/images/product3.webp" class="
-                                                        img-fluid image_zoom_cls-5 blur-up lazyload" alt="" />
+                                                        img-fluid image_zoom_cls-5 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
                                         </div>
@@ -103,42 +103,42 @@ const Productdetails = () => {
                                             <div>
                                                 <div class="sidebar-image">
                                                     <img src="/assets/images/product1.webp"
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
                                                     <img src="/assets/images/product2.webp"
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
                                                     <img src="/assets/images/product3.webp"
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
                                                     <img src="/assets/images/product4.webp"
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
                                                     <img src="/assets/images/product5.webp"
-                                                        class="img-fluid blur-up lazyload" alt=""/>
+                                                        class="img-fluid blur-up lazyload" alt="img"/>
                                                 </div>
                                             </div>
 
                                             <div>
                                                 <div class="sidebar-image">
                                                     <img src="/assets/images/product3.webp"
-                                                        class="img-fluid blur-up lazyload" alt="" />
+                                                        class="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
                                         </div>
@@ -784,7 +784,7 @@ const Productdetails = () => {
                                     <div class="product-image">
                                         <a href="product-left.htm">
                                             <img src="/assets/images/product1.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -864,7 +864,7 @@ const Productdetails = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product2.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -943,7 +943,7 @@ const Productdetails = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1023,7 +1023,7 @@ const Productdetails = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1103,7 +1103,7 @@ const Productdetails = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product5.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1182,7 +1182,7 @@ const Productdetails = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1263,7 +1263,7 @@ const Productdetails = () => {
                                     <div class="product-image">
                                         <a href="">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="" />
+                                                class="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
                                         <ul class="product-option">
@@ -1351,7 +1351,7 @@ const Productdetails = () => {
                     <div class="cart-content">
                         <div class="product-image">
                             <img src="/assets/images/product1.webp" class="img-fluid blur-up lazyload"
-                                alt="" />
+                                alt="img" />
                             <div class="content">
                                 <h5>Evercore Yeast Protein - Double Chocolate</h5>
                                 <div style={{ display: "flex",marginTop:'10px' }}>
@@ -1482,7 +1482,7 @@ const Productdetails = () => {
                         <div className="col-lg-6">
                             <div className="slider-image">
                                 <img src="/assets/images/product1.webp" className="img-fluid blur-up lazyload"
-                                    alt="" />
+                                    alt="img" />
                             </div>
                         </div>
 
