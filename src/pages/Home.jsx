@@ -45,7 +45,7 @@ const Home = () => {
                         <div>
                             <div className="home-contain rounded-0 p-0">
                                 <img src="/assets/images/unnamed.jpg"
-                                    className="img-fluid bg-img blur-up lazyload" alt="" sizes='1920*637' style={{width:'100%'}}/>
+                                    className="img-fluid bg-img blur-up lazyload home-img" alt="" sizes='1920*637' style={{width:'100%'}}/>
                                 <div className="home-detail home-big-space p-center-left home-overlay ">
                                     <div className="container-fluid-lg">
                                         <div>
@@ -72,7 +72,7 @@ const Home = () => {
     {/* <!-- Home Section End --> */}
 
         {/* <!-- Service Section Start --> */}
-    <section className="service-section section-b-space">
+    <section className="service-section section-b-space d-none d-md-block">
   <div className="container-fluid-lg">
     <div className="row g-3 row-cols-xxl-4 row-cols-lg-3 row-cols-md-2">
 

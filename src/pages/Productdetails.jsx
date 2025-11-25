@@ -177,7 +177,7 @@ const Productdetails = () => {
                                 </div>
 
                                 <div class="product-contain">
-                                    <p class="w-100">Evercore Yeast Protein – Double Chocolate delivers a rich, smooth chocolaty taste powered by clean, high-quality yeast protein. Designed for lean muscle support, faster recovery, and easy digestion, it offers a complete amino acid profile with exceptional purity. Whether post-workout or as a daily protein boost, enjoy a delicious chocolate blend that fuels your fitness naturally.</p>
+                                    <p class="w-100 d-none d-md-block">Evercore Yeast Protein – Double Chocolate delivers a rich, smooth chocolaty taste powered by clean, high-quality yeast protein. Designed for lean muscle support, faster recovery, and easy digestion, it offers a complete amino acid profile with exceptional purity. Whether post-workout or as a daily protein boost, enjoy a delicious chocolate blend that fuels your fitness naturally.</p>
                                 </div>
 
                                 <div class="product-package">

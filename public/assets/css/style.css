@@ -30945,7 +30945,7 @@ body.rtl .menu-label {
 }
 
 .product-box.product-white-bg {
-    background-color: #fff;
+    background-color: #eac7b2;
     border-radius: calc(9px + 7*(100vw - 320px)/1600);
     padding: calc(10px + 4*(100vw - 320px)/1600);
     border: 1px solid #eee;
@@ -31011,7 +31011,7 @@ body.rtl .menu-label {
 
 .product-box .product-image {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     position: relative
 }
 
@@ -31087,7 +31087,8 @@ body.rtl .menu-label {
 
 .product-box .product-image img {
     width: 100%;
-    height: 140px;
+    height: 100%;
+    border-radius: 10px;
     -o-object-fit: contain;
     object-fit: contain;
     -webkit-transition: all .3s ease-in-out;
@@ -32167,7 +32168,7 @@ body.rtl .menu-label {
 
 .product-box-3 .product-header .product-image {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     display: block
 }
 
@@ -32179,7 +32180,8 @@ body.rtl .menu-label {
 
 .product-box-3 .product-header .product-image img {
     width: 100%;
-    height: calc(100px + 40*(100vw - 320px)/1600);
+    height: 100%;
+    border-radius: 10px;
     -o-object-fit: contain;
     object-fit: contain;
     -webkit-transition: all .3s ease-in-out;
@@ -44218,7 +44220,8 @@ body.rtl .question-answer li .question-box .link-dislike-box {
 .product-section .right-box-contain .name {
     font-weight: 700;
     margin-bottom: calc(10px + 5*(100vw - 320px)/1600);
-    line-height: 1.5
+    line-height: 1.5;
+    text-align: start;
 }
 
 .product-section .right-box-contain .price-rating {
@@ -44288,13 +44291,14 @@ body.rtl .question-answer li .question-box .link-dislike-box {
         margin-top: 10px;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center
+        justify-content: start
     }
 }
 
 .product-section .right-box-contain .price-rating .price {
     font-weight: 600;
-    font-size: calc(19px + 3*(100vw - 320px)/1600)
+    font-size: calc(19px + 3*(100vw - 320px)/1600);
+    text-align: start;
 }
 
 .product-section .right-box-contain .price-rating .price del {
@@ -45382,7 +45386,8 @@ body.rtl .question-answer li .question-box .link-dislike-box {
 
 .sticky-bottom-cart {
     position: fixed;
-    bottom: -160px;
+    /* bottom: -160px; */
+    bottom: 0px;
     width: 100%;
     z-index: 9;
     background-color: #fff;
@@ -48986,4 +48991,12 @@ display: none;
   .back-color-set{
     background-color: none;
   }
+}
+.home-img{
+    height: 200px;
+}
+@media (min-width: 577px) {
+    .home-img{
+    height: auto;
+}
 }
