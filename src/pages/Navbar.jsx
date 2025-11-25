@@ -48,6 +48,86 @@ export default function Navbar() {
                                                  <li className="nav-item ">
                                                       <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/">Home</a>
                                                  </li>
+
+                                                      <li className="nav-item dropdown dropdown-mega">
+                                                    <a className="nav-link dropdown-toggle ps-xl-2 ps-0"
+                                                        href="javascript:void(0)" data-bs-toggle="dropdown">Shop
+                                                    </a>
+
+                                                    <div className="dropdown-menu dropdown-menu-2">
+                                                        <div className="row">
+                                                            <div className="dropdown-column col-xl-3">
+                                                                <h5 className="dropdown-header">AS-IT-IS Protein</h5>
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Whey Protein Concentrate</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Whey Protein Sachet 30g</a>
+
+                                                                <a href="/Shop"
+                                                                    className="dropdown-item">Whey Protein Isolate</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Pea Protein Isolate</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Soy Protein Isolate</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Brown Rice Protein</a>
+
+                                                                <a href="/Shop"
+                                                                    className="dropdown-item">Peanut Butter</a>
+                                                            </div>
+
+                                                            <div className="dropdown-column col-xl-3">
+                                                                <h5 className="dropdown-header">ATOM Protein</h5>
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Whey Protein</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">PWR Whey</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Pea Protein</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Nitro Whey Protein</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">ISO Whey Gold</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Whey Protein Isolate</a>
+
+                                                                <a href="/Shop"
+                                                                    className="dropdown-item">Beginners Whey Protein</a>
+                                                            </div>
+
+                                                            <div className="dropdown-column col-xl-3">
+                                                                <h5 className="dropdown-header">ATOM Amino Acid </h5>
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">BCAA</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Creatine Monohydrate</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">L-Citrulline Malate</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">Multivitamin</a>
+
+                                                                <a className="dropdown-item"
+                                                                    href="/Shop">L-Carnitine Liquid</a>
+                                                            </div>
+
+                                                            <div className="dropdown-column dropdown-column-img col-3">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
                                                 <li className="nav-item dropdown">
                                                     <a className="nav-link dropdown-toggle" href="javascript:void(0)"
                                                         data-bs-toggle="dropdown">Crazy Deals</a>
@@ -81,76 +161,7 @@ export default function Navbar() {
 </div>
 
                                                 </li>
-                                                 <li className="nav-item dropdown">
-                                                    <a className="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                        data-bs-toggle="dropdown">Authenticity</a>
-
-                                                    <div className="dropdown-menu dropdown-menu-3 dropdown-menu-2">
-    <div className="row justify-content-center">
-
-        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}> 
-            <a href="/Authenticity">
-            <div className="dropdown-column text-center ">
-                <img src="/assets/images/authencity.svg" className="img-fluid mb-2" width="60" />
-            </div>
-                <p className="mb-2 text-center " style={{color:'#000'}}>Check Authenticity</p>
-                </a>
-        </div>
-
-        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}>
-            <a href="/ProteinCerti">
-            <div className="dropdown-column text-center ">
-                <img src="/assets/images/lab_certificate_icon.svg" className="img-fluid mb-2" width="60" />
-            </div>
-                <p className="mb-2 text-center" style={{color:'#000'}}>Protein Lab Certificate</p>
-                </a>
-        </div>
-
-        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}>
-            <a href="/Labdoor">
-            <div className="dropdown-column text-center " >
-                <img src="/assets/images/labdoor.svg" className="img-fluid mb-2" width="60" />
-            </div>
-                <p className="mb-2 text-center" style={{color:'#000'}}>Labdoor</p>
-                </a>
-        </div>
-
-    </div>
-</div>
-
-                                                </li>
-                                                <li className="nav-item dropdown">
-                                                    <a className="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                        data-bs-toggle="dropdown">Shop By Goal</a>
-
-                                                   <ul className="dropdown-menu">
-                                                <li>
-                                                    <a className="dropdown-item" href="/Shop">Faster Muscle Gains</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="/Shop">Faster Recovery</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="/Shop">Gain Weight</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="/Shop">Get Shredded</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="/Shop">Hydration & Endurance</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="/Shop">Prepare Before Training</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="/Shop">Vegan Supplements</a>
-                                                </li>
-                                            </ul>
-                                                </li>
-                                                <li className="nav-item ">
-                                                      <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/Bulkorder">Bulk Order</a>
-                                                 </li>
-                                                 <li className="nav-item dropdown">
+                                                   <li className="nav-item dropdown">
                                                     <a className="nav-link dropdown-toggle" href="javascript:void(0)"
                                                         data-bs-toggle="dropdown">Recipe</a>
 
@@ -255,88 +266,81 @@ export default function Navbar() {
                                                         </div>
                                                     </div>
                                                 </li>
+                                                 <li className="nav-item dropdown">
+                                                    <a className="nav-link dropdown-toggle" href="javascript:void(0)"
+                                                        data-bs-toggle="dropdown">Shop By Goal</a>
+
+                                                   <ul className="dropdown-menu">
+                                                <li>
+                                                    <a className="dropdown-item" href="/Shop">Faster Muscle Gains</a>
+                                                </li>
+                                                <li>
+                                                    <a className="dropdown-item" href="/Shop">Faster Recovery</a>
+                                                </li>
+                                                <li>
+                                                    <a className="dropdown-item" href="/Shop">Gain Weight</a>
+                                                </li>
+                                                <li>
+                                                    <a className="dropdown-item" href="/Shop">Get Shredded</a>
+                                                </li>
+                                                <li>
+                                                    <a className="dropdown-item" href="/Shop">Hydration & Endurance</a>
+                                                </li>
+                                                <li>
+                                                    <a className="dropdown-item" href="/Shop">Prepare Before Training</a>
+                                                </li>
+                                                <li>
+                                                    <a className="dropdown-item" href="/Shop">Vegan Supplements</a>
+                                                </li>
+                                            </ul>
+                                                </li>
+                                                 <li className="nav-item dropdown">
+                                                    <a className="nav-link dropdown-toggle" href="javascript:void(0)"
+                                                        data-bs-toggle="dropdown">Authenticity</a>
+
+                                                    <div className="dropdown-menu dropdown-menu-3 dropdown-menu-2">
+    <div className="row justify-content-center">
+
+        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}> 
+            <a href="/Authenticity">
+            <div className="dropdown-column text-center ">
+                <img src="/assets/images/authencity.svg" className="img-fluid mb-2" width="60" />
+            </div>
+                <p className="mb-2 text-center " style={{color:'#000'}}>Check Authenticity</p>
+                </a>
+        </div>
+
+        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}>
+            <a href="/ProteinCerti">
+            <div className="dropdown-column text-center ">
+                <img src="/assets/images/lab_certificate_icon.svg" className="img-fluid mb-2" width="60" />
+            </div>
+                <p className="mb-2 text-center" style={{color:'#000'}}>Protein Lab Certificate</p>
+                </a>
+        </div>
+
+        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}>
+            <a href="/Labdoor">
+            <div className="dropdown-column text-center " >
+                <img src="/assets/images/labdoor.svg" className="img-fluid mb-2" width="60" />
+            </div>
+                <p className="mb-2 text-center" style={{color:'#000'}}>Labdoor</p>
+                </a>
+        </div>
+
+    </div>
+</div>
+
+                                                </li>
+                                               
+                                              
                                                 <li className="nav-item ">
                                                       <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/Faq">FAQ's</a>
                                                  </li>
-                                                <li className="nav-item dropdown dropdown-mega">
-                                                    <a className="nav-link dropdown-toggle ps-xl-2 ps-0"
-                                                        href="javascript:void(0)" data-bs-toggle="dropdown">Shop
-                                                    </a>
-
-                                                    <div className="dropdown-menu dropdown-menu-2">
-                                                        <div className="row">
-                                                            <div className="dropdown-column col-xl-3">
-                                                                <h5 className="dropdown-header">AS-IT-IS Protein</h5>
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Whey Protein Concentrate</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Whey Protein Sachet 30g</a>
-
-                                                                <a href="/Shop"
-                                                                    className="dropdown-item">Whey Protein Isolate</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Pea Protein Isolate</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Soy Protein Isolate</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Brown Rice Protein</a>
-
-                                                                <a href="/Shop"
-                                                                    className="dropdown-item">Peanut Butter</a>
-                                                            </div>
-
-                                                            <div className="dropdown-column col-xl-3">
-                                                                <h5 className="dropdown-header">ATOM Protein</h5>
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Whey Protein</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">PWR Whey</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Pea Protein</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Nitro Whey Protein</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">ISO Whey Gold</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Whey Protein Isolate</a>
-
-                                                                <a href="/Shop"
-                                                                    className="dropdown-item">Beginners Whey Protein</a>
-                                                            </div>
-
-                                                            <div className="dropdown-column col-xl-3">
-                                                                <h5 className="dropdown-header">ATOM Amino Acid </h5>
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">BCAA</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Creatine Monohydrate</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">L-Citrulline Malate</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">Multivitamin</a>
-
-                                                                <a className="dropdown-item"
-                                                                    href="/Shop">L-Carnitine Liquid</a>
-                                                            </div>
-
-                                                            <div className="dropdown-column dropdown-column-img col-3">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
+                                           
+                                                <li className="nav-item ">
+                                                      <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/Bulkorder">Bulk Order</a>
+                                                 </li>
                                               
                                             </ul>
                                         </div>

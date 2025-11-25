@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 const Termsandcondition = ({
-  companyName = 'MD Mart',
+  companyName = 'Evercore',
   effectiveDate = 'November 10, 2025',
 }) => {
   return (
@@ -181,10 +181,10 @@ const Termsandcondition = ({
               <br />
               Email:{' '}
               <a href="mailto:mdmart.superstore@gmail.com" className="underline">
-               mdmart.superstore@gmail.com
+               evercore@gmail.com
               </a>
               <br />
-              Address: 25, Shiv Park Soc, opp. Madhav Shopping Center, Gododara Canal Road, Godadara , Surat, India, Gujarat
+              Address: 412, Rajhans Platinum Plaza ,Adajan ,Surat, India
             </address>
           </section>
         </article>

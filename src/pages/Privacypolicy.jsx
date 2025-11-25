@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 
 const Privacypolicy = ({
-  companyName = "MD Mart",
+  companyName = "Evercore",
   effectiveDate = "November 10, 2025",
 }) => {
   return (
@@ -101,7 +101,7 @@ const Privacypolicy = ({
             <strong>{companyName}</strong> <br />
             Email:{" "}
             <a href="mailto:mdmart.superstore@gmail.com">
-              mdmart.superstore@gmail.com
+              evercore@gmail.com
             </a>
           </p>
         </section>

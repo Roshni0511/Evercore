@@ -600,7 +600,7 @@ function Useracc() {
                     closeModal();
                   }}
                 >
-                  Save changes
+                  Save 
                 </button>  
               </div>
             </div>
