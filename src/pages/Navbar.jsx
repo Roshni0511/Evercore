@@ -134,25 +134,25 @@ export default function Navbar() {
 
                                                     <div className="dropdown-menu dropdown-menu-3 dropdown-menu-2">
     <div className="row">
-        <div className="col-xl-3 col-lg-6 col-md-6 col-12">
+        <div className="col-xl-3 col-lg-6 col-md-6 col-6">
             <div className="dropdown-column m-0">
                <a href="/Shop"> <img src="/assets/images/nav1.webp" alt="Offer 1" className="img-fluid w-100 rounded" /></a>
             </div>
         </div>
 
-        <div className="col-xl-3 col-lg-6 col-md-6 col-12">
+        <div className="col-xl-3 col-lg-6 col-md-6 col-6">
             <div className="dropdown-column m-0">
                  <a href="/Shop"><img src="/assets/images/nav2.webp" alt="Offer 2" className="img-fluid w-100 rounded" /></a>
             </div>
         </div>
 
-        <div className="col-xl-3 col-lg-6 col-md-6 col-12">
+        <div className="col-xl-3 col-lg-6 col-md-6 col-6">
             <div className="dropdown-column m-0">
               <a href="/Shop">  <img src="/assets/images/nav3.webp" alt="Offer 3" className="img-fluid w-100 rounded" /></a>
             </div>
         </div>
 
-        <div className="col-xl-3 col-lg-6 col-md-6 col-12">
+        <div className="col-xl-3 col-lg-6 col-md-6 col-6">
             <div className="dropdown-column m-0">
                 <a href="/Shop"><img src="/assets/images/nav1.webp" alt="Offer 4" className="img-fluid w-100 rounded" /></a>
             </div>
@@ -294,44 +294,146 @@ export default function Navbar() {
                                                 </li>
                                             </ul>
                                                 </li>
-                                                 <li className="nav-item dropdown">
-                                                    <a className="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                        data-bs-toggle="dropdown">Authenticity</a>
+                                               <li className="nav-item dropdown">
+  <a
+    className="nav-link dropdown-toggle"
+    href="javascript:void(0)"
+    data-bs-toggle="dropdown"
+  >
+    Authenticity
+  </a>
 
-                                                    <div className="dropdown-menu dropdown-menu-3 dropdown-menu-2">
+  <div
+    className="dropdown-menu dropdown-menu-3 dropdown-menu-2"
+    style={{
+      padding: "25px",
+      background: "#f8f4f2",
+      borderRadius: "12px",
+      border: "none",
+      boxShadow: "0 6px 25px rgba(0,0,0,0.15)",
+    //   minWidth: "420px",
+    }}
+  >
     <div className="row justify-content-center">
 
-        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}> 
-            <a href="/Authenticity">
-            <div className="dropdown-column text-center ">
-                <img src="/assets/images/authencity.svg" className="img-fluid mb-2" width="60" />
-            </div>
-                <p className="mb-2 text-center " style={{color:'#000'}}>Check Authenticity</p>
-                </a>
-        </div>
+      {/* CARD 1 */}
+      <div
+        className="col-xl-4 col-lg-4 col-md-4 col-6"
+        style={{ padding: "10px" }}
+      >
+        <a href="/Authenticity" style={{ textDecoration: "none" }}>
+          <div
+            style={{
+              background: "#ffffff",
+              borderRadius: "12px",
+              padding: "18px 10px",
+              textAlign: "center",
+              transition: "0.3s",
+              boxShadow: "0 3px 10px rgba(0,0,0,0.10)",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-6px)";
+              e.currentTarget.style.boxShadow =
+                "0 10px 22px rgba(0,0,0,0.18)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0px)";
+              e.currentTarget.style.boxShadow =
+                "0 3px 10px rgba(0,0,0,0.10)";
+            }}
+          >
+            <img
+              src="/assets/images/authencity.svg"
+              className="img-fluid mb-2"
+              width="55"
+            />
+            <p style={{ margin: 0, fontSize: "14px", fontWeight: "600", color: "#5a3928" }}>
+              Check Authenticity
+            </p>
+          </div>
+        </a>
+      </div>
 
-        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}>
-            <a href="/ProteinCerti">
-            <div className="dropdown-column text-center ">
-                <img src="/assets/images/lab_certificate_icon.svg" className="img-fluid mb-2" width="60" />
-            </div>
-                <p className="mb-2 text-center" style={{color:'#000'}}>Protein Lab Certificate</p>
-                </a>
-        </div>
+      {/* CARD 2 */}
+      <div
+        className="col-xl-4 col-lg-4 col-md-4 col-6"
+        style={{ padding: "10px" }}
+      >
+        <a href="/ProteinCerti" style={{ textDecoration: "none" }}>
+          <div
+            style={{
+              background: "#ffffff",
+              borderRadius: "12px",
+              padding: "18px 10px",
+              textAlign: "center",
+              transition: "0.3s",
+              boxShadow: "0 3px 10px rgba(0,0,0,0.10)",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-6px)";
+              e.currentTarget.style.boxShadow =
+                "0 10px 22px rgba(0,0,0,0.18)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0px)";
+              e.currentTarget.style.boxShadow =
+                "0 3px 10px rgba(0,0,0,0.10)";
+            }}
+          >
+            <img
+              src="/assets/images/lab_certificate_icon.svg"
+              className="img-fluid mb-2"
+              width="55"
+            />
+            <p style={{ margin: 0, fontSize: "14px", fontWeight: "600", color: "#5a3928" }}>
+              Protein Lab Certificate
+            </p>
+          </div>
+        </a>
+      </div>
 
-        <div className="col-xl-3 col-lg-4 col-md-4 col-6" style={{background:'#c25f31',margin:'10px',borderRadius:'7px'}}>
-            <a href="/Labdoor">
-            <div className="dropdown-column text-center " >
-                <img src="/assets/images/labdoor.svg" className="img-fluid mb-2" width="60" />
-            </div>
-                <p className="mb-2 text-center" style={{color:'#000'}}>Labdoor</p>
-                </a>
-        </div>
+      {/* CARD 3 */}
+      <div
+        className="col-xl-4 col-lg-4 col-md-4 col-6"
+        style={{ padding: "10px" }}
+      >
+        <a href="/Labdoor" style={{ textDecoration: "none" }}>
+          <div
+            style={{
+              background: "#ffffff",
+              borderRadius: "12px",
+              padding: "18px 10px",
+              textAlign: "center",
+              transition: "0.3s",
+              boxShadow: "0 3px 10px rgba(0,0,0,0.10)",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-6px)";
+              e.currentTarget.style.boxShadow =
+                "0 10px 22px rgba(0,0,0,0.18)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0px)";
+              e.currentTarget.style.boxShadow =
+                "0 3px 10px rgba(0,0,0,0.10)";
+            }}
+          >
+            <img
+              src="/assets/images/labdoor.svg"
+              className="img-fluid mb-2"
+              width="55"
+            />
+            <p style={{ margin: 0, fontSize: "14px", fontWeight: "600", color: "#5a3928" }}>
+              Labdoor
+            </p>
+          </div>
+        </a>
+      </div>
 
     </div>
-</div>
-
-                                                </li>
+  </div>
+</li>
+            
                                                
                                               
                                                 <li className="nav-item ">

@@ -124,7 +124,8 @@ const Bulkorder = () => {
 
 
 
-{/* <!-- Related Product Section Start --> */}
+
+    {/* <!-- Related Product Section Start --> */}
     <section class="product-list-section section-b-space">
         <div class="container-fluid-lg">
             <div class="title">
@@ -191,27 +192,24 @@ const Bulkorder = () => {
                                         <h6 class="unit">500 G</h6>
                                         <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.57</del>
                                         </h5>
-                                        <div class="add-to-cart-box bg-white">
-                                            <button class="btn btn-add-cart addcart-button">Add
-                                                <span class="add-icon bg-light-gray">
-                                                    <i class="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div class="cart_qty qty-box">
-                                                <div class="input-group bg-white">
-                                                    <button type="button" class="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i class="fa fa-minus"></i>
-                                                    </button>
-                                                    <input class="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" class="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i class="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                <button className="btn addcart-button btn buy-button"><i
+                        className="fa-solid fa-plus"></i></button>
+                <div className="cart_qty qty-box-2">
+                    <div className="input-group">
+                        <button type="button" className="qty-left-minus" data-type="minus"
+                            data-field="">
+                            <i className="fa fa-minus"></i>
+                        </button>
+                        <input className="form-control input-number qty-input" type="text"
+                            name="quantity" value="1" />
+                        <button type="button" className="qty-right-plus" data-type="plus"
+                            data-field="">
+                            <i className="fa fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
                                     </div>
                                 </div>
                             </div>
@@ -273,27 +271,24 @@ const Bulkorder = () => {
                                         <h6 class="unit">250 ml</h6>
                                         <h5 class="price"><span class="theme-color">₹08.02</span> <del>₹15.15</del>
                                         </h5>
-                                        <div class="add-to-cart-box bg-white">
-                                            <button class="btn btn-add-cart addcart-button">Add
-                                                <span class="add-icon bg-light-gray">
-                                                    <i class="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div class="cart_qty qty-box">
-                                                <div class="input-group bg-white">
-                                                    <button type="button" class="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i class="fa fa-minus"></i>
-                                                    </button>
-                                                    <input class="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" class="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i class="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                <button className="btn addcart-button btn buy-button"><i
+                        className="fa-solid fa-plus"></i></button>
+                <div className="cart_qty qty-box-2">
+                    <div className="input-group">
+                        <button type="button" className="qty-left-minus" data-type="minus"
+                            data-field="">
+                            <i className="fa fa-minus"></i>
+                        </button>
+                        <input className="form-control input-number qty-input" type="text"
+                            name="quantity" value="1" />
+                        <button type="button" className="qty-right-plus" data-type="plus"
+                            data-field="">
+                            <i className="fa fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
                                     </div>
                                 </div>
                             </div>
@@ -356,27 +351,24 @@ const Bulkorder = () => {
                                         <h6 class="unit">350 G</h6>
                                         <h5 class="price"><span class="theme-color">₹04.33</span> <del>₹10.36</del>
                                         </h5>
-                                        <div class="add-to-cart-box bg-white">
-                                            <button class="btn btn-add-cart addcart-button">Add
-                                                <span class="add-icon bg-light-gray">
-                                                    <i class="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div class="cart_qty qty-box">
-                                                <div class="input-group bg-white">
-                                                    <button type="button" class="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i class="fa fa-minus"></i>
-                                                    </button>
-                                                    <input class="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" class="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i class="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                <button className="btn addcart-button btn buy-button"><i
+                        className="fa-solid fa-plus"></i></button>
+                <div className="cart_qty qty-box-2">
+                    <div className="input-group">
+                        <button type="button" className="qty-left-minus" data-type="minus"
+                            data-field="">
+                            <i className="fa fa-minus"></i>
+                        </button>
+                        <input className="form-control input-number qty-input" type="text"
+                            name="quantity" value="1" />
+                        <button type="button" className="qty-right-plus" data-type="plus"
+                            data-field="">
+                            <i className="fa fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
                                     </div>
                                 </div>
                             </div>
@@ -439,27 +431,24 @@ const Bulkorder = () => {
                                         <h6 class="unit">570 G</h6>
                                         <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
-                                        <div class="add-to-cart-box bg-white">
-                                            <button class="btn btn-add-cart addcart-button">Add
-                                                <span class="add-icon bg-light-gray">
-                                                    <i class="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div class="cart_qty qty-box">
-                                                <div class="input-group bg-white">
-                                                    <button type="button" class="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i class="fa fa-minus"></i>
-                                                    </button>
-                                                    <input class="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" class="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i class="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                <button className="btn addcart-button btn buy-button"><i
+                        className="fa-solid fa-plus"></i></button>
+                <div className="cart_qty qty-box-2">
+                    <div className="input-group">
+                        <button type="button" className="qty-left-minus" data-type="minus"
+                            data-field="">
+                            <i className="fa fa-minus"></i>
+                        </button>
+                        <input className="form-control input-number qty-input" type="text"
+                            name="quantity" value="1" />
+                        <button type="button" className="qty-right-plus" data-type="plus"
+                            data-field="">
+                            <i className="fa fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
                                     </div>
                                 </div>
                             </div>
@@ -521,27 +510,24 @@ const Bulkorder = () => {
                                         <h6 class="unit">100 G</h6>
                                         <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.36</del>
                                         </h5>
-                                        <div class="add-to-cart-box bg-white">
-                                            <button class="btn btn-add-cart addcart-button">Add
-                                                <span class="add-icon bg-light-gray">
-                                                    <i class="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div class="cart_qty qty-box">
-                                                <div class="input-group bg-white">
-                                                    <button type="button" class="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i class="fa fa-minus"></i>
-                                                    </button>
-                                                    <input class="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" class="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i class="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                <button className="btn addcart-button btn buy-button"><i
+                        className="fa-solid fa-plus"></i></button>
+                <div className="cart_qty qty-box-2">
+                    <div className="input-group">
+                        <button type="button" className="qty-left-minus" data-type="minus"
+                            data-field="">
+                            <i className="fa fa-minus"></i>
+                        </button>
+                        <input className="form-control input-number qty-input" type="text"
+                            name="quantity" value="1" />
+                        <button type="button" className="qty-right-plus" data-type="plus"
+                            data-field="">
+                            <i className="fa fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
                                     </div>
                                 </div>
                             </div>
@@ -605,38 +591,36 @@ const Bulkorder = () => {
 
                                         <h5 class="price"><span class="theme-color">₹14.25</span> <del>₹16.57</del>
                                         </h5>
-                                        <div class="add-to-cart-box bg-white">
-                                            <button class="btn btn-add-cart addcart-button">Add
-                                                <span class="add-icon bg-light-gray">
-                                                    <i class="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div class="cart_qty qty-box">
-                                                <div class="input-group bg-white">
-                                                    <button type="button" class="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i class="fa fa-minus"></i>
-                                                    </button>
-                                                    <input class="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" class="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i class="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                <button className="btn addcart-button btn buy-button"><i
+                        className="fa-solid fa-plus"></i></button>
+                <div className="cart_qty qty-box-2">
+                    <div className="input-group">
+                        <button type="button" className="qty-left-minus" data-type="minus"
+                            data-field="">
+                            <i className="fa fa-minus"></i>
+                        </button>
+                        <input className="form-control input-number qty-input" type="text"
+                            name="quantity" value="1" />
+                        <button type="button" className="qty-right-plus" data-type="plus"
+                            data-field="">
+                            <i className="fa fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.3s">
+                         <div>
+                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
                                 <div class="product-header">
                                     <div class="product-image">
                                         <a href="">
-                                            <img src="../assets/images/cake/product/7.png" class="img-fluid" alt="" />
+                                            <img src="/assets/images/product4.webp"
+                                                class="img-fluid blur-up lazyload" alt="" />
                                         </a>
 
                                         <ul class="product-option">
@@ -647,7 +631,7 @@ const Bulkorder = () => {
                                                 </a>
                                             </li>
 
-                                            
+                                          
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
                                                 <a href="/Wishlist" class="notifi-wishlist">
@@ -662,7 +646,7 @@ const Bulkorder = () => {
                                     <div class="product-detail">
                                       
                                         <a href="">
-                                            <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
+                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
                                         <div class="product-rating mt-2">
                                             <ul class="rating">
@@ -676,40 +660,35 @@ const Bulkorder = () => {
                                                     <i data-feather="star" class="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star"></i>
+                                                    <i data-feather="star" class="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star"></i>
+                                                    <i data-feather="star" class="fill"></i>
                                                 </li>
                                             </ul>
-                                            <span>(3.8)</span>
+                                            <span>(5.0)</span>
                                         </div>
-
-                                        <h6 class="unit">1 Kg</h6>
-
-                                        <h5 class="price"><span class="theme-color">₹12.68</span> <del>₹14.69</del>
+                                        <h6 class="unit">570 G</h6>
+                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
-                                        <div class="add-to-cart-box bg-white">
-                                            <button class="btn btn-add-cart addcart-button">Add
-                                                <span class="add-icon bg-light-gray">
-                                                    <i class="fa-solid fa-plus"></i>
-                                                </span>
-                                            </button>
-                                            <div class="cart_qty qty-box">
-                                                <div class="input-group bg-white">
-                                                    <button type="button" class="qty-left-minus bg-gray"
-                                                        data-type="minus" data-field="">
-                                                        <i class="fa fa-minus"></i>
-                                                    </button>
-                                                    <input class="form-control input-number qty-input" type="text"
-                                                        name="quantity" value="0" />
-                                                    <button type="button" class="qty-right-plus bg-gray"
-                                                        data-type="plus" data-field="">
-                                                        <i class="fa fa-plus"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                <button className="btn addcart-button btn buy-button"><i
+                        className="fa-solid fa-plus"></i></button>
+                <div className="cart_qty qty-box-2">
+                    <div className="input-group">
+                        <button type="button" className="qty-left-minus" data-type="minus"
+                            data-field="">
+                            <i className="fa fa-minus"></i>
+                        </button>
+                        <input className="form-control input-number qty-input" type="text"
+                            name="quantity" value="1" />
+                        <button type="button" className="qty-right-plus" data-type="plus"
+                            data-field="">
+                            <i className="fa fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
                                     </div>
                                 </div>
                             </div>

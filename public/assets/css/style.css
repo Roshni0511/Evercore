@@ -29501,7 +29501,7 @@ header .offcanvas-backdrop {
     }
 
     header .offcanvas-collapse .offcanvas-body .navbar-nav .nav-item {
-        border-top: 0
+        border-top: 0;
     }
 
     header .offcanvas-collapse .offcanvas-body .navbar-nav .nav-link {
@@ -32137,7 +32137,7 @@ body.rtl .menu-label {
 .product-box-3 {
     padding: calc(7px + 7*(100vw - 320px)/1600);
     position: relative;
-    background-color: #f8f7e7;
+    background-color: #eac7b2;
     border-radius: 5px;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out
