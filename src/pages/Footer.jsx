@@ -53,7 +53,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="main-footer section-b-space section-t-space">
+            <div className="main-footer section-b-space section-t-space d-none d-md-block">
                 <div className="row g-md-4 g-3">
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                         <div className="footer-logo">
