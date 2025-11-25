@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 const Returnpolicy = ({
-  companyName = 'MD Mart',
+  companyName = 'Evercore',
   effectiveDate = 'November 10, 2025',
 }) => {
   return (
@@ -66,7 +66,7 @@ const Returnpolicy = ({
             <p>
               To initiate a return, please contact our support team at{' '}
               <a href="mailto:mdmart.superstore@gmail.com" className="underline">
-                mdmart.superstore@gmail.com
+                evercore@gmail.com
               </a>{' '}
               with your order details and reason for return.
             </p>
@@ -100,7 +100,7 @@ const Returnpolicy = ({
               We only replace items if they are defective or damaged. If you need to
               exchange an item, contact us at{' '}
               <a href="mailto:mdmart.superstore@gmail.com" className="underline">
-                mdmart.superstore@gmail.com
+                evercore@gmail.com
               </a>{' '}
               with your order number and details.
             </p>
@@ -124,7 +124,7 @@ const Returnpolicy = ({
               <br />
               Email:{' '}
               <a href="mailto:mdmart.superstore@gmail.com" className="underline">
-                mdmart.superstore@gmail.com
+                evercore@gmail.com
               </a>
             </address>
           </section>

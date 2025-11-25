@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 const Shippingpolicy = ({
-  companyName = 'MD Mart',
+  companyName = 'Evercore',
   effectiveDate = 'November 10, 2025',
 }) => {
   return (
@@ -126,7 +126,7 @@ const Shippingpolicy = ({
               <br />
               Email:{' '}
               <a href="mailto:mdmart.superstore@gmail.com" className="underline">
-                mdmart.superstore@gmail.com
+                evercore@gmail.com
               </a>
             </address>
           </section>
