@@ -1,8 +1,39 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import $ from "jquery";
 import Navbar from './Navbar'
 import Footer from './Footer'
 
 const Bulkorder = () => {
+        const [open, setOpen] = useState(false);
+
+         useEffect(() => {
+        /**=====================
+            Quantity 2 js
+        ==========================**/
+        $(".addcart-button").click(function () {
+          $(this).next().addClass("open");
+          $(".add-to-cart-box .qty-input").val("1");
+        });
+    
+        $(".qty-left-minus").on("click", function () {
+          var $qty = $(this).siblings(".qty-input");
+          var _val = $($qty).val();
+          if (_val === "1") {
+            var _removeCls = $(this).parents(".cart_qty");
+            $(_removeCls).removeClass("open");
+          }
+          var currentVal = parseInt($qty.val());
+          if (!isNaN(currentVal) && currentVal > 0) {
+            $qty.val(currentVal - 1);
+          }
+        });
+    
+        $(".qty-right-plus").click(function () {
+          if ($(this).prev().val() < 9) {
+            $(this).prev().val(+$(this).prev().val() + 1);
+          }
+        });
+      }, []); 
   return (
     <>
       <Navbar />
@@ -105,15 +136,61 @@ const Bulkorder = () => {
                                         </div>
                                     </li>
                                 </ul>
-                                   {/* <h3 style={{marginTop:'20px'}}>Click the buttons below to fill up the form, and our team will reach out to you soon.</h3>
+                                   <h3 style={{marginTop:'20px'}}>Click the buttons below to fill up the form, and our team will reach out to you soon.</h3>
                                    <div style={{display:'flex',margin:'20px 0px'}}>
-                                    <div style={{marginRight:'10px'}}>
-                                        <button class="btn btn-furniture btn-sm mend-auto">Trainer <i class="fa-solid fa-arrow-right icon"></i></button>
-                                    </div>
-                                    <div>
-                                        <button class="btn btn-furniture btn-sm mend-auto">Retailer <i class="fa-solid fa-arrow-right icon"></i></button>
-                                    </div>
-                                   </div> */}
+                                    {/* <div style={{marginRight:'10px'}}>
+                                        <button className="btn btn-furniture btn-sm mend-auto">Trainer <i className="fa-solid fa-arrow-right icon"></i></button>
+                                    </div> */}
+                                 <button
+        className="btn btn-furniture btn-sm mend-auto"
+        onClick={() => setOpen(true)}
+      >
+        Retailer <i className="fa-solid fa-arrow-right icon"></i>
+      </button>
+
+      {/* BACKDROP */}
+      {open && (
+        <div className="custom-modal-backdrop" onClick={() => setOpen(false)}>
+          {/* MODAL */}
+          <div
+            className="custom-modal"
+            onClick={(e) => e.stopPropagation()} // stop bubbling
+          >
+            <div className="modal-header">
+              <h2>Retailer Form</h2>
+              <span className="close-btn" onClick={() => setOpen(false)}>
+                ×
+              </span>
+            </div>
+
+            <div className="modal-body">
+              <form className="modal-form">
+
+                <label>Email *</label>
+                <input type="email" required />
+
+                <label>Full Name *</label>
+                <input type="text" required />
+
+                <label>Firm Name *</label>
+                <input type="text" required />
+
+                <label>Mobile Number *</label>
+                <input type="text" required />
+
+                <label>Monthly Sales *</label>
+                <input type="text" required />
+
+                <button type="submit" className="submit-btn">
+                  Submit
+                </button>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      )}
+                                   </div>
                             </div>
                         </div>
                     </div>
@@ -126,25 +203,25 @@ const Bulkorder = () => {
 
 
     {/* <!-- Related Product Section Start --> */}
-    <section class="product-list-section section-b-space">
-        <div class="container-fluid-lg">
-            <div class="title">
+    <section className="product-list-section section-b-space">
+        <div className="container-fluid-lg">
+            <div className="title">
                 <h2>Related Products</h2>
            
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="slider-6_1 product-wrapper">
+            <div className="row">
+                <div className="col-12">
+                    <div className="slider-6_1 product-wrapper">
                         <div>
-                            <div class="product-box-3 wow fadeInUp">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="product-left.htm">
+                            <div className="product-box-3 wow fadeInUp">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product1.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -155,7 +232,7 @@ const Bulkorder = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -163,34 +240,34 @@ const Bulkorder = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
-                                        <a href="">
-                                            <h5 class="name">Evercore Yeast Protein - Double Chocolate</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Evercore Yeast Protein - Double Chocolate</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">500 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.57</del>
+                                        <h6 className="unit">500 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.57</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -216,15 +293,15 @@ const Bulkorder = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product2.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -235,32 +312,32 @@ const Bulkorder = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
-                                        <a href="">
-                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -268,8 +345,8 @@ const Bulkorder = () => {
                                             </ul>
                                             <span>(4.0)</span>
                                         </div>
-                                        <h6 class="unit">250 ml</h6>
-                                        <h5 class="price"><span class="theme-color">₹08.02</span> <del>₹15.15</del>
+                                        <h6 className="unit">250 ml</h6>
+                                        <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -295,15 +372,15 @@ const Bulkorder = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -314,7 +391,7 @@ const Bulkorder = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -322,19 +399,19 @@ const Bulkorder = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
-                                        <a href="">
-                                            <h5 class="name">Evercore Yeast Protein - Mixed Berry</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Evercore Yeast Protein - Mixed Berry</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -348,8 +425,8 @@ const Bulkorder = () => {
                                             </ul>
                                             <span>(2.4)</span>
                                         </div>
-                                        <h6 class="unit">350 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹04.33</span> <del>₹10.36</del>
+                                        <h6 className="unit">350 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -375,15 +452,15 @@ const Bulkorder = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -394,7 +471,7 @@ const Bulkorder = () => {
                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -402,34 +479,34 @@ const Bulkorder = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
-                                        <a href="">
-                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">570 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
+                                        <h6 className="unit">570 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -455,15 +532,15 @@ const Bulkorder = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product5.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -473,7 +550,7 @@ const Bulkorder = () => {
 
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -481,22 +558,22 @@ const Bulkorder = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
-                                        <a href="">
-                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -507,8 +584,8 @@ const Bulkorder = () => {
                                             </ul>
                                             <span>(3.8)</span>
                                         </div>
-                                        <h6 class="unit">100 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.36</del>
+                                        <h6 className="unit">100 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.36</del>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -534,15 +611,15 @@ const Bulkorder = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -552,7 +629,7 @@ const Bulkorder = () => {
 
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -560,25 +637,25 @@ const Bulkorder = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                      
-                                        <a href="">
-                                            <h5 class="name">Post-Workout BCAA Powder - Green Apple</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Post-Workout BCAA Powder - Green Apple</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -587,9 +664,9 @@ const Bulkorder = () => {
                                             <span>(4.0)</span>
                                         </div>
 
-                                        <h6 class="unit">550 G</h6>
+                                        <h6 className="unit">550 G</h6>
 
-                                        <h5 class="price"><span class="theme-color">₹14.25</span> <del>₹16.57</del>
+                                        <h5 className="price"><span className="theme-color">₹14.25</span> <del>₹16.57</del>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -615,15 +692,15 @@ const Bulkorder = () => {
                         </div>
 
                          <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -634,7 +711,7 @@ const Bulkorder = () => {
                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -642,34 +719,34 @@ const Bulkorder = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
-                                        <a href="">
-                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">570 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
+                                        <h6 className="unit">570 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i

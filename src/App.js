@@ -29,6 +29,7 @@ import Recipe from "./pages/Recipe";
 import Authenticity from "./pages/Authenticity";
 import ProteinCerti from "./pages/ProteinCerti";
 import Labdoor from "./pages/Labdoor";
+import Bulkorder_Form from "./pages/Bulkorder_Form";
 
 function App() {
      useEffect(() => {
@@ -40,7 +41,7 @@ function App() {
            <Route path='/' element={<Home/>}/>
            <Route path='/Faq' element={<Faq/>}/>
            <Route path='/Navbar' element={<Navbar/>}/>
-          <Route path="/Contact" element={<Contact/>}/>
+           <Route path="/Contact" element={<Contact/>}/>
            <Route path='/Shop' element={<Shop/>}/>
            <Route path='/UserAccount' element={<Useracc/>}/>
            <Route path='/Authenticity' element={<Authenticity/>}/>
@@ -53,19 +54,20 @@ function App() {
            <Route path="/Signup" element={<Signup/>}/>
            <Route path="/Forgotpass" element={<Forgotpass/>}/>
            <Route path="/Otp" element={<Otp/>}/>
-            <Route path='/UserAccount' element={<Useracc/>}/>
-            <Route path="/Productdetails" element={<Productdetails/>}/>
-            <Route path="/Aboutus" element={<Aboutus/>}/>
-            <Route path="/Blog" element={<Blog/>}/>
-            <Route path="/Blogdetails" element={<Blogdetails/>}/>
-            <Route path="/Privacypolicy" element={<Privacypolicy/>}/>
-            <Route path="/Termsandcondition" element={<Termsandcondition/>}/>
-            <Route path="/Returnpolicy" element={<Returnpolicy/>}/>
-            <Route path="/Shippingpolicy" element={<Shippingpolicy/>}/>
-            <Route path="/Bulkorder" element={<Bulkorder/>}/>
-            <Route path="/Recipe" element={<Recipe/>}/>
-                <Route path="/ProteinCerti" element={<ProteinCerti/>}/>
-                <Route path="/Labdoor" element={<Labdoor/>}/>
+           <Route path='/UserAccount' element={<Useracc/>}/>
+           <Route path="/Productdetails" element={<Productdetails/>}/>
+           <Route path="/Aboutus" element={<Aboutus/>}/>
+           <Route path="/Blog" element={<Blog/>}/>
+           <Route path="/Blogdetails" element={<Blogdetails/>}/>
+           <Route path="/Privacypolicy" element={<Privacypolicy/>}/>
+           <Route path="/Termsandcondition" element={<Termsandcondition/>}/>
+           <Route path="/Returnpolicy" element={<Returnpolicy/>}/>
+           <Route path="/Shippingpolicy" element={<Shippingpolicy/>}/>
+           <Route path="/Bulkorder" element={<Bulkorder/>}/>
+           <Route path="/Recipe" element={<Recipe/>}/>
+           <Route path="/ProteinCerti" element={<ProteinCerti/>}/>
+           <Route path="/Labdoor" element={<Labdoor/>}/>
+           <Route path="/Bulkorder_Form" element={<Bulkorder_Form/>}/>
          </Routes>
           <div className="theme-option">
       

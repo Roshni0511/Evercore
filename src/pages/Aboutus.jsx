@@ -129,18 +129,18 @@ const Aboutus = () => {
         </div>
     </section>
     {/* <!-- Fresh Vegetable Section End --> */}
-       <section class="client-section section-lg-space">
-        <div class="container-fluid-lg">
-            <div class="row">
-                <div class="col-12">
-                    <div class="about-us-title text-center">
+       <section className="client-section section-lg-space">
+        <div className="container-fluid-lg">
+            <div className="row">
+                <div className="col-12">
+                    <div className="about-us-title text-center">
                         <h4>What We Do</h4>
-                        <h2 class="center">We are Trusted by Clients</h2>
+                        <h2 className="center">We are Trusted by Clients</h2>
                     </div>
 
-                    <div class="slider-3_1 product-wrapper">
+                    <div className="slider-3_1 product-wrapper">
                         <div>
-                            <div class="clint-contain">
+                            <div className="clint-contain">
                                 <div className="client-icon">
   <img
     src="../assets/svg/3/work.svg"
@@ -160,9 +160,9 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="clint-contain">
-                                <div class="client-icon">
-                                    <img src="../assets/svg/3/buy.svg" class="blur-up lazyload" alt="img"     style={{
+                            <div className="clint-contain">
+                                <div className="client-icon">
+                                    <img src="../assets/svg/3/buy.svg" className="blur-up lazyload" alt="img"     style={{
       filter:
         "brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(700%) hue-rotate(346deg) brightness(95%) contrast(90%)"
     }}/>
@@ -175,9 +175,9 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="clint-contain">
-                                <div class="client-icon">
-                                    <img src="../assets/svg/3/user.svg" class="blur-up lazyload" alt="img"     style={{
+                            <div className="clint-contain">
+                                <div className="client-icon">
+                                    <img src="../assets/svg/3/user.svg" className="blur-up lazyload" alt="img"     style={{
       filter:
         "brightness(0) saturate(100%) invert(39%) sepia(54%) saturate(700%) hue-rotate(346deg) brightness(95%) contrast(90%)"
     }}/>
@@ -194,44 +194,44 @@ const Aboutus = () => {
         </div>
     </section>
 
-     <section class="team-section section-lg-space">
-        <div class="container-fluid-lg">
-            <div class="about-us-title text-center">
-                <h4 class="text-content">Our Creative Team</h4>
-                <h2 class="center">Evercore team member</h2>
+     <section className="team-section section-lg-space">
+        <div className="container-fluid-lg">
+            <div className="about-us-title text-center">
+                <h4 className="text-content">Our Creative Team</h4>
+                <h2 className="center">Evercore team member</h2>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="slider-user product-wrapper">
+            <div className="row">
+                <div className="col-12">
+                    <div className="slider-user product-wrapper">
                         <div>
-                            <div class="team-box">
-                                <div class="team-image">
-                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
+                            <div className="team-box">
+                                <div className="team-image">
+                                    <img src="/assets/images/user.png" className="img-fluid blur-up lazyload"
                                         alt="img" />
                                 </div>
 
-                                <div class="team-name">
+                                <div className="team-name">
                                     <h3>Rahul Patel</h3>
                                     <h5>Founder & CEO</h5>
                                     <p>Leading Evercore with passion, ensuring premium protein products for every fitness enthusiast.</p>
-                                    <ul class="team-media">
+                                    <ul className="team-media">
                                         <li>
-                                            <a href="https://www.facebook.com/" class="fb-bg">
-                                                <i class="fa-brands fa-facebook-f"></i>
+                                            <a href="https://www.facebook.com/" className="fb-bg">
+                                                <i className="fa-brands fa-facebook-f"></i>
                                             </a>
                                         </li>
 
                                         
 
                                         <li>
-                                            <a href="https://twitter.com/" class="twitter-bg">
-                                                <i class="fa-brands fa-twitter"></i>
+                                            <a href="https://twitter.com/" className="twitter-bg">
+                                                <i className="fa-brands fa-twitter"></i>
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="https://www.instagram.com/" class="insta-bg">
-                                                <i class="fa-brands fa-instagram"></i>
+                                            <a href="https://www.instagram.com/" className="insta-bg">
+                                                <i className="fa-brands fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -240,34 +240,34 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="team-box">
-                                <div class="team-image">
-                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
+                            <div className="team-box">
+                                <div className="team-image">
+                                    <img src="/assets/images/user.png" className="img-fluid blur-up lazyload"
                                         alt="img" />
                                 </div>
 
-                                <div class="team-name">
+                                <div className="team-name">
                                     <h3>Mahek Shah</h3>
                                     <h5>Product Research Head</h5>
                                     <p>Develops science-based formulas to deliver pure, effective, and result-driven nutrition supplements.</p>
-                                    <ul class="team-media">
+                                    <ul className="team-media">
                                         <li>
-                                            <a href="https://www.facebook.com/" class="fb-bg">
-                                                <i class="fa-brands fa-facebook-f"></i>
+                                            <a href="https://www.facebook.com/" className="fb-bg">
+                                                <i className="fa-brands fa-facebook-f"></i>
                                             </a>
                                         </li>
 
                                         
 
                                         <li>
-                                            <a href="https://twitter.com/" class="twitter-bg">
-                                                <i class="fa-brands fa-twitter"></i>
+                                            <a href="https://twitter.com/" className="twitter-bg">
+                                                <i className="fa-brands fa-twitter"></i>
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="https://www.instagram.com/" class="insta-bg">
-                                                <i class="fa-brands fa-instagram"></i>
+                                            <a href="https://www.instagram.com/" className="insta-bg">
+                                                <i className="fa-brands fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -276,34 +276,34 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="team-box">
-                                <div class="team-image">
-                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
+                            <div className="team-box">
+                                <div className="team-image">
+                                    <img src="/assets/images/user.png" className="img-fluid blur-up lazyload"
                                         alt="img" />
                                 </div>
 
-                                <div class="team-name">
+                                <div className="team-name">
                                     <h3>Mahesh Patel</h3>
                                    <h5>Creative Lead</h5>
                                     <p>Creates bold branding, strong visuals, and inspiring campaigns for Evercore’s fitness vision.</p>
-                                    <ul class="team-media">
+                                    <ul className="team-media">
                                         <li>
-                                            <a href="https://www.facebook.com/" class="fb-bg">
-                                                <i class="fa-brands fa-facebook-f"></i>
+                                            <a href="https://www.facebook.com/" className="fb-bg">
+                                                <i className="fa-brands fa-facebook-f"></i>
                                             </a>
                                         </li>
 
                                         
 
                                         <li>
-                                            <a href="https://twitter.com/" class="twitter-bg">
-                                                <i class="fa-brands fa-twitter"></i>
+                                            <a href="https://twitter.com/" className="twitter-bg">
+                                                <i className="fa-brands fa-twitter"></i>
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="https://www.instagram.com/" class="insta-bg">
-                                                <i class="fa-brands fa-instagram"></i>
+                                            <a href="https://www.instagram.com/" className="insta-bg">
+                                                <i className="fa-brands fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -312,34 +312,34 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="team-box">
-                                <div class="team-image">
-                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
+                            <div className="team-box">
+                                <div className="team-image">
+                                    <img src="/assets/images/user.png" className="img-fluid blur-up lazyload"
                                         alt="img" />
                                 </div>
 
-                                <div class="team-name">
+                                <div className="team-name">
                                     <h3>Laksh Agraval</h3>
                                     <h5>Quality Manager</h5>
                                     <p>Maintains strict quality checks, ensuring every product meets trusted safety and purity standards.</p>
-                                    <ul class="team-media">
+                                    <ul className="team-media">
                                         <li>
-                                            <a href="https://www.facebook.com/" class="fb-bg">
-                                                <i class="fa-brands fa-facebook-f"></i>
+                                            <a href="https://www.facebook.com/" className="fb-bg">
+                                                <i className="fa-brands fa-facebook-f"></i>
                                             </a>
                                         </li>
 
                                        
 
                                         <li>
-                                            <a href="https://twitter.com/" class="twitter-bg">
-                                                <i class="fa-brands fa-twitter"></i>
+                                            <a href="https://twitter.com/" className="twitter-bg">
+                                                <i className="fa-brands fa-twitter"></i>
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="https://www.instagram.com/" class="insta-bg">
-                                                <i class="fa-brands fa-instagram"></i>
+                                            <a href="https://www.instagram.com/" className="insta-bg">
+                                                <i className="fa-brands fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -348,33 +348,33 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="team-box">
-                                <div class="team-image">
-                                    <img src="/assets/images/user.png" class="img-fluid blur-up lazyload"
+                            <div className="team-box">
+                                <div className="team-image">
+                                    <img src="/assets/images/user.png" className="img-fluid blur-up lazyload"
                                         alt="img" />
                                 </div>
 
-                                <div class="team-name">
+                                <div className="team-name">
                                     <h3>Kishan Varma</h3>
                                    <h5>Customer Success Manager</h5>
                                     <p>Guides customers, offering support and helping them choose perfect supplements for their goals.</p>
-                                    <ul class="team-media">
+                                    <ul className="team-media">
                                         <li>
-                                            <a href="https://www.facebook.com/" class="fb-bg">
-                                                <i class="fa-brands fa-facebook-f"></i>
+                                            <a href="https://www.facebook.com/" className="fb-bg">
+                                                <i className="fa-brands fa-facebook-f"></i>
                                             </a>
                                         </li>
 
 
                                         <li>
-                                            <a href="https://twitter.com/" class="twitter-bg">
-                                                <i class="fa-brands fa-twitter"></i>
+                                            <a href="https://twitter.com/" className="twitter-bg">
+                                                <i className="fa-brands fa-twitter"></i>
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="https://www.instagram.com/" class="insta-bg">
-                                                <i class="fa-brands fa-instagram"></i>
+                                            <a href="https://www.instagram.com/" className="insta-bg">
+                                                <i className="fa-brands fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -388,31 +388,31 @@ const Aboutus = () => {
     </section>
 
       {/* <!-- Review Section Start --> */}
-    <section class="review-section section-lg-space">
-        <div class="container-fluid">
-            <div class="about-us-title text-center">
-                <h4 class="text-content">Latest Testimonials</h4>
-                <h2 class="center">What people say</h2>
+    <section className="review-section section-lg-space">
+        <div className="container-fluid">
+            <div className="about-us-title text-center">
+                <h4 className="text-content">Latest Testimonials</h4>
+                <h2 className="center">What people say</h2>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="slider-4-half product-wrapper">
+            <div className="row">
+                <div className="col-12">
+                    <div className="slider-4-half product-wrapper">
                         <div>
-                            <div class="reviewer-box">
-                                <i class="fa-solid fa-quote-right"></i>
-                                <div class="product-rating">
-                                    <ul class="rating">
+                            <div className="reviewer-box">
+                                <i className="fa-solid fa-quote-right"></i>
+                                <div className="product-rating">
+                                    <ul className="rating">
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
                                             <i data-feather="star"></i>
@@ -424,13 +424,13 @@ const Aboutus = () => {
 
                                 <p>"Evercore protein tastes great, mixes smoothly, and gives fast recovery results."</p>
 
-                                <div class="reviewer-profile">
-                                    <div class="reviewer-image">
-                                        <img src="/assets/images/user.png" class="blur-up lazyload"
+                                <div className="reviewer-profile">
+                                    <div className="reviewer-image">
+                                        <img src="/assets/images/user.png" className="blur-up lazyload"
                                             alt="img" />
                                     </div>
 
-                                    <div class="reviewer-name">
+                                    <div className="reviewer-name">
                                         <h4>Rohan Sharma</h4>
                                         <h6>Fitness Enthusiast</h6>
                                     </div>
@@ -439,21 +439,21 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="reviewer-box">
-                                <i class="fa-solid fa-quote-right"></i>
-                                <div class="product-rating">
-                                    <ul class="rating">
+                            <div className="reviewer-box">
+                                <i className="fa-solid fa-quote-right"></i>
+                                <div className="product-rating">
+                                    <ul className="rating">
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
                                             <i data-feather="star"></i>
@@ -464,13 +464,13 @@ const Aboutus = () => {
                                <h3>Best Supplement Experience</h3>
 
                                 <p>"I feel more energetic and focused during workouts after switching to Evercore."</p>
-                                <div class="reviewer-profile">
-                                    <div class="reviewer-image">
-                                        <img src="/assets/images/user.png" class="blur-up lazyload"
+                                <div className="reviewer-profile">
+                                    <div className="reviewer-image">
+                                        <img src="/assets/images/user.png" className="blur-up lazyload"
                                             alt="img" />
                                     </div>
 
-                                    <div class="reviewer-name">
+                                    <div className="reviewer-name">
                                         <h4>Neha Patel</h4>
                                         <h6>Gym Trainer</h6>
                                     </div>
@@ -479,21 +479,21 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="reviewer-box">
-                                <i class="fa-solid fa-quote-right"></i>
-                                <div class="product-rating">
-                                    <ul class="rating">
+                            <div className="reviewer-box">
+                                <i className="fa-solid fa-quote-right"></i>
+                                <div className="product-rating">
+                                    <ul className="rating">
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
                                             <i data-feather="star"></i>
@@ -503,13 +503,13 @@ const Aboutus = () => {
 
                                 <h3>Super Clean Formula</h3>
 <p>"No bloating, no heaviness — Evercore protein is clean and very effective."</p>
-                                <div class="reviewer-profile">
-                                    <div class="reviewer-image">
-                                        <img src="/assets/images/user.png" class="blur-up lazyload"
+                                <div className="reviewer-profile">
+                                    <div className="reviewer-image">
+                                        <img src="/assets/images/user.png" className="blur-up lazyload"
                                             alt="img" />
                                     </div>
 
-                                    <div class="reviewer-name">
+                                    <div className="reviewer-name">
                                        <h4>Arjun Verma</h4>
 <h6>Athlete</h6>
                                     </div>
@@ -518,21 +518,21 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="reviewer-box">
-                                <i class="fa-solid fa-quote-right"></i>
-                                <div class="product-rating">
-                                    <ul class="rating">
+                            <div className="reviewer-box">
+                                <i className="fa-solid fa-quote-right"></i>
+                                <div className="product-rating">
+                                    <ul className="rating">
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
                                             <i data-feather="star"></i>
@@ -542,13 +542,13 @@ const Aboutus = () => {
 
                                 <h3>Great Taste & Results</h3>
 <p>"The flavor is perfect and results are visible within weeks of regular use."</p>
-                                <div class="reviewer-profile">
-                                    <div class="reviewer-image">
-                                        <img src="/assets/images/user.png" class="blur-up lazyload"
+                                <div className="reviewer-profile">
+                                    <div className="reviewer-image">
+                                        <img src="/assets/images/user.png" className="blur-up lazyload"
                                             alt=" " />
                                     </div>
 
-                                    <div class="reviewer-name">
+                                    <div className="reviewer-name">
 <h4>Simran Kaur</h4>
 <h6>Nutrition Coach</h6>
                                     </div>
@@ -557,21 +557,21 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="reviewer-box">
-                                <i class="fa-solid fa-quote-right"></i>
-                                <div class="product-rating">
-                                    <ul class="rating">
+                            <div className="reviewer-box">
+                                <i className="fa-solid fa-quote-right"></i>
+                                <div className="product-rating">
+                                    <ul className="rating">
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
                                             <i data-feather="star"></i>
@@ -581,13 +581,13 @@ const Aboutus = () => {
 
                                <h3>High Performance Protein</h3>
 <p>"Evercore helped improve my strength and stamina without any side effects."</p>
-                                <div class="reviewer-profile">
-                                    <div class="reviewer-image">
-                                        <img src="/assets/images/user.png" class="blur-up lazyload"
+                                <div className="reviewer-profile">
+                                    <div className="reviewer-image">
+                                        <img src="/assets/images/user.png" className="blur-up lazyload"
                                             alt="img" />
                                     </div>
 
-                                    <div class="reviewer-name">
+                                    <div className="reviewer-name">
                                       <h4>Vivek Pandya</h4>
 <h6>Fitness Model</h6>
                                     </div>
@@ -596,21 +596,21 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="reviewer-box">
-                                <i class="fa-solid fa-quote-right"></i>
-                                <div class="product-rating">
-                                    <ul class="rating">
+                            <div className="reviewer-box">
+                                <i className="fa-solid fa-quote-right"></i>
+                                <div className="product-rating">
+                                    <ul className="rating">
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
                                             <i data-feather="star"></i>
@@ -620,13 +620,13 @@ const Aboutus = () => {
 <h3>Value for Money</h3>
 <p>"Premium-quality protein at a reasonable price. Totally worth it for daily use."</p>
 
-                                <div class="reviewer-profile">
-                                    <div class="reviewer-image">
-                                        <img src="/assets/images/user.png" class="blur-up lazyload"
+                                <div className="reviewer-profile">
+                                    <div className="reviewer-image">
+                                        <img src="/assets/images/user.png" className="blur-up lazyload"
                                             alt="img" />
                                     </div>
 
-                                    <div class="reviewer-name">
+                                    <div className="reviewer-name">
                                        <h4>Mitali Desai</h4>
 <h6>Customer</h6>
                                     </div>
@@ -635,21 +635,21 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="reviewer-box">
-                                <i class="fa-solid fa-quote-right"></i>
-                                <div class="product-rating">
-                                    <ul class="rating">
+                            <div className="reviewer-box">
+                                <i className="fa-solid fa-quote-right"></i>
+                                <div className="product-rating">
+                                    <ul className="rating">
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
                                             <i data-feather="star"></i>
@@ -659,13 +659,13 @@ const Aboutus = () => {
 
                                <h3>Best Choice So Far</h3>
 <p>"I switched from other brands to Evercore — the improvement is unbelievable."</p>
-                                <div class="reviewer-profile">
-                                    <div class="reviewer-image">
-                                        <img src="/assets/images/user.png" class="blur-up lazyload"
+                                <div className="reviewer-profile">
+                                    <div className="reviewer-image">
+                                        <img src="/assets/images/user.png" className="blur-up lazyload"
                                             alt="img" />
                                     </div>
 
-                                    <div class="reviewer-name">
+                                    <div className="reviewer-name">
                                      <h4>Karan Singh</h4>
 <h6>Bodybuilder</h6>
                                     </div>
@@ -674,21 +674,21 @@ const Aboutus = () => {
                         </div>
 
                         <div>
-                            <div class="reviewer-box">
-                                <i class="fa-solid fa-quote-right"></i>
-                                <div class="product-rating">
-                                    <ul class="rating">
+                            <div className="reviewer-box">
+                                <i className="fa-solid fa-quote-right"></i>
+                                <div className="product-rating">
+                                    <ul className="rating">
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
-                                            <i data-feather="star" class="fill"></i>
+                                            <i data-feather="star" className="fill"></i>
                                         </li>
                                         <li>
                                             <i data-feather="star"></i>
@@ -697,13 +697,13 @@ const Aboutus = () => {
                                 </div>
 <h3>Excellent Digestion</h3>
 <p>"Light on the stomach and easy to digest. Highly recommended protein powder."</p>
-                                <div class="reviewer-profile">
-                                    <div class="reviewer-image">
-                                        <img src="/assets/images/user.png" class="blur-up lazyload"
+                                <div className="reviewer-profile">
+                                    <div className="reviewer-image">
+                                        <img src="/assets/images/user.png" className="blur-up lazyload"
                                             alt="img" />
                                     </div>
 
-                                    <div class="reviewer-name">
+                                    <div className="reviewer-name">
 <h4>Ayesha Khan</h4>
 <h6>Wellness Coach</h6>
                                     </div>

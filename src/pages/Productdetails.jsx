@@ -38,107 +38,107 @@ const Productdetails = () => {
        <Navbar  />
        
     {/* <!-- Product Left Sidebar Start --> */}
-    <section class="product-section">
-        <div class="container-fluid-lg">
-            <div class="row">
-                <div class="col-xxl-12 col-xl-12 col-lg-12  wow fadeInUp">
-                    <div class="row g-4">
-                        <div class="col-xl-6 wow fadeInUp">
-                            <div class="product-left-box">
-                                <div class="row g-sm-4 g-2">
-                                    <div class="col-12">
-                                        <div class="product-main no-arrow">
+    <section className="product-section">
+        <div className="container-fluid-lg">
+            <div className="row">
+                <div className="col-xxl-12 col-xl-12 col-lg-12  wow fadeInUp">
+                    <div className="row g-4">
+                        <div className="col-xl-6 wow fadeInUp">
+                            <div className="product-left-box">
+                                <div className="row g-sm-4 g-2">
+                                    <div className="col-12">
+                                        <div className="product-main no-arrow">
                                             <div>
-                                                <div class="slider-image">
+                                                <div className="slider-image">
                                                     <img src="/assets/images/product1.webp" id="img-1"
-                                                        data-zoom-image="/assets/images/product1.webp" class="
+                                                        data-zoom-image="/assets/images/product1.webp" className="
                                                         img-fluid image_zoom_cls-0 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="slider-image">
+                                                <div className="slider-image">
                                                     <img src="/assets/images/product2.webp"
-                                                        data-zoom-image="/assets/images/product2.webp" class="
+                                                        data-zoom-image="/assets/images/product2.webp" className="
                                                         img-fluid image_zoom_cls-1 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="slider-image">
+                                                <div className="slider-image">
                                                     <img src="/assets/images/product3.webp"
-                                                        data-zoom-image="/assets/images/product3.webp" class="
+                                                        data-zoom-image="/assets/images/product3.webp" className="
                                                         img-fluid image_zoom_cls-2 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="slider-image">
+                                                <div className="slider-image">
                                                     <img src="/assets/images/product4.webp"
-                                                        data-zoom-image="/assets/images/product4.webp" class="
+                                                        data-zoom-image="/assets/images/product4.webp" className="
                                                         img-fluid image_zoom_cls-3 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="slider-image">
+                                                <div className="slider-image">
                                                     <img src="/assets/images/product5.webp"
-                                                        data-zoom-image="/assets/images/product5.webp" class="
+                                                        data-zoom-image="/assets/images/product5.webp" className="
                                                         img-fluid image_zoom_cls-4 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="slider-image">
+                                                <div className="slider-image">
                                                     <img src="/assets/images/product3.webp"
-                                                        data-zoom-image="/assets/images/product3.webp" class="
+                                                        data-zoom-image="/assets/images/product3.webp" className="
                                                         img-fluid image_zoom_cls-5 blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-12">
-                                        <div class="left-slider-image left-slider no-arrow slick-top">
+                                    <div className="col-12">
+                                        <div className="left-slider-image left-slider no-arrow slick-top">
                                             <div>
-                                                <div class="sidebar-image">
+                                                <div className="sidebar-image">
                                                     <img src="/assets/images/product1.webp"
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="sidebar-image">
+                                                <div className="sidebar-image">
                                                     <img src="/assets/images/product2.webp"
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="sidebar-image">
+                                                <div className="sidebar-image">
                                                     <img src="/assets/images/product3.webp"
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="sidebar-image">
+                                                <div className="sidebar-image">
                                                     <img src="/assets/images/product4.webp"
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="sidebar-image">
+                                                <div className="sidebar-image">
                                                     <img src="/assets/images/product5.webp"
-                                                        class="img-fluid blur-up lazyload" alt="img"/>
+                                                        className="img-fluid blur-up lazyload" alt="img"/>
                                                 </div>
                                             </div>
 
                                             <div>
-                                                <div class="sidebar-image">
+                                                <div className="sidebar-image">
                                                     <img src="/assets/images/product3.webp"
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </div>
                                             </div>
                                         </div>
@@ -147,41 +147,41 @@ const Productdetails = () => {
                             </div>
                         </div>
 
-                        <div class="col-xl-6 wow fadeInUp">
-                            <div class="right-box-contain">
-                                <h6 class="offer-top">30% Off</h6>
-                                <h2 class="name">Evercore Yeast Protein - Double Chocolate</h2>
-                                <div class="price-rating">
-                                    <h3 class="theme-color price">₹1200.50 <del class="text-content">₹1300.46</del> <span
-                                            class="offer theme-color">(8% off)</span></h3>
-                                    <div class="product-rating custom-rate">
-                                        <ul class="rating">
+                        <div className="col-xl-6 wow fadeInUp">
+                            <div className="right-box-contain">
+                                <h6 className="offer-top">30% Off</h6>
+                                <h2 className="name">Evercore Yeast Protein - Double Chocolate</h2>
+                                <div className="price-rating">
+                                    <h3 className="theme-color price">₹1200.50 <del className="text-content">₹1300.46</del> <span
+                                            className="offer theme-color">(8% off)</span></h3>
+                                    <div className="product-rating custom-rate">
+                                        <ul className="rating">
                                             <li>
-                                                <i data-feather="star" class="fill"></i>
+                                                <i data-feather="star" className="fill"></i>
                                             </li>
                                             <li>
-                                                <i data-feather="star" class="fill"></i>
+                                                <i data-feather="star" className="fill"></i>
                                             </li>
                                             <li>
-                                                <i data-feather="star" class="fill"></i>
+                                                <i data-feather="star" className="fill"></i>
                                             </li>
                                             <li>
-                                                <i data-feather="star" class="fill"></i>
+                                                <i data-feather="star" className="fill"></i>
                                             </li>
                                             <li>
                                                 <i data-feather="star"></i>
                                             </li>
                                         </ul>
-                                        <span class="review">23 Customer Review</span>
+                                        <span className="review">23 Customer Review</span>
                                     </div>
                                 </div>
 
-                                <div class="product-contain">
-                                    <p class="w-100 d-none d-md-block">Evercore Yeast Protein – Double Chocolate delivers a rich, smooth chocolaty taste powered by clean, high-quality yeast protein. Designed for lean muscle support, faster recovery, and easy digestion, it offers a complete amino acid profile with exceptional purity. Whether post-workout or as a daily protein boost, enjoy a delicious chocolate blend that fuels your fitness naturally.</p>
+                                <div className="product-contain">
+                                    <p className="w-100 d-none d-md-block">Evercore Yeast Protein – Double Chocolate delivers a rich, smooth chocolaty taste powered by clean, high-quality yeast protein. Designed for lean muscle support, faster recovery, and easy digestion, it offers a complete amino acid profile with exceptional purity. Whether post-workout or as a daily protein boost, enjoy a delicious chocolate blend that fuels your fitness naturally.</p>
                                 </div>
 
-                                <div class="product-package">
-                                    <div class="product-title">
+                                <div className="product-package">
+                                    <div className="product-title">
                                         <h4>Weight </h4>
                                     </div>
 
@@ -238,27 +238,27 @@ const Productdetails = () => {
                                 </div>
 
                             
-                                <div class="note-box product-package">
-                                    <div class="cart_qty qty-box product-qty">
-                                        <div class="input-group">
-                                            <button type="button" class="qty-left-minus" data-type="minus"
+                                <div className="note-box product-package">
+                                    <div className="cart_qty qty-box product-qty">
+                                        <div className="input-group">
+                                            <button type="button" className="qty-left-minus" data-type="minus"
                                                 data-field="">
-                                                <i class="fa fa-minus"></i>
+                                                <i className="fa fa-minus"></i>
                                             </button>
-                                            <input class="form-control input-number qty-input" type="text"
+                                            <input className="form-control input-number qty-input" type="text"
                                                 name="quantity" value="1" />
-                                            <button type="button" class="qty-right-plus" data-type="plus" data-field="">
-                                                <i class="fa fa-plus"></i>
+                                            <button type="button" className="qty-right-plus" data-type="plus" data-field="">
+                                                <i className="fa fa-plus"></i>
                                             </button>
                                         </div>
                                     </div>
 <a href="/Cart">
                                     <button
-                                        class="btn btn-md bg-dark cart-button text-white w-100">Add To Cart</button>
+                                        className="btn btn-md bg-dark cart-button text-white w-100">Add To Cart</button>
                                         </a>
                                 </div>
 
-                                <div class="buy-box">
+                                <div className="buy-box">
                                     <a href="/Wishlist">
                                         <i data-feather="heart"></i>
                                         <span>Add To Wishlist</span>
@@ -267,11 +267,11 @@ const Productdetails = () => {
                                     
                                 </div>
 
-                                <div class="pickup-box">
+                                <div className="pickup-box">
                                    
 
-                                    <div class="product-info">
-                                        <ul class="product-info-list product-info-list-2">
+                                    <div className="product-info">
+                                        <ul className="product-info-list product-info-list-2">
                                             <li>Type : <a href="">Protein</a></li>
                                             <li>MFG : <a href="">Jun 4, 2022</a></li>
                                             <li>Stock : <a href="">5 Items Left</a></li>
@@ -293,38 +293,38 @@ const Productdetails = () => {
 
     {/* <!-- Nav Tab Section Start --> */}
     <section>
-        <div class="container-fluid-lg">
-            <div class="row">
-                <div class="col-12">
-                    <div class="product-section-box m-0">
-                        <ul class="nav nav-tabs custom-nav" id="myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="description-tab" data-bs-toggle="tab"
+        <div className="container-fluid-lg">
+            <div className="row">
+                <div className="col-12">
+                    <div className="product-section-box m-0">
+                        <ul className="nav nav-tabs custom-nav" id="myTab" role="tablist">
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link active" id="description-tab" data-bs-toggle="tab"
                                     data-bs-target="#description" type="button" role="tab">Description</button>
                             </li>
 
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info"
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info"
                                     type="button" role="tab">Additional
                                     info</button>
                             </li>
 
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="care-tab" data-bs-toggle="tab" data-bs-target="#care"
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link" id="care-tab" data-bs-toggle="tab" data-bs-target="#care"
                                     type="button" role="tab">Care
                                     Instructions</button>
                             </li>
 
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review"
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review"
                                     type="button" role="tab">Review</button>
                             </li>
                         </ul>
 
-                        <div class="tab-content custom-tab" id="myTabContent">
-                            <div class="tab-pane fade show active" id="description" role="tabpanel">
-    <div class="product-description">
-        <div class="nav-desh">
+                        <div className="tab-content custom-tab" id="myTabContent">
+                            <div className="tab-pane fade show active" id="description" role="tabpanel">
+    <div className="product-description">
+        <div className="nav-desh">
 
             <p>Evercore Yeast Protein – Double Chocolate is crafted for those who demand clean nutrition without compromising on taste. Made from premium yeast-derived protein, it delivers a rich, smooth chocolate flavor that satisfies your cravings while supporting your fitness goals.</p>
 
@@ -339,9 +339,9 @@ const Productdetails = () => {
 </div>
 
 
-                            <div class="tab-pane fade" id="info" role="tabpanel">
-                                <div class="table-responsive">
-                                   <table class="table info-table">
+                            <div className="tab-pane fade" id="info" role="tabpanel">
+                                <div className="table-responsive">
+                                   <table className="table info-table">
     <tbody>
         <tr>
             <td>Specialty</td>
@@ -407,8 +407,8 @@ const Productdetails = () => {
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="care" role="tabpanel">
-                                <div class="information-box">
+                            <div className="tab-pane fade" id="care" role="tabpanel">
+                                <div className="information-box">
                                    <ul>
     <li>Store the protein powder in a cool, dry place away from direct sunlight.</li>
 
@@ -429,14 +429,14 @@ const Productdetails = () => {
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="review" role="tabpanel">
-                                <div class="review-box">
-                                    <div class="row">
-                                        <div class="col-xl-5">
-                                            <div class="product-rating-box">
-                                                <div class="row">
-                                                    <div class="col-xl-12">
-                                                        <div class="product-main-rating">
+                            <div className="tab-pane fade" id="review" role="tabpanel">
+                                <div className="review-box">
+                                    <div className="row">
+                                        <div className="col-xl-5">
+                                            <div className="product-rating-box">
+                                                <div className="row">
+                                                    <div className="col-xl-12">
+                                                        <div className="product-main-rating">
                                                             <h2>3.40
                                                                 <i data-feather="star"></i>
                                                             </h2>
@@ -445,65 +445,65 @@ const Productdetails = () => {
                                                         </div>
                                                     </div>
 
-                                                    <div class="col-xl-12">
-                                                        <ul class="product-rating-list">
+                                                    <div className="col-xl-12">
+                                                        <ul className="product-rating-list">
                                                             <li>
-                                                                <div class="rating-product">
+                                                                <div className="rating-product">
                                                                     <h5>5<i data-feather="star"></i></h5>
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar" style={{width:'40%'}}>
+                                                                    <div className="progress">
+                                                                        <div className="progress-bar" style={{width:'40%'}}>
                                                                         </div>
                                                                     </div>
-                                                                    <h5 class="total">2</h5>
+                                                                    <h5 className="total">2</h5>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="rating-product">
+                                                                <div className="rating-product">
                                                                     <h5>4<i data-feather="star"></i></h5>
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar"  style={{width:'20%'}}>
+                                                                    <div className="progress">
+                                                                        <div className="progress-bar"  style={{width:'20%'}}>
                                                                         </div>
                                                                     </div>
-                                                                    <h5 class="total">1</h5>
+                                                                    <h5 className="total">1</h5>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="rating-product">
+                                                                <div className="rating-product">
                                                                     <h5>3<i data-feather="star"></i></h5>
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar"  style={{width:'0%'}}>
+                                                                    <div className="progress">
+                                                                        <div className="progress-bar"  style={{width:'0%'}}>
                                                                         </div>
                                                                     </div>
-                                                                    <h5 class="total">0</h5>
+                                                                    <h5 className="total">0</h5>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="rating-product">
+                                                                <div className="rating-product">
                                                                     <h5>2<i data-feather="star"></i></h5>
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar" style={{width:'20%'}}>
+                                                                    <div className="progress">
+                                                                        <div className="progress-bar" style={{width:'20%'}}>
                                                                         </div>
                                                                     </div>
-                                                                    <h5 class="total">1</h5>
+                                                                    <h5 className="total">1</h5>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="rating-product">
+                                                                <div className="rating-product">
                                                                     <h5>1<i data-feather="star"></i></h5>
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar"  style={{width:'20%'}}>
+                                                                    <div className="progress">
+                                                                        <div className="progress-bar"  style={{width:'20%'}}>
                                                                         </div>
                                                                     </div>
-                                                                    <h5 class="total">1</h5>
+                                                                    <h5 className="total">1</h5>
                                                                 </div>
                                                             </li>
 
                                                         </ul>
 
-                                                        <div class="review-title-2">
-                                                            <h4 class="fw-bold">Review this product</h4>
+                                                        <div className="review-title-2">
+                                                            <h4 className="fw-bold">Review this product</h4>
                                                             <p>Let other customers know what you think</p>
-                                                            <button class="btn" type="button" data-bs-toggle="modal"
+                                                            <button className="btn" type="button" data-bs-toggle="modal"
                                                                 data-bs-target="#writereview">Write a
                                                                 review</button>
                                                         </div>
@@ -512,41 +512,41 @@ const Productdetails = () => {
                                             </div>
                                         </div>
 
-                                        <div class="col-xl-7">
-                                            <div class="review-people">
-                                                <ul class="review-list">
+                                        <div className="col-xl-7">
+                                            <div className="review-people">
+                                                <ul className="review-list">
                                                     <li>
-                                                        <div class="people-box">
+                                                        <div className="people-box">
                                                             <div>
-                                                                <div class="people-image people-text">
-                                                                    <img alt="user" class="img-fluid "
+                                                                <div className="people-image people-text">
+                                                                    <img alt="user" className="img-fluid "
                                                                         src="../assets/images/review/1.jpg" />
                                                                 </div>
                                                             </div>
-                                                            <div class="people-comment">
-                                                                <div class="people-name"><a href="javascript:void(0)"
-                                                                        class="name">Jack Doe</a>
-                                                                    <div class="date-time">
-                                                                        <h6 class="text-content"> 29 Sep 2023
+                                                            <div className="people-comment">
+                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                        className="name">Jack Doe</a>
+                                                                    <div className="date-time">
+                                                                        <h6 className="text-content"> 29 Sep 2023
                                                                             06:40:PM
                                                                         </h6>
-                                                                        <div class="product-rating">
-                                                                            <ul class="rating">
+                                                                        <div className="product-rating">
+                                                                            <ul className="rating">
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"></i>
@@ -555,7 +555,7 @@ const Productdetails = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="reply">
+                                                                <div className="reply">
                                                                    <p>Absolutely loved this protein! The Double Chocolate flavor is rich and smooth, and it mixes instantly without lumps. Perfect for my post-workout recovery. Highly recommended!</p>
 
                                                                 </div>
@@ -563,39 +563,39 @@ const Productdetails = () => {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <div class="people-box">
+                                                        <div className="people-box">
                                                             <div>
-                                                                <div class="people-image people-text">
-                                                                    <img alt="user" class="img-fluid "
+                                                                <div className="people-image people-text">
+                                                                    <img alt="user" className="img-fluid "
                                                                         src="../assets/images/review/2.jpg" />
                                                                 </div>
                                                             </div>
-                                                            <div class="people-comment">
-                                                                <div class="people-name"><a href="javascript:void(0)"
-                                                                        class="name">Jessica
+                                                            <div className="people-comment">
+                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                        className="name">Jessica
                                                                         Miller</a>
-                                                                    <div class="date-time">
-                                                                        <h6 class="text-content"> 29 Sep 2023
+                                                                    <div className="date-time">
+                                                                        <h6 className="text-content"> 29 Sep 2023
                                                                             06:34:PM
                                                                         </h6>
-                                                                        <div class="product-rating">
-                                                                            <div class="product-rating">
-                                                                                <ul class="rating">
+                                                                        <div className="product-rating">
+                                                                            <div className="product-rating">
+                                                                                <ul className="rating">
                                                                                     <li>
                                                                                         <i data-feather="star"
-                                                                                            class="fill"></i>
+                                                                                            className="fill"></i>
                                                                                     </li>
                                                                                     <li>
                                                                                         <i data-feather="star"
-                                                                                            class="fill"></i>
+                                                                                            className="fill"></i>
                                                                                     </li>
                                                                                     <li>
                                                                                         <i data-feather="star"
-                                                                                            class="fill"></i>
+                                                                                            className="fill"></i>
                                                                                     </li>
                                                                                     <li>
                                                                                         <i data-feather="star"
-                                                                                            class="fill"></i>
+                                                                                            className="fill"></i>
                                                                                     </li>
                                                                                     <li>
                                                                                         <i data-feather="star"></i>
@@ -605,7 +605,7 @@ const Productdetails = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="reply">
+                                                                <div className="reply">
                                                                     <p>This is one of the cleanest proteins I’ve tried. No bloating, easy to digest, and the taste is amazing. A great choice for daily nutrition.</p>
 
                                                                 </div>
@@ -613,37 +613,37 @@ const Productdetails = () => {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <div class="people-box">
+                                                        <div className="people-box">
                                                             <div>
-                                                                <div class="people-image people-text">
-                                                                    <img alt="user" class="img-fluid "
+                                                                <div className="people-image people-text">
+                                                                    <img alt="user" className="img-fluid "
                                                                         src="../assets/images/review/3.jpg" />
                                                                 </div>
                                                             </div>
-                                                            <div class="people-comment">
-                                                                <div class="people-name"><a href="javascript:void(0)"
-                                                                        class="name">Rome Doe</a>
-                                                                    <div class="date-time">
-                                                                        <h6 class="text-content"> 29 Sep 2023
+                                                            <div className="people-comment">
+                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                        className="name">Rome Doe</a>
+                                                                    <div className="date-time">
+                                                                        <h6 className="text-content"> 29 Sep 2023
                                                                             06:18:PM
                                                                         </h6>
-                                                                        <div class="product-rating">
-                                                                            <ul class="rating">
+                                                                        <div className="product-rating">
+                                                                            <ul className="rating">
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"></i>
@@ -652,7 +652,7 @@ const Productdetails = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="reply">
+                                                                <div className="reply">
                                                                    <p>Fantastic quality! I noticed improved energy and better muscle recovery within a week. The texture and purity feel premium. Totally worth it.</p>
 
                                                                 </div>
@@ -660,38 +660,38 @@ const Productdetails = () => {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <div class="people-box">
+                                                        <div className="people-box">
                                                             <div>
-                                                                <div class="people-image people-text">
-                                                                    <img alt="user" class="img-fluid "
+                                                                <div className="people-image people-text">
+                                                                    <img alt="user" className="img-fluid "
                                                                         src="../assets/images/review/4.jpg" />
                                                                 </div>
                                                             </div>
-                                                            <div class="people-comment">
-                                                                <div class="people-name"><a href="javascript:void(0)"
-                                                                        class="name">Sarah
+                                                            <div className="people-comment">
+                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                        className="name">Sarah
                                                                         Davis</a>
-                                                                    <div class="date-time">
-                                                                        <h6 class="text-content"> 29 Sep 2023
+                                                                    <div className="date-time">
+                                                                        <h6 className="text-content"> 29 Sep 2023
                                                                             05:58:PM
                                                                         </h6>
-                                                                        <div class="product-rating">
-                                                                            <ul class="rating">
+                                                                        <div className="product-rating">
+                                                                            <ul className="rating">
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"></i>
@@ -700,7 +700,7 @@ const Productdetails = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="reply">
+                                                                <div className="reply">
                                                                    <p>I was surprised by how natural and smooth the flavor is. It doesn’t feel artificial at all. Great mixability and perfect for shakes or smoothies.</p>
 
                                                                 </div>
@@ -708,37 +708,37 @@ const Productdetails = () => {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <div class="people-box">
+                                                        <div className="people-box">
                                                             <div>
-                                                                <div class="people-image people-text">
-                                                                    <img alt="user" class="img-fluid "
+                                                                <div className="people-image people-text">
+                                                                    <img alt="user" className="img-fluid "
                                                                         src="../assets/images/review/5.jpg" />
                                                                 </div>
                                                             </div>
-                                                            <div class="people-comment">
-                                                                <div class="people-name"><a href="javascript:void(0)"
-                                                                        class="name">John Doe</a>
-                                                                    <div class="date-time">
-                                                                        <h6 class="text-content"> 29 Sep 2023
+                                                            <div className="people-comment">
+                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                        className="name">John Doe</a>
+                                                                    <div className="date-time">
+                                                                        <h6 className="text-content"> 29 Sep 2023
                                                                             05:22:PM
                                                                         </h6>
-                                                                        <div class="product-rating">
-                                                                            <ul class="rating">
+                                                                        <div className="product-rating">
+                                                                            <ul className="rating">
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"
-                                                                                        class="fill"></i>
+                                                                                        className="fill"></i>
                                                                                 </li>
                                                                                 <li>
                                                                                     <i data-feather="star"></i>
@@ -747,7 +747,7 @@ const Productdetails = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="reply">
+                                                                <div className="reply">
                                                                    <p>Very impressed with this protein. High-quality ingredients and no unnecessary fillers. Great results and a superb chocolate taste!</p>
 
                                                                 </div>
@@ -769,25 +769,25 @@ const Productdetails = () => {
     {/* <!-- Nav Tab Section End --> */}
 
     {/* <!-- Related Product Section Start --> */}
-    <section class="product-list-section section-b-space">
-        <div class="container-fluid-lg">
-            <div class="title">
+    <section className="product-list-section section-b-space">
+        <div className="container-fluid-lg">
+            <div className="title">
                 <h2>Related Products</h2>
            
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="slider-6_1 product-wrapper">
+            <div className="row">
+                <div className="col-12">
+                    <div className="slider-6_1 product-wrapper">
                         <div>
-                            <div class="product-box-3 wow fadeInUp">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="product-left.htm">
+                            <div className="product-box-3 wow fadeInUp">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product1.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -798,7 +798,7 @@ const Productdetails = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -806,34 +806,34 @@ const Productdetails = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
-                                        <a href="">
-                                            <h5 class="name">Evercore Yeast Protein - Double Chocolate</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Evercore Yeast Protein - Double Chocolate</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">500 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.57</del>
+                                        <h6 className="unit">500 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.57</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -859,15 +859,15 @@ const Productdetails = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product2.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -878,32 +878,32 @@ const Productdetails = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
-                                        <a href="">
-                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -911,8 +911,8 @@ const Productdetails = () => {
                                             </ul>
                                             <span>(4.0)</span>
                                         </div>
-                                        <h6 class="unit">250 ml</h6>
-                                        <h5 class="price"><span class="theme-color">₹08.02</span> <del>₹15.15</del>
+                                        <h6 className="unit">250 ml</h6>
+                                        <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -938,15 +938,15 @@ const Productdetails = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -957,7 +957,7 @@ const Productdetails = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -965,19 +965,19 @@ const Productdetails = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
-                                        <a href="">
-                                            <h5 class="name">Evercore Yeast Protein - Mixed Berry</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Evercore Yeast Protein - Mixed Berry</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -991,8 +991,8 @@ const Productdetails = () => {
                                             </ul>
                                             <span>(2.4)</span>
                                         </div>
-                                        <h6 class="unit">350 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹04.33</span> <del>₹10.36</del>
+                                        <h6 className="unit">350 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1018,15 +1018,15 @@ const Productdetails = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -1037,7 +1037,7 @@ const Productdetails = () => {
                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1045,34 +1045,34 @@ const Productdetails = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
-                                        <a href="">
-                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">570 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
+                                        <h6 className="unit">570 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1098,15 +1098,15 @@ const Productdetails = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product5.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -1116,7 +1116,7 @@ const Productdetails = () => {
 
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1124,22 +1124,22 @@ const Productdetails = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
-                                        <a href="">
-                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -1150,8 +1150,8 @@ const Productdetails = () => {
                                             </ul>
                                             <span>(3.8)</span>
                                         </div>
-                                        <h6 class="unit">100 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.36</del>
+                                        <h6 className="unit">100 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.36</del>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1177,15 +1177,15 @@ const Productdetails = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -1195,7 +1195,7 @@ const Productdetails = () => {
 
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1203,25 +1203,25 @@ const Productdetails = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                      
-                                        <a href="">
-                                            <h5 class="name">Post-Workout BCAA Powder - Green Apple</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Post-Workout BCAA Powder - Green Apple</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -1230,9 +1230,9 @@ const Productdetails = () => {
                                             <span>(4.0)</span>
                                         </div>
 
-                                        <h6 class="unit">550 G</h6>
+                                        <h6 className="unit">550 G</h6>
 
-                                        <h5 class="price"><span class="theme-color">₹14.25</span> <del>₹16.57</del>
+                                        <h5 className="price"><span className="theme-color">₹14.25</span> <del>₹16.57</del>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1258,15 +1258,15 @@ const Productdetails = () => {
                         </div>
 
                          <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div class="product-header">
-                                    <div class="product-image">
-                                        <a href="">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
+                                <div className="product-header">
+                                    <div className="product-image">
+                                        <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -1277,7 +1277,7 @@ const Productdetails = () => {
                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1285,34 +1285,34 @@ const Productdetails = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
-                                        <a href="">
-                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
+                                        <a href="/Shop">
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">570 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
+                                        <h6 className="unit">570 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1344,15 +1344,15 @@ const Productdetails = () => {
     </section>
     {/* <!-- Related Product Section End --> */}
      {/* <!-- Sticky Cart Box Start --> */}
-    <div class="sticky-bottom-cart">
-        <div class="container-fluid-lg">
-            <div class="row">
-                <div class="col-12">
-                    <div class="cart-content">
-                        <div class="product-image">
-                            <img src="/assets/images/product1.webp" class="img-fluid blur-up lazyload"
+    <div className="sticky-bottom-cart">
+        <div className="container-fluid-lg">
+            <div className="row">
+                <div className="col-12">
+                    <div className="cart-content">
+                        <div className="product-image">
+                            <img src="/assets/images/product1.webp" className="img-fluid blur-up lazyload"
                                 alt="img" />
-                            <div class="content">
+                            <div className="content">
                                 <h5>Evercore Yeast Protein - Double Chocolate</h5>
                                 <div style={{ display: "flex",marginTop:'10px' }}>
         <h5
@@ -1369,33 +1369,33 @@ const Productdetails = () => {
       </div>
                             </div>
                         </div>
-                        <div class="selection-section">
-                            <div class="form-group mb-0">
-                                <select id="input-state" class="form-control form-select">
+                        <div className="selection-section">
+                            <div className="form-group mb-0">
+                                <select id="input-state" className="form-control form-select">
                                     <option selected disabled>Choose Weight...</option>
                                     <option>1/2 KG</option>
                                     <option>1 KG</option>
                                     <option>1.5 KG</option>
                                 </select>
                             </div>
-                            <div class="cart_qty qty-box product-qty m-0">
-                                <div class="input-group h-100">
-                                    <button type="button" class="qty-left-minus" data-type="minus" data-field="">
-                                        <i class="fa fa-minus"></i>
+                            <div className="cart_qty qty-box product-qty m-0">
+                                <div className="input-group h-100">
+                                    <button type="button" className="qty-left-minus" data-type="minus" data-field="">
+                                        <i className="fa fa-minus"></i>
                                     </button>
-                                    <input class="form-control input-number qty-input" type="text" name="quantity"
+                                    <input className="form-control input-number qty-input" type="text" name="quantity"
                                         value="1" />
-                                    <button type="button" class="qty-right-plus" data-type="plus" data-field="">
-                                        <i class="fa fa-plus"></i>
+                                    <button type="button" className="qty-right-plus" data-type="plus" data-field="">
+                                        <i className="fa fa-plus"></i>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="add-btn">
-                            <a class="btn theme-bg-color text-white wishlist-btn" href="/Wishlist"><i
-                                    class="fa fa-bookmark"></i> Wishlist</a>
-                            <a class="btn theme-bg-color text-white" href="/Checkout"><i
-                                    class="fas fa-shopping-cart"></i> Buy Now</a>
+                        <div className="add-btn">
+                            <a className="btn theme-bg-color text-white wishlist-btn" href="/Wishlist"><i
+                                    className="fa fa-bookmark"></i> Wishlist</a>
+                            <a className="btn theme-bg-color text-white" href="/Checkout"><i
+                                    className="fas fa-shopping-cart"></i> Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -1404,36 +1404,36 @@ const Productdetails = () => {
     </div>
     {/* <!-- Sticky Cart Box End --> */}
         {/* <!-- Review Modal Start --> */}
-    <div class="modal fade theme-modal question-modal" id="writereview" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Write a review</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal">
-                        <i class="fa-solid fa-xmark"></i>
+    <div className="modal fade theme-modal question-modal" id="writereview" tabindex="-1">
+        <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+                <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">Write a review</h1>
+                    <button type="button" className="btn-close" data-bs-dismiss="modal">
+                        <i className="fa-solid fa-xmark"></i>
                     </button>
                 </div>
-                <div class="modal-body pt-0">
-                    <form class="product-review-form">
-                        <div class="product-wrapper">
-                            <div class="product-image">
-                                <img class="img-fluid" alt="Fantasy Crunchy Choco Chip Cookies0"
+                <div className="modal-body pt-0">
+                    <form className="product-review-form">
+                        <div className="product-wrapper">
+                            <div className="product-image">
+                                <img className="img-fluid" alt="Fantasy Crunchy Choco Chip Cookies0"
                                     src="/assets/images/product1.webp" />
                             </div>
-                            <div class="product-content">
-                                <h5 class="name">Evercore Yeast Protein - Double Chocolate</h5>
-                                <div class="product-review-rating">
-                                    <div class="product-rating">
-                                        <h6 class="price-number">₹16.00</h6>
+                            <div className="product-content">
+                                <h5 className="name">Evercore Yeast Protein - Double Chocolate</h5>
+                                <div className="product-review-rating">
+                                    <div className="product-rating">
+                                        <h6 className="price-number">₹16.00</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="review-box">
-                            <div class="product-review-rating">
+                        <div className="review-box">
+                            <div className="product-review-rating">
                                 <label>Rating</label>
-                                <div class="product-rating">
-                                    <ul class="rating">
+                                <div className="product-rating">
+                                    <ul className="rating">
                                         <li>
                                              <i className="fa-solid fa-star text-xl fill" style={{ color: '#ffb321' }}></i>
                                         </li>
@@ -1453,16 +1453,16 @@ const Productdetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="review-box">
-                            <label for="content" class="form-label">Your Question *</label>
-                            <textarea id="content" rows="3" class="form-control" placeholder="Your Question"></textarea>
+                        <div className="review-box">
+                            <label for="content" className="form-label">Your Question *</label>
+                            <textarea id="content" rows="3" className="form-control" placeholder="Your Question"></textarea>
                         </div>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-md btn-theme-outline fw-bold"
+                <div className="modal-footer">
+                    <button type="button" className="btn btn-md btn-theme-outline fw-bold"
                         data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-md fw-bold text-light theme-bg-color">Save changes</button>
+                    <button type="button" className="btn btn-md fw-bold text-light theme-bg-color">Save changes</button>
                 </div>
             </div>
         </div>

@@ -117,12 +117,12 @@ const Login = () => {
 
       {/* ===================== OTP VERIFICATION SECTION ===================== */}
       {showOtp && (
-         <section class="log-in-section otp-section section-b-space justify-content-center">
-        <div class="container-fluid-lg">
-            <div class="row">
-                <div class="col-xxl-6 col-xl-5 col-lg-6 d-lg-block d-none ">
-                    <div class="image-contain">
-                        <img src="../assets/images/inner-page/otp.png" class="img-fluid" alt="img" />
+         <section className="log-in-section otp-section section-b-space justify-content-center">
+        <div className="container-fluid-lg">
+            <div className="row">
+                <div className="col-xxl-6 col-xl-5 col-lg-6 d-lg-block d-none ">
+                    <div className="image-contain">
+                        <img src="../assets/images/inner-page/otp.png" className="img-fluid" alt="img" />
                     </div>
                 </div>
 

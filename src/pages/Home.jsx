@@ -148,19 +148,19 @@ const Home = () => {
                       
                     </div>
 
-                  <div class="row">
-                <div class="col-12">
-                    <div class="slider-6_1 product-wrapper">
+                  <div className="row">
+                <div className="col-12">
+                    <div className="slider-6_1 product-wrapper">
                         <div>
-                            <div class="product-box-3 wow fadeInUp">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product1.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -171,7 +171,7 @@ const Home = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -179,34 +179,34 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 class="name">Evercore Yeast Protein - Double Chocolate</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Double Chocolate</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">500 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.57</del>
+                                        <h6 className="unit">500 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.57</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -232,15 +232,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product2.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -251,32 +251,32 @@ const Home = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -284,8 +284,8 @@ const Home = () => {
                                             </ul>
                                             <span>(4.0)</span>
                                         </div>
-                                        <h6 class="unit">250 ml</h6>
-                                        <h5 class="price"><span class="theme-color">₹08.02</span> <del>₹15.15</del>
+                                        <h6 className="unit">250 ml</h6>
+                                        <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -311,15 +311,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -330,7 +330,7 @@ const Home = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -338,19 +338,19 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
                                         <a href="/Shop">
-                                            <h5 class="name">Evercore Yeast Protein - Mixed Berry</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Mixed Berry</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -364,8 +364,8 @@ const Home = () => {
                                             </ul>
                                             <span>(2.4)</span>
                                         </div>
-                                        <h6 class="unit">350 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹04.33</span> <del>₹10.36</del>
+                                        <h6 className="unit">350 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -391,15 +391,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -410,7 +410,7 @@ const Home = () => {
                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -418,34 +418,34 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
                                         <a href="/Shop">
-                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">570 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
+                                        <h6 className="unit">570 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -471,15 +471,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product5.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -489,7 +489,7 @@ const Home = () => {
 
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -497,22 +497,22 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -523,8 +523,8 @@ const Home = () => {
                                             </ul>
                                             <span>(3.8)</span>
                                         </div>
-                                        <h6 class="unit">100 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.36</del>
+                                        <h6 className="unit">100 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.36</del>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -550,15 +550,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -568,7 +568,7 @@ const Home = () => {
 
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -576,25 +576,25 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                      
                                         <a href="/Shop">
-                                            <h5 class="name">Post-Workout BCAA Powder - Green Apple</h5>
+                                            <h5 className="name">Post-Workout BCAA Powder - Green Apple</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -603,9 +603,9 @@ const Home = () => {
                                             <span>(4.0)</span>
                                         </div>
 
-                                        <h6 class="unit">550 G</h6>
+                                        <h6 className="unit">550 G</h6>
 
-                                        <h5 class="price"><span class="theme-color">₹14.25</span> <del>₹16.57</del>
+                                        <h5 className="price"><span className="theme-color">₹14.25</span> <del>₹16.57</del>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -631,15 +631,15 @@ const Home = () => {
                         </div>
 
                          <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -650,7 +650,7 @@ const Home = () => {
                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -658,34 +658,34 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
                                         <a href="/Shop">
-                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">570 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
+                                        <h6 className="unit">570 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -810,7 +810,7 @@ const Home = () => {
                                 {/* 583*157  */}
                                     {/* <img src="../assets/images/furniture/banner/4.jpg" className="bg-img blur-up lazyload"
                                         alt="img" /> */}
-                                    <div className="banner-details p-center-left p-4">
+                                    <div className="banner-details p-center-left p-4" style={{height:'200px'}} >
                                         <div>
                                             <h3 className="text-kaushan text-yellow">50% offer</h3>
                                             <h4 className="text-white mb-2 fw-normal"><span
@@ -828,7 +828,7 @@ const Home = () => {
                                 <div className="banner-contain hover-effect" style={{backgroundImage:'url(/assets/images/ba11.webp)'}}>
                                     {/* <img src="../assets/images/furniture/banner/5.jpg" className="bg-img blur-up lazyload"
                                         alt="img" /> */}
-                                    <div className="banner-details p-center-left p-4">
+                                    <div className="banner-details p-center-left p-4" style={{height:'200px'}}>
                                         <div>
                                             <h3 className="text-kaushan text-yellow">50% offer</h3>
                                             <h4 className="text-white mb-2 fw-normal"><span className="text-white fw-bold">New
@@ -853,19 +853,19 @@ const Home = () => {
                         <p>A virtual assistant collects the products from your list</p>
                     </div>
 
-                    <div class="row">
-                <div class="col-12">
-                    <div class="slider-6_1 product-wrapper">
+                    <div className="row">
+                <div className="col-12">
+                    <div className="slider-6_1 product-wrapper">
                         <div>
-                            <div class="product-box-3 wow fadeInUp">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product1.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -876,7 +876,7 @@ const Home = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -884,34 +884,34 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 class="name">Evercore Yeast Protein - Double Chocolate</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Double Chocolate</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">500 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.57</del>
+                                        <h6 className="unit">500 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.57</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -937,15 +937,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product2.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -956,32 +956,32 @@ const Home = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -989,8 +989,8 @@ const Home = () => {
                                             </ul>
                                             <span>(4.0)</span>
                                         </div>
-                                        <h6 class="unit">250 ml</h6>
-                                        <h5 class="price"><span class="theme-color">₹08.02</span> <del>₹15.15</del>
+                                        <h6 className="unit">250 ml</h6>
+                                        <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1016,15 +1016,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -1035,7 +1035,7 @@ const Home = () => {
                                            
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1043,19 +1043,19 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
                                         <a href="/Shop">
-                                            <h5 class="name">Evercore Yeast Protein - Mixed Berry</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Mixed Berry</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -1069,8 +1069,8 @@ const Home = () => {
                                             </ul>
                                             <span>(2.4)</span>
                                         </div>
-                                        <h6 class="unit">350 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹04.33</span> <del>₹10.36</del>
+                                        <h6 className="unit">350 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1096,15 +1096,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -1115,7 +1115,7 @@ const Home = () => {
                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1123,34 +1123,34 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
                                         <a href="/Shop">
-                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">570 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
+                                        <h6 className="unit">570 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1176,15 +1176,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product5.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -1194,7 +1194,7 @@ const Home = () => {
 
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1202,22 +1202,22 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 class="name">Evercore Yeast Protein - Vanilla</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -1228,8 +1228,8 @@ const Home = () => {
                                             </ul>
                                             <span>(3.8)</span>
                                         </div>
-                                        <h6 class="unit">100 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹10.25</span> <del>₹12.36</del>
+                                        <h6 className="unit">100 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.36</del>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1255,15 +1255,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -1273,7 +1273,7 @@ const Home = () => {
 
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1281,25 +1281,25 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                      
                                         <a href="/Shop">
-                                            <h5 class="name">Post-Workout BCAA Powder - Green Apple</h5>
+                                            <h5 className="name">Post-Workout BCAA Powder - Green Apple</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
                                                     <i data-feather="star"></i>
@@ -1308,9 +1308,9 @@ const Home = () => {
                                             <span>(4.0)</span>
                                         </div>
 
-                                        <h6 class="unit">550 G</h6>
+                                        <h6 className="unit">550 G</h6>
 
-                                        <h5 class="price"><span class="theme-color">₹14.25</span> <del>₹16.57</del>
+                                        <h5 className="price"><span className="theme-color">₹14.25</span> <del>₹16.57</del>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -1336,15 +1336,15 @@ const Home = () => {
                         </div>
 
                          <div>
-                            <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div class="product-header">
-                                    <div class="product-image">
+                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
+                                <div className="product-header">
+                                    <div className="product-image">
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product4.webp"
-                                                class="img-fluid blur-up lazyload" alt="img" />
+                                                className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul class="product-option">
+                                        <ul className="product-option">
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal"
                                                     data-bs-target="#view">
@@ -1355,7 +1355,7 @@ const Home = () => {
                                           
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" class="notifi-wishlist">
+                                                <a href="/Wishlist" className="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1363,34 +1363,34 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div class="product-footer">
-                                    <div class="product-detail">
+                                <div className="product-footer">
+                                    <div className="product-detail">
                                       
                                         <a href="/Shop">
-                                            <h5 class="name">Protein Bar - Chocolate Peanut Butter</h5>
+                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
                                         </a>
-                                        <div class="product-rating mt-2">
-                                            <ul class="rating">
+                                        <div className="product-rating mt-2">
+                                            <ul className="rating">
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                                 <li>
-                                                    <i data-feather="star" class="fill"></i>
+                                                    <i data-feather="star" className="fill"></i>
                                                 </li>
                                             </ul>
                                             <span>(5.0)</span>
                                         </div>
-                                        <h6 class="unit">570 G</h6>
-                                        <h5 class="price"><span class="theme-color">₹12.52</span> <del>₹13.62</del>
+                                        <h6 className="unit">570 G</h6>
+                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i

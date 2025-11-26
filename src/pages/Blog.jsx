@@ -7,20 +7,20 @@ const Blog = () => {
     <>
       <Navbar />
            {/* <!-- Breadcrumb Section Start --> */}
-    <section class="breadcrumb-section pt-0">
-        <div class="container-fluid-lg">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcrumb-contain">
+    <section className="breadcrumb-section pt-0">
+        <div className="container-fluid-lg">
+            <div className="row">
+                <div className="col-12">
+                    <div className="breadcrumb-contain">
                         <h2>Blog Grid</h2>
                         <nav>
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item">
+                            <ol className="breadcrumb mb-0">
+                                <li className="breadcrumb-item">
                                     <a href="/">
-                                        <i class="fa-solid fa-house"></i>
+                                        <i className="fa-solid fa-house"></i>
                                     </a>
                                 </li>
-                                <li class="breadcrumb-item active">Blog Grid</li>
+                                <li className="breadcrumb-item active">Blog Grid</li>
                             </ol>
                         </nav>
                     </div>
@@ -31,24 +31,24 @@ const Blog = () => {
     {/* <!-- Breadcrumb Section End --> */}
 
     {/* <!-- Blog Section Start --> */}
-    <section class="blog-section section-b-space">
-        <div class="container-fluid-lg">
-            <div class="row g-4">
-                <div class="col-xxl-9 col-xl-8 col-lg-7 order-lg-2">
-                    <div class="row g-4 ratio_65">
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp">
-                                <div class="blog-image">
+    <section className="blog-section section-b-space">
+        <div className="container-fluid-lg">
+            <div className="row g-4">
+                <div className="col-xxl-9 col-xl-8 col-lg-7 order-lg-2">
+                    <div className="row g-4 ratio_65">
+                        <div className="col-xxl-4 col-sm-6">
+                            <div className="blog-box wow fadeInUp">
+                                <div className="blog-image">
                                     <a href="/Blogdetails">
                                         <img src="/assets/images/blog1.jpg"
-                                            class="bg-img blur-up lazyload" alt="img" />
+                                            className="bg-img blur-up lazyload" alt="img" />
                                     </a>
                                 </div>
 
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>Mark J.
+                                <div className="blog-contain">
+                                    <div className="blog-label">
+                                        <span className="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
+                                        <span className="super"><i data-feather="user"></i> <span>Mark J.
                                                 Speight</span></span>
                                     </div>
                                     <a href="/Blogdetails">
@@ -56,25 +56,25 @@ const Blog = () => {
                                     </a>
                                     <a href='/Blogdetails'>
 
-                                    <button  class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
+                                    <button  className="blog-button">Read More
+                                        <i className="fa-solid fa-right-long"></i></button>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.05s">
-                                <div class="blog-image">
+                        <div className="col-xxl-4 col-sm-6">
+                            <div className="blog-box wow fadeInUp" data-wow-delay="0.05s">
+                                <div className="blog-image">
                                     <a href="/Blogdetails">
-                                        <img src="/assets/images/blog2.webp" class="bg-img" alt="img" />
+                                        <img src="/assets/images/blog2.webp" className="bg-img" alt="img" />
                                     </a>
                                 </div>
 
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>rebeus
+                                <div className="blog-contain">
+                                    <div className="blog-label">
+                                        <span className="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
+                                        <span className="super"><i data-feather="user"></i> <span>rebeus
                                                 hagrid</span></span>
                                     </div>
                                     <a href="/Blogdetails">
@@ -82,27 +82,27 @@ const Blog = () => {
                                     </a>
                                     <a href='/Blogdetails'>
 
-                                    <button class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
+                                    <button className="blog-button">Read More
+                                        <i className="fa-solid fa-right-long"></i></button>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="blog-image">
+                        <div className="col-xxl-4 col-sm-6">
+                            <div className="blog-box wow fadeInUp" data-wow-delay="0.1s">
+                                <div className="blog-image">
                                     <a href="/Blogdetails">
                                         <img src="/assets/images/blog3.jpg"
-                                            class="bg-img blur-up lazyload" alt="img" />
+                                            className="bg-img blur-up lazyload" alt="img" />
                                     </a>
-                                    <label><i class="fa-solid fa-bolt-lightning"></i> popular</label>
+                                    <label><i className="fa-solid fa-bolt-lightning"></i> popular</label>
                                 </div>
 
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>Chris C.
+                                <div className="blog-contain">
+                                    <div className="blog-label">
+                                        <span className="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
+                                        <span className="super"><i data-feather="user"></i> <span>Chris C.
                                                 Hall</span></span>
                                     </div>
                                     <a href="/Blogdetails">
@@ -110,26 +110,26 @@ const Blog = () => {
                                     </a>
                                     <a href='/Blogdetails'>
 
-                                    <button  class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
+                                    <button  className="blog-button">Read More
+                                        <i className="fa-solid fa-right-long"></i></button>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-xxl-4 col-sm-6">
-                            <div class="blog-box wow fadeInUp" data-wow-delay="0.15s">
-                                <div class="blog-image">
+                        <div className="col-xxl-4 col-sm-6">
+                            <div className="blog-box wow fadeInUp" data-wow-delay="0.15s">
+                                <div className="blog-image">
                                     <a href="/Blogdetails">
                                         <img src="/assets/images/blog4.jpg"
-                                            class="bg-img blur-up lazyload" alt="img" />
+                                            className="bg-img blur-up lazyload" alt="img" />
                                     </a>
                                 </div>
 
-                                <div class="blog-contain">
-                                    <div class="blog-label">
-                                        <span class="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
-                                        <span class="super"><i data-feather="user"></i> <span>James M.
+                                <div className="blog-contain">
+                                    <div className="blog-label">
+                                        <span className="time"><i data-feather="clock"></i> <span>25 Feg, 2022</span></span>
+                                        <span className="super"><i data-feather="user"></i> <span>James M.
                                                 Martin</span></span>
                                     </div>
                                     <a href="/Blogdetails">
@@ -137,8 +137,8 @@ const Blog = () => {
                                     </a>
                                     <a href='/Blogdetails'>
 
-                                    <button class="blog-button">Read More
-                                        <i class="fa-solid fa-right-long"></i></button>
+                                    <button className="blog-button">Read More
+                                        <i className="fa-solid fa-right-long"></i></button>
                                     </a>
                                 </div>
                             </div>
@@ -149,102 +149,102 @@ const Blog = () => {
                      
                     </div>
 
-                    <nav class="custom-pagination">
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="javascript:void(0)" tabindex="-1">
-                                    <i class="fa-solid fa-angles-left"></i>
+                    <nav className="custom-pagination">
+                        <ul className="pagination justify-content-center">
+                            <li className="page-item disabled">
+                                <a className="page-link" href="javascript:void(0)" tabindex="-1">
+                                    <i className="fa-solid fa-angles-left"></i>
                                 </a>
                             </li>
-                            <li class="page-item active">
-                                <a class="page-link" href="javascript:void(0)">1</a>
+                            <li className="page-item active">
+                                <a className="page-link" href="javascript:void(0)">1</a>
                             </li>
-                            <li class="page-item">
-                                <a class="page-link" href="javascript:void(0)">2</a>
+                            <li className="page-item">
+                                <a className="page-link" href="javascript:void(0)">2</a>
                             </li>
-                            <li class="page-item">
-                                <a class="page-link" href="javascript:void(0)">3</a>
+                            <li className="page-item">
+                                <a className="page-link" href="javascript:void(0)">3</a>
                             </li>
-                            <li class="page-item">
-                                <a class="page-link" href="javascript:void(0)">
-                                    <i class="fa-solid fa-angles-right"></i>
+                            <li className="page-item">
+                                <a className="page-link" href="javascript:void(0)">
+                                    <i className="fa-solid fa-angles-right"></i>
                                 </a>
                             </li>
                         </ul>
                     </nav>
                 </div>
 
-                <div class="col-xxl-3 col-xl-4 col-lg-5 order-lg-1">
-                    <div class="left-sidebar-box wow fadeInUp">
-                        <div class="left-search-box">
-                            <div class="search-box1 search-box">
-                                <input type="search" class="form-control" id="exampleFormControlInput1"
+                <div className="col-xxl-3 col-xl-4 col-lg-5 order-lg-1">
+                    <div className="left-sidebar-box wow fadeInUp">
+                        <div className="left-search-box">
+                            <div className="search-box1 search-box">
+                                <input type="search" className="form-control" id="exampleFormControlInput1"
                                     placeholder="Search...." />
                             </div>
                         </div>
 
-                        <div class="accordion left-accordion-box" id="accordionPanelsStayOpenExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        <div className="accordion left-accordion-box" id="accordionPanelsStayOpenExample">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button className="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseOne">
                                         Recent Post
                                     </button>
                                 </h2>
-                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                                    <div class="accordion-body pt-0">
-                                        <div class="recent-post-box">
-                                            <div class="recent-box">
-                                                <a href="/Blogdetails" class="recent-image">
+                                <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
+                                    <div className="accordion-body pt-0">
+                                        <div className="recent-post-box">
+                                            <div className="recent-box">
+                                                <a href="/Blogdetails" className="recent-image">
                                                     <img src="/assets/images/product1.webp"
-                                                        class="img-fluid blur-up lazyload" alt="img" style={{width:'90px'}}/>
+                                                        className="img-fluid blur-up lazyload" alt="img" style={{width:'90px'}}/>
                                                 </a>
 
-                                                <div class="recent-detail">
+                                                <div className="recent-detail">
                                                     <a href="/Blogdetails">
-                                                        <h5 class="recent-name">Green onion knife and salad placed</h5>
+                                                        <h5 className="recent-name">Green onion knife and salad placed</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
                                                 </div>
                                             </div>
 
-                                            <div class="recent-box">
-                                                <a href="/Blogdetails" class="recent-image">
+                                            <div className="recent-box">
+                                                <a href="/Blogdetails" className="recent-image">
                                                     <img src="/assets/images/product2.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
 
-                                                <div class="recent-detail">
+                                                <div className="recent-detail">
                                                     <a href="/Blogdetails">
-                                                        <h5 class="recent-name">Health and skin for your organic</h5>
+                                                        <h5 className="recent-name">Health and skin for your organic</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
                                                 </div>
                                             </div>
 
-                                            <div class="recent-box">
-                                                <a href="/Blogdetails" class="recent-image">
+                                            <div className="recent-box">
+                                                <a href="/Blogdetails" className="recent-image">
                                                     <img src="/assets/images/product3.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
 
-                                                <div class="recent-detail">
+                                                <div className="recent-detail">
                                                     <a href="/Blogdetails">
-                                                        <h5 class="recent-name">Organics mix masala fresh & soft</h5>
+                                                        <h5 className="recent-name">Organics mix masala fresh & soft</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
                                                 </div>
                                             </div>
 
-                                            <div class="recent-box">
-                                                <a href="/Blogdetails" class="recent-image">
+                                            <div className="recent-box">
+                                                <a href="/Blogdetails" className="recent-image">
                                                     <img src="/assets/images/product5.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                 </a>
 
-                                                <div class="recent-detail">
+                                                <div className="recent-detail">
                                                     <a href="/Blogdetails">
-                                                        <h5 class="recent-name">Fresh organics brand and picnic</h5>
+                                                        <h5 className="recent-name">Fresh organics brand and picnic</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
                                                 </div>
@@ -254,20 +254,20 @@ const Blog = () => {
                                 </div>
                             </div>
 
-                           <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                           <div className="accordion-item">
+    <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
+        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#panelsStayOpen-collapseTwo">Category</button>
     </h2>
 
-    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
-        <div class="accordion-body p-0">
-            <div class="category-list-box">
+    <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse show">
+        <div className="accordion-body p-0">
+            <div className="category-list-box">
                 <ul>
 
                     <li>
                         <a href="/Blog">
-                            <div class="category-name">
+                            <div className="category-name">
                                 <h5>Whey Protein Guides</h5>
                                 <span>14</span>
                             </div>
@@ -276,7 +276,7 @@ const Blog = () => {
 
                     <li>
                         <a href="/Blog">
-                            <div class="category-name">
+                            <div className="category-name">
                                 <h5>Muscle Building Tips</h5>
                                 <span>9</span>
                             </div>
@@ -285,7 +285,7 @@ const Blog = () => {
 
                     <li>
                         <a href="/Blog">
-                            <div class="category-name">
+                            <div className="category-name">
                                 <h5>Fat Loss & Diet Plans</h5>
                                 <span>11</span>
                             </div>
@@ -294,7 +294,7 @@ const Blog = () => {
 
                     <li>
                         <a href="/Blog">
-                            <div class="category-name">
+                            <div className="category-name">
                                 <h5>Workout Nutrition</h5>
                                 <span>7</span>
                             </div>
@@ -303,7 +303,7 @@ const Blog = () => {
 
                     <li>
                         <a href="/Blog">
-                            <div class="category-name">
+                            <div className="category-name">
                                 <h5>Creatine & Supplements</h5>
                                 <span>13</span>
                             </div>
@@ -312,7 +312,7 @@ const Blog = () => {
 
                     <li>
                         <a href="/Blog">
-                            <div class="category-name">
+                            <div className="category-name">
                                 <h5>Beginner Fitness Tips</h5>
                                 <span>10</span>
                             </div>
@@ -326,15 +326,15 @@ const Blog = () => {
 </div>
 
 
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseThree">Product Tags</button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseThree"
-                                    class="accordion-collapse collapse collapse show">
-                                    <div class="accordion-body pt-0">
-                                        <div class="product-tags-box">
+                                    className="accordion-collapse collapse collapse show">
+                                    <div className="accordion-body pt-0">
+                                        <div className="product-tags-box">
                                             <ul>
 
     <li>
@@ -376,66 +376,66 @@ const Blog = () => {
                                 </div>
                             </div>
 
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseFour">Trending Products</button>
                                 </h2>
-                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse collapse show">
-                                    <div class="accordion-body">
-                                        <ul class="product-list product-list-2 border-0 p-0">
+                                <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse collapse show">
+                                    <div className="accordion-body">
+                                        <ul className="product-list product-list-2 border-0 p-0">
                                             <li>
-                                                <div class="offer-product">
-                                                    <a href="/Shop" class="offer-image">
+                                                <div className="offer-product">
+                                                    <a href="/Shop" className="offer-image">
                                                          <img src="/assets/images/product1.webp"
-                                                        class="img-fluid blur-up lazyload" alt="img" style={{width:'90px'}}/>
+                                                        className="img-fluid blur-up lazyload" alt="img" style={{width:'90px'}}/>
                                                     </a>
 
-                                                    <div class="offer-detail">
+                                                    <div className="offer-detail">
                                                         <div>
                                                             <a href="/Shop">
-                                                                <h6 class="name">Meatigo Premium Goat Curry</h6>
+                                                                <h6 className="name">Meatigo Premium Goat Curry</h6>
                                                             </a>
                                                             <span>450 G</span>
-                                                            <h6 class="price theme-color">₹ 70.00</h6>
+                                                            <h6 className="price theme-color">₹ 70.00</h6>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </li>
 
                                             <li>
-                                                <div class="offer-product">
-                                                    <a href="/Shop" class="offer-image">
+                                                <div className="offer-product">
+                                                    <a href="/Shop" className="offer-image">
                                                              <img src="/assets/images/product2.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                     </a>
 
-                                                    <div class="offer-detail">
+                                                    <div className="offer-detail">
                                                         <div>
                                                             <a href="/Shop">
-                                                                <h6 class="name">Dates Medjoul Premium Imported</h6>
+                                                                <h6 className="name">Dates Medjoul Premium Imported</h6>
                                                             </a>
                                                             <span>450 G</span>
-                                                            <h6 class="price theme-color">₹ 40.00</h6>
+                                                            <h6 className="price theme-color">₹ 40.00</h6>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li class="mb-0">
-                                                <div class="offer-product">
-                                                    <a href="/Shop" class="offer-image">
+                                            <li className="mb-0">
+                                                <div className="offer-product">
+                                                    <a href="/Shop" className="offer-image">
                                                         <img src="/assets/images/product5.webp" style={{width:'90px'}}
-                                                        class="img-fluid blur-up lazyload" alt="img" />
+                                                        className="img-fluid blur-up lazyload" alt="img" />
                                                     </a>
 
-                                                    <div class="offer-detail">
+                                                    <div className="offer-detail">
                                                         <div>
                                                             <a href="/Shop">
-                                                                <h6 class="name">Apple Red Premium Imported</h6>
+                                                                <h6 className="name">Apple Red Premium Imported</h6>
                                                             </a>
                                                             <span>1 KG</span>
-                                                            <h6 class="price theme-color">₹ 80.00</h6>
+                                                            <h6 className="price theme-color">₹ 80.00</h6>
                                                         </div>
                                                     </div>
                                                 </div>

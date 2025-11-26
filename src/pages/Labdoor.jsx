@@ -9,6 +9,7 @@ const Labdoor = () => {
     AOS.init({
       duration: 1000, // animation duration
       once: true, // animate only once
+      disable: window.innerWidth < 768,
     });
   }, []);
 
@@ -72,7 +73,7 @@ const Labdoor = () => {
               <img
                 src="/assets/images/prd_3977707-MuscleBlaze.webp"
               alt="Fresh Image"
-              class="resimg"
+              className="resimg"
                 style={{ width: "100%", maxWidth: "500px" }}
               />
             </div>

@@ -9,20 +9,20 @@ const Returnpolicy = ({
   return (
     <>
       <Navbar />
-        <section class="breadcrumb-section pt-0">
-        <div class="container-fluid-lg">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcrumb-contain">
+        <section className="breadcrumb-section pt-0">
+        <div className="container-fluid-lg">
+            <div className="row">
+                <div className="col-12">
+                    <div className="breadcrumb-contain">
                         <h2>Return Policy</h2>
                         <nav>
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item">
+                            <ol className="breadcrumb mb-0">
+                                <li className="breadcrumb-item">
                                     <a href="/">
-                                        <i class="fa-solid fa-house"></i>
+                                        <i className="fa-solid fa-house"></i>
                                     </a>
                                 </li>
-                                <li class="breadcrumb-item active">Return Policy</li>
+                                <li className="breadcrumb-item active">Return Policy</li>
                             </ol>
                         </nav>
                     </div>

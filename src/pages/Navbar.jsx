@@ -624,7 +624,7 @@ export default function Navbar() {
             </li>
             <li>
                 <a href="/UserAccount">
-                  <i class="iconly-Profile icli"></i>
+                  <i className="iconly-Profile icli"></i>
                     <span>Account</span>
                 </a>
             </li>
