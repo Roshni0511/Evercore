@@ -2,9 +2,31 @@ import React, { useEffect, useState } from "react";
 import $ from "jquery";
 import Navbar from './Navbar'
 import Footer from './Footer'
+import {
+  FaWeight,        // Aids Weight Management
+  FaSmile,         // No Aftertaste
+  FaHandHoldingMedical, // Diabetic Friendly
+  FaRegCircle,     // Zero Calories
+  FaChartLine,     // No Insulin Spike
+  FaCube           // No Artificial Ingredients
+} from "react-icons/fa";
+const features = [
+  { icon: <FaWeight size={34} />, text: "Supports Muscle Growth" },
+  { icon: <FaSmile size={34} />, text: "Smooth Taste & Easy to Digest" },
+  { icon: <FaHandHoldingMedical size={34} />, text: "Boosts Recovery & Performance" },
+  { icon: <FaRegCircle size={34} />, text: "Low Calories, High Protein" },
+  { icon: <FaChartLine size={34} />, text: "Helps Maintain Energy Levels" },
+  { icon: <FaCube size={34} />, text: "No Artificial Additives" },
+];
+
+
+
 
 const Productdetails = () => {
-    const [selectedSize, setSelectedSize] = useState("small");
+    const [selectedSize, setSelectedSize] = useState("small"); // for grams
+const [selectedPack, setSelectedPack] = useState("sachet"); // for pack
+const [isExpanded, setIsExpanded] = useState(""); // for pack
+
     useEffect(() => {
         /**=====================
             Quantity 2 js
@@ -196,65 +218,94 @@ const Productdetails = () => {
     <div>87878521112</div>
   </div>
   
-</div>
+                                </div>
                                 <div className="product-package">
                                     <div className="product-title">
                                         <h4>Grams: </h4>
                                     </div>
 
-                     <ul className="rectangle select-package">
-      <li className="form-check">
-        <input
-          className="form-check-input"
-          checked={selectedSize === "small"}
-          type="radio"
-          name="size"
-          id="small"
-          onChange={() => setSelectedSize("small")}
-        />
-        <label
-          className={`form-check-label ${selectedSize === "small" ? "active" : ""}`}
-          htmlFor="small"
-        >
-          <span>240 Grams</span>
-        </label> <br/> (60 Sachets)
-      </li>
-      <li className="form-check">
-        <input
-          className="form-check-input"
-          checked={selectedSize === "medium"}
-          type="radio"
-          name="size"
-          id="medium"
-          onChange={() => setSelectedSize("medium")}
-        />
-        <label
-          className={`form-check-label ${selectedSize === "medium" ? "active" : ""}`}
-          htmlFor="medium"
-        >
-          <span>400 Grams</span>
-        </label> <br/> (100 Servings)
-      </li>
-      <li className="form-check">
-        <input
-          className="form-check-input"
-          checked={selectedSize === "large"}
-          type="radio"
-          name="size"
-          id="large"
-          onChange={() => setSelectedSize("large")}
-        />
-        <label
-          className={`form-check-label ${selectedSize === "large" ? "active" : ""}`}
-          htmlFor="large"
-        >
-          <span>480 Grams</span>
-        </label> <br />
-(120 Sachets)
-      </li>
-    </ul>
+                   <ul className="rectangle select-package">
+  <li className="form-check">
+    <input
+      className="form-check-input"
+      checked={selectedSize === "small"}
+      type="radio"
+      name="grams"
+      id="small"
+      onChange={() => setSelectedSize("small")}
+    />
+    <label className={`form-check-label ${selectedSize === "small" ? "active" : ""}`} htmlFor="small">
+      <span>240 Grams</span>
+    </label> <br/> (60 Sachets)
+  </li>
+
+  <li className="form-check">
+    <input
+      className="form-check-input"
+      checked={selectedSize === "medium"}
+      type="radio"
+      name="grams"
+      id="medium"
+      onChange={() => setSelectedSize("medium")}
+    />
+    <label className={`form-check-label ${selectedSize === "medium" ? "active" : ""}`} htmlFor="medium">
+      <span>400 Grams</span>
+    </label> <br/> (100 Servings)
+  </li>
+
+  <li className="form-check">
+    <input
+      className="form-check-input"
+      checked={selectedSize === "large"}
+      type="radio"
+      name="grams"
+      id="large"
+      onChange={() => setSelectedSize("large")}
+    />
+    <label className={`form-check-label ${selectedSize === "large" ? "active" : ""}`} htmlFor="large">
+      <span>480 Grams</span>
+    </label> <br/> (120 Sachets)
+  </li>
+</ul>
+
                                 </div>
                                 
+                                  <div className="product-package">
+                                    <div className="product-title">
+                                        <h4>Pack: </h4>
+                                    </div>
+
+                  <ul className="rectangle select-package">
+  <li className="form-check">
+    <input
+      className="form-check-input"
+      checked={selectedPack === "sachet"}
+      type="radio"
+      name="pack" 
+      id="sachet"
+      onChange={() => setSelectedPack("sachet")}
+    />
+    <label className={`form-check-label ${selectedPack === "sachet" ? "active" : ""}`} htmlFor="sachet">
+      <span>Sachet</span>
+    </label>
+  </li>
+
+  <li className="form-check">
+    <input
+      className="form-check-input"
+      checked={selectedPack === "box"}
+      type="radio"
+      name="pack"
+      id="box"
+      onChange={() => setSelectedPack("box")}
+    />
+    <label className={`form-check-label ${selectedPack === "box" ? "active" : ""}`} htmlFor="box">
+      <span>Box</span>
+    </label>
+  </li>
+</ul>
+
+                                </div>
 
                             
                                 <div className="note-box product-package">
@@ -297,7 +348,40 @@ const Productdetails = () => {
                                         </ul>
                                     </div>
                                 </div>
+                                 <div className="features-container">
+      
+     <div className="features-grid">
+  {features.map((f, i) => (
+    <div className="feature-item" key={i}>
+      <div className="icon">{f.icon}</div>
+      <p>{f.text}</p>
+    </div>
+  ))}
+</div>
 
+
+      
+    <p className="description">
+  {isExpanded
+    ? `Fuel your body the right way with EVERCORE Protein — a clean, high-quality protein formula crafted for athletes, fitness enthusiasts, and anyone looking to improve daily nutrition. Made with premium ingredients, it delivers the perfect balance of protein and essential nutrients without unwanted fillers, artificial additives, or sugar.
+
+       Whether you’re building muscle, supporting weight management, or simply staying active, EVERCORE Protein makes it easier to meet your daily protein goals. Mix it in shakes, smoothies, oats, or recipes — our formula blends smoothly and tastes amazing in every sip.
+
+       Pure, powerful, and effective — that’s the EVERCORE promise. `
+    : `Fuel your body the right way with EVERCORE Protein — a clean, high-quality protein source designed to support muscle building, faster recovery, and long-lasting energy for your everyday performance.`}
+  
+  <span className="read-more" onClick={() => setIsExpanded(!isExpanded)}>
+    {isExpanded ? " Read less" : " Read more"}
+  </span>
+</p>
+
+      <div className="logo-row">
+        
+          <img src="/assets/images/Frame_1.svg"  alt="certification" className="cert-logo" />
+        
+      </div>
+
+    </div>
                                
                             </div>
                         </div>

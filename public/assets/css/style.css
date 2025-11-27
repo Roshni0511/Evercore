@@ -49223,3 +49223,68 @@ display: none;
     
   } */
 }
+
+/*  */
+.features-container {
+  padding: 40px 20px;
+  background: #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.features-container .features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.features-container .feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0d6efd;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 3px 5px rgba(34, 34, 34, .129);
+}
+
+.features-container .feature-item .icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.features-container .feature-item p {
+  color: #000;
+  font-size: 15px;
+  margin: 0;
+}
+
+.features-container .description {
+  max-width: 700px;
+  margin: 20px auto;
+  color: #000;
+  text-align:justify;
+  font-size: 16px;
+}
+
+.features-container .read-more {
+  color: #0d6efd;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.features-container .logo-row {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.features-container .cert-logo {
+  width: 100%;
+  opacity: 0.9;
+}
