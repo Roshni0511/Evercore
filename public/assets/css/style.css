@@ -16008,7 +16008,7 @@ body.rtl .delivery-modal .modal-dialog .modal-content .modal-body.policy-body ul
 .product-section-box .custom-nav .nav-item .nav-link:hover::after,
 .product-section-box .custom-nav .nav-item .nav-link.active::after {
     width: 100%;
-    background: #1aa488
+    background: #0d6efd;
 }
 
 .product-section-box .offer-table {
@@ -20678,7 +20678,7 @@ footer .main-footer .footer-logo .footer-logo-contain .address li .feather {
 footer .main-footer .footer-logo .footer-logo-contain .address li a {
     margin: 0 0 0 10px;
     color: #4a5568;
-    line-height: 18px;
+    line-height: 25px;
     font-size: calc(14px + 2*(100vw - 320px)/1600)
 }
 
@@ -32139,7 +32139,7 @@ body.rtl .menu-label {
 .product-box-3 {
     padding: calc(0px + 0*(100vw - 320px)/1600);
     position: relative;
-    background-color: #a5c9ff5e;
+    background-color: #a5c9ff;
     border-radius: 5px;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out
@@ -46910,7 +46910,6 @@ body.rtl .theme-product-section .right-box-contain .license-list .accordion-item
     -webkit-transition: none;
     transition: none
 }
-
 .dynamic-checkout button.border-theme-color .spinning::before {
     border-right: 3px solid #1aa488
 }
