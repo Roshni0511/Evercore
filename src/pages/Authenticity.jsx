@@ -26,7 +26,7 @@ export default function Authenticity() {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="contact-image">
-                                    <img src="../assets/images/inner-page/contact-us.png"
+                                    <img src="/assets/images/vvvv.png"
                                         className="img-fluid blur-up lazyloaded" alt="img" />
                                 </div>
                             </div>

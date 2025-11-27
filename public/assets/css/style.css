@@ -19823,7 +19823,7 @@ span {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: var(--theme-color);
+    background: linear-gradient(135deg, color-mix(in srgb, #82b4fd 85%, white), color-mix(in srgb, #488cf0 80%, black));
     opacity: 0;
     z-index: -1;
     -webkit-transition: all .3s ease-in-out;
@@ -32214,7 +32214,10 @@ body.rtl .menu-label {
     opacity: 0;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    max-width: 230px
+    max-width: 230px;
+    color: #fff;
+        background: linear-gradient(135deg, color-mix(in srgb, #82b4fd 85%, white), color-mix(in srgb, #488cf0 80%, black));
+
 }
 
 @media(max-width: 480px) {
@@ -32235,7 +32238,7 @@ body.rtl .menu-label {
 .product-box-3 .product-header .product-image .product-option li a .feather {
     width: 17px;
     height: auto;
-    color: #4a5568
+    color: #fff
 }
 
 .product-box-3 .product-header .product-image .product-option li+li:after {
@@ -34247,8 +34250,10 @@ body.rtl .menu-label {
 }
 
 .service-contain-2:hover {
-    background-color: var(--theme-color)
+    background: linear-gradient(135deg, color-mix(in srgb, #82b4fd 85%, white), color-mix(in srgb, #488cf0 80%, black));
+    transition: 0.3s ease-in-out;
 }
+
 
 .service-contain-2:hover svg {
     fill: #fff
@@ -37797,7 +37802,7 @@ body.rtl .menu-label {
 
 .faq-box-contain .faq-accordion .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
     font-weight: 700;
-    color: var(--theme-color);
+    color: #000;
     background-color: rgba(0, 0, 0, 0);
     -webkit-box-shadow: none;
     box-shadow: none
@@ -48415,7 +48420,7 @@ display: none;
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 40px;
-  background: linear-gradient(90deg, #0d6efd, #d1774d);
+  background: #000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -48451,7 +48456,7 @@ display: none;
 /* Colorful highlighted headings */
 .recipe-text strong {
   font-weight: 700;
-  color: #0d6efd;
+  color: #000;
   font-size: 18px;
 }
 
@@ -48459,6 +48464,7 @@ display: none;
 .recipe-text p {
   margin-bottom: 28px;
   text-align: justify;
+  line-height: 25px;
 }
 /* HERO SECTION */
 .lab-hero {
@@ -49079,6 +49085,29 @@ display: none;
 
 .custom-modal-backdrop .submit-btn:hover {
   opacity: 0.8;
+}
+.sizing{
+    width: 100%;
+    height: 600px;
+}
+@media (max-width: 768px) {
+    .sizing {
+        height: 350px;   /* Tablet mate thodi ochhi height */
+    }
+}
+
+/* Mobile screens (480px thi ochha) */
+@media (max-width: 480px) {
+    .sizing {
+        height: 400px;   /* Mobile ma tamari requirement mujab 0px */
+    }
+}
+.heree{
+    font-weight: 700;
+    color: #000;
+}
+.heree:hover{
+    color: #fff;
 }
 
 /*  */
