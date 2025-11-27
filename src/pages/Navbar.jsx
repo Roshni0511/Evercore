@@ -31,7 +31,7 @@ export default function Navbar() {
                             </button>
                             <a href="/" className="web-logo nav-logo">
                            
-                                <h2 style={{fontWeight:'800',fontSize:'35px'}}>Evercore</h2>   
+                                <h2 style={{fontWeight:'800',fontSize:'35px',color:"#000"}}>Evercore</h2>   
                             </a>
 
                             <div className="header-nav-middle">

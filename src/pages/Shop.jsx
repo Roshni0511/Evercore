@@ -56,7 +56,7 @@ const Shop = () => {
                         <div className="row g-sm-4 g-3">
                             <div className="col-xl-3 col-md-6">
                                 <div className="category-title">
-                                    <h3>Pack Size</h3>
+                                    <h3 style={{color:'#000'}}>Pack Size</h3>
                                 </div>
                                 <ul className="category-list custom-padding custom-height">
                                     <li>
@@ -110,7 +110,7 @@ const Shop = () => {
 
                             <div className="col-xl-3 col-md-6">
                                 <div className="category-title">
-                                    <h3>Price</h3>
+                                    <h3 style={{color:'#000'}}>Price</h3>
                                 </div>
                                 <div className="range-slider">
                                     <input type="text" className="js-range-slider" value="" />
@@ -119,7 +119,7 @@ const Shop = () => {
 
                             <div className="col-xl-3 col-md-6">
                                 <div className="category-title">
-                                    <h3>Discount</h3>
+                                    <h3 style={{color:'#000'}}>Discount</h3>
                                 </div>
                                 <ul className="category-list">
                                     <li>
@@ -176,7 +176,7 @@ const Shop = () => {
 
                             <div className="col-xl-3 col-md-6">
                                 <div className="category-title">
-                                    <h3>Category</h3>
+                                    <h3 style={{color:'#000'}}>Category</h3>
                                 </div>
                                 <ul className="category-list custom-padding custom-height">
                                     <li>

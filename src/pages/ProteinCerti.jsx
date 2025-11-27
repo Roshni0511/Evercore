@@ -17,7 +17,7 @@ export default function ProteinCerti() {
 
 <section className="lab-info-box">
     <div className="info-card new-style">
-        <h2>Certified Lab Report</h2>
+        <h2 style={{color:'#000'}}>Certified Lab Report</h2>
         <p className="desc">
             Every batch is tested for purity, quality, and nutritional accuracy.
             Report values may vary (±5%) depending on testing conditions.
@@ -29,7 +29,7 @@ export default function ProteinCerti() {
                    <i className="fa-solid fa-shield-alt"></i>
 
                 </div>
-                <h5>Authenticity Verified</h5>
+                <h5 style={{color:'#000'}}>Authenticity Verified</h5>
                 <p>Guaranteed genuine & certified quality.</p>
             </div>
 
@@ -38,7 +38,7 @@ export default function ProteinCerti() {
                     <i className="fa-solid fa-flask"></i>
 
                 </div>
-                <h5>Lab Tested</h5>
+                <h5 style={{color:'#000'}}>Lab Tested</h5>
                 <p>Each batch tested for protein purity.</p>
             </div>
 
@@ -46,7 +46,7 @@ export default function ProteinCerti() {
                 <div className="icon-circle">
                     <i className="fa-solid fa-leaf"></i>
                 </div>
-                <h5>Clean Sourcing</h5>
+                <h5 style={{color:'#000'}}>Clean Sourcing</h5>
                 <p>Ingredients sourced responsibly.</p>
             </div>
         </div>
