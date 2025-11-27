@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function Navbar() {
+
       const categories = [
     { name: "Whey Protein", icon: "/assets/images/nav1.png" },
     { name: "Raw Whey", icon: "/assets/images/nav12.png" },
@@ -12,10 +13,29 @@ export default function Navbar() {
     { name: "Pre Workout ", icon: "/assets/images/nav45.png" },
    
   ];
+useEffect(() => {
+  const handleScroll = () => {
+    const header = document.querySelector("header");
+
+    if (window.scrollY > 20) {
+      header.classList.add("active");
+    } else {
+      header.classList.remove("active");
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  // RE-RENDER FEATHER ICONS
+  import("feather-icons").then((feather) => feather.replace());
+
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
   return (
     <div>
         {/* <!-- Header Start --> */}
-    <header className="">
+    <header >
      
 
         <div className="top-nav top-header sticky-header">
@@ -31,7 +51,7 @@ export default function Navbar() {
                             </button>
                             <a href="/" className="web-logo nav-logo">
                            
-                                <h2 style={{fontWeight:'800',fontSize:'35px',color:"#000"}}>Evercore</h2>   
+                                <h2 style={{fontWeight:'800',fontSize:'35px',color:"#000"}}>EVERCORE</h2>   
                             </a>
 
                             <div className="header-nav-middle">
@@ -500,7 +520,7 @@ export default function Navbar() {
 
                                                             <div className="drop-contain">
                                                                 <a href="/">
-                                                                    <h5>Evercore Yeast Protein - Double Chocolate</h5>
+                                                                    <h5 style={{color:'#000'}}>Evercore Yeast Protein - Double Chocolate</h5>
                                                                 </a>
                                                                 <h6><span>1 x</span> ₹80.58</h6>
                                                                 <button className="close-button close_button">
@@ -519,7 +539,7 @@ export default function Navbar() {
 
                                                             <div className="drop-contain">
                                                                 <a href="/">
-                                                                    <h5>Evercore Yeast Protein - Vanilla
+                                                                    <h5 style={{color:'#000'}}>Evercore Yeast Protein - Vanilla
                                                                     </h5>
                                                                 </a>
                                                                 <h6><span>1 x</span> ₹25.68</h6>
