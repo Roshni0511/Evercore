@@ -32139,7 +32139,7 @@ body.rtl .menu-label {
 .product-box-3 {
     padding: calc(0px + 0*(100vw - 320px)/1600);
     position: relative;
-    background-color: #a5c9ff;
+    background-color: #a5c9ff5e;
     border-radius: 5px;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out
@@ -32160,8 +32160,8 @@ body.rtl .menu-label {
 }
 
 .product-box-3:hover .product-header .product-image img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1)
+    -webkit-transform: scale(1);
+    transform: scale(1)
 }
 
 .product-box-3 .product-header {
