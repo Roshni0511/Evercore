@@ -289,7 +289,7 @@ const [activeSection, setActiveSection] = useState(
               </h4>
               </div>
               <div>
-                     <p onClick={() => openModal("edit-profile", profile)} style={{color:"#c25f31",alignItems:'center',marginBottom:"0px"}}>
+                     <p onClick={() => openModal("edit-profile", profile)} style={{color:"#0d6efd",alignItems:'center',marginBottom:"0px"}}>
                      Edit 
                     </p>
 
@@ -299,7 +299,7 @@ const [activeSection, setActiveSection] = useState(
             <div className="dashboard-detail">
               <h6 className="text-content" style={{marginBottom:'5px'}}>{profile.name}</h6>
               <h6 className="text-content" style={{marginBottom:'5px'}}>{profile.email}</h6>
-              <a     onClick={() => openModal("change-password")} style={{color:'#c25f31'}}>Change Password</a>
+              <a     onClick={() => openModal("change-password")} style={{color:'#0d6efd'}}>Change Password</a>
                    
             </div>
           </div>
@@ -314,7 +314,7 @@ const [activeSection, setActiveSection] = useState(
 </div>
   <div>
 
-                 <p onClick={() => openModal("edit-profile", profile)} style={{color:"#c25f31",alignItems:'center',marginBottom:"0px"}}>
+                 <p onClick={() => openModal("edit-profile", profile)} style={{color:"#0d6efd",alignItems:'center',marginBottom:"0px"}}>
                      Edit 
                     </p>
   </div>
@@ -337,7 +337,7 @@ const [activeSection, setActiveSection] = useState(
               </h4>
               </div>
               <div>
-           <p onClick={() => openModal("edit-profile", profile)} style={{color:"#c25f31",alignItems:'center',marginBottom:"0px"}}>
+           <p onClick={() => openModal("edit-profile", profile)} style={{color:"#0d6efd",alignItems:'center',marginBottom:"0px"}}>
                      Edit 
                     </p>
 
@@ -352,7 +352,7 @@ const [activeSection, setActiveSection] = useState(
                   <h6 className="text-content" style={{marginBottom:'5px'}}>
                     {billingAddress ? billingAddress : "You have not set a default billing address."}
                   </h6>
-                <p onClick={() => openModal("edit-profile", profile)} style={{color:"#c25f31",alignItems:'center',marginBottom:"0px"}}>
+                <p onClick={() => openModal("edit-profile", profile)} style={{color:"#0d6efd",alignItems:'center',marginBottom:"0px"}}>
                      Edit Address
                     </p>
                 </div>
@@ -364,7 +364,7 @@ const [activeSection, setActiveSection] = useState(
                   <h6 className="text-content" style={{marginBottom:'5px'}}>
                     {shippingAddress ? shippingAddress : "You have not set a default shipping address."}
                   </h6>
-                   <p onClick={() => openModal("edit-profile", profile)} style={{color:"#c25f31",alignItems:'center',marginBottom:"0px"}}>
+                   <p onClick={() => openModal("edit-profile", profile)} style={{color:"#0d6efd",alignItems:'center',marginBottom:"0px"}}>
                      Edit Address
                     </p>
                 </div>

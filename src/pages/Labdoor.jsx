@@ -41,7 +41,7 @@ const Labdoor = () => {
         }}
       >
         <div className="container">
-          <h1 style={{ fontWeight: 700, fontSize: "40px", color: "#c25f31" }}>
+          <h1 style={{ fontWeight: 700, fontSize: "40px", color: "#0d6efd" }}>
            Project Protein – Premium Quality, Guaranteed Purity
           </h1>
           <p
@@ -87,7 +87,7 @@ const Labdoor = () => {
                 style={{
                   width: "60px",
                   height: "4px",
-                  backgroundColor: "#c25f31",
+                  backgroundColor: "#0d6efd",
                   margin: "15px 0"
                 }}
               ></div>
@@ -123,7 +123,7 @@ const Labdoor = () => {
           textAlign: "center"
         }}
       >
-        <h2 style={{ fontSize: "34px", fontWeight: 700, color: "#c25f31" }}>
+        <h2 style={{ fontSize: "34px", fontWeight: 700, color: "#0d6efd" }}>
           The Risks of Using Non-Verified Supplements
         </h2>
 
@@ -172,7 +172,7 @@ const Labdoor = () => {
   data-aos="fade-up"
   style={{
     padding: "60px 20px",
-    backgroundColor: "rgb(248 241 229)",
+    backgroundColor: "rgb(220 234 255)",
     color: "#333"
   }}
 >
@@ -198,7 +198,7 @@ const Labdoor = () => {
               textAlign: "center",
               fontSize: "24px",
               fontWeight: 700,
-              color: "#c25f31",
+              color: "#0d6efd",
               lineHeight: "32px"
             }}
             data-aos="fade-down"
@@ -238,7 +238,7 @@ const Labdoor = () => {
           <button
             style={{
               marginTop: "25px",
-              backgroundColor: "#c25f31",
+              backgroundColor: "#0d6efd",
               padding: "12px 20px",
               borderRadius: "6px",
               border: "none",
@@ -259,32 +259,32 @@ const Labdoor = () => {
       <div className="col-12 col-md-6" data-aos="fade-left">
         <div style={{ paddingLeft: "10px", paddingRight: "10px" }}>
 
-          <h4 style={{ color: "#c25f31", fontWeight: 700 }}>Who is NutriCheck™?</h4>
+          <h4 style={{ color: "#0d6efd", fontWeight: 700 }}>Who is NutriCheck™?</h4>
           <p style={{ color: "#666", marginTop: "6px" }}>
             NutriCheck™ is a trusted third-party lab that verifies supplement safety, purity, and nutritional accuracy.
           </p>
 
-          <h4 style={{ color: "#c25f31", marginTop: "25px", fontWeight: 700 }}>How does NutriCheck™ evaluate supplements?</h4>
+          <h4 style={{ color: "#0d6efd", marginTop: "25px", fontWeight: 700 }}>How does NutriCheck™ evaluate supplements?</h4>
           <p style={{ color: "#666", marginTop: "6px" }}>
             Each product is tested for chemical composition, microbes, and nutritional content to ensure authenticity and accuracy.
           </p>
 
-          <h4 style={{ color: "#c25f31", marginTop: "25px", fontWeight: 700 }}>Why is third-party testing important?</h4>
+          <h4 style={{ color: "#0d6efd", marginTop: "25px", fontWeight: 700 }}>Why is third-party testing important?</h4>
           <p style={{ color: "#666", marginTop: "6px" }}>
             It prevents misleading labels, detects contaminants, and ensures the product is safe and effective.
           </p>
 
-          <h4 style={{ color: "#c25f31", marginTop: "25px", fontWeight: 700 }}>What does NutriCheck™ look for during testing?</h4>
+          <h4 style={{ color: "#0d6efd", marginTop: "25px", fontWeight: 700 }}>What does NutriCheck™ look for during testing?</h4>
           <p style={{ color: "#666", marginTop: "6px" }}>
             NutriCheck™ checks protein content, amino acids, banned substances, heavy metals, and overall ingredient authenticity.
           </p>
 
-          <h4 style={{ color: "#c25f31", marginTop: "25px", fontWeight: 700 }}>Why does Project Protein choose NutriCheck™?</h4>
+          <h4 style={{ color: "#0d6efd", marginTop: "25px", fontWeight: 700 }}>Why does Project Protein choose NutriCheck™?</h4>
           <p style={{ color: "#666", marginTop: "6px" }}>
             Because it delivers unbiased testing and transparent results that consumers can trust.
           </p>
 
-          <h4 style={{ color: "#c25f31", marginTop: "25px", fontWeight: 700 }}>Do all batches get tested?</h4>
+          <h4 style={{ color: "#0d6efd", marginTop: "25px", fontWeight: 700 }}>Do all batches get tested?</h4>
           <p style={{ color: "#666", marginTop: "6px" }}>
             Yes. Every batch is tested to ensure consistent purity, potency, and nutritional value.
           </p>
@@ -312,14 +312,14 @@ const Labdoor = () => {
           <div className="row">
 
             <div className="col-12 col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-              <div style={{ width: "60px", height: "4px", backgroundColor: "#c25f31" }}></div>
+              <div style={{ width: "60px", height: "4px", backgroundColor: "#0d6efd" }}></div>
 
               <h3
                 style={{
                   // fontSize: "52px",
                   fontWeight: 800,
                   marginTop: "20px",
-                  color: "#c25f31",
+                  color: "#0d6efd",
                   lineHeight: "62px"
                 }}
               >
@@ -338,10 +338,10 @@ const Labdoor = () => {
                   <div className="col-6">
                     <div style={{ marginTop: "30px", display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "15px" }}>
                 <div style={{ color: "#444", fontSize: "16px" }}>
-                  <p>Energy: <b style={{color:"#c25f31"}}>140.94 kcal</b></p>
-                  <p>Protein: <b style={{color:"#c25f31"}}>25g</b></p>
-                  <p>Carbs: <b style={{color:"#c25f31"}}>5.58g</b></p>
-                  <p>Fat: <b style={{color:"#c25f31"}}>1.98g</b></p>
+                  <p>Energy: <b style={{color:"#0d6efd"}}>140.94 kcal</b></p>
+                  <p>Protein: <b style={{color:"#0d6efd"}}>25g</b></p>
+                  <p>Carbs: <b style={{color:"#0d6efd"}}>5.58g</b></p>
+                  <p>Fat: <b style={{color:"#0d6efd"}}>1.98g</b></p>
                 </div>
            
                   </div>
@@ -358,7 +358,7 @@ const Labdoor = () => {
                 <a href="/Shop">
                 <button
                   style={{
-                    backgroundColor: "#c25f31",
+                    backgroundColor: "#0d6efd",
                     padding: "12px 24px",
                     borderRadius: "6px",
                     fontWeight: 600,
