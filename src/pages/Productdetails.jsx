@@ -180,9 +180,26 @@ const Productdetails = () => {
                                     <p className="w-100 d-none d-md-block">Evercore Yeast Protein – Double Chocolate delivers a rich, smooth chocolaty taste powered by clean, high-quality yeast protein. Designed for lean muscle support, faster recovery, and easy digestion, it offers a complete amino acid profile with exceptional purity. Whether post-workout or as a daily protein boost, enjoy a delicious chocolate blend that fuels your fitness naturally.</p>
                                 </div>
 
+                                    <div class="coupon-product">
+  <div class="left">
+    <div>Enjoy Your Gift</div>
+  </div>
+  <div class="center">
+    <div>
+      <h2>50% OFF</h2>
+      <h3>Coupon</h3>
+      <small>Valid until May, 2023</small>
+    </div>
+  </div>
+  
+  <div class="right">
+    <div>87878521112</div>
+  </div>
+  
+</div>
                                 <div className="product-package">
                                     <div className="product-title">
-                                        <h4>Weight </h4>
+                                        <h4>Grams: </h4>
                                     </div>
 
                      <ul className="rectangle select-package">
@@ -199,8 +216,8 @@ const Productdetails = () => {
           className={`form-check-label ${selectedSize === "small" ? "active" : ""}`}
           htmlFor="small"
         >
-          <span>1 KG</span>
-        </label>
+          <span>240 Grams</span>
+        </label> <br/> (60 Sachets)
       </li>
       <li className="form-check">
         <input
@@ -215,8 +232,8 @@ const Productdetails = () => {
           className={`form-check-label ${selectedSize === "medium" ? "active" : ""}`}
           htmlFor="medium"
         >
-          <span>2 KG</span>
-        </label>
+          <span>400 Grams</span>
+        </label> <br/> (100 Servings)
       </li>
       <li className="form-check">
         <input
@@ -231,11 +248,13 @@ const Productdetails = () => {
           className={`form-check-label ${selectedSize === "large" ? "active" : ""}`}
           htmlFor="large"
         >
-          <span>3 KG</span>
-        </label>
+          <span>480 Grams</span>
+        </label> <br />
+(120 Sachets)
       </li>
     </ul>
                                 </div>
+                                
 
                             
                                 <div className="note-box product-package">

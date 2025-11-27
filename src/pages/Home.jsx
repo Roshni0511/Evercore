@@ -262,7 +262,7 @@ const Home = () => {
                                     <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla Essential</h5>
                                         </a>
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
@@ -501,7 +501,7 @@ const Home = () => {
                                     <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla Essential</h5>
                                         </a>
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
@@ -967,7 +967,7 @@ const Home = () => {
                                     <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla Essential</h5>
                                         </a>
                                         <div className="product-rating mt-2">
                                             <ul className="rating">
@@ -1206,7 +1206,7 @@ const Home = () => {
                                     <div className="product-detail">
                                        
                                         <a href="/Shop">
-                                            <h5 className="name">Evercore Yeast Protein - Vanilla</h5>
+                                            <h5 className="name">Evercore Yeast Protein - Vanilla Essential</h5>
                                         </a>
                                         <div className="product-rating mt-2">
                                             <ul className="rating">

@@ -30492,7 +30492,7 @@ body.rtl .menu-label {
     width: 100%;
     height: auto;
     margin-left: auto;
-    max-width: 190px
+    max-width: 100%
 }
 
 [dir=rtl] .add-to-cart-btn-2 .qty-box-2 {
@@ -32182,7 +32182,7 @@ body.rtl .menu-label {
 
 .product-box-3 .product-header .product-image img {
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     border-radius: 10px;
     -o-object-fit: contain;
     object-fit: contain;
@@ -44611,7 +44611,8 @@ body.rtl .question-answer li .question-box .link-dislike-box {
     min-height: unset;
     margin: 0;
     padding: 0;
-    position: relative
+    position: relative;
+    text-align:center;
 }
 
 .product-section .right-box-contain .product-package .select-package.rectangle li:hover button {
@@ -48956,7 +48957,7 @@ display: none;
     width: 60px;
     height: 60px;
     object-fit: contain;
-    background: #dd916e;
+    background: #31a0f1;
     border-radius: 100%;
     padding: 6px;
   }
@@ -49078,4 +49079,118 @@ display: none;
 
 .custom-modal-backdrop .submit-btn:hover {
   opacity: 0.8;
+}
+
+/*  */
+
+
+.coupon-product {
+  width: 500px;
+  height: 135px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* margin: auto; */
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.coupon-product::before,
+.coupon-product::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon-product::before {
+  left: 0;
+  background-image: radial-gradient(
+    circle at 0 50%,
+    transparent 25px,
+    gold 26px
+  );
+}
+
+.coupon-product::after {
+  right: 0;
+  background-image: radial-gradient(
+    circle at 100% 50%,
+    transparent 25px,
+    gold 26px
+  );
+}
+
+.coupon-product > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coupon-product .left {
+  width: 20%;
+  border-right: 2px dashed rgba(0, 0, 0, 0.13);
+}
+.coupon-product .left div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.coupon-product .center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.coupon-product .right {
+  width: 120px;
+  background-image: radial-gradient(
+    circle at 100% 50%,
+    transparent 25px,
+    #fff 26px
+  );
+}
+.coupon-product .right div {
+  font-family: "Libre Barcode 128 Text", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  transform: rotate(-90deg);
+}
+
+.coupon-product .center h2 {
+  background: #000;
+  color: gold;
+  padding: 0 10px;
+  font-size: 2.15rem;
+  white-space: nowrap;
+}
+
+.coupon-product .center h3 {
+  font-size: 2.15rem;
+}
+.coupon-product .center small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width:500px){
+    .coupon-product{
+        width: 100%;
+    }
+  .coupon-product .coupon {
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  /* .coupon-product .left div {
+    transform: rotate(0deg);
+  }
+  .coupon-product .right div {
+    transform: rotate(0deg);
+    
+  } */
 }
