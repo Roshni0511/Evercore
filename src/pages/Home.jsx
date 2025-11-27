@@ -44,8 +44,8 @@ const Home = () => {
                     <div className="slider-animate">
                         <div>
                             <div className="home-contain rounded-0 p-0">
-                                <img src="/assets/images/slidermainn.png"
-                                    className="img-fluid bg-img blur-up lazyload home-img" alt="img" sizes='1920*637' style={{width:'100%'}}/>
+                                <img src="/assets/images/asasa.png"
+                                    className="img-fluid bg-img blur-up lazyload home-img" alt="img" sizes='1920*637' style={{width:'100%',height:'600px'}}/>
                                 <div className="home-detail home-big-space p-center-left home-overlay ">
                                     <div className="container-fluid-lg">
                                         <div>
