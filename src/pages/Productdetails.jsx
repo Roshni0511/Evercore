@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import $ from "jquery";
 import Navbar from './Navbar'
 import Footer from './Footer'
@@ -20,9 +20,39 @@ const features = [
 ];
 
 
-
+const images = [
+  "/assets/images/s1.jpg",
+  "/assets/images/recipe.webp",
+  "/assets/images/s2.webp",
+  "/assets/images/recipe.webp",
+];
 
 const Productdetails = () => {
+     const [index, setIndex] = useState(0);
+  const autoplayRef = useRef(null);
+
+  const nextSlide = () => {
+    setIndex((prev) => (prev + 1) % images.length);
+  };
+
+  const prevSlide = () => {
+    setIndex((prev) =>
+      prev === 0 ? images.length - 1 : prev - 1
+    );
+  };
+
+  useEffect(() => {
+    startAutoPlay();
+    return () => clearInterval(autoplayRef.current);
+  }, []);
+
+  const startAutoPlay = () => {
+    autoplayRef.current = setInterval(nextSlide, 4000);
+  };
+
+  const stopAutoPlay = () => {
+    clearInterval(autoplayRef.current);
+  };
     const [selectedSize, setSelectedSize] = useState("small"); // for grams
 const [selectedPack, setSelectedPack] = useState("sachet"); // for pack
 const [isExpanded, setIsExpanded] = useState(""); // for pack
@@ -511,6 +541,34 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
         </div>
     </section>
 
+    <div
+      id="slidernew"
+      onMouseEnter={stopAutoPlay}
+      onMouseLeave={startAutoPlay}
+    >
+      <div
+        className="slides-wrapper-react"
+        style={{ transform: `translateX(-${index * 100}%)` }}
+      >
+        {images.map((src, i) => (
+          <div
+            key={i}
+            className="slide"
+            style={{ backgroundImage: `url(${src})` }}
+          >
+            {/* <h2>Slide #{i + 1}</h2> */}
+          </div>
+        ))}
+      </div>
+
+      {/* CONTROLS */}
+      <div className="slide-controls slide-left" onClick={prevSlide}>
+        &lt;
+      </div>
+      <div className="slide-controls slide-right" onClick={nextSlide}>
+        &gt;
+      </div>
+    </div>
 
 
     {/* <!-- Nav Tab Section Start --> */}
@@ -994,7 +1052,7 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
     <section className="product-list-section section-b-space">
         <div className="container-fluid-lg">
             <div className="title">
-                <h2>Related Products</h2>
+                <h2>Know how we make it!</h2>
            
             </div>
          <div className="row">
