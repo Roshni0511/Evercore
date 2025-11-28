@@ -324,7 +324,7 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                     </div>
 <a href="/Cart">
                                     <button
-                                        className="btn btn-md bg-dark cart-button text-white w-100">Add To Cart</button>
+                                        className="btn btn-md  cart-button text-white w-100 pro-acc-logout-btn">Add To Cart</button>
                                         </a>
                                 </div>
 
@@ -441,6 +441,76 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
 
   </div>
 </section>
+
+
+ <section className="adv-container container">
+      <div className="adv-left">
+        <h2 className="adv-title">
+          The <span className="highlight">Evercore</span> Protein Advantage
+        </h2>
+        <div className="adv-img-box">
+          <img
+            src="/assets/images/recipe.webp"
+            alt="Evercore Protein"
+            className="adv-product-img"
+          />
+        </div>
+      </div>
+
+      <div className="adv-right">
+        
+
+        <div className="adv-list">
+          {[
+            "High-quality whey protein",
+            "No artificial sweeteners",
+            "Fast absorption for muscle recovery",
+            "Rich amino acid profile",
+            "Easy to mix, lump-free",
+          ].map((item, index) => (
+            <div className="adv-item" key={index}>
+              <div className="adv-icon">
+                <i class="fa-solid fa-check"></i>
+
+              </div>
+              <p>{item}</p>
+              <div className="adv-cross">
+                <i class="fa-solid fa-xmark"></i>
+
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+
+  <section className="banner-section">
+        <div className="container-fluid-lg">
+            <div className="row ">
+                <div className="col-12">
+                    <div className="banner-contain-3 section-b-space section-t-space hover-effect overflow-visible" style={{backgroundImage:'url(/assets/images/top.jpg)',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
+                        {/* <img src="https://themes.pixelstrap.com/fastkart/assets/images/furniture/banner/6.jpg" className="bg-img" alt="img" width={"100%"}/> */}
+                        <img src="/assets/images/Natural_Protein_PB.png" className="flower-pot img-fluid" alt="img" style={{height:'276px'}}/>
+                        <div
+                            className="banner-detail p-center-left position-relative d-block py-0 banner-furniture mend-auto">
+                            <div className="row d-flex justify-content-center">
+                                <div className="col-xl-6 offset-xxl-2 offset-xl-1 col-md-8 col-sm-9">
+                                   
+                                    <h2 className="mt-sm-3 mt-1 mb-2 text-content">Curious about the <span>ingredients?</span></h2>
+                                    <p className="text-content">With clarity and transparency, here’s the truth behind what goes into your protein.</p>
+                                    <a href="/Shop">
+                                    <button className="pro-acc-logout-btn mt-sm-4 mt-2 btn-md text-white fw-bold">DISCOVER MORE</button>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     {/* <!-- Nav Tab Section Start --> */}
@@ -672,11 +742,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                             <div>
                                                                 <div className="people-image people-text">
                                                                     <img alt="user" className="img-fluid "
-                                                                        src="../assets/images/review/1.jpg" />
+                                                                        src="/assets/images/user.png" />
                                                                 </div>
                                                             </div>
                                                             <div className="people-comment">
-                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                <div className="people-name"><a href=""
                                                                         className="name">Jack Doe</a>
                                                                     <div className="date-time">
                                                                         <h6 className="text-content"> 29 Sep 2023
@@ -719,11 +789,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                             <div>
                                                                 <div className="people-image people-text">
                                                                     <img alt="user" className="img-fluid "
-                                                                        src="../assets/images/review/2.jpg" />
+                                                                        src="/assets/images/user.png" />
                                                                 </div>
                                                             </div>
                                                             <div className="people-comment">
-                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                <div className="people-name"><a href=""
                                                                         className="name">Jessica
                                                                         Miller</a>
                                                                     <div className="date-time">
@@ -769,11 +839,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                             <div>
                                                                 <div className="people-image people-text">
                                                                     <img alt="user" className="img-fluid "
-                                                                        src="../assets/images/review/3.jpg" />
+                                                                        src="/assets/images/user.png" />
                                                                 </div>
                                                             </div>
                                                             <div className="people-comment">
-                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                <div className="people-name"><a href=""
                                                                         className="name">Rome Doe</a>
                                                                     <div className="date-time">
                                                                         <h6 className="text-content"> 29 Sep 2023
@@ -816,11 +886,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                             <div>
                                                                 <div className="people-image people-text">
                                                                     <img alt="user" className="img-fluid "
-                                                                        src="../assets/images/review/4.jpg" />
+                                                                        src="/assets/images/user.png" />
                                                                 </div>
                                                             </div>
                                                             <div className="people-comment">
-                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                <div className="people-name"><a href=""
                                                                         className="name">Sarah
                                                                         Davis</a>
                                                                     <div className="date-time">
@@ -864,11 +934,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                             <div>
                                                                 <div className="people-image people-text">
                                                                     <img alt="user" className="img-fluid "
-                                                                        src="../assets/images/review/5.jpg" />
+                                                                        src="/assets/images/user.png" />
                                                                 </div>
                                                             </div>
                                                             <div className="people-comment">
-                                                                <div className="people-name"><a href="javascript:void(0)"
+                                                                <div className="people-name"><a href=""
                                                                         className="name">John Doe</a>
                                                                     <div className="date-time">
                                                                         <h6 className="text-content"> 29 Sep 2023
@@ -1578,7 +1648,7 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                         <div className="add-btn">
                             <a className="btn theme-bg-color text-white wishlist-btn" href="/Wishlist"><i
                                     className="fa fa-bookmark"></i> Wishlist</a>
-                            <a className="btn theme-bg-color text-white" href="/Checkout"><i
+                            <a className="btn pro-acc-logout-btn text-white" href="/Checkout"><i
                                     className="fas fa-shopping-cart"></i> Buy Now</a>
                         </div>
                     </div>
