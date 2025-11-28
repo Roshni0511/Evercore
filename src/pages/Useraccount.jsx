@@ -1589,13 +1589,13 @@ const [activeSection, setActiveSection] = useState(
 
               {/* SAVE BUTTON */}
               <div className="modal-footer">
-                <button className="btn btn-animation btn-md fw-bold" onClick={closeModal}>
+                <button className="btn btn-animation  fw-bold" onClick={closeModal}>
                   Close
                 </button>
 
                 <button
                   type="button"
-                  className="btn theme-bg-color btn-md fw-bold text-light"
+                  className="pro-acc-logout-btn  btn-md fw-bold text-light"
                   onClick={() => {
                     if (modalType === "upload-photo") {
                       const fileInput = document.getElementById("uploadPhotoInput");

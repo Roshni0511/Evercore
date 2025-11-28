@@ -634,7 +634,7 @@ const Checkout = () => {
                             </ul>
                         </div>
 
-                       <a href='/Placeorder' style={{color:'White'}}> <button className="btn theme-bg-color text-white btn-md w-100 mt-4 fw-bold"> Place Order</button></a>
+                       <a href='/Placeorder' style={{color:'White'}}> <button className="pro-acc-logout-btn  text-white btn-md w-100 mt-4 fw-bold"> Place Order</button></a>
                     </div>
                 </div>
             </div>

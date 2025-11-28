@@ -558,7 +558,7 @@ useEffect(() => {
 
                                                 <div className="button-group">
                                                     <a href="/Cart" className="btn btn-sm cart-button">View Cart</a>
-                                                    <a href="/Checkout" className="btn btn-sm cart-button theme-bg-color
+                                                    <a href="/Checkout" className="pro-acc-logout-btn  btn-sm cart-button 
                                                     text-white">Checkout</a>
                                                 </div>
                                             </div>
