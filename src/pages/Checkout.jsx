@@ -41,11 +41,14 @@ const Checkout = () => {
                             <ul>
                                 <li>
                                     <div className="checkout-icon">
-                                        <lord-icon target=".nav-item" src="https://cdn.lordicon.com/ggihhudh.json"
-                                            trigger="loop-on-hover"
-                                            colors="primary:#121331,secondary:#646e78,tertiary:#0baf9a"
-                                            className="lord-icon">
-                                        </lord-icon>
+                                       <lord-icon 
+    target=".nav-item"
+    src="https://cdn.lordicon.com/ggihhudh.json"
+    trigger="loop-on-hover"
+    colors="primary:#0d6efd,secondary:#0d6efd,tertiary:#0d6efd"
+    className="lord-icon">
+</lord-icon>
+
                                     </div>
                                     <div className="checkout-box">
                                         <div className="checkout-title">
@@ -158,7 +161,7 @@ const Checkout = () => {
           target=".nav-item"
           src="https://cdn.lordicon.com/oaflahpk.json"
           trigger="loop-on-hover"
-          colors="primary:#0baf9a"
+           colors="primary:#0d6efd,secondary:#0d6efd,tertiary:#0d6efd"
           className="lord-icon"
         ></lord-icon>
       </div>
@@ -227,7 +230,7 @@ const Checkout = () => {
                                 <li>
                                     <div className="checkout-icon">
                                         <lord-icon target=".nav-item" src="https://cdn.lordicon.com/qmcsqnle.json"
-                                            trigger="loop-on-hover" colors="primary:#0baf9a,secondary:#0baf9a"
+                                            trigger="loop-on-hover"    colors="primary:#0d6efd,secondary:#0d6efd,tertiary:#0d6efd"
                                             className="lord-icon">
                                         </lord-icon>
                                     </div>
