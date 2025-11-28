@@ -49114,7 +49114,7 @@ display: none;
 
 .coupon-product {
   width: 500px;
-  height: 135px;
+  height: 110px;
   border-radius: 10px;
   overflow: hidden;
   /* margin: auto; */
@@ -49167,6 +49167,7 @@ display: none;
   transform: rotate(-90deg);
   white-space: nowrap;
   font-weight: bold;
+   font-size: 12px;
 }
 
 .coupon-product .center {
@@ -49184,7 +49185,7 @@ display: none;
 }
 .coupon-product .right div {
   font-family: "Libre Barcode 128 Text", cursive;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 400;
   transform: rotate(-90deg);
 }
@@ -49254,7 +49255,31 @@ display: none;
   font-size: 32px;
   margin-bottom: 8px;
 }
+@media (max-width: 992px) {
+  .features-container .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
+/* Mobile (1 column) */
+@media (max-width: 600px) {
+  .features-container .features-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .features-container .feature-item {
+    padding: 15px;
+  }
+
+  .features-container .feature-item .icon {
+    font-size: 28px;
+  }
+
+  .features-container .feature-item p {
+    font-size: 14px;
+  }
+}
 .features-container .feature-item p {
   color: #000;
   font-size: 15px;
@@ -49286,4 +49311,95 @@ display: none;
 .features-container .cert-logo {
   width: 100%;
   opacity: 0.9;
+}
+
+
+/*  */
+
+/* ===== MAIN WRAPPER ===== */
+.product-highlight {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-highlight .highlight-wrapper {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  /* max-width: 1100px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== IMAGE LEFT ===== */
+.product-highlight .highlight-image img {
+  width: 350px;
+  border-radius: 12px;
+  object-fit: contain;
+}
+.product-highlight .highlight-image img {
+  animation: floatAnim 4s ease-in-out infinite;
+}
+
+@keyframes floatAnim {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-12px); }
+  100% { transform: translateY(0); }
+}
+
+/* ===== CONTENT RIGHT ===== */
+.product-highlight .highlight-content h2 {
+  font-size: clamp(22px, 4vw, 32px);
+  font-weight: 700;
+  color: #000;
+  line-height: 1.3;
+}
+
+.product-highlight .highlight-content h2 span {
+  color: #0d6efd;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+.product-highlight .highlight-features {
+  list-style: none;
+  margin-top: 25px;
+  padding: 0;
+}
+
+.product-highlight .highlight-features li {
+  display: flex;
+  align-items: center;
+ font-size: clamp(16px, 2.5vw, 24px);
+  margin-bottom: 18px;
+  line-height: 1.5;
+  text-align:justify;
+}
+
+.product-highlight .highlight-features .icon {
+  margin-right: 15px;
+  color: #000;
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .product-highlight .highlight-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-highlight .highlight-image img {
+    width: 260px;
+  }
+
+  .product-highlight .highlight-features li {
+    justify-content: center;
+  }
 }

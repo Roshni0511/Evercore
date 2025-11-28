@@ -756,7 +756,7 @@ $(document).ready(function(){
 $('.slider-6_1').slick({
     arrows: false,
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     dots: true,
     responsive: [{
