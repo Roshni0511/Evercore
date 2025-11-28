@@ -206,8 +206,8 @@ const Home = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 className="unit">500 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-<div>
+                                        <div>
+
                                         <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.57</del>
                                         </h5>
                                         </div>
@@ -229,7 +229,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -289,12 +288,9 @@ const Home = () => {
                                             <span>(4.0)</span>
                                         </div>
                                         <h6 className="unit">250 ml</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
- <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
+                                        <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
                                         </h5>
-                                            </div>
-                                                  <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
                 <div className="cart_qty qty-box-2">
@@ -312,9 +308,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
-                                       
-                                   
                                     </div>
                                 </div>
                             </div>
@@ -375,12 +368,9 @@ const Home = () => {
                                             <span>(2.4)</span>
                                         </div>
                                         <h6 className="unit">350 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
-                                                   <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
+                                        <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
                                         </h5>
-                                            </div>
-                                                   <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
                 <div className="cart_qty qty-box-2">
@@ -398,9 +388,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
-                                     
-                                  
                                     </div>
                                 </div>
                             </div>
@@ -461,12 +448,8 @@ const Home = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 className="unit">570 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
-
                                         <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
-                                            </div>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
@@ -485,7 +468,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -545,12 +527,8 @@ const Home = () => {
                                             <span>(3.8)</span>
                                         </div>
                                         <h6 className="unit">100 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
-
                                         <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.36</del>
                                         </h5>
-                                            </div>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
@@ -569,7 +547,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -630,11 +607,9 @@ const Home = () => {
                                         </div>
 
                                         <h6 className="unit">550 G</h6>
-                                    <div style={{display:"flex",justifyContent:'space-between'}}>
-                                        <div>
-  <h5 className="price"><span className="theme-color">₹14.25</span> <del>₹16.57</del>
+
+                                        <h5 className="price"><span className="theme-color">₹14.25</span> <del>₹16.57</del>
                                         </h5>
-                                        </div>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
@@ -653,8 +628,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                    </div>
-                                      
                                     </div>
                                 </div>
                             </div>
@@ -715,12 +688,8 @@ const Home = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 className="unit">570 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
-
                                         <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
-                                            </div>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
@@ -739,7 +708,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -946,11 +914,8 @@ const Home = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 className="unit">500 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-<div>
                                         <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.57</del>
                                         </h5>
-                                        </div>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
@@ -969,7 +934,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1029,12 +993,9 @@ const Home = () => {
                                             <span>(4.0)</span>
                                         </div>
                                         <h6 className="unit">250 ml</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
- <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
+                                        <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
                                         </h5>
-                                            </div>
-                                                  <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
                 <div className="cart_qty qty-box-2">
@@ -1052,9 +1013,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
-                                       
-                                   
                                     </div>
                                 </div>
                             </div>
@@ -1115,12 +1073,9 @@ const Home = () => {
                                             <span>(2.4)</span>
                                         </div>
                                         <h6 className="unit">350 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
-                                                   <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
+                                        <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
                                         </h5>
-                                            </div>
-                                                   <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
+                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
                 <div className="cart_qty qty-box-2">
@@ -1138,9 +1093,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
-                                     
-                                  
                                     </div>
                                 </div>
                             </div>
@@ -1201,12 +1153,8 @@ const Home = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 className="unit">570 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
-
                                         <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
-                                            </div>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
@@ -1225,7 +1173,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1285,12 +1232,11 @@ const Home = () => {
                                             <span>(3.8)</span>
                                         </div>
                                         <h6 className="unit">100 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
+                                        <div >
 
                                         <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.36</del>
                                         </h5>
-                                            </div>
+                                        </div>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
@@ -1309,7 +1255,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1370,11 +1315,9 @@ const Home = () => {
                                         </div>
 
                                         <h6 className="unit">550 G</h6>
-                                    <div style={{display:"flex",justifyContent:'space-between'}}>
-                                        <div>
-  <h5 className="price"><span className="theme-color">₹14.25</span> <del>₹16.57</del>
+
+                                        <h5 className="price"><span className="theme-color">₹14.25</span> <del>₹16.57</del>
                                         </h5>
-                                        </div>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
@@ -1393,8 +1336,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                    </div>
-                                      
                                     </div>
                                 </div>
                             </div>
@@ -1455,12 +1396,8 @@ const Home = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 className="unit">570 G</h6>
-                                        <div style={{display:"flex",justifyContent:'space-between'}}>
-                                            <div>
-
                                         <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
                                         </h5>
-                                            </div>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
                         className="fa-solid fa-plus"></i></button>
@@ -1479,7 +1416,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1487,7 +1423,7 @@ const Home = () => {
 
                     </div>
                 </div>
-                     </div>
+                    </div>
 
 
  <div className="section-t-space ">
