@@ -542,7 +542,7 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
     </section>
 
     <div
-      id="slidernew"
+      id="slidernew" className="newslider"
       onMouseEnter={stopAutoPlay}
       onMouseLeave={startAutoPlay}
     >
