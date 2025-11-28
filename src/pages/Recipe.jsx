@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Componenet from './Componenet'
 
 const Recipe = () => {
   return (
@@ -31,7 +32,7 @@ const Recipe = () => {
     </p>
   </div>
 </main>
-
+{/* <Componenet /> */}
        <Footer />
     </>
   )
