@@ -1009,81 +1009,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                 className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-                                           
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
+                                    
                                     </div>
                                 </div>
 
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                       
-                                        <a href="/Shop">
-                                            <h5 className="name">Evercore Yeast Protein - Double Chocolate</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(5.0)</span>
-                                        </div>
-                                        <h6 className="unit">500 G</h6>
-                                       <h5 className="price">
-  <span
- className="gradintback"
-  >
-    <span >₹10.25</span>
-    <del style={{color:'#f6efdb'}}>₹12.57</del>
-  </span>
-</h5>
-
-                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-                                    </div>
-                                </div>
+                          
                             </div>
                         </div>
 
@@ -1096,77 +1026,10 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                 className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-                                           
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
+                                    
                                     </div>
                                 </div>
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                       
-                                        <a href="/Shop">
-                                            <h5 className="name">Evercore Yeast Protein - Vanilla Essential</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(4.0)</span>
-                                        </div>
-                                        <h6 className="unit">250 ml</h6>
-                                        <h5 className="price">
-                                            <span  className="gradintback">
-
-                                            <span >₹08.02</span> <del style={{color:'#f6efdb'}}>₹15.15</del>
-                                            </span>
-                                        </h5>
-                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-                                    </div>
-                                </div>
+                            
                             </div>
                         </div>
 
@@ -1179,78 +1042,10 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                 className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-                                           
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
 
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                      
-                                        <a href="/Shop">
-                                            <h5 className="name">Evercore Yeast Protein - Mixed Berry</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(2.4)</span>
-                                        </div>
-                                        <h6 className="unit">350 G</h6>
-                                        <h5 className="price">
-                                              <span  className="gradintback">
-
-                                            <span >₹04.33</span> <del style={{color:'#f6efdb'}}>₹10.36</del>
-                                            </span>
-                                        </h5>
-                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 
@@ -1263,78 +1058,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                 className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-                                          
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="product-footer">
-                                    <div className="product-detail">
                                       
-                                        <a href="/Shop">
-                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(5.0)</span>
-                                        </div>
-                                        <h6 className="unit">570 G</h6>
-                                        <h5 className="price">
-                                              <span  className="gradintback">
-
-                                            <span >₹12.52</span> <del style={{color:'#f6efdb'}}>₹13.62</del>
-                                            </span>
-                                        </h5>
-                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
                                     </div>
                                 </div>
+
+                          
                             </div>
                         </div>
 
@@ -1347,77 +1075,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                 className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
+                                  
                                     </div>
                                 </div>
 
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                       
-                                        <a href="/Shop">
-                                            <h5 className="name">Evercore Yeast Protein - Vanilla Essential</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(3.8)</span>
-                                        </div>
-                                        <h6 className="unit">100 G</h6>
-                                        <h5 className="price">
-                                              <span  className="gradintback">
-
-                                            <span>₹10.25</span> <del style={{color:'#f6efdb'}}>₹12.36</del>
-                                            </span>
-                                        </h5>
-                                        <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-                                    </div>
-                                </div>
+                            
                             </div>
                         </div>
 
@@ -1430,79 +1092,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                 className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="product-footer">
-                                    <div className="product-detail">
                                      
-                                        <a href="/Shop">
-                                            <h5 className="name">Post-Workout BCAA Powder - Green Apple</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(4.0)</span>
-                                        </div>
-
-                                        <h6 className="unit">550 G</h6>
-
-                                        <h5 className="price">
-                                              <span  className="gradintback">
-
-                                            <span>₹14.25</span> <del style={{color:'#f6efdb'}}>₹16.57</del>
-                                            </span>
-                                        </h5>
-                                        <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
                                     </div>
                                 </div>
+
+                             
                             </div>
                         </div>
 
@@ -1515,78 +1109,11 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                                 className="img-fluid blur-up lazyload" alt="img" />
                                         </a>
 
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-                                          
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
+                                     
                                     </div>
                                 </div>
 
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                      
-                                        <a href="/Shop">
-                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(5.0)</span>
-                                        </div>
-                                        <h6 className="unit">570 G</h6>
-                                        <h5 className="price">
-                                              <span  className="gradintback">
-
-                                            <span >₹12.52</span> <del style={{color:'#f6efdb'}}>₹13.62</del>
-                                            </span>
-                                        </h5>
-                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-                                    </div>
-                                </div>
+                             
                             </div>
                         </div>
 
