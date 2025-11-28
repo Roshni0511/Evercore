@@ -865,10 +865,10 @@ const Bulkorder = () => {
 
                                 <div className="modal-button">
                                     <a href = '/cart'
-                                        className="btn btn-md add-cart-button icon">Add
+                                        className="btn btn-md pro-acc-logout-btn icon">Add
                                         To Cart</a>
                                     <a href = ''
-                                        className="btn theme-bg-color view-button icon text-white fw-bold btn-md">
+                                        className="btn pro-acc-logout-btn view-button icon text-white fw-bold btn-md">
                                         View More Details</a>
                                 </div>
                             </div>
