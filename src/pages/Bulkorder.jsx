@@ -142,7 +142,7 @@ const Bulkorder = () => {
                                         <button className="btn btn-furniture btn-sm mend-auto">Trainer <i className="fa-solid fa-arrow-right icon"></i></button>
                                     </div> */}
                                  <button
-        className="btn theme-bg-color text-white btn-sm mend-auto"
+        className="pro-acc-logout-btn  text-white btn-sm mend-auto"
         onClick={() => setOpen(true)}
       >
         Retailer <i className="fa-solid fa-arrow-right icon"></i>

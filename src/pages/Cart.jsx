@@ -372,7 +372,7 @@ const Cart = () => {
                                 <li>
                                     <a href="/Checkout">
                                     <button 
-                                        className="btn btn-animation proceed-btn fw-bold">Process To Checkout</button>
+                                        className="pro-acc-logout-btn  proceed-btn fw-bold">Process To Checkout</button>
                                         </a>
                                 </li>
 

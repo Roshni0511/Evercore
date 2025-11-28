@@ -57,7 +57,7 @@ export default function ProteinCerti() {
 <section className="search-section">
     <div className="search-box1">
         <input type="text" placeholder="Enter Batch Number... e.g: AWPFCF165" />
-        <button>Search</button>
+        <button className='pro-acc-logout-btn'>Search</button>
     </div>
 </section>
 

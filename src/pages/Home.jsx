@@ -56,7 +56,7 @@ const Home = () => {
                                             <h5 className="text-content text-width-p">Experience the sustainable, gut-friendly power of Evercore yeast Protein. Compele amino acid profile, zero bloating, and incredible taste in every scoop. 
                                             </h5>
                                            <a href = '/Shop'>  <button
-                                                className="btn theme-bg-color btn-md text-white fw-bold mt-md-4 mt-2 mend-auto"
+                                                className="pro-acc-logout-btn btn-md text-white fw-bold mt-md-4 mt-2 mend-auto"
                                                >Shop Now <i
                                                     className="fa-solid fa-arrow-right icon"></i></button></a>
                                         </div>
@@ -1529,7 +1529,7 @@ const Home = () => {
                                     <p className="text-content">Explore our latest collection of clean, science-backed protein blends made to 
                                     support muscle growth, performance, and everyday wellness.</p>
                                     <a href="/Shop">
-                                    <button className="btn theme-bg-color mt-sm-4 mt-2 btn-md text-white fw-bold">Shop Now</button>
+                                    <button className="pro-acc-logout-btn mt-sm-4 mt-2 btn-md text-white fw-bold">Shop Now</button>
                                         </a>
                                 </div>
                             </div>

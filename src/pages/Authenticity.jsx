@@ -88,7 +88,7 @@ export default function Authenticity() {
 
                            
                         </div>
-                        <button className="btn btn-animation btn-md fw-bold ms-auto">Check Now</button>
+                        <button className="pro-acc-logout-btn btn-md fw-bold ms-auto">Check Now</button>
                     </div>
                 </div>
             </div>

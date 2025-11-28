@@ -357,15 +357,8 @@ const Labdoor = () => {
               <div style={{ marginTop: "30px", display: "flex", gap: "15px" }}>
                 <a href="/Shop">
                 <button
-                  style={{
-                    backgroundColor: "#0d6efd",
-                    padding: "12px 24px",
-                    borderRadius: "6px",
-                    fontWeight: 600,
-                    border: "none",
-                    color: "white",
-                    cursor: "pointer"
-                  }}
+             
+                  className='pro-acc-logout-btn '
                 >
                   SHOP NOW
                 </button>
