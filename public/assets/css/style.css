@@ -30341,7 +30341,7 @@ body.rtl .menu-label {
     background-color: #f8f8f8;
     border-radius: 50px;
     position: relative;
-    max-width: 250px
+    max-width: 100%
 }
 
 .add-to-cart-box .btn-add-cart {
@@ -44415,12 +44415,13 @@ body.rtl .question-answer li .question-box .link-dislike-box {
 }
 
 .product-section .right-box-contain .product-package .select-package .form-check-input:checked~.form-check-label {
-    border-color: var(--theme-color)
+    border: 3px solid #0d6efd;
 }
 
 .product-section .right-box-contain .product-package .select-package .form-check-input:checked~.form-check-label span {
     color: #fff;
-    background-color: var(--theme-color)
+    background-color: #5897f3;
+    border-radius: 3px;
 }
 
 .product-section .right-box-contain .product-package .select-package.color li.active {
@@ -44637,14 +44638,14 @@ body.rtl .question-answer li .question-box .link-dislike-box {
     font-size: 14px;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    border: 1px solid rgba(154, 154, 154, .4);
+    border:3px solid rgb(13 110 253);
     border-radius: 6px;
-    padding: 3px
+    padding: 0px
 }
 
 .product-section .right-box-contain .product-package .select-package.rectangle li .form-check-label span {
     padding: 6px 11px;
-    background-color: #f8f8f8;
+    background-color: #0d6efd26;
     border-radius: 4px;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out

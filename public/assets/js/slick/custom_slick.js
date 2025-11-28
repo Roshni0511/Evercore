@@ -762,7 +762,7 @@ $('.slider-6_1').slick({
     responsive: [{
         breakpoint: 1430,
         settings: {
-            slidesToShow: 5,
+            slidesToShow: 4,
             autoplay: true,
             autoplaySpeed: 3500,
         }
@@ -770,7 +770,7 @@ $('.slider-6_1').slick({
     {
         breakpoint: 1199,
         settings: {
-            slidesToShow: 4,
+            slidesToShow: 3,
         }
     },
     {
