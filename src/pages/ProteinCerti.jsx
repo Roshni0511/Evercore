@@ -78,13 +78,13 @@ export default function ProteinCerti() {
                     <td>06/09/2020</td>
                     <td>AIZDVF0050</td>
                     <td>Iso-Zero, 4.4 lb Dutch Vanilla</td>
-                    <td>86.09g / 100g <a href="#" className="view-btn">View Report</a></td>
+                    <td>86.09g / 100g <span style={{width:"100px"}}><a href="#" className="view-btn">View Report</a></span></td>
                 </tr>
                 <tr>
                     <td>06/09/2020</td>
                     <td>AWPFCF0294</td>
                     <td>Whey Performance 2.2 lb Chocolate</td>
-                    <td>70.21g / 100g <a href="#" className="view-btn">View Report</a></td>
+                    <td>70.21g / 100g <span style={{width:"100px"}}><a href="#" className="view-btn">View Report</a></span></td>
                 </tr>
             </tbody>
         </table>

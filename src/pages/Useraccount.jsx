@@ -131,11 +131,22 @@ const [activeSection, setActiveSection] = useState(
 
   /* Handle Resize */
   useEffect(() => {
+    // const handleResize = () => {
+    //   const mobile = window.innerWidth <= 768;
+    //   setIsMobile(mobile);
+    //   setActiveSection(mobile ? null : "profile");
+    // };
+    
     const handleResize = () => {
-      const mobile = window.innerWidth <= 768;
-      setIsMobile(mobile);
-      setActiveSection(mobile ? null : "profile");
-    };
+  const mobile = window.innerWidth <= 768;
+  setIsMobile(mobile);
+
+  // Only update activeSection when switching mode desktop <--> mobile
+  if (mobile && activeSection !== null) return;
+  if (!mobile && activeSection !== "profile") setActiveSection("profile");
+};
+
+    
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);

@@ -68,7 +68,7 @@ const Bulkorder = () => {
                                 <img
                                   src="	https://mynutramart.com/cdn/shop/files/AS-IT-ISL-GlutaminePowder250gSlide1_500x.jpg?v=1706529144"
                                   alt="Fresh Image"
-                                  className="resimg"
+                                  className="resimg" style={{maxWidth:'100%'}}
                                 />
                               </div>
                             </div>
@@ -267,7 +267,11 @@ const Bulkorder = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 className="unit">500 G</h6>
-                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.57</del>
+                                        <h5 className="price">
+                                              <span  className="gradintback">
+
+                                            <span >₹08.02</span> <del style={{color:'#f6efdb'}}>₹15.15</del>
+                                            </span>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -346,7 +350,11 @@ const Bulkorder = () => {
                                             <span>(4.0)</span>
                                         </div>
                                         <h6 className="unit">250 ml</h6>
-                                        <h5 className="price"><span className="theme-color">₹08.02</span> <del>₹15.15</del>
+                                       <h5 className="price">
+                                              <span  className="gradintback">
+
+                                            <span >₹08.02</span> <del style={{color:'#f6efdb'}}>₹15.15</del>
+                                            </span>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -426,7 +434,11 @@ const Bulkorder = () => {
                                             <span>(2.4)</span>
                                         </div>
                                         <h6 className="unit">350 G</h6>
-                                        <h5 className="price"><span className="theme-color">₹04.33</span> <del>₹10.36</del>
+                                        <h5 className="price">
+                                              <span  className="gradintback">
+
+                                            <span >₹08.02</span> <del style={{color:'#f6efdb'}}>₹15.15</del>
+                                            </span>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -506,7 +518,11 @@ const Bulkorder = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 className="unit">570 G</h6>
-                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
+                                       <h5 className="price">
+                                              <span  className="gradintback">
+
+                                            <span >₹08.02</span> <del style={{color:'#f6efdb'}}>₹15.15</del>
+                                            </span>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -585,7 +601,11 @@ const Bulkorder = () => {
                                             <span>(3.8)</span>
                                         </div>
                                         <h6 className="unit">100 G</h6>
-                                        <h5 className="price"><span className="theme-color">₹10.25</span> <del>₹12.36</del>
+                                        <h5 className="price">
+                                              <span  className="gradintback">
+
+                                            <span >₹08.02</span> <del style={{color:'#f6efdb'}}>₹15.15</del>
+                                            </span>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -666,7 +686,11 @@ const Bulkorder = () => {
 
                                         <h6 className="unit">550 G</h6>
 
-                                        <h5 className="price"><span className="theme-color">₹14.25</span> <del>₹16.57</del>
+                                        <h5 className="price">
+                                              <span  className="gradintback">
+
+                                            <span >₹08.02</span> <del style={{color:'#f6efdb'}}>₹15.15</del>
+                                            </span>
                                         </h5>
                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i
@@ -746,7 +770,11 @@ const Bulkorder = () => {
                                             <span>(5.0)</span>
                                         </div>
                                         <h6 className="unit">570 G</h6>
-                                        <h5 className="price"><span className="theme-color">₹12.52</span> <del>₹13.62</del>
+                                       <h5 className="price">
+                                              <span  className="gradintback">
+
+                                            <span >₹08.02</span> <del style={{color:'#f6efdb'}}>₹15.15</del>
+                                            </span>
                                         </h5>
                                          <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
                 <button className="btn addcart-button btn buy-button"><i

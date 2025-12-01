@@ -1194,17 +1194,14 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                             <div className="content">
                                 <h5>Evercore Yeast Protein - Double Chocolate</h5>
                                 <div style={{ display: "flex",marginTop:'10px' }}>
-        <h5
-          className="price theme-color"
-           
-        >
-          ₹70.21
-        </h5>
+          <h5 className="price">
+                                              <span  className="gradintback">
 
-        <h5 style={{ marginTop: "10px" }}>
-          <del>₹65.25</del>
-        </h5>
-                                <span className=" theme-color" style={{margin:'10px'}}>55% off</span>
+                                            <span >₹08.02</span> <del style={{color:'#f6efdb'}}>₹15.15</del>
+                                            </span>
+                                        </h5>
+                                <span style={{margin:'0 10px',padding:"6px",background:'#ff4f4f1a',color:'#ff4f4f',borderRadius:"7px"}}>55% off</span>
+                                
       </div>
                             </div>
                         </div>

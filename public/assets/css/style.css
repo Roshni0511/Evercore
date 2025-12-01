@@ -37829,7 +37829,8 @@ body.rtl .menu-label {
     font-size: calc(14px + 1*(100vw - 320px)/1600);
     line-height: 1.6;
     color: #4a5568;
-    margin-bottom: calc(12px + 4*(100vw - 320px)/1600)
+    margin-bottom: calc(12px + 4*(100vw - 320px)/1600);
+    text-align:justify;
 }
 
 .faq-box-contain .faq-accordion .accordion .accordion-item .accordion-collapse .accordion-body p:last-child {
@@ -47740,12 +47741,13 @@ display: none;
   transition: 0.3s ease;
   color: #333;
    border: 2px solid #0d6efd;
+       text-align: justify;
 }
 
 /* .pp2-card:nth-child(2) {
   background: linear-gradient(135deg, #ffecd2, #fcb69f);
 }
-
+ 
 .pp2-card:nth-child(3) {
   background: linear-gradient(135deg, #cfd9df, #e2ebf0);
 }
@@ -47795,7 +47797,14 @@ display: none;
   margin-top: 12px;
   padding-left: 20px;
 }
-
+@media (max-width: 480px) {
+    .pp2-card{
+        padding:15px;
+    }
+    .pp2-card ul {
+  padding-left: 0px;
+}
+}
 .pp2-card li {
   margin-bottom: 6px;
 }
@@ -48524,7 +48533,7 @@ display: none;
     border: 1px solid #e5e5e5;
     box-shadow: 0 12px 40px rgba(0,0,0,0.08);
     text-align: center;
-    z-index: 1;
+    z-index: 0;
 }
 
 .info-card.new-style h2 {
@@ -49679,4 +49688,53 @@ display: none;
 .slide-right {
   right:0;
   border-radius:5px 0 0 5px;
+}
+
+.pure-slider-container {
+  max-width: 900px;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+  padding: 20px;
+}
+
+.pure-slider-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.pure-slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pure-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pure-dots {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.pure-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #bbb;
+  margin: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pure-dot.active {
+  background: #333;
+  transform: scale(1.3);
 }

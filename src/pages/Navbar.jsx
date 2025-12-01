@@ -463,6 +463,9 @@ useEffect(() => {
                                                 <li className="nav-item ">
                                                       <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/Bulkorder">Bulk Order</a>
                                                  </li>
+                                                 <li className="nav-item d-block d-md-none">
+                                                      <a className="nav-link nav-link1 ps-xl-2 ps-0" href="/Contact">Contact Us</a>
+                                                 </li>
                                               
                                             </ul>
                                         </div>
