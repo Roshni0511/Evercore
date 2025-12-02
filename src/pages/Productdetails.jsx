@@ -20,39 +20,39 @@ const features = [
 ];
 
 
-const images = [
-  "/assets/images/s1.jpg",
-  "/assets/images/recipe.webp",
-  "/assets/images/s2.webp",
-  "/assets/images/recipe.webp",
-];
+// const images = [
+//   "/assets/images/s1.jpg",
+//   "/assets/images/recipe.webp",
+//   "/assets/images/s2.webp",
+//   "/assets/images/recipe.webp",
+// ];
 
 const Productdetails = () => {
-     const [index, setIndex] = useState(0);
+    //  const [index, setIndex] = useState(0);
   const autoplayRef = useRef(null);
 
-  const nextSlide = () => {
-    setIndex((prev) => (prev + 1) % images.length);
-  };
+//   const nextSlide = () => {
+//     setIndex((prev) => (prev + 1) % images.length);
+//   };
 
-  const prevSlide = () => {
-    setIndex((prev) =>
-      prev === 0 ? images.length - 1 : prev - 1
-    );
-  };
+//   const prevSlide = () => {
+//     setIndex((prev) =>
+//       prev === 0 ? images.length - 1 : prev - 1
+//     );
+//   };
 
-  useEffect(() => {
-    startAutoPlay();
-    return () => clearInterval(autoplayRef.current);
-  }, []);
+//   useEffect(() => {
+//     startAutoPlay();
+//     return () => clearInterval(autoplayRef.current);
+//   }, []);
 
-  const startAutoPlay = () => {
-    autoplayRef.current = setInterval(nextSlide, 4000);
-  };
+//   const startAutoPlay = () => {
+//     autoplayRef.current = setInterval(nextSlide, 4000);
+//   };
 
-  const stopAutoPlay = () => {
-    clearInterval(autoplayRef.current);
-  };
+//   const stopAutoPlay = () => {
+//     clearInterval(autoplayRef.current);
+//   };
     const [selectedSize, setSelectedSize] = useState("small"); // for grams
 const [selectedPack, setSelectedPack] = useState("sachet"); // for pack
 const [isExpanded, setIsExpanded] = useState(""); // for pack
@@ -541,34 +541,17 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
         </div>
     </section>
 
-    <div
-      id="slidernew" className="newslider"
-      onMouseEnter={stopAutoPlay}
-      onMouseLeave={startAutoPlay}
-    >
-      <div
-        className="slides-wrapper-react"
-        style={{ transform: `translateX(-${index * 100}%)` }}
-      >
-        {images.map((src, i) => (
-          <div
-            key={i}
-            className="slide"
-            style={{ backgroundImage: `url(${src})` }}
-          >
-            {/* <h2>Slide #{i + 1}</h2> */}
-          </div>
-        ))}
-      </div>
-
-      {/* CONTROLS */}
-      <div className="slide-controls slide-left" onClick={prevSlide}>
-        &lt;
-      </div>
-      <div className="slide-controls slide-right" onClick={nextSlide}>
-        &gt;
-      </div>
+  {/*  */}
+  <div className="proimg">
+<div class="proslider">
+        <div class="proslides">
+            <img src="/assets/images/s1.jpg" alt="Image 1" />
+            <img src="/assets/images/recipe.webp" alt="Image 2" />
+            <img src="/assets/images/s2.webp" alt="Image 3" />
+        </div>
     </div>
+    </div>
+  {/*  */}
 
 
     {/* <!-- Nav Tab Section Start --> */}
@@ -1214,7 +1197,10 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                     <option>1.5 KG</option>
                                 </select>
                             </div>
-                            <div className="cart_qty qty-box product-qty m-0">
+                           
+                        </div>
+                        <div className="add-btn d-flex">
+                           <div className="cart_qty qty-box product-qty m-0">
                                 <div className="input-group h-100">
                                     <button type="button" className="qty-left-minus" data-type="minus" data-field="">
                                         <i className="fa fa-minus"></i>
@@ -1226,10 +1212,6 @@ const [isExpanded, setIsExpanded] = useState(""); // for pack
                                     </button>
                                 </div>
                             </div>
-                        </div>
-                        <div className="add-btn">
-                            <a className="btn theme-bg-color text-white wishlist-btn" href="/Wishlist"><i
-                                    className="fa fa-bookmark"></i> Wishlist</a>
                             <a className="btn pro-acc-logout-btn text-white" href="/Checkout"><i
                                     className="fas fa-shopping-cart"></i> Buy Now</a>
                         </div>

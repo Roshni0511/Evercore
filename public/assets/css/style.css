@@ -44727,6 +44727,11 @@ body.rtl .question-answer li .question-box .link-dislike-box {
     margin-top: 0
 }
 
+@media(max-width: 420px) {
+    .product-section .right-box-contain .note-box .product-qty {
+        display: none;
+    }
+}
 @media(max-width: 360px) {
     .product-section .right-box-contain .note-box .product-qty {
         width: 160px
@@ -45518,11 +45523,12 @@ body.rtl .question-answer li .question-box .link-dislike-box {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin: 0 25px 0 auto
+    margin: 0 ;
+    justify-content:center;
 }
 
 @media(max-width: 575px) {
-    .sticky-bottom-cart .selection-section {
+    .sticky-bottom-cart .selection-section .form-group {
         display: none
     }
 }
@@ -45576,7 +45582,8 @@ body.rtl .question-answer li .question-box .link-dislike-box {
         align-items: center;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center
+        justify-content: center;
+        margin-top:'10px'
     }
 }
 
@@ -45615,13 +45622,13 @@ body.rtl .question-answer li .question-box .link-dislike-box {
     .sticky-bottom-cart .add-btn a.wishlist-btn {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex
+        display: none
     }
 }
 
 @media(max-width: 575px) {
     .sticky-bottom-cart .add-btn a+a {
-        margin-left: 8px
+        margin-left: 0px
     }
 
     [dir=rtl] .sticky-bottom-cart .add-btn a+a {
@@ -49582,6 +49589,11 @@ display: none;
   font-size: 40px;
 }
 }
+@media (max-width: 420px) {
+.adv-container .adv-product-img {
+    width: 100%;
+}
+}
 
 /*  */
 .single-ingredient-box {
@@ -49627,114 +49639,51 @@ display: none;
   background: transparent;
   color: #0466f7;
 }
-
-#slidernew {
-  margin:50px auto;
-  width:100%;
-  max-width:960px;
-  height:500px;
-  background:black;
-  overflow:hidden;
-  position:relative;
-  border-radius: 6px;
+.proimg {
+    padding-top: 30px;
 }
 
-.slides-wrapper-react {
-  display: flex;
-  height: 100%;
-  transition: transform 0.5s ease;
+.proslider {
+    position: relative;
+    width: 90%;          /* responsive width */
+    max-width: 800px;    /* max width */
+    aspect-ratio: 7 / 4; /* maintain 700x400 ratio */
+    overflow: hidden;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-.slide {
-  min-width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+.proslider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: fade 6s infinite;
 }
 
-.slide h2 {
-  color:#fff;
-  position:absolute;
-  font-family: 'Droid Serif', serif;
-  font-style:italic;
-  font-size:2em;
-  text-align:center;
-  width:100%;
-  top:45%;
+.proslider img:nth-child(1) {
+    animation-delay: 0s;
 }
 
-.slide-controls {
-  position:absolute;
-  top:45%;
-  font-size:3em;
-  font-weight:bold;
-  background:#fff;
-  padding:10px 5px;
-  opacity:0.3;
-  z-index:2;
+.proslider img:nth-child(2) {
+    animation-delay: 2s;
 }
 
-.slide-controls:hover {
-  opacity:0.6;
-  cursor:pointer;
+.proslider img:nth-child(3) {
+    animation-delay: 4s;
 }
 
-.slide-left {
-  left:0;
-  border-radius:0 5px 5px 0;
+@keyframes fade {
+    0%, 33.33% { opacity: 1; }
+    33.34%, 100% { opacity: 0; }
 }
 
-.slide-right {
-  right:0;
-  border-radius:5px 0 0 5px;
-}
-
-.pure-slider-container {
-  max-width: 900px;
-  margin: 50px auto;
-  overflow: hidden;
-  position: relative;
-  border-radius: 10px;
-  background: #fff;
-  padding: 20px;
-}
-
-.pure-slider-track {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.pure-slide {
-  min-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pure-slide img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.pure-dots {
-  text-align: center;
-  margin-top: 12px;
-}
-
-.pure-dot {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: #bbb;
-  margin: 4px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.pure-dot.active {
-  background: #333;
-  transform: scale(1.3);
+/* Optional: make images scale smoothly on small screens */
+@media (max-width: 768px) {
+    .proslider {
+        aspect-ratio: auto; /* adjust ratio if needed */
+        height: 50vw;       /* height relative to viewport width */
+    }
 }
