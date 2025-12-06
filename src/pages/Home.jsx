@@ -835,7 +835,7 @@ const Home = () => {
                 <section className="banner-section mb-3">
                      <div className="row ">
                 <div className="col-12">
-                    <div className="row banner-contain-3  hover-effect overflow-visible" style={{boxShadow:'0 0 8px rgba(34, 34, 34, .08)',padding:'30px'}}>
+                    <div className="row banner-contain-3  hover-effect overflow-visible" style={{boxShadow:'0 20px 40px rgba(0 0 0 / 33%)',padding:'30px',background:'#91bbf7' ,backgroundImage:"url(/assets/images/hero-bg.svg)"}}>
                      
                         <div className="col-md-6 p-0">
                            <div>
@@ -853,14 +853,14 @@ const Home = () => {
                             className="banner-detail banner-detail1 p-center-left position-relative d-block py-0 banner-furniture mend-auto">
                             <div className="">
                                 <div className="">
-                                    <h4 className="text-uppercase text-yellow text-kaushan furniture-title">We add the good!
+                                    <h4 className="text-uppercase  text-kaushan furniture-title" style={{color:'#000'}}>We add the good!
                                     <img src="../assets/images/furniture/arrow.svg" alt="img" /></h4>
-                                    <h3 className="mt-sm-3 mt-1 mb-2 text-content text-justify">
+                                    <h3 className="mt-sm-3 mt-1 mb-2 text-content text-justify" style={{color:'#fff'}}>
     Protein nutrition doesn’t have to be confusing. At  
     <span className="theme-color fw-bold" style={{marginLeft:'10px'}}> EverCore</span>, we make it simple, clean, and effective.
 </h3>
 
-<p className="text-content text-justify">
+<p className="text-content text-justify" style={{color:'#000'}}> 
     Your fitness journey deserves fuel you can trust. That’s why, at EverCore, we craft high-quality protein blends 
     made from pure, real ingredients—no unnecessary additives, no complicated labels. 
     Just clean, powerful protein designed to support strength, energy, and everyday performance.
@@ -956,7 +956,63 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="section-t-space section-b-space">
+              
+
+                    <div className="mog-wrapper">
+
+       <div className="mog-container">
+      <h1 className="mog-title">
+        The <span className="mog-blue">Promise of Goodness</span>
+      </h1>
+
+      <p className="mog-desc">
+        We're committed to delivering nutrition you can trust—no unnecessary
+      additives, no artificial ingredients, and absolutely no compromises.
+      Whenever you spot the ‘Mark of Good’ on our products, it’s our promise
+      of clean, high-quality, and responsibly sourced nutrition that goes
+      through strict testing to ensure purity and safety.
+      </p>
+
+      {/* Center Logo */}
+      <div className="mog-center-card">
+        <h2 style={{textAlign:'center',marginBottom:'8px'}}>Evercore</h2>
+        <p style={{textAlign:'center',marginBottom:'0px'}} >Mark of Good</p>
+      </div>
+
+      {/* Category Cards */}
+      <div className="mog-cards">
+        {categories.map((c, i) => (
+          <div
+            key={i}
+            className="mog-card"
+            style={{ borderColor: c.color }}
+          >
+            <div className="mog-card-top" style={{ backgroundColor: c.color }}>
+              <h3>Evercore</h3>
+              <p>Mark of Good</p>
+            </div>
+            <div className="mog-card-bottom" style={{ color: c.color }}>
+              {c.label}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Bottom Brands */}
+      <p className="mog-bottom-text">
+        Meet the brands rocking the ‘Mark of Good’ with our shared commitment to quality.
+      </p>
+
+      <div className="mog-brands">
+        <span>MYFITNESS</span>
+        <span>whole Truth</span>
+        <span>DITCH THE GUILT</span>
+        <span>FRESH FOOD</span>
+      </div>
+    </div>
+</div>
+
+      <div className="section-t-space section-b-space">
                           <div className="title mt-3">
                         <h2>Crazy Deals</h2>
                         <span className="title-leaf">
@@ -1003,62 +1059,6 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div className="mog-wrapper">
-
-       <div className="mog-container">
-      <h1 className="mog-title">
-        The <span className="mog-blue">Promise of Goodness</span>
-      </h1>
-
-      <p className="mog-desc">
-        We're committed to delivering nutrition you can trust—no unnecessary
-      additives, no artificial ingredients, and absolutely no compromises.
-      Whenever you spot the ‘Mark of Good’ on our products, it’s our promise
-      of clean, high-quality, and responsibly sourced nutrition that goes
-      through strict testing to ensure purity and safety.
-      </p>
-
-      {/* Center Logo */}
-      <div className="mog-center-card">
-        <h2 style={{textAlign:'center',marginBottom:'8px'}}>Trunativ</h2>
-        <p style={{textAlign:'center',marginBottom:'0px'}} >Mark of Good</p>
-      </div>
-
-      {/* Category Cards */}
-      <div className="mog-cards">
-        {categories.map((c, i) => (
-          <div
-            key={i}
-            className="mog-card"
-            style={{ borderColor: c.color }}
-          >
-            <div className="mog-card-top" style={{ backgroundColor: c.color }}>
-              <h3>Trunativ</h3>
-              <p>Mark of Good</p>
-            </div>
-            <div className="mog-card-bottom" style={{ color: c.color }}>
-              {c.label}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Bottom Brands */}
-      <p className="mog-bottom-text">
-        Meet the brands rocking the ‘Mark of Good’ with our shared commitment to quality.
-      </p>
-
-      <div className="mog-brands">
-        <span>MYFITNESS</span>
-        <span>whole Truth</span>
-        <span>DITCH THE GUILT</span>
-        <span>FRESH FOOD</span>
-      </div>
-    </div>
-</div>
-
-
                      <div className="title d-block">
                         <h2>Best Selling Proteins</h2>
                         <span className="title-leaf">
@@ -1070,7 +1070,15 @@ const Home = () => {
                     </div>
 
                         <div className="row">
-                <div className="col-12" style={{background:'url(https://www.muscletech.in/wp-content/uploads/2024/11/how-is-protein-powder-made.webp)',borderRadius:'10px',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center'}}>
+                <div className="col-12" style={{
+  background: "linear-gradient(135deg, color-mix(in srgb, #82b4fd 85%, white), color-mix(in srgb, #488cf0 80%, black))",
+  padding: "5px 10px",
+  color: "#fff",
+  display: "inline-block",
+  borderRadius: "8px",
+  
+}}
+>
                     <div className="slider-6_1 product-wrapper pt-3">
                         <div>
                             <div className="product-box-3 wow fadeInUp">

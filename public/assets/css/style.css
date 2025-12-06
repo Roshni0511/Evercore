@@ -49715,9 +49715,10 @@ display: none;
   background: #ffffff;
   padding: 50px 40px;
   border-radius: 20px;
-  background-image: url("https://img.freepik.com/free-photo/top-view-ecological-products-concept_23-2148781896.jpg?semt=ais_hybrid&w=740&q=80");
+  background-color: #5093f4;
+  background-image: url("/assets/images/hero-bg.svg");
   /* BOX SHADOW */
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 20px 40px rgb(0 0 0 / 33%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -49729,7 +49730,7 @@ display: none;
 }
 
 .mog-blue {
-  color: #1749cc;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -49738,7 +49739,8 @@ display: none;
   margin: 20px auto;
   font-size: 16px;
   text-align: center;
-  color: #444;
+  color: #000;
+  font-weight: 500;
   line-height: 1.6;
 }
 
@@ -49787,7 +49789,7 @@ display: none;
 .mog-bottom-text {
   text-align: center;
   margin-top: 40px;
-  color: #666;
+  color: #000;
 }
 
 .mog-brands {
