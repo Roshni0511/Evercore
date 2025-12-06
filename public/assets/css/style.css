@@ -49706,6 +49706,7 @@ display: none;
   display: flex;
   justify-content: center;
   padding: 40px 0;
+
 }
 
 .mog-container {
@@ -49714,9 +49715,11 @@ display: none;
   background: #ffffff;
   padding: 50px 40px;
   border-radius: 20px;
-
+  background-image: url("https://img.freepik.com/free-photo/top-view-ecological-products-concept_23-2148781896.jpg?semt=ais_hybrid&w=740&q=80");
   /* BOX SHADOW */
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mog-title {

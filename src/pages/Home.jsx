@@ -77,59 +77,6 @@ const Home = () => {
         </div>
     </section>
     {/* <!-- Home Section End --> */}
-<div className="mog-wrapper">
-
-       <div className="mog-container">
-      <h1 className="mog-title">
-        The <span className="mog-blue">Promise of Goodness</span>
-      </h1>
-
-      <p className="mog-desc">
-        We're committed to delivering nutrition you can trust—no unnecessary
-      additives, no artificial ingredients, and absolutely no compromises.
-      Whenever you spot the ‘Mark of Good’ on our products, it’s our promise
-      of clean, high-quality, and responsibly sourced nutrition that goes
-      through strict testing to ensure purity and safety.
-      </p>
-
-      {/* Center Logo */}
-      <div className="mog-center-card">
-        <h2 style={{textAlign:'center',marginBottom:'8px'}}>Trunativ</h2>
-        <p style={{textAlign:'center',marginBottom:'0px'}} >Mark of Good</p>
-      </div>
-
-      {/* Category Cards */}
-      <div className="mog-cards">
-        {categories.map((c, i) => (
-          <div
-            key={i}
-            className="mog-card"
-            style={{ borderColor: c.color }}
-          >
-            <div className="mog-card-top" style={{ backgroundColor: c.color }}>
-              <h3>Trunativ</h3>
-              <p>Mark of Good</p>
-            </div>
-            <div className="mog-card-bottom" style={{ color: c.color }}>
-              {c.label}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Bottom Brands */}
-      <p className="mog-bottom-text">
-        Meet the brands rocking the ‘Mark of Good’ with our shared commitment to quality.
-      </p>
-
-      <div className="mog-brands">
-        <span>MYFITNESS</span>
-        <span>whole Truth</span>
-        <span>DITCH THE GUILT</span>
-        <span>FRESH FOOD</span>
-      </div>
-    </div>
-</div>
 
 <div className="container">
     <div className="section-t-space ">
@@ -1056,6 +1003,61 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className="mog-wrapper">
+
+       <div className="mog-container">
+      <h1 className="mog-title">
+        The <span className="mog-blue">Promise of Goodness</span>
+      </h1>
+
+      <p className="mog-desc">
+        We're committed to delivering nutrition you can trust—no unnecessary
+      additives, no artificial ingredients, and absolutely no compromises.
+      Whenever you spot the ‘Mark of Good’ on our products, it’s our promise
+      of clean, high-quality, and responsibly sourced nutrition that goes
+      through strict testing to ensure purity and safety.
+      </p>
+
+      {/* Center Logo */}
+      <div className="mog-center-card">
+        <h2 style={{textAlign:'center',marginBottom:'8px'}}>Trunativ</h2>
+        <p style={{textAlign:'center',marginBottom:'0px'}} >Mark of Good</p>
+      </div>
+
+      {/* Category Cards */}
+      <div className="mog-cards">
+        {categories.map((c, i) => (
+          <div
+            key={i}
+            className="mog-card"
+            style={{ borderColor: c.color }}
+          >
+            <div className="mog-card-top" style={{ backgroundColor: c.color }}>
+              <h3>Trunativ</h3>
+              <p>Mark of Good</p>
+            </div>
+            <div className="mog-card-bottom" style={{ color: c.color }}>
+              {c.label}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Bottom Brands */}
+      <p className="mog-bottom-text">
+        Meet the brands rocking the ‘Mark of Good’ with our shared commitment to quality.
+      </p>
+
+      <div className="mog-brands">
+        <span>MYFITNESS</span>
+        <span>whole Truth</span>
+        <span>DITCH THE GUILT</span>
+        <span>FRESH FOOD</span>
+      </div>
+    </div>
+</div>
+
 
                      <div className="title d-block">
                         <h2>Best Selling Proteins</h2>
