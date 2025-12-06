@@ -824,7 +824,49 @@ const Home = () => {
                     </div>
                 </div>
                      </div>
+                <section className="banner-section mb-3">
+                     <div className="row ">
+                <div className="col-12">
+                    <div className="row banner-contain-3  hover-effect overflow-visible" style={{boxShadow:'0 0 8px rgba(34, 34, 34, .08)',padding:'30px'}}>
+                     
+                        <div className="col-md-6 p-0">
+                           <div>
+                            <img
+                                src="/assets/images/protein-gym.avif"
+                                alt="protein"
+                                className="img-fluid "
+                                style={{ width: "100%", borderRadius: "10px" }}
+                              />
 
+                           </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div
+                            className="banner-detail banner-detail1 p-center-left position-relative d-block py-0 banner-furniture mend-auto">
+                            <div className="">
+                                <div className="">
+                                    <h4 className="text-uppercase text-yellow text-kaushan furniture-title">We add the good!
+                                    <img src="../assets/images/furniture/arrow.svg" alt="img" /></h4>
+                                    <h3 className="mt-sm-3 mt-1 mb-2 text-content text-justify">
+    Protein nutrition doesn’t have to be confusing. At  
+    <span className="theme-color fw-bold" style={{marginLeft:'10px'}}> EverCore</span>, we make it simple, clean, and effective.
+</h3>
+
+<p className="text-content text-justify">
+    Your fitness journey deserves fuel you can trust. That’s why, at EverCore, we craft high-quality protein blends 
+    made from pure, real ingredients—no unnecessary additives, no complicated labels. 
+    Just clean, powerful protein designed to support strength, energy, and everyday performance.
+</p>
+
+                                 
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+            </section>
                     <div className="title mt-3">
                         <h2>Shop by Goal</h2>
                         <span className="title-leaf">

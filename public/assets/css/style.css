@@ -49687,3 +49687,17 @@ display: none;
         height: 50vw;       /* height relative to viewport width */
     }
 }
+.text-justify{
+    text-align:justify;
+}
+
+.banner-detail1{
+    padding:10px 0px !important;
+}
+/* Desktop / Large screen */
+@media (min-width: 992px) {
+
+  .banner-detail1{
+    padding:20px !important;
+}
+}
