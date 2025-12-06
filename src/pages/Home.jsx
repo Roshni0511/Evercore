@@ -1068,12 +1068,12 @@ const Home = () => {
                     </div>
 
                         <div className="row">
-                <div className="col-12">
-                    <div className="slider-6_1 product-wrapper">
+                <div className="col-12" style={{background:'url(https://www.muscletech.in/wp-content/uploads/2024/11/how-is-protein-powder-made.webp)',borderRadius:'10px',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center'}}>
+                    <div className="slider-6_1 product-wrapper pt-3">
                         <div>
                             <div className="product-box-3 wow fadeInUp">
                                 <div className="product-header">
-                                    <div className="product-image">
+                                    <div className="product-image" style={{background:'#e9e9e9',borderRadius:'10px 10px 0px 0px'}}>
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product1.webp"
                                                 className="img-fluid blur-up lazyload" alt="img" />
@@ -1098,7 +1098,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="product-footer">
+                                <div className="product-footer" style={{background:'#e9e9e9',borderRadius:'0px 0px 10px 10px'}}>
                                     <div className="product-detail">
                                        
                                         <a href="/Shop">
@@ -1160,7 +1160,7 @@ const Home = () => {
                         <div>
                             <div className="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
                                 <div className="product-header">
-                                    <div className="product-image">
+                                    <div className="product-image" style={{background:'#e9e9e9',borderRadius:'10px 10px 0px 0px'}}>
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product2.webp"
                                                 className="img-fluid blur-up lazyload" alt="img" />
@@ -1184,7 +1184,7 @@ const Home = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="product-footer">
+                                <div className="product-footer" style={{background:'#e9e9e9',borderRadius:'0px 0px 10px 10px'}}>
                                     <div className="product-detail">
                                        
                                         <a href="/Shop">
@@ -1243,7 +1243,7 @@ const Home = () => {
                         <div>
                             <div className="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
                                 <div className="product-header">
-                                    <div className="product-image">
+                                    <div className="product-image" style={{background:'#e9e9e9',borderRadius:'10px 10px 0px 0px'}}>
                                         <a href="/Productdetails">
                                             <img src="/assets/images/product3.webp"
                                                 className="img-fluid blur-up lazyload" alt="img" />
@@ -1268,7 +1268,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="product-footer">
+                                <div className="product-footer" style={{background:'#e9e9e9',borderRadius:'0px 0px 10px 10px'}}>
                                     <div className="product-detail">
                                       
                                         <a href="/Shop">
@@ -1324,344 +1324,8 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div>
-                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div className="product-header">
-                                    <div className="product-image">
-                                        <a href="/Productdetails">
-                                            <img src="/assets/images/product4.webp"
-                                                className="img-fluid blur-up lazyload" alt="img" />
-                                        </a>
-
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-                                          
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                      
-                                        <a href="/Shop">
-                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(5.0)</span>
-                                        </div>
-                                        <h6 className="unit">570 G</h6>
-                                        <h5 className="price">
-                                              <span  className="gradintback">
-
-                                            <span >₹12.52</span> <del style={{color:'#f6efdb'}}>₹13.62</del>
-                                            </span>
-                                        </h5>
-                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
                     </div>
-                </div>
-            </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
-                                <div className="product-header">
-                                    <div className="product-image">
-                                        <a href="/Productdetails">
-                                            <img src="/assets/images/product5.webp"
-                                                className="img-fluid blur-up lazyload" alt="img" />
-                                        </a>
-
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                       
-                                        <a href="/Shop">
-                                            <h5 className="name">Evercore Yeast Protein - Vanilla Essential</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(3.8)</span>
-                                        </div>
-                                        <h6 className="unit">100 G</h6>
-                                        <h5 className="price">
-                                              <span  className="gradintback">
-
-                                            <span>₹10.25</span> <del style={{color:'#f6efdb'}}>₹12.36</del>
-                                            </span>
-                                        </h5>
-                                        <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
                     </div>
-                </div>
-            </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
-                                <div className="product-header">
-                                    <div className="product-image">
-                                        <a href="/Productdetails">
-                                            <img src="/assets/images/product3.webp"
-                                                className="img-fluid blur-up lazyload" alt="img" />
-                                        </a>
-
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                     
-                                        <a href="/Shop">
-                                            <h5 className="name">Post-Workout BCAA Powder - Green Apple</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(4.0)</span>
-                                        </div>
-
-                                        <h6 className="unit">550 G</h6>
-
-                                        <h5 className="price">
-                                              <span  className="gradintback">
-
-                                            <span>₹14.25</span> <del style={{color:'#f6efdb'}}>₹16.57</del>
-                                            </span>
-                                        </h5>
-                                        <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                         <div>
-                            <div className="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
-                                <div className="product-header">
-                                    <div className="product-image">
-                                        <a href="/Productdetails">
-                                            <img src="/assets/images/product4.webp"
-                                                className="img-fluid blur-up lazyload" alt="img" />
-                                        </a>
-
-                                        <ul className="product-option">
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="View">
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                    data-bs-target="#view">
-                                                    <i data-feather="eye"></i>
-                                                </a>
-                                            </li>
-
-                                          
-
-                                            <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="/Wishlist" className="notifi-wishlist">
-                                                    <i data-feather="heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="product-footer">
-                                    <div className="product-detail">
-                                      
-                                        <a href="/Shop">
-                                            <h5 className="name">Protein Bar - Chocolate Peanut Butter</h5>
-                                        </a>
-                                        <div className="product-rating mt-2">
-                                            <ul className="rating">
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                                <li>
-                                                    <i data-feather="star" className="fill"></i>
-                                                </li>
-                                            </ul>
-                                            <span>(5.0)</span>
-                                        </div>
-                                        <h6 className="unit">570 G</h6>
-                                        <h5 className="price">
-                                              <span  className="gradintback">
-
-                                            <span >₹12.52</span> <del style={{color:'#f6efdb'}}>₹13.62</del>
-                                            </span>
-                                        </h5>
-                                         <div className="add-to-cart-btn-2 add-to-cart-box addtocart_btn">
-                <button className="btn addcart-button btn buy-button"><i
-                        className="fa-solid fa-plus"></i></button>
-                <div className="cart_qty qty-box-2">
-                    <div className="input-group">
-                        <button type="button" className="qty-left-minus" data-type="minus"
-                            data-field="">
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input className="form-control input-number qty-input" type="text"
-                            name="quantity" value="1" />
-                        <button type="button" className="qty-right-plus" data-type="plus"
-                            data-field="">
-                            <i className="fa fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
                      </div>
 
 
