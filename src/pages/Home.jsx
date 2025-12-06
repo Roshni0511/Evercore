@@ -70,9 +70,89 @@ const Home = () => {
         </div>
     </section>
     {/* <!-- Home Section End --> */}
+<div className="container">
+    <div className="section-t-space ">
+<div className="title d-block ">
+                        <h2> Authenticity That You Can Trust</h2>
+                        <span className="title-leaf">
+                            <svg className="icon-width">
+                                <use href="../assets/svg/leaf.svg#leaf"></use>
+                            </svg>
+                        </span>
+                        <p> We ensure every Evercore product passes strict quality checks, QR
+    verification, and certified lab tests so you always receive true
+    authenticity — no compromises.</p>
+                    </div>
+                    
+           <div className="row g-3 row-cols-xxl-3 row-cols-lg-3 row-cols-md-2">
 
+      <div>
+        <a href="/Authenticity">
+        <div className="service-contain-2">
+       <svg
+        width="52"
+        height="52"
+        viewBox="0 0 24 24"
+        fill="#C46334"
+        style={{ marginBottom: "12px" }}
+      >
+        <path d="M12 2L3 7v6c0 5 3.8 9.7 9 11 5.2-1.3 9-6 9-11V7l-9-5zm0 2.2l7 3.9v4.9c0 4-2.9 7.9-7 9-4.1-1.1-7-5-7-9V8.1l7-3.9zM11 14h2v2h-2v-2zm0-6h2v4h-2V8z" />
+      </svg>
+          <div className="service-detail">
+            <h3 className="heree">Check Authenticity</h3>
+            <h6 className="text-content">Scan your product QR code and instantly verify real-time authenticity.</h6>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div>
+        <a href="/ProteinCerti">
+            <div className="service-contain-2">
+           <svg
+        width="52"
+        height="52"
+        viewBox="0 0 24 24"
+        fill="#C46334"
+        style={{ marginBottom: "12px" }}
+      >
+        <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 7V3.5L18.5 9H14zM8 13h8v2H8v-2zm0-4h4v2H8V9zm0 8h8v2H8v-2z" />
+      </svg>
+          <div className="service-detail">
+            <h3 className="heree">Protein Lab Certificate</h3>
+            <h6 className="text-content">Access detailed lab reports for purity, accuracy, and protein safety.</h6>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div>
+        <a href="/Labdoor">
+        <div className="service-contain-2">
+          <svg
+        width="52"
+        height="52"
+        viewBox="0 0 24 24"
+        fill="#C46334"
+        style={{ marginBottom: "12px" }}
+      >
+        <path d="M7 2h10l1 2h2v2h-2l-3 12h-6L7 6H5V4h2l1-2zm5 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" />
+      </svg>
+          <div className="service-detail">
+            <h3 className="heree">Labdoor Verified</h3>
+            <h6 className="text-content">Verified through international third-party lab testing for purity.</h6>
+          </div>
+        </div>
+        </a>
+      </div>
+
+     
+
+    </div>
+</div>
+</div>
         {/* <!-- Service Section Start --> */}
-    <section className="service-section  d-none d-md-block">
+    {/* <section className="service-section  d-none d-md-block">
   <div className="container-fluid-lg">
     <div className="row g-3 row-cols-xxl-4 row-cols-lg-3 row-cols-md-2">
 
@@ -126,7 +206,7 @@ const Home = () => {
 
     </div>
   </div>
-</section>
+</section> */}
 
     {/* <!-- Service Section End --> */}
 
