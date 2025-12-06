@@ -1562,7 +1562,7 @@ const Home = () => {
                      </div>
 
 
- <div className="section-t-space ">
+ {/* <div className="section-t-space ">
 <div className="title d-block ">
                         <h2> Authenticity That You Can Trust</h2>
                         <span className="title-leaf">
@@ -1640,7 +1640,7 @@ const Home = () => {
      
 
     </div>
-</div>
+</div> */}
 
                 </div>
 
