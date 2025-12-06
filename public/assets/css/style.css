@@ -49701,3 +49701,96 @@ display: none;
     padding:20px !important;
 }
 }
+.mog-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.mog-container {
+  width: 95%;
+  max-width: 1150px;
+  background: #ffffff;
+  padding: 50px 40px;
+  border-radius: 20px;
+
+  /* BOX SHADOW */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.mog-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.mog-blue {
+  color: #1749cc;
+  text-decoration: underline;
+}
+
+.mog-desc {
+  max-width: 750px;
+  margin: 20px auto;
+  font-size: 16px;
+  text-align: center;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Center Mark Box */
+.mog-center-card {
+  border: 3px solid #1749cc;
+  padding: 25px;
+  width: 200px;
+  margin: 30px auto;
+  border-radius: 15px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(23, 73, 204, 0.2);
+}
+
+.mog-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Small Cards */
+.mog-card {
+  width: 150px;
+  border: 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+
+  /* Small card shadow */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.mog-card-top {
+  padding: 12px;
+  color: #fff;
+}
+
+.mog-card-bottom {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mog-bottom-text {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+}
+
+.mog-brands {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+  font-weight: 700;
+}
